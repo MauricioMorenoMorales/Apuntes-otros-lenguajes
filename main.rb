@@ -58,3 +58,58 @@ def IdGenerator(array)
   x
 end
 puts IdGenerator([0,1,3,4,5,6])
+
+# !Verifica si la salud de un personaje es positiva
+
+def check_alive(health)
+  health.positive?
+end
+puts check_alive(4)
+
+# !Verifica si un heroe tiene la cantidad de balas suficientes para matar a un dragon
+# *Suponiendo que para matar un dragon se necesitan 2 balas
+
+def hero(bullets, dragons)
+  bullets >= dragons * 2
+end
+puts hero(10,4)
+
+# ! ----------------------- Crea un generador de rango
+
+def generate_range(min, max, step)
+  arr = []
+  start = min
+  loop do
+    break if start > max
+    arr << start
+    start += step
+  end
+  arr
+end
+
+def generate_rangeCLEVER(min, max, step)
+  (min..max).step.to_a
+end
+
+# ! Genera un contador de horas en milisegundos
+
+def past(h,m,s)
+  ((h * 3600) + (m * 60) + (s)) * 1000
+end
+
+# ! Crea un generador de promedios
+
+def get_average(marks)
+  marks.sum / marks.size
+end
+
+# ! Crea una función que convierta de celcius a fahrenheit
+
+def weather_info(temperature)
+  celcius = ((temp - 32) * (5/9.0).round(5))
+  if (celcius < 0)
+    return celcius.to_s + " is freezing temperature"
+  else
+    return celcius.to_s + " is above freezing temperature"
+  end
+end
