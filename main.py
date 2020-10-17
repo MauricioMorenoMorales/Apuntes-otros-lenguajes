@@ -14,7 +14,7 @@ print(saludar('mauricio'))
 def Capitalizar(nombre):
   return nombre.capitalize()
 
-# 106 
+# 106
 
 def weather_info (temp):
     c = convertToCelsius(temp)
@@ -26,3 +26,11 @@ def weather_info (temp):
 def convertToCelsius (temperature):
   celsius = (temperature - 32) * (5.0/9.0)
   return celsius
+
+# 127
+  def repeat_str(repeat, string):
+    return repeat * string
+
+# 133
+def solution(a, b):
+    return a+b+a if len(a)<len(b) else b+a+b

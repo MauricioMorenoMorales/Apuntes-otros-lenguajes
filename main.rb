@@ -113,3 +113,25 @@ def weather_info(temperature)
     return celcius.to_s + " is above freezing temperature"
   end
 end
+
+# ! Crea una función que retorne area si es cuadrado o perimetro si es otra cosa
+
+def area_or_perimeter(l, w)
+  if l == w
+    return l * w
+  else
+    return (l + w) * 2
+  end
+end
+
+# ! Crea una función que repita un string determinadas veces
+
+def repeat_str (n, s)
+  s * n
+end
+
+# ! Haz un string con los parametros en forma ShortLongShort
+
+def solution(a, b)
+  a.size > b.size ? b+a+b : a+b+a
+end
