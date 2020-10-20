@@ -113,7 +113,7 @@ def weather_info(temperature)
     return celcius.to_s + " is above freezing temperature"
   end
 end
-
+# ? @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
 # ! Crea una función que retorne area si es cuadrado o perimetro si es otra cosa
 
 def area_or_perimeter(l, w)
@@ -134,4 +134,53 @@ end
 
 def solution(a, b)
   a.size > b.size ? b+a+b : a+b+a
+end
+
+# ! --------------------Crea una funcion que genere binarios si un numero es mayor o menor a 5--------------------
+
+def fake_bin(str)
+  str.split('').map{ |x| x.to_i < 5 ? 0 : 1}.join
+end
+
+# ! Función que muestre si un numero es divisible entre otros 2
+
+def is_divisible(n, x, y)
+  (n % x == 0) && (n % y == 0)
+end
+
+# ! Funcion que verifique las calificaciones de 2 examenes
+
+def check_exam(array1,array2)
+  score = 0
+  for i in 0..array1.size-1
+    if array2[i] != ""
+      if array1[i] == array2[i]
+        score += 4
+      else
+        score -= 1
+      end
+    end
+  end
+  return (score < 1 ? 0 : score)
+end
+
+# ! Calcula que parte de cuarto de año se encuentra un mes
+
+def quarter_of(month)
+  case month
+  when (1..3)
+    return 1
+  when (4..6)
+    return 2
+  when (6..9)
+    return 3
+  when (9..12)
+    return 4
+  else
+    "Invalid input"
+  end
+end
+
+def quarter_ofCLEVER(month)
+  (month / 3 ).ceil
 end
