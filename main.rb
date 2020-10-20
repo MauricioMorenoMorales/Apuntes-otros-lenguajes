@@ -228,3 +228,69 @@ def greet(language)
   end
   "Welcome"
 end
+
+# ! Un ejemplo de como es un switch
+
+def get_planet_name(id)
+  # This doesn't work; Fix it!
+  name = ''
+  case id
+    when 1
+      name = "Mercury"
+    when 2
+      name = "Venus"
+    when 3
+      name = "Earth"
+    when 4
+      name = "Mars"
+    when 5
+      name = "Jupiter"
+    when 6
+      name = "Saturn"
+    when 7
+      name = "Uranus"
+    when 8
+      name = "Neptune"
+  end
+
+def derive(coefficient, exponent)
+  "#{coefficient * exponent}x^$#{exponent - 1}"
+end
+
+# ! Haz una funcion que retorne el maximo de todas las combinaciones posibles de varias operaciones
+
+def expression_matter(a, b, c)
+  [
+    a * (b + c),
+    a * b * c,
+    a + b * c,
+    (a + b) * c,
+    a + b + c
+  ].max
+end
+
+# ! Abrevia el nombre de alguien
+
+def abbrev_name(name)
+  name.split.map { |s| s[0]}.join('.').upcase
+end
+
+# ! Suma dos arrays
+
+def array_plus_array(arr1, arr2)
+  (arr1 + arr2).reduce(:+)
+end
+
+def array_plus_arrayCLEVER(arr1, arr2)
+  (arr1 + arr2).sum
+end
+
+# ! Verifica si dos numeros son negativos
+
+def paperwork(n, m)
+  if (n < 0) && (m < 0)
+    n * m
+  end
+end
+
+puts paperwork(5,5)
