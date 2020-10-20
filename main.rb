@@ -184,3 +184,47 @@ end
 def quarter_ofCLEVER(month)
   (month / 3 ).ceil
 end
+
+## ! Holyday dutyfree
+
+def duty_free(price, discount, holyday_cost)
+  saving = price * discount * 0.01
+  bottles = (holyday_cost) / saving
+  bottles.floor
+end
+
+# ! Retorna cuantas veces cabe un numero con un array
+
+def find_multiples(integer, limit)
+  (integer..limit).step(integer).to_a
+end
+
+# ! Retorna un saludo dependiendo de el idioma por parametro
+
+def greet(language)
+  database = {
+    "english" => "Welcome",
+    "czech" => "Vitejte",
+    "danish" => "Velkomst",
+    "dutch" => "Welkom",
+    "estonian" => "Tere tulemast",
+    "finnish" => "Tervetuloa",
+    "flemish" => "Welgekomen",
+    "french" => "Bienvenue",
+    "german" => "Willkommen",
+    "irish" => "Failte",
+    "italian" => "Benvenuto",
+    "latvian" => "Gaidits",
+    "lithuanian" => "Laukiamas",
+    "polish" => "Witamy",
+    "spanish" => "Bienvenido",
+    "swedish" => "Valkommen",
+    "welsh" => "Croeso",
+  }
+  database.each do |key, value|
+    if key == language
+      return value
+    end
+  end
+  "Welcome"
+end
