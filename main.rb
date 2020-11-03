@@ -290,7 +290,26 @@ end
 def paperwork(n, m)
   if (n < 0) && (m < 0)
     n * m
+  else
+    0
   end
 end
 
 puts paperwork(5,5)
+
+# ! Funcion que retorne si se encuentra cierto numero en un array
+
+def check(arr, element)
+  arr.include?(element)
+end
+
+def checkAlternative(arr, element)
+  arr.any?(element)
+end
+
+# ! Funcion que retorne la suma de los numeros positivos de un array
+
+def positive_sum(arr)
+  arr.select{ |x| x > 0 }.reduce(0, :+)
+end
+
