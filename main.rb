@@ -313,3 +313,43 @@ def positive_sum(arr)
   arr.select{ |x| x > 0 }.reduce(0, :+)
 end
 
+# ! Invierte las mayusculas y minusculas
+
+class String
+  def to_alternating_case
+    self.swapcase
+  end
+end
+puts 'proBANDO'.to_alternating_case()
+
+# ! Retorna true o false si todo el string esta en uppercase
+
+class String
+  def is_upcase?
+    self == upcase
+  end
+end
+
+#  ! Funcion que adapte el alfabeto polaco a el alfabeto inglés
+
+def correct_polish_letters(s)
+  s.tr("ąćęłńóśźż", "acelnoszz") #? Esto retorna el mismo String pero con las letras remplazadas
+end
+
+# ! Cuenta la cantidad de veces que se repite una letra en un string
+
+def strCount(word, letter)
+  word.count(letter)
+end
+
+# ! Prueba si un numero es par o impar
+
+def is_even(n)
+  (n % 2 == 0)
+end
+
+# ! Retorna el mayor numero de un array el menor y su diferencia
+
+def difference_in_ages(ages)
+  [ages.min, ages.max, ages.max - ages.min]
+end
