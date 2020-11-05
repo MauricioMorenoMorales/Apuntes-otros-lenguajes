@@ -353,3 +353,43 @@ end
 def difference_in_ages(ages)
   [ages.min, ages.max, ages.max - ages.min]
 end
+
+# ! Retorna la suma de cada numero en un array a su segunda potencia
+
+def square_sum(numbers)
+  response = []
+  for i in numbers do
+    response << i * i
+  end
+  response.sum
+end
+
+def squareSumCLEVER(numbers)
+  numbers.map { |n| n*n }.reduce(:+)
+end
+
+# ! Elimina los elementos pares dentro de un array
+
+def remove_every_other(arr)
+  arr.map.reject.with_index { |_,i| i.odd? }
+end
+
+# ! obtiene el codigo ascii de un imput
+
+def getASCII(c)
+  c.ord
+ends
+
+# ! obtiene true si el input es un par mayor que 2
+
+def triple_trouble(one, two, three)
+  result = ""
+  i = 0
+  while i < one.length
+    result << one[i]
+    result << two[i]
+    result << three[i]
+    i += 1
+  end
+  result
+end
