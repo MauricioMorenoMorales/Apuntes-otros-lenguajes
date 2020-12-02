@@ -393,3 +393,42 @@ def triple_trouble(one, two, three)
   end
   result
 end
+
+def triple_trouble(one, two, three)
+  [one, two, three].map(&:chars).transpose.join
+end
+
+def triple_trouble_loop(one,two,three)
+  (0..one.size - 1).map { |n| one[n] + two[n] + three[n]}.join
+end
+
+def triple_trouble_zip(one,two,three)
+  one.chars.zip(two.chars, three.chars).join
+end
+
+puts triple_trouble('aa','bb','cc') # -> abcabc
+
+
+# ! Obtiene la media de calificacion y retorna calificacion inglesa
+
+def get_grade(s1,s2,s3)
+	average = (s1 + s2 + s3) / 3
+	case average
+	when 90..100 then 'A'
+	when 80..90 then 'B'
+	when 70..80 then 'C'
+	when 60..70 then 'D'
+	else	'F'
+	end
+end
+
+# ! Elimina los numeros cero al final de un input
+
+def no_boring_zeros(num)
+	return num if num.zero?
+	while num % 10 == 0
+		num = num / 10
+	end
+	num
+end
+puts no_boring_zeros(1450)
