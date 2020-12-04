@@ -164,6 +164,8 @@ def check_exam(array1,array2)
   return (score < 1 ? 0 : score)
 end
 
+# check_Exam(["a", "a", "b", "b"], ["a", "c", "b", "d"]) → 6
+
 # ! Calcula que parte de cuarto de año se encuentra un mes
 
 def quarter_of(month)
@@ -368,6 +370,8 @@ def squareSumCLEVER(numbers)
   numbers.map { |n| n*n }.reduce(:+)
 end
 
+# square_sum([0, 3, 4, 5]) -> 50
+
 # ! Elimina los elementos pares dentro de un array
 
 def remove_every_other(arr)
@@ -432,3 +436,15 @@ def no_boring_zeros(num)
 	num
 end
 puts no_boring_zeros(1450)
+
+# ! retorna el primer numero que no se a consecutivo
+
+def first_non_consecutive(arr)
+  arr.each_index do |i|
+    return arr[i + 1] if arr[i].next != arr[i + 1]
+  end
+end
+
+def first_non_consecutive(arr)
+  arr.each_cons(2) { |a, b| return b if b - a > 1 }
+end
