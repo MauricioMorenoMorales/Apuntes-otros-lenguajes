@@ -134,3 +134,87 @@ return list(map(lambda x: -x, lst));
 #?([1,2,3,4,5]),[-1,-2,-3,-4,-5])
 #?([1,-2,3,-4,5]), [-1,2,-3,4,-5])
 
+#! Suma los elementos dentro de un numero
+
+def summation(num):
+    return sum(xrange(num + 1))
+
+def summation(num):
+    return (1+num) * num / 2
+
+#?(1), 1)
+#?(8), 36)
+#?(22), 253)
+
+#! Determina si un heroe lleva la cantidad suficiente de munición para matar al dragon
+
+def hero(bullets, dragons):
+    return bullets >= dragons * 2
+
+def hero(bullets, dragons):
+    return dragons <= bullets / 2
+
+#?(10, 5), True)
+#?(7, 4), False)
+#?(4, 5), False)
+
+#! Retorna si podemos dividir algo
+
+def is_divide_by(number, a, b):
+    return number % a == 0 and number % b == 0
+
+#?(-12, 2, -6)  ->  true
+#?(-12, 2, -5)  ->  false
+#?(45, 1, 6)    ->  false
+#?(45, 5, 15)   ->  true
+
+#! Retorna un saludo
+
+def hello(name=''):
+    return f"Hello, {name.title() or 'World'}!"
+
+def hello(name=""):
+    return f"Hello, {name.capitalize() if name else 'World'}!"
+
+#! Retorna el numero faltante más pequeño dentro de un array
+
+def next_id(arr):
+    t = 0
+    while t in arr:
+        t +=1
+    return t
+
+def next_id(arr):
+    for i in range(len(arr)+1):
+        if i not in arr:
+            return i
+
+#?([0,1,2,3,4,5,6,7,8,9,10]), 11)
+#?([5,4,3,2,1]), 0)
+#?([0,1,2,3,5]), 4)
+
+#! Toma la velocidad en km/s y lo convierte redondeado abajo a cm/s
+
+def cockroach_speed(s):
+    return s // 0.036
+
+def cockroach_speed(s):
+    cm_per_km = 100000
+    sec_per_hour = 3600
+    return int(s * cm_per_km / sec_per_hour)
+
+#! Retorna una palbra capitalizada
+
+def capitalizeWord(s):
+    return s.title()
+
+capitalizeWord = str.capitalize
+
+#! Retorna area o perimetro dependiendo los tamaños
+
+def area_or_perimeter(l, w):
+    return l * w if l == w else (l + w) * 2
+
+area_or_perimeter = lambda a, b : a * b if a == b else 2 * (a + b)
+#?(4, 4), 16)
+#?(6, 10), 32)

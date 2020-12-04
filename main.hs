@@ -88,3 +88,48 @@ invert = map(*(-1))
 
 --?([1,2,3,4,5]),[-1,-2,-3,-4,-5])
 --?([1,-2,3,-4,5]), [-1,2,-3,4,-5])
+
+--! Suma los elementos dentro de un numero
+
+module Summation where
+
+summation :: Integer -> Integer
+summation x = sum [1..x]
+
+module Summation where
+
+summation :: Integer -> Integer
+summation n = div (n*(n + 1)) 2
+
+--! Determina si un heroe lleva la cantidad suficiente de munición para matar al dragon
+
+module Survive where
+
+hero :: Int -> Int -> Bool
+hero bullets dragons = bullets >= 2 * dragons
+
+module Survive where
+
+hero :: Int -> Int -> Bool
+hero = (>=) . (`div` 2)
+
+--?(10, 5), True)
+--?(7, 4), False)
+--?(4, 5), False)
+
+--! Retorna area o perimetro dependiendo los tamaños
+
+module AreaPerimeter where
+
+areaOrPerimeter :: Double -> Double -> Double
+areaOrPerimeter x y = if x == y then x * x else 2 * (x + y)
+
+module AreaPerimeter where
+
+areaOrPerimeter :: Double -> Double -> Double
+areaOrPerimeter length width
+  | length == width = length * width
+  | otherwise = (length + width) * 2
+
+--?(4, 4), 16)
+--?(6, 10), 32)
