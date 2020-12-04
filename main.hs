@@ -133,3 +133,72 @@ areaOrPerimeter length width
 
 --?(4, 4), 16)
 --?(6, 10), 32)
+
+--! Repite un string determinada cantidad de veces
+
+module StringRepeat where
+
+repeatStr :: Int -> String -> String
+repeatStr n = concat . replicate n
+
+module StringRepeat where
+
+repeatStr :: Int -> String -> String
+repeatStr n s = concat $ replicate n s
+
+
+--?(4, 'a'), 'aaaa')
+--?(3, 'hello '), 'hello hello hello ')
+
+--! Retorna un falso binario
+
+module Codewars.Kata.FakeBinary where
+
+fakeBin :: String -> String
+fakeBin = map (\c -> if c < '5' then '0' else '1' )
+
+module Codewars.Kata.FakeBinary where
+
+import Data.Char (digitToInt)
+
+fakeBin :: String -> String
+fakeBin [] = []
+fakeBin (x:xs)
+  | digitToInt x < 5 = '0' : fakeBin xs
+  | digitToInt x > 4 = '1' : fakeBin xs
+
+--?["01011110001100111", "45385593107843568"],
+--?["101000111101101", "509321967506747"],
+--?["011011110000101010000011011", "366058562030849490134388085"],
+
+--! Retorna si un numero es divisible entre otros dos
+
+module Kata (isDivisible) where
+
+isDivisible :: Int -> Int -> Int -> Bool
+isDivisible n x y = (n `mod` x + n `mod` y == 0)
+
+module Kata (isDivisible) where
+
+isDivisible :: Int -> Int -> Int -> Bool
+isDivisible x y z = mod x y == 0 && mod x z == 0
+
+--?(3,3,4),False)
+--?(12,3,4),True)
+--?(8,3,4),False)
+
+#! Obtiene un planeta por su numero en el sistema solar
+
+module Planets where
+
+getPlanetName :: Int -> String
+getPlanetName index = planets !! (index - 1)
+  where planets :: [String]
+        planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+
+module Planets where
+
+getPlanetName :: Int -> String
+getPlanetName index = planets !! (index - 1)
+  where planets :: [String]
+        planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]

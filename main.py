@@ -218,3 +218,110 @@ def area_or_perimeter(l, w):
 area_or_perimeter = lambda a, b : a * b if a == b else 2 * (a + b)
 #?(4, 4), 16)
 #?(6, 10), 32)
+
+#! Repite un string determinada cantidad de veces
+
+def repeat_str(repeat, string):
+    return repeat * string
+
+def repeat_str(repeat, string):
+    solution = ""
+    for i in range(repeat):
+        solution += string
+    return solution
+
+#?(4, 'a'), 'aaaa')
+#?(3, 'hello '), 'hello hello hello ')
+
+#! Retorna un falso binario
+
+def fake_bin(x):
+    return ''.join('0' if c < '5' else '1' for c in x)
+
+def fake_bin(x):
+    result = ""
+    for num in x:
+        if int(num) < 5:
+            result = result + "0"
+        else:
+            result = result + "1"
+    return result
+
+#?["01011110001100111", "45385593107843568"],
+#?["101000111101101", "509321967506747"],
+#?["011011110000101010000011011", "366058562030849490134388085"],
+
+#! Retorna determinado patron
+
+def solution(a, b):
+    return a+b+a if len(a)<len(b) else b+a+b
+
+def solution(a, b):
+    return '{0}{1}{0}'.format(*sorted((a, b), key=len))
+
+#?(('45', '1'), '1451'),
+#?(('13', '200'), '1320013'),
+#?(('Soon', 'Me'), 'MeSoonMe'),
+#?(('U', 'False'), 'UFalseU')
+
+#! Retorna si un numero es divisible entre otros dos
+
+def is_divisible(n,x,y):
+    return n % x == 0 and n % y == 0
+
+def is_divisible(n, x, y):
+    return n % x == n % y == 0
+
+
+#?(3,3,4),False)
+#?(12,3,4),True)
+#?(8,3,4),False)
+
+#! Determina a que cuarto de año pertenece cierto mes
+
+def quarter_of(month):
+    # your code here
+    if month in range(1, 4):
+        return 1
+    elif month in range(4, 7):
+        return 2
+    elif month in range(7, 10):
+        return 3
+    elif month in range(10, 13):
+        return 4
+
+from math import ceil
+def quarter_of(month):
+    return ceil(month / 3)
+
+#?(3), 1)
+#?(8), 3)
+#?(11), 4)
+
+#! Obtiene un planeta por su numero en el sistema solar
+
+def get_planet_name(id):
+    return {
+        1: "Mercury",
+        2: "Venus",
+        3: "Earth",
+        4: "Mars",
+        5: "Jupiter",
+        6: "Saturn",
+        7: "Uranus",
+        8: "Neptune",
+    }.get(id, None)
+
+def get_planet_name(id):
+    return ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"][id-1]
+
+#! Devuelve la derivada
+
+def derive(coefficient, exponent):
+    return f'{coefficient * exponent}x^{exponent - 1}'
+
+def derive(coefficient, exponent): 
+    return("{}x^{}".format(coefficient*exponent, exponent-1))
+
+#?(7,8), "56x^7")
+#?(5,9), "45x^8")
