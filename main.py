@@ -106,19 +106,19 @@ def greet2(name):
 def arrFiller(n=0):
 		return list(range(n))
 
-def arr(n=0):
+def arr(n = 0):
 		return [i for i in range(n)]
 
 #! Determina si tu estas tocando el banjo
 
 def areYouPlayingBanjo(name):
-		return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo";
+	return name + (' plays' if name[0].lower() == 'r' else ' does not play') + " banjo";
 
 def areYouPlayingBanjo2(name):
-		if name[0].lower() == 'r':
-				return name + ' plays banjo'
-		else:
-				return name + ' does not play banjo'
+	if name[0].lower() == 'r':
+			return name + ' plays banjo'
+	else:
+			return name + ' does not play banjo'
 
 #? (areYouPlayingBanjo("martin"), "martin does not play banjo");
 #? (areYouPlayingBanjo("Rikke"), "Rikke plays banjo");
@@ -325,3 +325,81 @@ def derive(coefficient, exponent):
 
 #?(7,8), "56x^7")
 #?(5,9), "45x^8")
+
+#! Abrevia un nombre
+
+def abbrevName(name):
+    return '.'.join(w[0] for w in name.split()).upper()
+
+def abbrevName(name):
+    first, last = name.upper().split(' ')
+    return first[0] + '.' + last[0]
+
+#?Sam Harris => S.H
+#?Patrick Feeney => P.F
+
+##! Alterna las mayusculas con las minusculas
+
+def to_alternating_case(string):
+    return string.swapcase()
+
+def to_alternating_case(string):
+    return ''.join([c.upper() if c.islower() else c.lower() for c in string])
+
+#?Mauricio => mAURICIO
+
+#! Muestra si un string está en uppercase
+
+def is_uppercase(inp):
+    return inp.isupper()
+
+def is_uppercase(inp):
+    return inp.upper()==inp
+
+#?is_uppercase("hello I AM DONALD") == False
+#?is_uppercase("HELLO I AM DONALD") == True
+#?is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ") == False
+
+#! Traduce las letras en polaco
+
+def correct_polish_letters(s):
+    return s.translate(str.maketrans("ąćęłńóśźż", "acelnoszz"))
+
+def correct_polish_letters(st):
+    l = "ąćęłńóśźż"
+    lt = "acelnoszz"
+    for i in range(len(l)):
+        st = st.replace(l[i], lt[i])
+    return st
+
+#?("Jędrzej Błądziński"),"Jedrzej Bladzinski"
+
+#! Calcula si tienes el suficiente combustible para llegar a cierto lugar
+
+def zeroFuel(distance_to_pump, mpg, fuel_left):
+    return distance_to_pump <= mpg * fuel_left
+
+zeroFuel = lambda distance, mpg, gallons: mpg * gallons >= distance
+
+#?(50, 25, 2), True)
+#?(100, 50, 1), False)
+
+#! Encuentra la diferencia de edades entre el más viejo y el mas joven
+
+def difference_in_ages(ages):
+    # your code here
+    return (min(ages) , max(ages) , max(ages) - min(ages))
+
+def difference_in_ages(ages):
+    age = sorted(ages)
+    return (age[0], age[-1], (age[-1]-age[0]))
+
+#?([16, 22, 31, 44, 3, 38, 27, 41, 88]), (3, 88, 85))
+#?([5, 8, 72, 98, 41, 16, 55]), (5, 98, 93))
+#?([57, 99, 14, 32]), (14, 99, 85))
+
+#! Remueve el numero par de cada array
+
+#?(['Hello', 'Goodbye', 'Hello Again']),['Hello', 'Hello Again'])
+#?([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),[1, 3, 5, 7, 9])
+#?([['Goodbye'], {'Great': 'Job'}]),[['Goodbye']])

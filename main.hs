@@ -202,3 +202,64 @@ getPlanetName :: Int -> String
 getPlanetName index = planets !! (index - 1)
   where planets :: [String]
         planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
+
+#! Abrevia un nombre
+
+module Initials where
+
+import Data.Char
+import Data.List
+
+getInitials :: String -> String
+getInitials = intersperse '.' . map (toUpper . head) . words
+
+module Initials where
+
+import Data.List (head, intersperse, words)
+import Data.Char (toUpper)
+
+getInitials :: String -> String
+getInitials = intersperse '.' . map (toUpper . head) . words
+
+#?Sam Harris => S.H
+#?Patrick Feeney => P.F
+
+#! Alterna mayusculas y minusculas
+
+module Codewars.Kata.AlternatingCase where
+
+import Data.Char(isLower, toUpper, toLower)
+
+toAlternatingCase :: String -> String
+toAlternatingCase = map (\x -> if isLower x then toUpper x else toLower x)
+
+module Codewars.Kata.AlternatingCase where
+
+import Data.Char
+
+toAlternatingCase :: String -> String
+toAlternatingCase = map f
+  where f c | isUpper c = toLower c
+            | isLower c = toUpper c
+            | otherwise = c
+
+--? Mauricio => mAURICIO
+
+#! Muestra si un string está en uppercase
+
+module Codewars.Kata.IsUpperCase where
+import Data.Char (isLower)
+
+isUpperCase :: String -> Bool
+isUpperCase = all (not . isLower)
+
+module Codewars.Kata.IsUpperCase where
+
+import Data.Char (isLower)
+
+isUpperCase :: String -> Bool
+isUpperCase = not . any isLower
+
+#?is_uppercase("hello I AM DONALD") == False
+#?is_uppercase("HELLO I AM DONALD") == True
+#?is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ") == False
