@@ -450,3 +450,42 @@ end
 def first_non_consecutive(arr)
 	arr.each_cons(2) { |a, b| return b if b - a > 1 }
 end
+
+#! Retorna un int como texto
+
+def switch_it_up(number)
+	case number
+	when 1 'One'
+	when 2 'Two'
+	when 3 'Three'
+	when 4 'Four'
+	when 5 'Five'
+	when 6 'Six'
+	when 7 'Seven'
+	when 8 'Eight'
+	when 9 'Nine'
+	when 0 'Zero'
+	end
+end
+
+def switch_it_upCLEVER(number)
+  %w(Zero One Two Three Four Five Six Seven Eight Nine)[number]
+end
+
+#! Llena un array de forma (n..1)
+
+def reverse_seq(n)
+	n.downto(1).to_a
+end
+
+def reverse_seq(n)
+	Array(1..n).reverse
+end
+
+def reverse_seq(n)
+	(1..n).map { |a| a }.reverse
+	end
+
+def reverse_seq(n)
+	(1..n).sort.reverse
+end

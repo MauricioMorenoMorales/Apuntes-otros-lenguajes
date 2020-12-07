@@ -403,3 +403,42 @@ def difference_in_ages(ages):
 #?(['Hello', 'Goodbye', 'Hello Again']),['Hello', 'Hello Again'])
 #?([1, 2, 3, 4, 5, 6, 7, 8, 9, 10]),[1, 3, 5, 7, 9])
 #?([['Goodbye'], {'Great': 'Job'}]),[['Goodbye']])
+
+#! Retorna un int como texto
+
+def switch_it_up(n):
+    return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][n]
+
+def switch_it_up(number):
+    dict = {
+    1: "One",
+    2: "Two",
+    3: "Three",
+    4: "Four",
+    5: "Five",
+    6: "Six",
+    7: "Seven",
+    8: "Eight",
+    9: "Nine",
+    0: "Zero"}
+    return dict.get(number)
+
+def switch_it_up(number):
+    if number is 0: return "Zero"
+    if number is 1: return "One"
+    if number is 2: return "Two"
+    if number is 3: return "Three"
+    if number is 4: return "Four"
+    if number is 5: return "Five"
+    if number is 6: return "Six"
+    if number is 7: return "Seven"
+    if number is 8: return "Eight"
+    if number is 9: return "Nine"
+
+#! Llena un array de forma (n..1)
+
+def reverseseq(n):
+    return list(range(n, 0, -1))
+
+def reverseseq(n):
+    return range(n, 0, -1)
