@@ -489,3 +489,47 @@ def reverse_seq(n)
 def reverse_seq(n)
 	(1..n).sort.reverse
 end
+
+#! retorna si un autobus tiene la cantidad necesaria de pasajeros si es asi retorna 0 si no retorna cuantos espacios faltan
+
+def enough_space(cap, on, wait)
+	if cap > on + wait
+		0
+	else
+		-(cap -(on + wait))
+	end
+end
+
+def enough_spaceClever(cap, on, wait)
+  [on + wait - cap, 0].max
+end
+
+#(enough(10, 5, 5), 0);
+#(enough(100, 60, 50), 10);
+#(enough(20, 5, 5), 0);
+
+#! Retorna esta tabla
+
+def multi_table(number)
+	(1..10).map { |i| "#{i} * #{number} = #{i * number}"}.join("\n")
+end
+
+def multi_tableMine(number)
+	response = []
+	for i in 1..10 do
+		reponse << "#{i} * #{number} = #{i * number}"
+	end
+	response.join("\n")
+end
+
+# 1 * 5 = 5
+# 2 * 5 = 10
+# 3 * 5 = 15
+# 4 * 5 = 20
+# 5 * 5 = 25
+# 6 * 5 = 30
+# 7 * 5 = 35
+# 8 * 5 = 40
+# 9 * 5 = 45
+# 10 * 5 = 50
+

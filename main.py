@@ -137,10 +137,10 @@ return list(map(lambda x: -x, lst));
 #! Suma los elementos dentro de un numero
 
 def summation(num):
-    return sum(xrange(num + 1))
+	return sum(xrange(num + 1))
 
 def summation(num):
-    return (1+num) * num / 2
+	return (1+num) * num / 2
 
 #?(1), 1)
 #?(8), 36)
@@ -149,10 +149,10 @@ def summation(num):
 #! Determina si un heroe lleva la cantidad suficiente de munición para matar al dragon
 
 def hero(bullets, dragons):
-    return bullets >= dragons * 2
+	return bullets >= dragons * 2
 
 def hero(bullets, dragons):
-    return dragons <= bullets / 2
+	return dragons <= bullets / 2
 
 #?(10, 5), True)
 #?(7, 4), False)
@@ -161,7 +161,7 @@ def hero(bullets, dragons):
 #! Retorna si podemos dividir algo
 
 def is_divide_by(number, a, b):
-    return number % a == 0 and number % b == 0
+	return number % a == 0 and number % b == 0
 
 #?(-12, 2, -6)  ->  true
 #?(-12, 2, -5)  ->  false
@@ -171,23 +171,23 @@ def is_divide_by(number, a, b):
 #! Retorna un saludo
 
 def hello(name=''):
-    return f"Hello, {name.title() or 'World'}!"
+	return f"Hello, {name.title() or 'World'}!"
 
 def hello(name=""):
-    return f"Hello, {name.capitalize() if name else 'World'}!"
+	return f"Hello, {name.capitalize() if name else 'World'}!"
 
 #! Retorna el numero faltante más pequeño dentro de un array
 
 def next_id(arr):
-    t = 0
-    while t in arr:
-        t +=1
-    return t
+	t = 0
+	while t in arr:
+		t +=1
+	return t
 
 def next_id(arr):
-    for i in range(len(arr)+1):
-        if i not in arr:
-            return i
+	for i in range(len(arr)+1):
+		if i not in arr:
+			return i
 
 #?([0,1,2,3,4,5,6,7,8,9,10]), 11)
 #?([5,4,3,2,1]), 0)
@@ -196,24 +196,24 @@ def next_id(arr):
 #! Toma la velocidad en km/s y lo convierte redondeado abajo a cm/s
 
 def cockroach_speed(s):
-    return s // 0.036
+	return s // 0.036
 
 def cockroach_speed(s):
-    cm_per_km = 100000
-    sec_per_hour = 3600
-    return int(s * cm_per_km / sec_per_hour)
+	cm_per_km = 100000
+	sec_per_hour = 3600
+	return int(s * cm_per_km / sec_per_hour)
 
-#! Retorna una palbra capitalizada
+#! Retorna una palbra capitalizadam
 
 def capitalizeWord(s):
-    return s.title()
+	return s.title()
 
 capitalizeWord = str.capitalize
 
 #! Retorna area o perimetro dependiendo los tamaños
 
 def area_or_perimeter(l, w):
-    return l * w if l == w else (l + w) * 2
+	return l * w if l == w else (l + w) * 2
 
 area_or_perimeter = lambda a, b : a * b if a == b else 2 * (a + b)
 #?(4, 4), 16)
@@ -222,13 +222,13 @@ area_or_perimeter = lambda a, b : a * b if a == b else 2 * (a + b)
 #! Repite un string determinada cantidad de veces
 
 def repeat_str(repeat, string):
-    return repeat * string
+	return repeat * string
 
 def repeat_str(repeat, string):
-    solution = ""
-    for i in range(repeat):
-        solution += string
-    return solution
+	solution = ""
+	for i in range(repeat):
+		solution += string
+	return solution
 
 #?(4, 'a'), 'aaaa')
 #?(3, 'hello '), 'hello hello hello ')
@@ -236,16 +236,16 @@ def repeat_str(repeat, string):
 #! Retorna un falso binario
 
 def fake_bin(x):
-    return ''.join('0' if c < '5' else '1' for c in x)
+	return ''.join('0' if c < '5' else '1' for c in x)
 
 def fake_bin(x):
-    result = ""
-    for num in x:
-        if int(num) < 5:
-            result = result + "0"
-        else:
-            result = result + "1"
-    return result
+	result = ""
+	for num in x:
+		if int(num) < 5:
+			result = result + "0"
+		else:
+			result = result + "1"
+	return result
 
 #?["01011110001100111", "45385593107843568"],
 #?["101000111101101", "509321967506747"],
@@ -254,10 +254,10 @@ def fake_bin(x):
 #! Retorna determinado patron
 
 def solution(a, b):
-    return a+b+a if len(a)<len(b) else b+a+b
+	return a+b+a if len(a)<len(b) else b+a+b
 
 def solution(a, b):
-    return '{0}{1}{0}'.format(*sorted((a, b), key=len))
+	return '{0}{1}{0}'.format(*sorted((a, b), key=len))
 
 #?(('45', '1'), '1451'),
 #?(('13', '200'), '1320013'),
@@ -267,10 +267,10 @@ def solution(a, b):
 #! Retorna si un numero es divisible entre otros dos
 
 def is_divisible(n,x,y):
-    return n % x == 0 and n % y == 0
+	return n % x == 0 and n % y == 0
 
 def is_divisible(n, x, y):
-    return n % x == n % y == 0
+	return n % x == n % y == 0
 
 
 #?(3,3,4),False)
@@ -280,19 +280,19 @@ def is_divisible(n, x, y):
 #! Determina a que cuarto de año pertenece cierto mes
 
 def quarter_of(month):
-    # your code here
-    if month in range(1, 4):
-        return 1
-    elif month in range(4, 7):
-        return 2
-    elif month in range(7, 10):
-        return 3
-    elif month in range(10, 13):
-        return 4
+	# your code here
+	if month in range(1, 4):
+		return 1
+	elif month in range(4, 7):
+		return 2
+	elif month in range(7, 10):
+		return 3
+	elif month in range(10, 13):
+		return 4
 
 from math import ceil
 def quarter_of(month):
-    return ceil(month / 3)
+	return ceil(month / 3)
 
 #?(3), 1)
 #?(8), 3)
@@ -301,27 +301,27 @@ def quarter_of(month):
 #! Obtiene un planeta por su numero en el sistema solar
 
 def get_planet_name(id):
-    return {
-        1: "Mercury",
-        2: "Venus",
-        3: "Earth",
-        4: "Mars",
-        5: "Jupiter",
-        6: "Saturn",
-        7: "Uranus",
-        8: "Neptune",
-    }.get(id, None)
+	return {
+		1: "Mercury",
+		2: "Venus",
+		3: "Earth",
+		4: "Mars",
+		5: "Jupiter",
+		6: "Saturn",
+		7: "Uranus",
+		8: "Neptune",
+	}.get(id, None)
 
 def get_planet_name(id):
-    return ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"][id-1]
+	return ["Mercury","Venus","Earth","Mars","Jupiter","Saturn","Uranus","Neptune"][id-1]
 
 #! Devuelve la derivada
 
 def derive(coefficient, exponent):
-    return f'{coefficient * exponent}x^{exponent - 1}'
+	return f'{coefficient * exponent}x^{exponent - 1}'
 
 def derive(coefficient, exponent): 
-    return("{}x^{}".format(coefficient*exponent, exponent-1))
+	return("{}x^{}".format(coefficient*exponent, exponent-1))
 
 #?(7,8), "56x^7")
 #?(5,9), "45x^8")
@@ -329,11 +329,11 @@ def derive(coefficient, exponent):
 #! Abrevia un nombre
 
 def abbrevName(name):
-    return '.'.join(w[0] for w in name.split()).upper()
+	return '.'.join(w[0] for w in name.split()).upper()
 
 def abbrevName(name):
-    first, last = name.upper().split(' ')
-    return first[0] + '.' + last[0]
+	first, last = name.upper().split(' ')
+	return first[0] + '.' + last[0]
 
 #?Sam Harris => S.H
 #?Patrick Feeney => P.F
@@ -341,20 +341,20 @@ def abbrevName(name):
 ##! Alterna las mayusculas con las minusculas
 
 def to_alternating_case(string):
-    return string.swapcase()
+	return string.swapcase()
 
 def to_alternating_case(string):
-    return ''.join([c.upper() if c.islower() else c.lower() for c in string])
+	return ''.join([c.upper() if c.islower() else c.lower() for c in string])
 
 #?Mauricio => mAURICIO
 
 #! Muestra si un string está en uppercase
 
 def is_uppercase(inp):
-    return inp.isupper()
+	return inp.isupper()
 
 def is_uppercase(inp):
-    return inp.upper()==inp
+	return inp.upper()==inp
 
 #?is_uppercase("hello I AM DONALD") == False
 #?is_uppercase("HELLO I AM DONALD") == True
@@ -363,21 +363,21 @@ def is_uppercase(inp):
 #! Traduce las letras en polaco
 
 def correct_polish_letters(s):
-    return s.translate(str.maketrans("ąćęłńóśźż", "acelnoszz"))
+	return s.translate(str.maketrans("ąćęłńóśźż", "acelnoszz"))
 
 def correct_polish_letters(st):
-    l = "ąćęłńóśźż"
-    lt = "acelnoszz"
-    for i in range(len(l)):
-        st = st.replace(l[i], lt[i])
-    return st
+	l = "ąćęłńóśźż"
+	lt = "acelnoszz"
+	for i in range(len(l)):
+		st = st.replace(l[i], lt[i])
+	return st
 
 #?("Jędrzej Błądziński"),"Jedrzej Bladzinski"
 
 #! Calcula si tienes el suficiente combustible para llegar a cierto lugar
 
 def zeroFuel(distance_to_pump, mpg, fuel_left):
-    return distance_to_pump <= mpg * fuel_left
+	return distance_to_pump <= mpg * fuel_left
 
 zeroFuel = lambda distance, mpg, gallons: mpg * gallons >= distance
 
@@ -387,12 +387,12 @@ zeroFuel = lambda distance, mpg, gallons: mpg * gallons >= distance
 #! Encuentra la diferencia de edades entre el más viejo y el mas joven
 
 def difference_in_ages(ages):
-    # your code here
-    return (min(ages) , max(ages) , max(ages) - min(ages))
+	# your code here
+	return (min(ages) , max(ages) , max(ages) - min(ages))
 
 def difference_in_ages(ages):
-    age = sorted(ages)
-    return (age[0], age[-1], (age[-1]-age[0]))
+	age = sorted(ages)
+	return (age[0], age[-1], (age[-1]-age[0]))
 
 #?([16, 22, 31, 44, 3, 38, 27, 41, 88]), (3, 88, 85))
 #?([5, 8, 72, 98, 41, 16, 55]), (5, 98, 93))
@@ -407,38 +407,70 @@ def difference_in_ages(ages):
 #! Retorna un int como texto
 
 def switch_it_up(n):
-    return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][n]
+	return ['Zero','One','Two','Three','Four','Five','Six','Seven','Eight','Nine'][n]
 
 def switch_it_up(number):
-    dict = {
-    1: "One",
-    2: "Two",
-    3: "Three",
-    4: "Four",
-    5: "Five",
-    6: "Six",
-    7: "Seven",
-    8: "Eight",
-    9: "Nine",
-    0: "Zero"}
-    return dict.get(number)
+	dict = {
+	1: "One",
+	2: "Two",
+	3: "Three",
+	4: "Four",
+	5: "Five",
+	6: "Six",
+	7: "Seven",
+	8: "Eight",
+	9: "Nine",
+	0: "Zero"}
+	return dict.get(number)
 
 def switch_it_up(number):
-    if number is 0: return "Zero"
-    if number is 1: return "One"
-    if number is 2: return "Two"
-    if number is 3: return "Three"
-    if number is 4: return "Four"
-    if number is 5: return "Five"
-    if number is 6: return "Six"
-    if number is 7: return "Seven"
-    if number is 8: return "Eight"
-    if number is 9: return "Nine"
+	if number is 0: return "Zero"
+	if number is 1: return "One"
+	if number is 2: return "Two"
+	if number is 3: return "Three"
+	if number is 4: return "Four"
+	if number is 5: return "Five"
+	if number is 6: return "Six"
+	if number is 7: return "Seven"
+	if number is 8: return "Eight"
+	if number is 9: return "Nine"
 
 #! Llena un array de forma (n..1)
 
 def reverseseq(n):
-    return list(range(n, 0, -1))
+	return list(range(n, 0, -1))
 
 def reverseseq(n):
-    return range(n, 0, -1)
+	return range(n, 0, -1)
+
+#! retorna si un autobus tiene la cantidad necesaria de pasajeros si es asi retorna 0 si no retorna cuantos espacios faltan
+
+def enough(cap, on, wait):
+	return max(0, wait - (cap - on))
+
+def enough(cap, on, wait):
+	return wait + on - cap if wait + on > cap else 0
+
+#! Retorna esta tabla
+
+def multi_table(number):
+    return '\n'.join(f'{i} * {number} = {i * number}' for i in range(1, 11))
+
+def multi_table(number):    
+    st = str()
+    for x in range(1,11):
+        z = number * x
+        st += '{} * {} = {}\n'.format(x,number,z)
+    sti = st.strip('\n')
+    return sti
+
+# 1 * 5 = 5
+# 2 * 5 = 10
+# 3 * 5 = 15
+# 4 * 5 = 20
+# 5 * 5 = 25
+# 6 * 5 = 30
+# 7 * 5 = 35
+# 8 * 5 = 40
+# 9 * 5 = 45
+# 10 * 5 = 50
