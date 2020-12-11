@@ -474,3 +474,21 @@ def multi_table(number):
 # 8 * 5 = 40
 # 9 * 5 = 45
 # 10 * 5 = 50
+
+#! Invierte las palabras dentro de una sentencia
+
+def reverseWords(str):
+    return " ".join(str.split(" ")[::-1])
+
+def reverseWords(str):
+    return ' '.join(reversed(str.split(' ')))
+
+# (reverseWords("hello world!"), "world! hello")
+# (reverseWords("yoda doesn't speak like this" ),  "this like speak doesn't yoda")
+# (reverseWords("foobar"                       ),  "foobar")
+# (reverseWords("kata editor"                  ),  "editor kata")
+
+#! Retorna una simple formula
+
+def quadratic(x1, x2):
+    return (1,-x1-x2,x1*x2)

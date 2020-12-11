@@ -263,3 +263,27 @@ isUpperCase = not . any isLower
 #?is_uppercase("hello I AM DONALD") == False
 #?is_uppercase("HELLO I AM DONALD") == True
 #?is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ") == False
+
+#! Invierte las palabras dentro de una sentencia
+
+module ReverseWords where
+
+reverseWords :: String -> String
+reverseWords = unwords . reverse . words
+
+module ReverseWords where
+
+reverseWords :: String -> String
+reverseWords = unwords . reverse . words
+
+--(reverseWords("hello world!"), "world! hello")
+--(reverseWords("yoda doesn't speak like this" ),  "this like speak doesn't yoda")
+--(reverseWords("foobar"                       ),  "foobar")
+-- (reverseWords("kata editor"                  ),  "editor kata")
+
+--! Retorna una simple formula
+
+module CoefficientsOfTheQuadraticEquation (quadratic) where
+
+quadratic :: Int -> Int -> (Int,Int,Int)
+quadratic a b = (1, -a-b, a*b)
