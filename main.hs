@@ -58,7 +58,7 @@ past h m s = hours h + minutes m + seconds s
 module Banjo where
 
 areYouPlayingBanjo :: String -> String
-areYouPlayingBanjo name@(c:_) 
+areYouPlayingBanjo name@(c:_)
 	| c `elem` "rR" = name ++ " plays banjo"
 	| otherwise = name ++ " does not play banjo"
 
@@ -187,7 +187,7 @@ isDivisible x y z = mod x y == 0 && mod x z == 0
 --?(12,3,4),True)
 --?(8,3,4),False)
 
-#! Obtiene un planeta por su numero en el sistema solar
+--! Obtiene un planeta por su numero en el sistema solar
 
 module Planets where
 
@@ -203,7 +203,7 @@ getPlanetName index = planets !! (index - 1)
   where planets :: [String]
         planets = ["Mercury", "Venus", "Earth", "Mars", "Jupiter", "Saturn", "Uranus", "Neptune"]
 
-#! Abrevia un nombre
+--! Abrevia un nombre
 
 module Initials where
 
@@ -224,7 +224,7 @@ getInitials = intersperse '.' . map (toUpper . head) . words
 #?Sam Harris => S.H
 #?Patrick Feeney => P.F
 
-#! Alterna mayusculas y minusculas
+--! Alterna mayusculas y minusculas
 
 module Codewars.Kata.AlternatingCase where
 
@@ -245,7 +245,7 @@ toAlternatingCase = map f
 
 --? Mauricio => mAURICIO
 
-#! Muestra si un string está en uppercase
+--! Muestra si un string está en uppercase
 
 module Codewars.Kata.IsUpperCase where
 import Data.Char (isLower)
@@ -264,7 +264,7 @@ isUpperCase = not . any isLower
 #?is_uppercase("HELLO I AM DONALD") == True
 #?is_uppercase("ACSKLDFJSgSKLDFJSKLDFJ") == False
 
-#! Invierte las palabras dentro de una sentencia
+--! Invierte las palabras dentro de una sentencia
 
 module ReverseWords where
 
@@ -287,3 +287,31 @@ module CoefficientsOfTheQuadraticEquation (quadratic) where
 
 quadratic :: Int -> Int -> (Int,Int,Int)
 quadratic a b = (1, -a-b, a*b)
+
+--! Si el string es alligator retorna un 'small' si no un 'wide'
+
+module Kata (mouthSize) where
+import  Data.Char
+
+mouthSize :: String -> String
+mouthSize x | "alligator" == map toLower x = "small"
+            | otherwise                    = "wide"
+
+module Kata (mouthSize) where
+import Data.Bool
+import Data.Char
+
+mouthSize :: String -> String
+mouthSize = bool "wide" "small" . (=="alligator") . map toLower
+
+#! Retorna la suma de todos los elementos de un array sin importar que sea un string
+
+module Mixed where
+
+sumMix :: [Either String Int] -> Int
+sumMix = sum . map (either read id)
+
+module Mixed where
+
+sumMix :: [Either String Int] -> Int
+sumMix = sum . map (either read id)

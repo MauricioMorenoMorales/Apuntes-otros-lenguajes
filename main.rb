@@ -571,3 +571,42 @@ def subtract_sum(u)
   end until $fruits[u]
   $fruits[u].chomp
 end
+
+#! Retorna un saludo con orientacion a objetos
+
+class Solution
+  def self.main(*args)
+    puts "Hello World!"
+  end
+end
+
+#! Recibe un año y retorna a que siglo pertenece
+
+def century(year)
+  (year.to_f / 100).ceil
+end
+
+#! Retorna la suma de todos los elementos de un array sin importar que sea un string
+
+def sum_mix(x)
+	x.map { |x| x.to_i }.sum
+end
+
+#! Elimina la primera y ultima letra de un string
+
+def remove_char(s)
+  s[1...-1]
+end
+
+def remove_char(s)
+  s[1..-2]
+end
+
+def remove_char(s)
+  #your code here
+  word = s.split('')
+  word.pop
+  word.shift
+  word.join
+end
+

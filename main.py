@@ -129,7 +129,7 @@ def invert(lst):
 		return [-x for x in lst]
 
 def invert(lst):
-return list(map(lambda x: -x, lst));
+	return list(map(lambda x: -x, lst));
 
 #?([1,2,3,4,5]),[-1,-2,-3,-4,-5])
 #?([1,-2,3,-4,5]), [-1,2,-3,4,-5])
@@ -454,15 +454,15 @@ def enough(cap, on, wait):
 #! Retorna esta tabla
 
 def multi_table(number):
-    return '\n'.join(f'{i} * {number} = {i * number}' for i in range(1, 11))
+		return '\n'.join(f'{i} * {number} = {i * number}' for i in range(1, 11))
 
 def multi_table(number):    
-    st = str()
-    for x in range(1,11):
-        z = number * x
-        st += '{} * {} = {}\n'.format(x,number,z)
-    sti = st.strip('\n')
-    return sti
+		st = str()
+		for x in range(1,11):
+				z = number * x
+				st += '{} * {} = {}\n'.format(x,number,z)
+		sti = st.strip('\n')
+		return sti
 
 # 1 * 5 = 5
 # 2 * 5 = 10
@@ -478,10 +478,10 @@ def multi_table(number):
 #! Invierte las palabras dentro de una sentencia
 
 def reverseWords(str):
-    return " ".join(str.split(" ")[::-1])
+		return " ".join(str.split(" ")[::-1])
 
 def reverseWords(str):
-    return ' '.join(reversed(str.split(' ')))
+		return ' '.join(reversed(str.split(' ')))
 
 # (reverseWords("hello world!"), "world! hello")
 # (reverseWords("yoda doesn't speak like this" ),  "this like speak doesn't yoda")
@@ -491,4 +491,46 @@ def reverseWords(str):
 #! Retorna una simple formula
 
 def quadratic(x1, x2):
-    return (1,-x1-x2,x1*x2)
+		return (1,-x1-x2,x1*x2)
+
+#! Retorna un saludo con orientacion a objetos
+
+class Solution:
+
+		@staticmethod
+		def main(self, *args):
+				print("Hello World!")
+
+class Solution:
+		#your code here
+		def main(self):
+				print('Hello World!')
+
+
+#! Retorna la suma de todos los elementos de un array sin importar que sea un string
+
+def sum_mix(arr):
+		return sum(map(int, arr))
+
+def sum_mix(arr):
+		return sum(int(n) for n in arr)
+
+def sum_mix(arr):
+		result = 0
+		for a in arr:
+				try:
+						result += a
+				except TypeError:
+						result += int(a)
+		return result
+
+#! Elimina la primera y ultima letra de un string
+
+def remove_char(s):
+    return s[1 : -1]
+
+def remove_char(s):
+    s = list(s)
+    s.pop()
+    s.pop(0)
+    return ''.join(s)

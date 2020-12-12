@@ -1,5 +1,5 @@
-def enough(cap, on, wait):
-	if cap < on + wait:
-		return 0
+def mouth_size(animal):
+	if(animal.lower() == 'alligator'):
+		return 'small'
 	else:
-		return on + wait - cap
+		return 'wide'
