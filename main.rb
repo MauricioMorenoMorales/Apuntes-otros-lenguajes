@@ -610,3 +610,30 @@ def remove_char(s)
   word.join
 end
 
+#! Recibe un numero y cuenta a partir de el
+
+def monkey_count(n) (0..n).to_a.map { |e| e} end
+
+def monkey_count(n) (1..n).to_a end
+	def monkey_count(n)
+		[*1..n]
+	end
+# (5), [1, 2, 3, 4, 5])
+# (3), [1, 2, 3])
+# (9), [1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+# ! Toma cierta cantidad de elementos de un array
+
+def take list, n
+  list.take(n)
+end
+
+def take(list, n) list[0,n] end
+
+# ! Suma los elementos de un array
+
+def sum(numbers)
+  numbers.inject(0, :+)
+end
+
+def sum(n) n.sum end
