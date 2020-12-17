@@ -1,5 +1,2 @@
-def mouth_size(animal):
-	if(animal.lower() == 'alligator'):
-		return 'small'
-	else:
-		return 'wide'
+array = [1,2,3,4]
+

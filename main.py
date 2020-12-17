@@ -534,3 +534,30 @@ def remove_char(s):
     s.pop()
     s.pop(0)
     return ''.join(s)
+
+#! Retorna la suma de un array
+
+def sum_array(a):
+	return sum(a)
+
+# ! Toma cierta cantidad de elementos de un array
+
+def take(arr,n):
+	return arr[:n]
+
+#! Recibe un numero y cuenta a partir de el
+
+def monkey_count(n):
+    return range(1, n+1)
+
+# (5), [1, 2, 3, 4, 5])
+# (3), [1, 2, 3])
+# (9), [1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+#! Devuelve el array recibido multiplicado por 2
+
+def maps(a):
+    return [2 * x for x in a]
+
+def maps(a):
+    return map(lambda x:2*x, a)

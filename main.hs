@@ -315,3 +315,47 @@ module Mixed where
 
 sumMix :: [Either String Int] -> Int
 sumMix = sum . map (either read id)
+
+#! Retorna la suma de un array
+
+module Sum where
+import Prelude hiding (sum)
+
+import Data.Foldable
+
+sum :: Num a => [a] -> a
+sum = foldl' (+) 0
+
+module Sum where
+import Prelude hiding (sum)
+
+sum :: Num a => [a] -> a
+sum = foldl (+) 0
+
+#! Recibe un numero y cuenta a partir de el
+
+module Codewars.Kata.Monkeys where
+
+monkeyCount :: Int -> [Int]
+monkeyCount x = [1..x]
+
+module Codewars.Kata.Monkeys where
+
+monkeyCount :: Int -> [Int]
+monkeyCount = enumFromTo 1
+
+# (5), [1, 2, 3, 4, 5])
+# (3), [1, 2, 3])
+# (9), [1, 2, 3, 4, 5, 6, 7, 8, 9])
+
+
+#! Devuelve el array recibido multiplicado por 2
+
+module Codewars.Kata.LostWithout where
+
+maps :: [Int] -> [Int]
+maps = map (*2)
+
+module Codewars.Kata.LostWithout where
+maps :: [Int] -> [Int]
+maps = fmap (*2)
