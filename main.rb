@@ -637,3 +637,69 @@ def sum(numbers)
 end
 
 def sum(n) n.sum end
+
+# ! Retorna si un numero es primo
+
+def primo(n)
+	contador = (2..n).to_a.map { |e| n % e == 0 }.select { |e| e == true}
+	if contador.length > 1
+		false
+	else
+		true
+	end
+end
+
+def primo(n)
+	for i in (2..n - 1) do
+		if n % i == 0
+			return true
+		end
+		return false
+	end
+end
+
+# ! Imprime una escalera
+
+def draw_stairs n
+	(0..n).to_a.map { |e| "#{' ' * e}I" }.join("\n")
+end
+
+puts draw_stairs(1)
+
+#! Calcula la propina que vas a dar
+
+def calculate_tip(amount, rating)
+	case rating.downcase
+		when "terrible" then 0
+		when "poor" then (amount * 0.05).ceil
+		when "good" then (amount * 0.1).ceil
+		when "great" then (amount * 0.15).ceil
+		when "excellent" then (amount * 0.2).ceil
+		else "Rating not recognised"; 
+		end
+end
+
+def calculate_tip(amount, rating)
+	rate = %w(terrible poor good great excellent).index(rating.downcase)
+	return 'Rating not recognised' unless rate
+
+	(amount * rate * 0.05).ceil
+end
+
+# ! Retorna dependiendo la cantidad de 'Goods ' en un array si una idea es buena o mala
+
+def well(x)
+  case x.count('good')
+  when 0
+    'Fail!'
+  when (1..2)
+    'Publish!'
+  else
+    'I smell a series!'
+  end
+end
+
+def well(x)
+  goods = x.count('good')
+  goods > 2 ? 'I smell a series!' : goods > 0 ? 'Publish!' : 'Fail!'
+end

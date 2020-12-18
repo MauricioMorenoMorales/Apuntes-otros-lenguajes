@@ -359,3 +359,24 @@ maps = map (*2)
 module Codewars.Kata.LostWithout where
 maps :: [Int] -> [Int]
 maps = fmap (*2)
+
+
+# ! Retorna dependiendo la cantidad de 'Goods ' en un array si una idea es buena o mala
+
+module Well where
+
+well :: [String] -> String
+well x
+  | l == 0 = "Fail!"
+  | l <= 2 = "Publish!"
+  | otherwise = "I smell a series!"
+  where l = length (filter (== "good") x)
+
+module Well where
+
+well :: [String] -> String
+well xs
+  | goodIdeasNum == 0 = "Fail!"
+  | goodIdeasNum <= 2 = "Publish!"
+  | otherwise = "I smell a series!"
+    where goodIdeasNum = foldl (\acc x -> if  x == "good" then (acc+1) else acc) 0 xs

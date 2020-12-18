@@ -496,10 +496,9 @@ def quadratic(x1, x2):
 #! Retorna un saludo con orientacion a objetos
 
 class Solution:
-
-		@staticmethod
-		def main(self, *args):
-				print("Hello World!")
+	@staticmethod
+	def main(self, *args):
+			print("Hello World!")
 
 class Solution:
 		#your code here
@@ -561,3 +560,15 @@ def maps(a):
 
 def maps(a):
     return map(lambda x:2*x, a)
+
+# ! Imprime una escalera
+
+def draw_stairs(n):
+    return '\n'.join(' '*i+'I' for i in range(n))
+
+# ! Retorna dependiendo la cantidad de 'Goods ' en un array si una idea es buena o mala
+
+def well(x):
+    c = x.count('good')
+    return 'I smell a series!' if c > 2 else 'Publish!' if c else 'Fail!'
+
