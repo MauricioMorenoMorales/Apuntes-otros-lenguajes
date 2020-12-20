@@ -572,3 +572,18 @@ def well(x):
     c = x.count('good')
     return 'I smell a series!' if c > 2 else 'Publish!' if c else 'Fail!'
 
+#! Recibe un array con varias palabras, las ordena alfabeticamente
+#! despues elige la primera y divide las palabras con asteriscos
+def two_sort(lst):
+    return '***'.join(min(lst))
+
+def two_sort(array):
+    return '***'.join(min(array))
+
+# (two_sort(["bitcoin", "take", "over", "the", "world", "maybe", "who", "knows", "perhaps"]), 'b***i***t***c***o***i***n' )
+# (["turns", "out", "random", "test", "cases", "are", "easier", "than", "writing", "out", "basic", "ones"]), 'a***r***e')
+
+#! Si un un booleano pasado es true se llama a alguna funcion
+
+def _if(bool, func1, func2):
+  func1() if bool else func2()

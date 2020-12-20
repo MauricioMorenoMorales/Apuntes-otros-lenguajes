@@ -703,3 +703,19 @@ def well(x)
   goods = x.count('good')
   goods > 2 ? 'I smell a series!' : goods > 0 ? 'Publish!' : 'Fail!'
 end
+
+# ! Elimina los espacios dentro de un string
+
+def no_space(x)
+  x.delete(' ')
+end
+
+#! Si un un booleano pasado es true se llama a alguna funcion
+
+def _if(bool, ifTrue, ifFalse)
+  bool ? ifTrue.call : ifFalse.call
+end
+
+def _if(bool, ifTrue, ifFalse)
+  (bool ? ifTrue : ifFalse).call
+end

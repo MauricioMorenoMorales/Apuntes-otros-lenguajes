@@ -380,3 +380,17 @@ well xs
   | goodIdeasNum <= 2 = "Publish!"
   | otherwise = "I smell a series!"
     where goodIdeasNum = foldl (\acc x -> if  x == "good" then (acc+1) else acc) 0 xs
+
+# ! Elimina los espacios dentro de un string
+
+module Kata (noSpace) where
+
+noSpace :: String -> String
+noSpace = filter (/=' ')
+
+module Kata (noSpace) where
+
+import Data.Char (isSpace)
+
+noSpace :: String -> String
+noSpace = filter (not . isSpace)
