@@ -587,3 +587,43 @@ def two_sort(array):
 
 def _if(bool, func1, func2):
   func1() if bool else func2()
+
+def _if(bool, func1, func2):
+  if bool:
+      func1()
+  else:
+      func2()
+
+#! Conversión simple
+
+def apple(x):
+    if int(x)**2 > 1000:
+        return "It's hotter than the sun!!"
+    else:
+        return "Help yourself to a honeycomb Yorkie for the glovebox."
+
+def apple(x):
+  return "It's hotter than the sun!!" if int(x) ** 2 > 1000 else  "Help yourself to a honeycomb Yorkie for the glovebox."
+
+#! Escapa la variable! si el bonus es true se retorna un salario * 10
+
+def bonus_time(salary, bonus):
+    return "${}".format(salary * (10 if bonus else 1))
+
+def bonus_time(salary, bonus):
+    #your code here
+    if bonus :
+        return "$" + str(salary * 10)
+    else:
+        return "$" + str(salary)
+
+#! Implementa una expresión regular 
+
+import re
+
+def is_digit(n):
+    return bool(re.match("\d\Z", n))
+
+import re
+def is_digit(n):
+    return bool(re.fullmatch(r'\d', n))

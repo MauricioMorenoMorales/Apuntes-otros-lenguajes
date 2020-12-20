@@ -394,3 +394,35 @@ import Data.Char (isSpace)
 
 noSpace :: String -> String
 noSpace = filter (not . isSpace)
+
+#! Si un un booleano pasado es true se llama a alguna funcion
+
+module If where
+
+_if :: Bool -> a -> a -> a
+_if True x _ = x
+_if False _ y = y
+
+module If where
+
+_if :: Bool -> a -> a -> a
+_if b x y = if b then x else y
+
+
+#! Escapa la variable! si el bonus es true se retorna un salario * 10
+
+module Bonus where
+
+iHazBonus :: Float->  Bool -> String
+
+iHazBonus salary bonus = "$" ++ (show money)
+  where
+  money
+    | bonus == True = salary * 10
+    | otherwise = salary
+
+module Bonus where
+
+iHazBonus :: Float->  Bool -> String
+
+iHazBonus salary bonus = '$' : show (salary * if bonus then 10 else 1)

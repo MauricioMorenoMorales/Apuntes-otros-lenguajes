@@ -719,3 +719,23 @@ end
 def _if(bool, ifTrue, ifFalse)
   (bool ? ifTrue : ifFalse).call
 end
+
+#! Implementa una expresión regular 
+
+class String
+  def digit?
+    /\A\d\z/ === self
+  end
+end
+
+class String
+  def digit?
+    !!(self =~ /\A\d\z/)
+  end
+end
+
+class String
+  def digit?
+    (?0..?9)===self
+  end
+end
