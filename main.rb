@@ -720,7 +720,7 @@ def _if(bool, ifTrue, ifFalse)
   (bool ? ifTrue : ifFalse).call
 end
 
-#! Implementa una expresión regular 
+#! Funcion que implementa una expresión regular 
 
 class String
   def digit?
