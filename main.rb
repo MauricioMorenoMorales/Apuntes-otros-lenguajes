@@ -770,3 +770,45 @@ def multiple_of_index(l):
 def how_many_dalmatians(n):
 	dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIONS!!!"]
 	return dogs[0] if n <= 10 else dogs[1] if n <=50 else dogs[3] if n == 101 else dogs[2]
+
+# !Recibe un string y en base a lo que se le pase retorna otro string
+
+DRINKS = {
+	"jabroni"         => "Patron Tequila",
+	"school counselor"=> "Anything with Alcohol",
+	"programmer"      => "Hipster Craft Beer",
+	"bike gang member"=> "Moonshine",
+	"politician"      => "Your tax dollars",
+	"rapper"          => "Cristal" }
+
+def get_drink_by_profession(s)
+DRINKS.fetch(s.downcase, "Beer")
+end
+
+def get_drink_by_profession(param)
+  {'jabroni' => 'Patron Tequila',
+  'school counselor' => 'Anything with Alcohol',
+  'programmer' => 'Hipster Craft Beer',
+  'bike gang member' => 'Moonshine',
+  'politician' => 'Your tax dollars',
+  'rapper' => 'Cristal'}[param.downcase] || 'Beer'
+end
+
+
+#! Condiverte numeros a estring los suma y los devuelve como string
+
+def sum_str(*args)
+  args.map(&:to_i).sum.to_s
+end
+
+def sum_str(a, b)
+  [a, b].map(&:to_i).sum.to_s
+end
+# sumSTr('9', '') -> 0
+# sumSTr('10', '10') -> 20
+
+#! Convierte un numero a binario
+
+def to_binary(n)
+  n.to_s(2).to_i
+end

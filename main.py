@@ -641,3 +641,35 @@ def get_char(c):
 
 #! Condiverte numeros a estring los suma y los devuelve como string
 
+def sum_str(a, b):
+    return str(int(a or 0) + int(b or 0))
+
+def sum_str(a, b):
+    print(a, b)
+    if a == "" or a == None: a = "0"
+    if b == "" or b == None: b = "0"
+    return str(int(a)+int(b))
+
+# sumSTr('9', '') -> 0
+# sumSTr('10', '10') -> 20
+
+#! Recibe un string y en base a lo que se le pase retorna otro string
+
+def get_drink_by_profession(param):
+	return {
+		"jabroni": "Patron Tequila",
+		"school counselor": "Anything with Alcohol",
+		"programmer": "Hipster Craft Beer",
+		"bike gang member": "Moonshine",
+		"politician": "Your tax dollars",
+		"rapper": "Cristal"
+	}.get(param.lower(), "Beer")
+
+#! Convierte un numero a binario
+
+def to_binary(n):
+    return int(f'{n:b}')
+
+def to_binary(n):
+  return int(bin(n)[2:])
+

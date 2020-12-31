@@ -433,3 +433,26 @@ module Ascii where
 
 getChar' :: Int -> Char
 getChar' = toEnum
+
+#! Condiverte numeros a estring los suma y los devuelve como string
+
+module Kata (sumStr) where
+
+sumStr :: String -> String -> String
+sumStr a b = show(readInt(a) + readInt(b))
+
+readInt :: String -> Int
+readInt "" = 0
+readInt s = read s
+
+module Kata (sumStr) where
+
+import Data.Function (on)
+import Data.Maybe (fromMaybe)
+import Text.Read (readMaybe)
+
+sumStr :: String -> String -> String
+sumStr = (show .) . (+) `on` (fromMaybe 0 . readMaybe)
+
+# sumSTr('9', '') -> 0
+# sumSTr('10', '10') -> 20
