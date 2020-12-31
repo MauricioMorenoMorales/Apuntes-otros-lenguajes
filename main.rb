@@ -455,16 +455,16 @@ end
 
 def switch_it_up(number)
 	case number
-	when 1 'One'
-	when 2 'Two'
-	when 3 'Three'
-	when 4 'Four'
-	when 5 'Five'
-	when 6 'Six'
-	when 7 'Seven'
-	when 8 'Eight'
-	when 9 'Nine'
-	when 0 'Zero'
+	when 1 then 'One'
+	when 2 then 'Two'
+	when 3 then 'Three'
+	when 4 then 'Four'
+	when 5 then 'Five'
+	when 6 then 'Six'
+	when 7 then 'Seven'
+	when 8 then 'Eight'
+	when 9 then 'Nine'
+	when 0 then 'Zero'
 	end
 end
 
@@ -679,6 +679,7 @@ def calculate_tip(amount, rating)
 		end
 end
 
+
 def calculate_tip(amount, rating)
 	rate = %w(terrible poor good great excellent).index(rating.downcase)
 	return 'Rating not recognised' unless rate
@@ -739,3 +740,33 @@ class String
     (?0..?9)===self
   end
 end
+
+#! Retorna un string con el ascii y recibe un numero
+
+def getChar(c)
+  c.chr
+end
+
+#! Si un array es divisible entre su posicion en el array pasa el filtro
+
+def multiple_of_index(arr):
+	i = 1
+	rst = []
+	while i < len(arr):
+			if arr[i] % i == 0:
+					print(i)
+					rst.append(arr[i])
+			i += 1
+	return rst
+
+def multiple_of_index(arr):
+	return [val for index, val in enumerate(arr) if index and val % index == 0]
+
+def multiple_of_index(l):
+	return [l[i] for i in range(1, len(l)) if l[i] % i == 0]
+
+# ! Ejemplo de if ternario
+
+def how_many_dalmatians(n):
+	dogs = ["Hardly any", "More than a handful!", "Woah that's a lot of dogs!", "101 DALMATIONS!!!"]
+	return dogs[0] if n <= 10 else dogs[1] if n <=50 else dogs[3] if n == 101 else dogs[2]

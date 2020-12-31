@@ -43,7 +43,7 @@ def convertToCelsius (temperature):
 def solution(a, b):
 		return a+b+a if len(a)<len(b) else b+a+b
 
-# ! Funcion que verifique las calificaciones de 2 examenes
+#  Funcion que verifique las calificaciones de 2 examenes
 
 def check_exam(arr1, arr2):
 		return max(0, sum(4 if a == b else -1 for a, b in zip(arr1, arr2) if b))
@@ -55,7 +55,7 @@ def check_exam2(arr1,arr2):
 						score += 4
 				elif arr1[i] == "" or arr2[i] == "":
 						score += 0
-				else: 
+				else:
 						score -= 1
 		return score if score >= 0  else 0
 
@@ -70,9 +70,6 @@ def array_plus_array(arr1,arr2):
 
 def square_sum(numbers):
 		return sum(x ** 2 for x in numbers)
-
-def square_sum(numbers):
-		return sum(x * x for x in numbers) 
 
 # square_sum([0, 3, 4, 5]) -> 50
 
@@ -137,7 +134,7 @@ def invert(lst):
 #! Suma los elementos dentro de un numero
 
 def summation(num):
-	return sum(xrange(num + 1))
+	return sum(range(num + 1))
 
 def summation(num):
 	return (1+num) * num / 2
@@ -456,7 +453,7 @@ def enough(cap, on, wait):
 def multi_table(number):
 		return '\n'.join(f'{i} * {number} = {i * number}' for i in range(1, 11))
 
-def multi_table(number):    
+def multi_table(number):
 		st = str()
 		for x in range(1,11):
 				z = number * x
@@ -597,7 +594,7 @@ def _if(bool, func1, func2):
 #! Conversión simple
 
 def apple(x):
-    if int(x)**2 > 1000:
+    if int(x) ** 2 > 1000:
         return "It's hotter than the sun!!"
     else:
         return "Help yourself to a honeycomb Yorkie for the glovebox."
@@ -627,3 +624,20 @@ def is_digit(n):
 import re
 def is_digit(n):
     return bool(re.fullmatch(r'\d', n))
+
+probando = 'xd xd'
+
+#! Retorna el usuario más rico dentro de un conjunto de varios arrays
+
+def array_sum(arr):
+	return max(sum(element) for element in arr)
+
+# print(array_sum([[1,1,1],[5,5,5],[2,2,2]]))
+
+#! Retorna un string con el ascii y recibe un numero
+
+def get_char(c):
+	return chr(c)
+
+#! Condiverte numeros a estring los suma y los devuelve como string
+

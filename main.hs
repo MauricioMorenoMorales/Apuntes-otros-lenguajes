@@ -426,3 +426,10 @@ module Bonus where
 iHazBonus :: Float->  Bool -> String
 
 iHazBonus salary bonus = '$' : show (salary * if bonus then 10 else 1)
+
+#! Retorna un string con el ascii y recibe un numero
+
+module Ascii where
+
+getChar' :: Int -> Char
+getChar' = toEnum
