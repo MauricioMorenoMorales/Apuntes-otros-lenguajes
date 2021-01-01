@@ -642,13 +642,13 @@ def get_char(c):
 #! Condiverte numeros a estring los suma y los devuelve como string
 
 def sum_str(a, b):
-    return str(int(a or 0) + int(b or 0))
+	return str(int(a or 0) + int(b or 0))
 
 def sum_str(a, b):
-    print(a, b)
-    if a == "" or a == None: a = "0"
-    if b == "" or b == None: b = "0"
-    return str(int(a)+int(b))
+	print(a, b)
+	if a == "" or a == None: a = "0"
+	if b == "" or b == None: b = "0"
+	return str(int(a)+int(b))
 
 # sumSTr('9', '') -> 0
 # sumSTr('10', '10') -> 20
@@ -673,3 +673,55 @@ def to_binary(n):
 def to_binary(n):
   return int(bin(n)[2:])
 
+#! Escapa de un tiburon, llega a el potoon para salvarte
+
+def shark(pontoon_distance, shark_distance, you_speed, shark_speed, dolphin):
+	if(pontoon_distance / you_speed < shark_distance / (shark_speed / 2 if dolphin else shark_speed)):
+		return "Alive!"
+	else:
+		return "Shark Bait!"
+
+def shark(pontoon_distance, shark_distance, you_speed, shark_speed, dolphin):
+	if dolphin:
+			shark_speed = shark_speed / 2
+
+	shark_eat_time = shark_distance / shark_speed
+	you_safe_time = pontoon_distance / you_speed
+
+	return "Shark Bait!" if you_safe_time > shark_eat_time else "Alive!"
+
+#! Selecciona un elemento en el index "n" de un array y luego multiplicalo a la n potencia
+
+def index(array, n):
+	try:
+		return array[n] ** 2
+	except:
+		return -1
+
+def index(array, n):
+	return array[n]**n if n < len(array) else -1
+
+#! Alerta a una oveja de ser comida por un lobo
+
+def warn_the_sheep(queue):
+	n = len(queue) - queue.index('wolf') - 1
+	return f'Oi! Sheep number {n}! You are about to be eaten by a wolf!' if n else 'Pls go away and stop eating my sheep'
+
+def warn_the_sheep(queue):
+	i = queue[::-1].index('wolf')
+	if i == 0:
+			return 'Pls go away and stop eating my sheep'
+	return f'Oi! Sheep number {i}! You are about to be eaten by a wolf!'
+
+#! Retorna un numero como parse float y si no se puede convertir retorna none
+
+def parse_float(string):
+	try:
+			return float(string)
+	except:
+			return None
+
+#! Retorna booleano, recibe 2 arrays, cada elemento lo multiplicas por dos y sumas y comparas las respuestas
+
+def array_madnes(a,b):
+	return sum(i ** 2 for i in a) > sum(i ** 3 for i in b)
