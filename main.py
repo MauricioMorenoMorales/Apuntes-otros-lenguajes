@@ -725,3 +725,18 @@ def parse_float(string):
 
 def array_madnes(a,b):
 	return sum(i ** 2 for i in a) > sum(i ** 3 for i in b)
+
+#! Ejemplos para formatear texto
+
+def integrate(coef, exp):
+    exp = exp + 1
+    coef = coef / exp if coef % exp else coef // exp
+    return f"{coef}x^{exp}"
+
+def integrate(coefficient, exponent):
+    return (str(coefficient // (exponent + 1)) + 'x^' + str(exponent + 1))
+
+def get_size(w, h, d):
+    area = 2*(w*h + h*d + w*d)
+    volume = w*h*d
+    return [area, volume]
