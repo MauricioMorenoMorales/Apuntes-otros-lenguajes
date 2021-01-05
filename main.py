@@ -740,3 +740,13 @@ def get_size(w, h, d):
     area = 2*(w*h + h*d + w*d)
     volume = w*h*d
     return [area, volume]
+
+#! Retrona cuantas veces aparece un elemento en un array
+
+def count_sheeps(arrayOfSheeps):
+  return arrayOfSheeps.count(True)
+
+#! Convierte un numero en entero
+
+string_to_number = int
+

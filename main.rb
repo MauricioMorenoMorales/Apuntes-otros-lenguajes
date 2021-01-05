@@ -812,3 +812,20 @@ end
 def to_binary(n)
   n.to_s(2).to_i
 end
+
+#! Retorna si un numero es par o impar
+
+def even_or_odd(number)
+  number.even? ? "Even" : "Odd"
+end
+
+#! Retrona cuantas veces aparece un elemento en un array
+
+def countSheeps array
+	array.count(true)
+end
+
+def countSheeps array
+	array.count { |x| x == true }
+end
+

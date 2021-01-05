@@ -456,3 +456,37 @@ sumStr = (show .) . (+) `on` (fromMaybe 0 . readMaybe)
 
 # sumSTr('9', '') -> 0
 # sumSTr('10', '10') -> 20
+
+#! Retorna si un numero es par o impar
+
+module EvenOrOdd where
+
+evenOrOdd :: Integral a => a -> [Char]
+evenOrOdd n
+  | even n = "Even"
+  | otherwise = "Odd"
+
+module EvenOrOdd where
+
+evenOrOdd :: Integral a => a -> [Char]
+evenOrOdd n = if even n then "Even" else "Odd"
+
+#! Retrona cuantas veces aparece un elemento en un array
+
+module Codewars.Kata.Sheep where
+
+countSheep :: [Bool] -> Int
+countSheep = length . filter id
+
+module Codewars.Kata.Sheep where
+
+countSheep :: [Bool] -> Int
+countSheep = length . filter (==True)
+
+#! Cconvierte un booleano a texto 'si' o 'no'
+
+module YesNo where
+
+boolToWord :: Bool -> String
+boolToWord True = "Yes"
+boolToWord False = "No"
