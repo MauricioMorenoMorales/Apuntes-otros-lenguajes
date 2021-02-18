@@ -1,0 +1,5 @@
+{
+	"watch": ["code"],
+	"ext": "exs",
+	"exec": "elixir code/test.exs"
+}

@@ -6,3 +6,9 @@ def swapper string
 end
 
 p swapper('miRaSAoeO')
+
+def probando xd
+	p xd
+end
+
+probando('mira xd')

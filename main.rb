@@ -828,4 +828,3 @@ end
 def countSheeps array
 	array.count { |x| x == true }
 end
-
