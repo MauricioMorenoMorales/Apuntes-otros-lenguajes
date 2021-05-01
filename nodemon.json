@@ -1,5 +1,5 @@
 {
 	"watch": ["code"],
-	"ext": "exs",
-	"exec": "elixir code/test.exs"
+	"ext": "py",
+	"exec": "python3 code/test.py"
 }

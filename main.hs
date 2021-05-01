@@ -490,3 +490,35 @@ module YesNo where
 boolToWord :: Bool -> String
 boolToWord True = "Yes"
 boolToWord False = "No"
+
+-- ! Filtra si un elemento de una lista se encuentra dentro de otra
+
+module GooseFilter where
+
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+
+gooseFilter :: [String] -> [String]
+gooseFilter = filter (`notElem` geese)
+
+module GooseFilter where
+
+import Data.List
+
+geese = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+
+gooseFilter :: [String] -> [String]
+gooseFilter a = ( a \\ (a `intersect` geese))
+
+-- ! Cuenta ovejas dependiendo de el numero que se le pase
+
+module CountSheep where
+
+countSheep :: Int -> String
+countSheep = concat . map (\x -> show x ++ " sheep...") . enumFromTo 1
+
+module CountSheep where
+
+countSheep :: Int -> String
+countSheep n
+  | n == 0 = ""
+  | otherwise = countSheep (n-1) ++ show n ++ " sheep..." 

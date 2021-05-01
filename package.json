@@ -1,0 +1,24 @@
+{
+	"name": "apuntes-otros-lenguajes",
+	"version": "1.0.0",
+	"description": "",
+	"main": "main.js",
+	"scripts": {
+		"test": "echo \"Error: no test specified\" && exit 1",
+		"typescript": "concurrently \"nodemon code/test.js\" \"tsc --watch\""
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/MauricioMorenoMorales/Apuntes-otros-lenguajes.git"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "ISC",
+	"bugs": {
+		"url": "https://github.com/MauricioMorenoMorales/Apuntes-otros-lenguajes/issues"
+	},
+	"homepage": "https://github.com/MauricioMorenoMorales/Apuntes-otros-lenguajes#readme",
+	"dependencies": {
+		"concurrently": "^6.0.2"
+	}
+}

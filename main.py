@@ -750,3 +750,54 @@ def count_sheeps(arrayOfSheeps):
 
 string_to_number = int
 
+#! Filtra si un elemento de una lista se encuentra dentro de otra
+
+geese = {"African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"}
+
+def goose_filter(birds):
+    return [bird for bird in birds if bird not in geese]
+
+geese2 = ["African", "Roman Tufted", "Toulouse", "Pilgrim", "Steinbacher"]
+def goose_filter2(birds):
+    return list(filter(lambda x: x not in geese, birds))
+
+#! Retorna el minimo y maximo de un array
+
+def min(arr):
+    low = arr[0]
+    for i in arr[1:]:
+        if i < low:
+            low = i
+    return low
+
+def max(arr):
+    high = arr[0]
+    for i in arr[1:]:
+        if i > high:
+            high = i
+    return high
+
+#! Cuenta ovejas dependiendo de el numero que se le pase
+
+def count_sheep(number):
+    response = ""
+    for i in range(number):
+        response += f'{i + 1} sheeps...'
+    return response
+
+def count_sheep(n):
+    return ''.join(f"{i} sheep..." for i in range(1,n+1))
+
+# ! Ejemplo de subclases
+
+def God():
+    return [Man(), Woman()]
+
+class Human(object):
+    pass
+
+class Man(Human):
+    pass
+    
+class Woman(Human):
+    pass
