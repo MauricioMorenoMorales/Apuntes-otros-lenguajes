@@ -1,9 +1,5 @@
-def count_sheep(number):
-    response = ""
-    for i in range(number):
-        response += f'{i + 1} sheeps...'
-    return response
-
-
-
-print(count_sheep(3))
+def people_with_age_drink(age):
+    if(age < 14): return "drink toddy"
+    if(age < 18): return "drink coke"
+    if(age < 21): return "drink beer"
+    else: return "drink whisky"

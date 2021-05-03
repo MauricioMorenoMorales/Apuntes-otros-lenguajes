@@ -798,6 +798,21 @@ class Human(object):
 
 class Man(Human):
     pass
-    
+
 class Woman(Human):
     pass
+
+#! Retorna si una palabra se encuentra dentro de un string
+
+def sp_eng(sentence): 
+    return 'english' in sentence.lower()
+
+sp_eng=lambda _:'english'in _.lower()
+
+#! Recibe un array y hace un rango entre el numero menor y el mayor de el array
+
+def pipe_fix(l):
+    return [x for x in range(min(l), max(l)+1)]
+
+def pipe_fix(num):
+    return range(min(num), max(num)+1)
