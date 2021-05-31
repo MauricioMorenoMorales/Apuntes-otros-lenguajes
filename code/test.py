@@ -1,5 +1,6 @@
-def people_with_age_drink(age):
-    if(age < 14): return "drink toddy"
-    if(age < 18): return "drink coke"
-    if(age < 21): return "drink beer"
-    else: return "drink whisky"
+from typing import Dict, List
+
+def mi_funcion(numbers: str) -> str:
+    return numbers
+
+print(mi_funcion('probando'))

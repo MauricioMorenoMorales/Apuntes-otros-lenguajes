@@ -816,3 +816,90 @@ def pipe_fix(l):
 
 def pipe_fix(num):
     return range(min(num), max(num)+1)
+
+#! Mejor forma de interpolar
+
+def greet(name):
+    if(name == "Johnny"):
+        return "Hello, my Love"
+    else:
+        return "Hello {name}".format(name=name)
+
+#! Remplaza las letras "T" por "U"
+
+def DNAtoRNA(dna):
+    return dna.replace('T', 'U')
+
+def DNAtoRNA(dna):
+    return "".join(["U" if c=="T" else c for c in dna])
+
+DNAtoRNA = lambda d: d.replace("T", "U")
+
+#! Recibe un input numero y retorna un string de "01010" de el tamaño de el numbero
+
+def stringy(size):
+    return "10" * (size / 2) + "1" * (size % 2)
+
+def stringy(size):
+    return ('10' * size)[:size]
+
+def stringy(size):
+    return "".join([str(i % 2) for i in range(1, size + 1)])
+
+#! Retorna un booleano si cada string que recibe inicia y termina con la misma letra
+
+def feast(beast, dish):
+    return beast[0]==dish[0] and dish[-1]==beast[-1]
+
+def feast(beast, dish):
+    return beast.startswith(dish[0]) and beast.endswith(dish[-1])
+
+#! Convierte un numero en un string
+
+def number_to_string(num):
+	return str(num)
+
+number_to_string = str
+
+#! Recibe 2 Array<string> Array<number> con la informacion de los equipos y retorna un string
+#! Que felicite al ganador
+
+def uefa_euro_2016(teams, scores):
+    return f"At match {teams[0]} - {teams[1]}, {'teams played draw.' if scores[0] == scores[1] else teams[scores.index(max(scores))] + ' won!'}"
+
+#! Retorna 2 respuestas si el nombre es mayor que 2 el nombre y las dos primeras letras
+# String -> Array<string>
+
+who_is_paying = lambda n: [n, n[:2]] if len(n)>2 else [n]
+
+def who_is_paying(name):
+    return [name,name[0:2]] if len(name)>2 else [name]
+
+
+#! Cuenta la cantidad de letras que tiene una palbra
+# :string -> {key: string}
+from collections import Counter
+
+def char_freq(message):
+    return Counter(message)
+
+#* Clever
+from collections import Counter as char_freq
+
+def char_freq(message):
+    result = {}
+    for letter in message:
+        result[letter] = result.get(letter, 0) + 1
+    return result
+
+#! REtorna un saludo
+# name: Array<string> city: string, state: string
+
+def say_hello(name, city, state):
+  return "Hello, {}! Welcome to {}, {}!".format(" ".join(name), city, state)
+
+#! Repite un string determinada cantidad de veces
+# string: string, n: number
+
+def repeat_it(string,n):
+    return string * n if isinstance(string,str) else 'Not a string'

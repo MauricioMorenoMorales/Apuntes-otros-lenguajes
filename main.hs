@@ -522,3 +522,57 @@ countSheep :: Int -> String
 countSheep n
   | n == 0 = ""
   | otherwise = countSheep (n-1) ++ show n ++ " sheep..." 
+
+#! Remplaza las letras "T" por "U"
+
+module DnaToRna where 
+
+dnaToRna :: String -> String 
+dnaToRna = map (\c -> if c == 'T' then 'U' else c)
+
+module DnaToRna where 
+
+dnaToRna :: String -> String 
+dnaToRna [] = []
+dnaToRna ('T' : xs) = 'U' : dnaToRna xs
+dnaToRna (x : xs) = x : dnaToRna xs
+
+module DnaToRna where 
+
+trans :: Char -> Char
+trans 'T' = 'U'
+trans  ch =  ch
+
+dnaToRna :: String -> String 
+dnaToRna = map trans
+
+#! Recibe un input numero y retorna un string de "01010" de el tamaño de el numbero
+
+module Codewars.Stringifier where
+
+stringy :: Int -> String
+stringy n = take n $ cycle "10"
+
+module Codewars.Stringifier where
+
+stringy :: Int -> String
+stringy n = take n (cycle "10")
+
+-- ! COnvierte un numero a un string
+
+module Stringify where
+
+numberToString :: Int -> String
+numberToString num = show num
+
+#! Repite un string determinada cantidad de veces
+
+module Codewars.Exercises.RepeatIt where
+
+repeatIt :: String -> Int -> String
+repeatIt str n = concat $ replicate n str
+
+module Codewars.Exercises.RepeatIt where
+
+repeatIt :: String -> Int -> String
+repeatIt = (concat .) . flip replicate
