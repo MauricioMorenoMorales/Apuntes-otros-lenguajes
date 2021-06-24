@@ -903,3 +903,72 @@ def say_hello(name, city, state):
 
 def repeat_it(string,n):
     return string * n if isinstance(string,str) else 'Not a string'
+
+#! Cuenta si un array tiene determinada cantidad de "/" y retorna respuesta
+# string: string -> Array<string>
+
+def bald(string):
+    hair_names = {
+        0: "Clean!",
+        1: "Unicorn!",
+        2: "Homer!",
+        3: "Careless!",
+        4: "Careless!",
+        5: "Careless!",
+    }
+    return [string.replace("/", "-"), "Hobo!"] if string.count("/") > 5 else [string.replace("/", "-"), hair_names[string.count("/")]]
+
+#TODO 1238 si el input tiene más de 3 puntos entre los dos elementos retorna respuesta
+def cat_mouse(x):
+    return 'Escaped!' if x.count('.') > 3 else "Caught!"
+
+#TODO Cuenta los baches dentro de una carretera
+
+def bumps(road):
+    return "Woohoo!" if road.count("n") <= 15 else "Car Dead"
+
+#TODO 1246
+
+def maskify(cc):
+    return "#"*(len(cc)-4) + cc[-4:]
+
+def maskify(cc):
+    return '{message:#>{fill}}'.format(message=cc[-4:], fill=len(cc))
+
+def maskify(cc):
+    l = len(cc)
+    if l <= 4: return cc
+    return (l - 4) * '#' + cc[-4:]
+
+
+#TODO 1260
+
+def tap_code_translation(text):
+    dots = {'a':'. .',
+	'b':'. ..',
+	'c':'. ...',
+	'd':'. ....',
+	'e':'. .....',
+	'f':'.. .',
+	'g':'.. ..',
+	'h':'.. ...',
+	'i':'.. ....',
+	'j':'.. .....',
+	'k':'. ...',
+	'l':'... .',
+	'm':'... ..',
+	'n':'... ...',
+	'o':'... ....',
+	'p':'... .....',
+	'q':'.... .',
+	'r':'.... ..',
+	's':'.... ...',
+	't':'.... ....',
+	'u':'.... .....',
+	'v':'..... .',
+	'w':'..... ..',
+	'x':'..... ...',
+	'y':'..... ....',
+	'z':'..... .....'}
+    return ' '.join([dots[i] for i in text])
+

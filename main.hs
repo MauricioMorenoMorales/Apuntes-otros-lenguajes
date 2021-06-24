@@ -576,3 +576,18 @@ module Codewars.Exercises.RepeatIt where
 
 repeatIt :: String -> Int -> String
 repeatIt = (concat .) . flip replicate
+
+-- TODO 1246
+
+module Maskify where
+
+maskify :: String -> String
+maskify str = replicate l '#' ++ drop l str
+    where l = length str - 4
+
+module Maskify where
+
+maskify :: String -> String
+maskify s
+  | length s < 5 = s
+  | otherwise = "#" ++ maskify (tail s)
