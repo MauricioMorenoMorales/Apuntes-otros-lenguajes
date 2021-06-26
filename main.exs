@@ -74,3 +74,31 @@ defmodule Hero do
   def survive(bullets, dragons) when 2 * dragons <= bullets, do: true
   def survive(_bullets, _dragons), do: false
 end
+
+#TODO 1 1333
+
+defmodule Dna do
+  def dna_strand(dna_str) do
+    for <<c <- dna_str>>, into: "" do
+      case c do
+        ?A -> "T"
+        ?T -> "A"
+        ?C -> "G"
+        ?G -> "C"
+      end
+    end
+  end
+end
+
+defmodule Dna do
+  def dna_strand (dna_str) do
+    dna_str
+    |> String.graphemes()
+    |> Enum.map_join(fn
+      "A" -> "T"
+      "C" -> "G"
+      "G" -> "C"
+      "T" -> "A"
+    end)
+  end
+end

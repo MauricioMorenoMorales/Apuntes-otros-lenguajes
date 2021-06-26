@@ -591,3 +591,33 @@ maskify :: String -> String
 maskify s
   | length s < 5 = s
   | otherwise = "#" ++ maskify (tail s)
+
+-- TODO 1 1333
+
+module Codewars.Kata.DNA where
+import Codewars.Kata.DNA.Types
+
+-- data Base = A | T | G | C
+type DNA = [Base]
+
+complementNucleo :: Base -> Base
+complementNucleo A = T
+complementNucleo T = A
+complementNucleo C = G
+complementNucleo G = C
+
+dnaStrand :: DNA -> DNA
+dnaStrand = map complementNucleo
+
+module Codewars.Kata.DNA where
+import Codewars.Kata.DNA.Types
+
+-- data Base = A | T | G | C
+type DNA = [Base]
+
+dnaStrand :: DNA -> DNA
+dnaStrand = map $ \b -> case b of
+  A -> T
+  T -> A
+  C -> G
+  G -> C

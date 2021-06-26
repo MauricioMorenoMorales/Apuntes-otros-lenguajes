@@ -972,3 +972,20 @@ def tap_code_translation(text):
 	'z':'..... .....'}
     return ' '.join([dots[i] for i in text])
 
+from string import ascii_lowercase as low
+
+memo = {c:f"{'.'*(i//5+1)} {'.'*(i%5+1)}" for i,c in enumerate(low[:10]+low[11:])}
+memo['k'] = memo['c']
+
+def tap_code_translation(text):
+    return ' '.join(map(memo.get, text))
+
+#TODO 1 1333
+
+import string
+def DNA_strand(dna):
+    return dna.translate(string.maketrans("ATCG","TAGC"))
+
+pairs = {'A':'T','T':'A','C':'G','G':'C'}
+def DNA_strand(dna):
+    return ''.join([pairs[x] for x in dna])
