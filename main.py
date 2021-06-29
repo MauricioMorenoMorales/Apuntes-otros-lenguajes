@@ -989,3 +989,6 @@ def DNA_strand(dna):
 pairs = {'A':'T','T':'A','C':'G','G':'C'}
 def DNA_strand(dna):
     return ''.join([pairs[x] for x in dna])
+
+def gordon(a):
+    return '!!!! '.join(a.upper().split()).translate(str.maketrans('AEIOU', '@****'))+'!!!!'
