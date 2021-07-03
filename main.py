@@ -992,3 +992,47 @@ def DNA_strand(dna):
 
 def gordon(a):
     return '!!!! '.join(a.upper().split()).translate(str.maketrans('AEIOU', '@****'))+'!!!!'
+
+# TODO 1 1483
+
+def count_languages(lst):
+    language = [el['language'] for el in lst]
+    return {i: language.count(i) for i in language}
+
+def count_languages(D):
+    R = {}
+    for d in D:
+        l = d['language']
+        if l in R: R[l]+=1
+        else : R[l]=1
+    return R
+
+from collections import Counter
+def count_languages(lst):
+    return Counter([d['language'] for d in lst])
+
+# TODO 1 1502
+
+def is_ruby_coming(lst):
+    return any(x["language"] == "Ruby" for x in lst)
+
+def is_ruby_coming(lst):
+    for human in lst:
+        if human['language'] == 'Ruby':
+            return True
+    return False
+
+# TODO 1 1510 Ordena una lista con inputs tipo '100G' '200T' '1kg' etc
+
+def arrange(arr):
+    def normalized(weight):
+        if weight.endswith("T"): return int(weight[:-1]) * 10 ** 6
+        if weight.endswith("KG"): return int(weight[:-2]) * 10 ** 3
+        if weight.endswith("G"): return int(weight[:-1])
+    return sorted(arr, key=normalized)
+
+def flatten(a):
+    return int(a.replace('G', '').replace('K', '000').replace('T', '000000'))
+
+def arrange(arr):
+    return sorted(arr, key = flatten)
