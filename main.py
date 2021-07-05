@@ -1036,3 +1036,16 @@ def flatten(a):
 
 def arrange(arr):
     return sorted(arr, key = flatten)
+
+def shifter(st): 
+    return sum(all(elem in "HIMNOSWXZ" for elem in x) for x in set(st.split()))
+
+import re
+
+def shifter(st): 
+    cnt = 0
+    str = set(st.split())
+    for x in str:
+        if re.findall("^[WMHINOSXZ]+$", x, flags=re.IGNORECASE):
+            cnt = cnt + 1
+    return cnt
