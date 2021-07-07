@@ -621,3 +621,52 @@ dnaStrand = map $ \b -> case b of
   T -> A
   C -> G
   G -> C
+
+-- TODO 1 1547 Cuenta elementos en un array y retorna respuesta dependiendo el conteo
+
+module Crap where
+
+type Garden = [String]
+
+crap :: Garden -> Int -> Int -> String
+crap garden bags cap  | 0 < length (filter (=='D') (concat garden))          = "Dog!!"
+                      | bags * cap < length (filter (=='@') (concat garden)) = "Cr@p"
+                      | otherwise
+
+module Crap where
+
+type Garden = [String]
+
+crap :: Garden -> Int -> Int -> String
+crap xss bags capacity
+  | any (elem 'D') xss = "Dog!!"
+  | length (concatMap (filter (=='@')) xss) <= bags * capacity = "Clean"
+  | otherwise = "Cr@p"
+
+module Crap where
+
+type Garden = [String]
+
+crap :: Garden -> Int -> Int -> String
+crap str bags cap
+ | elem 'D' garden = "Dog!!"
+ | bags * cap < (length . filter (== '@') $ garden) = "Cr@p"
+ | otherwise = "Clean"
+ where garden = concat str
+
+-- TODO 1 1593 Ordena las palabras alfabeticamente por su letra final
+
+module SortBy where
+
+import Data.List (sortOn)
+
+last' :: String -> [String]
+last' = sortOn last . words
+
+
+module SortBy where
+
+import Data.List (sortBy)
+
+last' :: String -> [String]
+last' = sortBy (\x y -> compare (last x) (last y)) . words

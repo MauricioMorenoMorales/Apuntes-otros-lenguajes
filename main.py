@@ -1037,15 +1037,48 @@ def flatten(a):
 def arrange(arr):
     return sorted(arr, key = flatten)
 
-def shifter(st): 
+# TODO 1523 Cuenta cuantas palabras estan compuestas exclusivamente de unas letras ademas de no repetirse
+
+def shifter(st):
     return sum(all(elem in "HIMNOSWXZ" for elem in x) for x in set(st.split()))
 
 import re
 
-def shifter(st): 
+def shifter(st):
     cnt = 0
     str = set(st.split())
     for x in str:
         if re.findall("^[WMHINOSXZ]+$", x, flags=re.IGNORECASE):
             cnt = cnt + 1
     return cnt
+
+# TODO 1 1547 Cuenta elementos en un array y retorna respuesta dependiendo el conteo
+
+from collections import Counter
+from itertools import chain
+
+def crap(garden, bags, cap):
+    c = Counter(chain(*garden))
+    return 'Dog!!' if c['D'] else ('Clean','Cr@p')[c['@'] > bags*cap]
+
+def crap(garden, bags, cap):
+    cap *= bags
+    for turf in garden:
+        if 'D' in turf: return 'Dog!!'
+        cap -= turf.count('@')
+    return 'Cr@p' if cap < 0 else 'Clean'
+
+def crap(garden, bags, cap):
+    # Flatten list including only cr@p and dogs
+    flat = [e for line in garden for e in line if e in 'D@']
+    return 'Dog!!' if 'D' in flat else 'Clean' if len(flat) <= bags * cap else 'Cr@p'
+
+# TODO 1 1593 Ordena las palabras alfabeticamente por su letra final
+
+def last(s):
+    return sorted(s.split(), key=lambda x: x[-1])
+
+from operator import itemgetter
+
+def last(s):
+    return sorted(s.split(), key=itemgetter(-1))
