@@ -1082,3 +1082,24 @@ from operator import itemgetter
 
 def last(s):
     return sorted(s.split(), key=itemgetter(-1))
+
+# TODO 1 1603 Remplaza las primeras letras de dos palabras "node_modules" -> "mode_nodules"
+
+def spoonerize(words):
+    a, b = words.split()
+    return '{}{} {}{}'.format(b[0], a[1:], a[0], b[1:])
+
+def spoonerize(words):
+    a, b = words.split()
+    return f"{b[0]}{a[1:]} {a[0]}{b[1:]}"
+
+# TODO 1 1616  Remplaza las vocales por su posicion dentro de el string
+
+def vowel_2_index(string):
+    vowels = 'aeiouAEIOU'
+    return ''.join(x if x not in vowels else str(n + 1) for n,x in enumerate(string))
+
+import re
+
+def vowel_2_index(string):
+    return re.sub("[aeiou]",lambda m:str(m.end()),string,0,re.I)

@@ -670,3 +670,33 @@ import Data.List (sortBy)
 
 last' :: String -> [String]
 last' = sortBy (\x y -> compare (last x) (last y)) . words
+
+-- TODO 1 1616  Remplaza las vocales por su posicion dentro de el string
+
+module Switcheroo where
+
+vowel2Index :: String -> String
+vowel2Index = concat . zipWith replace [1..] where
+  replace i c
+    | c `elem` "aeiouAEIOU" = show i
+    | otherwise = [c]
+
+module Switcheroo where
+
+vowel2Index :: String -> String
+vowel2Index = go 1 where
+  go i w=case w of { []->[]; x:xs->(if elem x "AEIOUaeiou" then show i else x:[])++go (i+1) xs; }
+
+module Switcheroo where
+
+import Data.Char
+
+isVowel :: Char -> Bool
+isVowel c = toLower c `elem` "aeiou"
+
+vowel2Index :: String -> String
+vowel2Index = concatMap f . zip (concat . repeat $ [1 .. ])
+  where
+    f :: (Int, Char) -> String
+    f (i, c) | isVowel c = show i
+             | otherwise = [c]
