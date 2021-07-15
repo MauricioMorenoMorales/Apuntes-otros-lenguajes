@@ -1103,3 +1103,11 @@ import re
 
 def vowel_2_index(string):
     return re.sub("[aeiou]",lambda m:str(m.end()),string,0,re.I)
+
+#TODO 1 1628 Introduce una letra enmedio de un string
+
+def middle_me(N, X, Y):
+    if N % 2 == 1:
+        return X
+    else:
+        return Y * (N//2) + X + Y * (N//2)
