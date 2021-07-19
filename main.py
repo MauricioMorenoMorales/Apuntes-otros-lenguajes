@@ -1111,3 +1111,23 @@ def middle_me(N, X, Y):
         return X
     else:
         return Y * (N//2) + X + Y * (N//2)
+
+middle_me=lambda N,X,Y:(X.center(N+1,Y),X)[N%2]
+
+# TODO 1 1655 Retorna la suma de los numeros de un cumpleaños, cada numero debe ser menor a 10
+
+def life_path_number(s):
+    return int(s.replace("-", "")) % 9 or 9
+
+def sumDigits(n):
+    s = sum([int(n) for n in str(n)]) 
+    if s >= 10:
+        return sumDigits(s)
+    return s
+
+def life_path_number(birthdate):
+    return sumDigits(sum([sumDigits(n) for n in birthdate.split("-")]))
+
+def life_path_number(birthdate):
+    
+    return int(birthdate.replace('-','')) % 9 or 9
