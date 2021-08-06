@@ -1131,3 +1131,61 @@ def life_path_number(birthdate):
 def life_path_number(birthdate):
     
     return int(birthdate.replace('-','')) % 9 or 9
+
+#! 1 1699 Cuenta la cantidad de letras dentro de un array y determina que lado gana
+
+def alphabet_war(fight):
+    d = {'w':4,'p':3,'b':2,'s':1,
+        'm':-4,'q':-3,'d':-2,'z':-1}
+    r = sum(d[c] for c in fight if c in d)
+ 
+    return {r==0:"Let's fight again!",
+            r>0:"Left side wins!",
+            r<0:"Right side wins!"
+            }[True]
+
+def alphabet_war(fight):
+    result = sum("zdqm".find(c) - "sbpw".find(c) for c in fight)
+    return "{} side wins!".format("Left" if result < 0 else "Right") if result else "Let's fight again!"
+
+def alphabet_war(fight):
+    #your code here
+    sum = 0
+    for i in fight:
+      if i == "w":
+          sum = sum + 4
+      elif i == "p":
+           sum = sum + 3
+      elif i == "b":
+           sum = sum + 2
+      elif i == "s":
+           sum = sum + 1
+      elif i == "m":
+           sum = sum - 4
+      elif i == "q":
+           sum = sum - 3
+      elif i == "d":
+           sum = sum - 2
+      elif i == "z":
+           sum = sum - 1
+      
+             
+    if sum > 0:
+        return  "Left side wins!"
+    elif sum == 0:
+        return "Let's fight again!"
+    else:
+        return "Right side wins!"
+
+POWER = {
+    # left side
+    'w': -4, 'p': -3, 'b': -2, 's': -1,
+    # right side
+    'm': 4, 'q': 3, 'd': 2, 'z': 1 }
+
+def alphabet_war(fight):
+    result = sum( POWER.get(c, 0) for c in fight )
+    return "Let's fight again!" if not result else \
+          ["Left", "Right"][result > 0] + " side wins!"
+
+		  

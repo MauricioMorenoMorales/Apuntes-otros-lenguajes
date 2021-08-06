@@ -700,3 +700,64 @@ vowel2Index = concatMap f . zip (concat . repeat $ [1 .. ])
     f :: (Int, Char) -> String
     f (i, c) | isVowel c = show i
              | otherwise = [c]
+
+--! 1 1699 Cuenta la cantidad de letras dentro de un array y determina que lado gana
+
+
+module War where
+
+alphabetWar :: String -> String
+alphabetWar s
+  | result s > 0 = "Right side wins!"
+  | result s < 0 = "Left side wins!"
+  | otherwise = "Let's fight again!"
+  where
+    power 'm' = 4
+    power 'q' = 3
+    power 'd' = 2
+    power 'z' = 1
+    power 's' = -1
+    power 'b' = -2
+    power 'p' = -3
+    power 'w' = -4
+    power _ = 0
+    result = sum . map power
+
+module War where
+import Data.Maybe
+import Data.List
+
+alphabetWar :: String -> String
+alphabetWar xs
+ | power < 0  = "Right side wins!"
+ | power > 0  = "Left side wins!"
+ | power == 0 = "Let's fight again!"
+ where power = sum $ map (\s -> s - 4) (mapMaybe (\c -> elemIndex c "mqdz_sbpw") xs)
+
+module War where
+
+alphabetWar :: String -> String
+alphabetWar str = if (helper 0 0 str) > 0 then 
+                    "Left side wins!" 
+                  else 
+                    if (helper 0 0 str) < 0 then 
+                      "Right side wins!" 
+                    else 
+                      "Let's fight again!"
+
+helper l r [] = l - r
+helper l r xs = helper (l + checkA (head xs)) 
+                       (r + checkB (head xs)) 
+                       (tail xs)
+
+checkA a | a == 'w' = 4
+         | a == 'p' = 3
+         | a == 'b' = 2
+         | a == 's' = 1
+         | otherwise = 0
+         
+checkB b | b == 'm' = 4
+         | b == 'q' = 3
+         | b == 'd' = 2
+         | b == 'z' = 1         
+         | otherwise = 0   

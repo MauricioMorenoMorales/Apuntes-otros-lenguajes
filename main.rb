@@ -828,3 +828,36 @@ end
 def countSheeps array
 	array.count { |x| x == true }
 end
+
+#! 1 1699 Cuenta la cantidad de letras dentro de un array y determina que lado gana
+
+RESULT_STRING = {
+  -1 => 'Left side wins!',
+   0 => "Let's fight again!",
+   1 => 'Right side wins!'
+}
+
+def alphabet_war(armies)
+  RESULT_STRING[strength(armies)<=>0]
+end
+
+def strength(armies)
+  armies.chars.map{|c| letter_strength(c) }.reduce(:+)
+end
+
+def letter_strength(letter)
+  [ ?s, -1, ?b, -2, ?p, -3, ?w, -4, ?z, 1, ?d, 2, ?q, 3, ?m, 4].each_slice(2).to_h[letter] || 0
+
+	def alphabet_war(fight)
+		answ = 0; fight.split("").each do |letter|
+			answ -= 4 if letter == "w"
+			answ -= 3 if letter == "p"
+			answ -= 2 if letter == "b"
+			answ -= 1 if letter == "s"
+			answ += 4 if letter == "m"
+			answ += 3 if letter == "q"
+			answ += 2 if letter == "d"
+			answ += 1 if letter == "z"
+		end
+		return "Left side wins!" if answ < 0; return "Right side wins!" if answ > 0; return "Let's fight again!"
+		end
