@@ -1188,4 +1188,13 @@ def alphabet_war(fight):
     return "Let's fight again!" if not result else \
           ["Left", "Right"][result > 0] + " side wins!"
 
-		  
+#! 1 1776 Elimina palabras repetidas
+
+def remove_duplicate_words(s):
+	return ' '.join(dict.fromkeys(s.split()))
+
+def remove_duplicate_words(s):
+  return ' '.join(sorted(set(s.split()), key = s.index))
+
+//! Invierte solamente las consonates de case "upper || lower"
+ 

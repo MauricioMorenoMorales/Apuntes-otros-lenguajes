@@ -761,3 +761,26 @@ checkB b | b == 'm' = 4
          | b == 'd' = 2
          | b == 'z' = 1         
          | otherwise = 0   
+
+--! 1 1776 Elimina palabras repetidas
+
+module RemoveDuplicateWords where 
+import Data.List(nub)
+
+removeDuplicateWords :: String -> String
+removeDuplicateWords = unwords. nub. words
+
+module RemoveDuplicateWords where 
+
+import Data.Foldable (Foldable (foldl', toList))
+import qualified Data.Sequence as Seq
+import qualified Data.Set as Set
+
+removeDuplicateWords :: String -> String
+removeDuplicateWords =
+  unwords
+    . toList
+    . snd
+    . foldl' (\(s, l) w -> (Set.insert w s, if Set.member w s then l else l Seq.:|> w)) (Set.empty, Seq.empty)
+    . words
+

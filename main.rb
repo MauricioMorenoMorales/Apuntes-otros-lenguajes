@@ -861,3 +861,17 @@ def letter_strength(letter)
 		end
 		return "Left side wins!" if answ < 0; return "Right side wins!" if answ > 0; return "Let's fight again!"
 		end
+
+#! 1 1776 Elimina palabras repetidas
+
+def remove_duplicate_words(s)
+  s.split.uniq.join(" ")
+end
+
+def remove_duplicate_words(s)
+  s.split.uniq*' '
+end
+
+def remove_duplicate_words(s)
+  (s.split | s.split).join(' ')
+end

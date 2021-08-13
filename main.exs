@@ -102,3 +102,40 @@ defmodule Dna do
     end)
   end
 end
+
+#! 1 1776 Elimina palabras repetidas
+
+defmodule RemoveDuplicateWordsKata do
+
+  def removeDuplicateWords(text) do
+    text
+    |> String.split(" ")
+    |> Enum.uniq
+    |> Enum.join(" ")
+  end
+
+end
+
+defmodule RemoveDuplicateWordsKata do
+
+  @spec removeDuplicateWords(String.t()) :: String.t()
+  def removeDuplicateWords(text) do
+    text
+    |> String.split
+    |> Enum.uniq
+    |> Enum.join(" ")
+  end
+end
+
+defmodule RemoveDuplicateWordsKata do
+  def removeDuplicateWords(text) do
+    text |> String.split(" ") |> Enum.reduce(&check_if_exists/2)
+  end
+
+  def check_if_exists(word, sentence) do
+    if Enum.member?(sentence |> String.split(" "), word) do
+      sentence
+    else sentence <> " " <> word
+    end
+  end
+end
