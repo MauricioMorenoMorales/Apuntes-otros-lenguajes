@@ -875,3 +875,27 @@ end
 def remove_duplicate_words(s)
   (s.split | s.split).join(' ')
 end
+
+#! 1 1854 Retorna un string completo con cada palabra capitalizada
+
+class String
+  def toJadenCase
+    self.split.map(&:capitalize).join(" ")
+  end
+end
+
+class String
+  def toJadenCase
+    self.split(' ').map { |e| e.capitalize }.join(' ')
+  end
+end
+
+#! 1 1865 Verifica que un string sea un pin de no mas de 4 o 6 digitos
+
+def validate_pin(pin)
+  pin.match? /\A\d{4}(\d{2})?\z/
+end
+
+def validate_pin(pin)
+  (pin.length == 4 || pin.length == 6) && pin.count("0-9") == pin.length
+end

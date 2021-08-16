@@ -1196,5 +1196,71 @@ def remove_duplicate_words(s):
 def remove_duplicate_words(s):
   return ' '.join(sorted(set(s.split()), key = s.index))
 
-//! Invierte solamente las consonates de case "upper || lower"
- 
+#! 1 1854 Retorna un string completo con cada palabra capitalizada
+
+def toJadenCase(string):        
+    return " ".join(w.capitalize() for w in string.split())
+
+import string
+
+def toJadenCase(NonJadenStrings):
+    return string.capwords(NonJadenStrings)
+
+from string import capwords as toJadenCase
+
+def toJadenCase(string):
+    # ...
+    sentence = ''
+    words = []
+    st = string.split()
+    for i in st:
+        il = list(i)
+        il[0] = il[0].upper()
+        words.append(''.join(il))
+    return ' '.join(words)
+
+#! 1 1865 Verifica que un string sea un pin de no mas de 4 o 6 digitos
+
+def validate_pin(pin):
+    return len(pin) in (4, 6) and pin.isdigit()
+
+def validate_pin(pin):
+    return len(pin) in [4, 6] and pin.isdigit()
+
+validate_pin = lambda pin: len(pin) in (4, 6) and pin.isdigit()
+
+def merge(array1,array2):
+    array3 = []
+    i = 0
+    j = 0
+    while (i < len(array1) and j < len(array2)):
+        if (array1[i] < array2[j]):
+            array3.append(array1[i])
+            i = i + 1
+        else:
+            array3.append(array2[j])
+            j = j + 1
+    return array3 + array1[i:] + array2[j:]
+
+def validate_pin(pin):
+    #return true or false
+
+    key = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9']
+
+    # check conditions
+    if len(pin) == 6 or len(pin) == 4:
+        p = [i for i in pin]
+        m = merge(key, p)
+
+        # check lengths
+        if len(set(m)) == len(key):
+            return True
+        return False
+    else:
+        return False
+
+# ! 1 1906 Retorna un array con las posiciones de las letras capitalizadas
+
+def capitals(word):
+    return [i for (i, c) in enumerate(word) if c.isupper()]
+

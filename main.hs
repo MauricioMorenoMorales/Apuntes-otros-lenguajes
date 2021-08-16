@@ -784,3 +784,43 @@ removeDuplicateWords =
     . foldl' (\(s, l) w -> (Set.insert w s, if Set.member w s then l else l Seq.:|> w)) (Set.empty, Seq.empty)
     . words
 
+--! 1 1854 Retorna un string completo con cada palabra capitalizada
+
+module JadenCasing where
+import Data.Char (toUpper)
+
+toJadenCase :: String -> String
+toJadenCase = unwords . map firstCap . words
+  where firstCap (x:xs) = toUpper x : xs
+        firstCap []     = []
+
+module JadenCasing where
+
+import Data.Char
+
+toJadenCase :: String -> String
+toJadenCase = unwords . map (\(x:xs) -> toUpper x:xs) . words
+
+module JadenCasing where
+import Data.Char (toUpper)
+
+toJadenCase :: String -> String
+toJadenCase = unwords . map capitalize . words
+
+capitalize :: String -> String
+capitalize (x:xs) = toUpper x:xs
+
+-- ! 1 1906 Retorna un array con las posiciones de las letras capitalizadas
+
+module Codewars.Kata.Capitals where
+import Data.Char
+
+capitals :: String -> [Int]
+capitals s = [i | (i,c) <- zip [0..] s, isUpper c]
+
+module Codewars.Kata.Capitals where
+import Data.List (findIndices)
+import Data.Char (isUpper)
+
+capitals :: String -> [Int]
+capitals = findIndices isUpper
