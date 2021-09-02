@@ -824,3 +824,22 @@ import Data.Char (isUpper)
 
 capitals :: String -> [Int]
 capitals = findIndices isUpper
+
+-- ! Retorna un array con palabras y capitalizalas
+--
+module Codwars.Kata.NameCapping where
+import Data.Char (toLower, toUpper)
+
+capMe :: [String] -> [String]
+capMe = map capitalize
+  where capitalize (x:xs) = toUpper x : map toLower xs
+        capitalize []     = []
+
+module Codwars.Kata.NameCapping where
+
+import Data.Char
+
+capMe :: [String] -> [String]
+capMe = map cap where
+  cap [] = []
+  cap (h:t) = toUpper h : map toLower t
