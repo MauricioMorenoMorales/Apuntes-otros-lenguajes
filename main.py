@@ -1264,3 +1264,24 @@ def validate_pin(pin):
 def capitals(word):
     return [i for (i, c) in enumerate(word) if c.isupper()]
 
+
+#! 1 2036 REGEX Separa un string en chunks de el tamaño de "spacingLength"
+
+from textwrap import wrap
+
+def split_in_parts(s, part_length): 
+    return " ".join(wrap(s,part_length))
+
+def split_in_parts(s, n): 
+    return ' '.join([s[i:i+n] for i in range(0, len(s), n)])
+
+#! 1 2048 Cuenta cuanto es el maximo numero de vocales seguidas dentro de un string
+
+def solve(s):
+    return max(map(len, ''.join(c if c in 'aeiou' else ' ' for c in s).split()))
+
+from re import findall
+
+def solve(s):
+    return max(map(len, findall("[aeiou]+", s)))
+

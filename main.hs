@@ -843,3 +843,17 @@ capMe :: [String] -> [String]
 capMe = map cap where
   cap [] = []
   cap (h:t) = toUpper h : map toLower t
+
+--! Cuenta cuanto es el maximo numero de vocales seguidas dentro de un string
+module Kata where
+import Data.List.Split (wordsBy)
+
+solve :: String -> Int
+solve = maximum . (0 :) . map length . wordsBy (`notElem` "aeiou")
+
+module Kata where
+
+import Data.List.Split (wordsBy)
+
+solve :: String -> Int
+solve = foldr (max . length) 0 . wordsBy (not . (`elem` "aeuio") ) 
