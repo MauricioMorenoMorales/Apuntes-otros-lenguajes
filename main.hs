@@ -649,10 +649,10 @@ type Garden = [String]
 
 crap :: Garden -> Int -> Int -> String
 crap str bags cap
- | elem 'D' garden = "Dog!!"
- | bags * cap < (length . filter (== '@') $ garden) = "Cr@p"
- | otherwise = "Clean"
- where garden = concat str
+  | elem 'D' garden = "Dog!!"
+  | bags * cap < (length . filter (== '@') $ garden) = "Cr@p"
+  | otherwise = "Clean"
+  where garden = concat str
 
 -- TODO 1 1593 Ordena las palabras alfabeticamente por su letra final
 
@@ -698,8 +698,8 @@ vowel2Index :: String -> String
 vowel2Index = concatMap f . zip (concat . repeat $ [1 .. ])
   where
     f :: (Int, Char) -> String
-    f (i, c) | isVowel c = show i
-             | otherwise = [c]
+    f (i, c)  | isVowel c = show i
+              | otherwise = [c]
 
 --! 1 1699 Cuenta la cantidad de letras dentro de un array y determina que lado gana
 
@@ -729,10 +729,10 @@ import Data.List
 
 alphabetWar :: String -> String
 alphabetWar xs
- | power < 0  = "Right side wins!"
- | power > 0  = "Left side wins!"
- | power == 0 = "Let's fight again!"
- where power = sum $ map (\s -> s - 4) (mapMaybe (\c -> elemIndex c "mqdz_sbpw") xs)
+  | power < 0  = "Right side wins!"
+  | power > 0  = "Left side wins!"
+  | power == 0 = "Let's fight again!"
+  where power = sum $ map (\s -> s - 4) (mapMaybe (\c -> elemIndex c "mqdz_sbpw") xs)
 
 module War where
 
@@ -746,31 +746,31 @@ alphabetWar str = if (helper 0 0 str) > 0 then
                       "Let's fight again!"
 
 helper l r [] = l - r
-helper l r xs = helper (l + checkA (head xs)) 
-                       (r + checkB (head xs)) 
-                       (tail xs)
+helper l r xs = helper  (l + checkA (head xs))
+                        (r + checkB (head xs))
+                        (tail xs)
 
-checkA a | a == 'w' = 4
-         | a == 'p' = 3
-         | a == 'b' = 2
-         | a == 's' = 1
-         | otherwise = 0
-         
-checkB b | b == 'm' = 4
-         | b == 'q' = 3
-         | b == 'd' = 2
-         | b == 'z' = 1         
-         | otherwise = 0   
+checkA a  | a == 'w' = 4
+          | a == 'p' = 3
+          | a == 'b' = 2
+          | a == 's' = 1
+          | otherwise = 0
+
+checkB b  | b == 'm' = 4
+          | b == 'q' = 3
+          | b == 'd' = 2
+          | b == 'z' = 1
+          | otherwise = 0
 
 --! 1 1776 Elimina palabras repetidas
 
-module RemoveDuplicateWords where 
+module RemoveDuplicateWords where
 import Data.List(nub)
 
 removeDuplicateWords :: String -> String
 removeDuplicateWords = unwords. nub. words
 
-module RemoveDuplicateWords where 
+module RemoveDuplicateWords where
 
 import Data.Foldable (Foldable (foldl', toList))
 import qualified Data.Sequence as Seq
@@ -857,3 +857,111 @@ import Data.List.Split (wordsBy)
 
 solve :: String -> Int
 solve = foldr (max . length) 0 . wordsBy (not . (`elem` "aeuio") ) 
+
+
+-- ! Retorna un numero en su forma expandida 1024 => 1000 + 20 + 4
+
+module Kata where
+
+import Data.List (intercalate)
+
+expandedForm :: Int -> String
+expandedForm = intercalate " + " . map(\(n, c) ->  c : replicate n '0' ) . reverse . filter ((/='0') . snd) . zip [0..] . reverse . show
+
+module Kata where
+import Data.List
+
+expandedForm :: Int -> String
+expandedForm n = intercalate " + " [d : take ((length str) - pos) (repeat '0') | (d, pos) <- zip (str) [1..], d /= '0'] 
+  where str = show n
+
+-- ! Cuenta el valor de una palabra por la posición de sus letras
+
+module High.JorgeVS.Kata where
+
+import Data.List
+import Data.Char
+
+high :: String -> String
+high = head . sortOn (negate . sum . map (subtract 96 . ord)) . words
+
+-- ! Cuenta cuantas caritas felices aparecen en un array
+
+module Smile where
+
+countSmileys :: [String] -> Int
+countSmileys = length . filter correct
+
+correct [e,m] = e `elem` eyes && m `elem` mouth
+correct [e,n,m] = n `elem` nose && correct [e,m]
+correct _ = False
+
+eyes = ":;"
+nose = "-~"
+mouth = ")D"
+
+-- ! Verifica que en un texto se encuentren todas las letras de el alfabeto
+
+module Pangram where
+import Data.Char
+
+isPangram :: String -> Bool
+isPangram str = all (`elem` (map toLower str)) ['a'..'z']
+
+module Pangram where
+
+import Data.Char
+import Data.List
+
+isPangram :: String -> Bool
+isPangram str = null $ ['a'..'z'] \\ (map toLower str)
+
+-- ! Convierte un texto a camel case
+
+module CamelCase where
+
+import Data.List.Split
+import Data.Char
+
+capitalize :: String -> String
+capitalize []     = []
+capitalize (x:xs) = toUpper x : xs
+
+toCamelCase :: String -> String
+toCamelCase str = concat $ head words : map capitalize (tail words)
+  where words = splitOneOf "-_" str
+
+-- ! typescript 2 linea 71 Remplaza las letras que se repitan por un ')' y las que no por un ')'
+
+module Dups where
+
+import Data.Char
+
+duplicateEncode :: String -> String
+duplicateEncode xs = map encode xs' where
+  xs' = map toLower xs
+  encode c = if length (filter (== c) xs') > 1 then ')' else '('
+
+-- ! Invierte las palabras de un texto sin invertir el orden de las palabras
+
+module Codewars.Kata.Spinning where
+
+spinWords :: String -> String
+spinWords = unwords . map (\x -> if length x >= 5 then reverse x else x) . words
+
+-- ! cuenta las (palabras | letras) que estén duplicadas
+
+module Codwars.Kata.Duplicates where
+import Data.Char
+import Data.List
+
+duplicateCount :: String -> Int
+duplicateCount = length . filter ((> 1) . length) . group . sort . map toLower
+
+-- ! Crea un numero telefonico con un array recibido por parametros
+
+module CreatePhoneNumber where
+import Text.Printf(printf)
+
+createPhoneNumber :: [Int] -> String
+createPhoneNumber [a,b,c,d,e,f,g,h,i,j] = printf "(%d%d%d) %d%d%d-%d%d%d%d" a b c d e f g h i j
