@@ -114,3 +114,54 @@ defmodule LanguageList3 do
 
   def exciting_list?(list), do: "Elixir" in list
 end
+
+# Closures
+
+defmodule Secrets2 do
+  def secret_add secret do
+    fn number -> secret + number end
+  end
+
+  def secret_subtract(secret) do
+    fn number -> number - secret end
+  end
+
+  def secret_multiply(secret) do
+    fn number -> secret * number end
+  end
+
+  def secret_divide(secret) do
+    fn number -> number / secret |> trunc end
+  end
+
+  def secret_and(secret) do
+    fn number -> Bitwise.&&&(secret, number) end
+  end
+
+  def secret_xor(secret) do
+    fn number -> Bitwise.^^^(secret, number) end
+  end
+
+  def secret_combine(secret_function1, secret_function2) do
+    fn number -> number |> secret_function1.() |> secret_function2.() end
+  end
+end
+
+defmodule Secrets do
+  use Bitwise, only_operators: true
+  def secret_add(secret), do: fn number -> number + secret end
+
+  def secret_subtract(secret), do: &(&1 - secret)
+
+  def secret_multiply(secret), do: &(&1 * secret)
+
+  def secret_divide(secret) when secret != 0, do: &(&1 / secret |> trunc)
+
+  def secret_and(secret), do: &(&1 &&& secret)
+
+  def secret_xor(secret), do: &(&1 ^^^ secret)
+
+  def secret_combine(secret_function1, secret_function2) do
+    &(&1 |> secret_function1.() |> secret_function2.())
+  end
+end
