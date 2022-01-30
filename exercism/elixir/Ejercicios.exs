@@ -294,3 +294,30 @@ defmodule LogLevel4 do
     end
   end
 end
+
+# Guardas
+
+defmodule GuessingGame do
+  @spec compare(number) :: <<_::96>>
+  @spec compare(number, any) :: <<_::56, _::_*8>>
+  def compare(_), do: "Make a guess"
+  def compare(_, guess) when not is_integer(guess), do: "Make a guess"
+  def compare(secret_number, guess) do
+    cond do
+      secret_number - guess == 1 or guess - secret_number == 1 -> "So close"
+      secret_number < guess -> "Too high"
+      secret_number > guess -> "Too low"
+      secret_number == guess -> "Correct"
+    end
+  end
+end
+
+defmodule GuessingGame2 do
+  @spec compare(number, any) :: <<_::56, _::_*8>>
+  def compare(secret_number, guess \\ :no_guess)
+  def compare(_, :no_guess), do: "Make a guess"
+  def compare(secret_number, guess) when secret_number == guess, do: "Correct"
+  def compare(secret_number, guess) when abs(secret_number - guess) == 1, do: "So close"
+  def compare(secret_number, guess) when secret_number < guess, do: "Too high"
+  def compare(secret_number, guess) when secret_number > guess, do: "Too low"
+end
