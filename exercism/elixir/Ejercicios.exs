@@ -1,4 +1,4 @@
-# ejercicio lasagna de guido
+# ejercicio lasagna de guido numbers
 
 defmodule Lasagna do
   @cooking_time 40
@@ -62,7 +62,7 @@ defmodule Rules2 do
   def win?(has_eaten_all_dots, power_pellet_active, touching_ghost), do: true
 end
 
-# ! Manipulacion de arrays
+# ! Manipulacion de arrays lists arrays
 
 defmodule LanguageList do
   def new, do: []
@@ -163,5 +163,134 @@ defmodule Secrets do
 
   def secret_combine(secret_function1, secret_function2) do
     &(&1 |> secret_function1.() |> secret_function2.())
+  end
+end
+
+# ifs cond atoms
+
+defmodule LogLevel do
+  @spec to_label(number, boolean) ::
+      :debug
+    | :error
+    | :fatal
+    | :info
+    | :trace
+    | :unknown
+    | :warning
+  def to_label(level, legacy?) do
+    cond do
+      level == 0 and not legacy? -> :trace
+      level == 0 and legacy? -> :unknown
+      level == 1 -> :debug
+      level == 2 -> :info
+      level == 3 -> :warning
+      level == 4 -> :error
+      level == 5 and not legacy? -> :fatal
+      level == 5 and legacy? -> :unknown
+      true -> :unknown
+    end
+  end
+
+  @spec alert_recipient(number, boolean) :: :dev1 | :dev2 | nil | :ops
+  def alert_recipient(level, legacy?) do
+    message = to_label(level, legacy?)
+    cond do
+      message == :error -> :ops
+      message == :fatal -> :ops
+      message == :unknown and legacy? -> :dev1
+      message == :unknown and not legacy? -> :dev2
+      true -> nil
+    end
+  end
+end
+
+# cuando encuentres que se repite una respuesta en este caso unknown, puedes mezclarla con
+# la respuesta por defecto
+defmodule LogLevel2 do
+  @spec to_label(number, boolean) ::
+      :debug
+    | :error
+    | :fatal
+    | :info
+    | :trace
+    | :unknown
+    | :warning
+  def to_label(level, legacy?) do
+    cond do
+      level == 0 and not legacy? -> :trace
+      level == 1 -> :debug
+      level == 2 -> :info
+      level == 3 -> :warning
+      level == 4 -> :error
+      level == 5 and not legacy? -> :fatal
+      true -> :unknown
+    end
+  end
+
+  @spec alert_recipient(number, boolean) :: :dev1 | :dev2 | nil | :ops
+  def alert_recipient(level, legacy?) do
+    message = to_label(level, legacy?)
+    cond do
+      message in [:error, :fatal] -> :ops
+      message == :unknown and legacy? -> :dev1
+      message == :unknown and not legacy? -> :dev2
+      true -> nil
+    end
+  end
+end
+
+defmodule LogLevel3 do
+  def to_label(level, legacy?), do: do_to_label(level, legacy?)
+
+  defp do_to_label(0, false), do: :trace
+  defp do_to_label(1, _), do: :debug
+  defp do_to_label(2, _), do: :info
+  defp do_to_label(3, _), do: :warning
+  defp do_to_label(4, _), do: :error
+  defp do_to_label(5, false), do: :fatal
+  defp do_to_label(_, _), do: :unknown
+
+  def alert_recipient(level, legacy?) do
+    level |> to_label(legacy?) |> do_alert_recipient(legacy?)
+  end
+
+  defp do_alert_recipient(:error, _), do: :ops
+  defp do_alert_recipient(:fatal, _), do: :ops
+  defp do_alert_recipient(:unknown, true), do: :dev1
+  defp do_alert_recipient(:unknown, false), do: :dev2
+  defp do_alert_recipient(_, _), do: false
+end
+
+
+defmodule LogLevel4 do
+  @spec to_label(number, boolean) ::
+      :debug
+    | :error
+    | :fatal
+    | :info
+    | :trace
+    | :unknown
+    | :warning
+  def to_label(level, legacy?) do
+    case {level, legacy?} do
+      {0, false} -> :trace
+      {1, _} -> :debug
+      {2, _} -> :info
+      {3, _} -> :warning
+      {4, _} -> :error
+      {5, false} -> :fatal
+      _ -> :unknown
+    end
+  end
+
+  @spec alert_recipient(number, boolean) :: :dev1 | :dev2 | false | :ops
+  def alert_recipient(level, legacy?) do
+    message = to_label(level, legacy?)
+    cond do
+      message in [:error, :fatal] -> :ops
+      message == :unknown and legacy? -> :dev1
+      message == :unknown -> :dev2
+      true -> false
+    end
   end
 end
