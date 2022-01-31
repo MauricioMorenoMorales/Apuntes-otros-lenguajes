@@ -478,6 +478,6 @@ defmodule KitchenCalculator3 do
           | {:teaspoon, float}
   def convert(volume_pair, unit) do
     # also you can: {unit, volume * factor(base_unit) / factor(unit)}
-    volume_pair |> to_milliliter |> from_milliliter(unit)
+    volume_pair |> to_milliliter |> from_milliliter unit
   end
 end
