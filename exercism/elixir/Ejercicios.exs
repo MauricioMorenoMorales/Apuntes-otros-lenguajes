@@ -481,3 +481,91 @@ defmodule KitchenCalculator3 do
     volume_pair |> to_milliliter |> from_milliliter unit
   end
 end
+
+# String interpolation and pipe operator
+
+defmodule HighSchoolSweetheart do
+  def first_letter(name) do
+    name
+    |> String.trim
+    |> String.first
+  end
+
+  def initial(name) do
+    letter = name
+    |> String.trim
+    |> first_letter
+    |> String.upcase
+    "#{letter}."
+  end
+
+  def initials(full_name) do
+    [first_name, last_name] = full_name |> String.split
+    "#{initial first_name} #{initial last_name}"
+  end
+
+  def pair(full_name1, full_name2) do
+    initials1 = initials full_name1
+    initials2 = initials full_name2
+    string = "#{initials1}  +  #{initials2}"
+    "     ******       ******\n   **      **   **      **\n **         ** **         **\n**            *            **\n**                         **\n**     #{string}     **\n **                       **\n   **                   **\n     **               **\n       **           **\n         **       **\n           **   **\n             ***\n              *\n"
+    #      ******       ******
+    #    **      **   **      **
+    #  **         ** **         **
+    # **            *            **
+    # **                         **
+    # **     X. X.  +  X. X.     **
+    #  **                       **
+    #    **                   **
+    #      **               **
+    #        **           **
+    #          **       **
+    #            **   **
+    #              ***
+    #               *
+  end
+end
+
+defmodule HighSchoolSweetheart2 do
+  def first_letter(name) do
+    name
+    |> String.trim
+    |> String.first
+  end
+
+  def initial(name) do
+    name
+    |> String.trim
+    |> first_letter
+    |> String.upcase
+    |> Kernel.<>(".")
+  end
+
+  def initials(full_name) do
+    full_name
+    |> String.split
+    |> Enum.map(fn element -> initial element end)
+    |> Enum.join(" ")
+  end
+
+  def pair(full_name1, full_name2) do
+    initials1 = initials full_name1
+    initials2 = initials full_name2
+    string = "#{initials1}  +  #{initials2}"
+    "     ******       ******\n   **      **   **      **\n **         ** **         **\n**            *            **\n**                         **\n**     #{string}     **\n **                       **\n   **                   **\n     **               **\n       **           **\n         **       **\n           **   **\n             ***\n              *\n"
+    #      ******       ******
+    #    **      **   **      **
+    #  **         ** **         **
+    # **            *            **
+    # **                         **
+    # **     X. X.  +  X. X.     **
+    #  **                       **
+    #    **                   **
+    #      **               **
+    #        **           **
+    #          **       **
+    #            **   **
+    #              ***
+    #               *
+  end
+end
