@@ -321,3 +321,163 @@ defmodule GuessingGame2 do
   def compare(secret_number, guess) when secret_number < guess, do: "Too high"
   def compare(secret_number, guess) when secret_number > guess, do: "Too low"
 end
+
+#! Pattern matching convertidor de unidades
+
+defmodule KitchenCalculator do
+  @spec get_volume({any, number}) :: number
+  def get_volume({_, volume}), do: volume
+
+  @spec to_milliliter(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number}
+        ) :: {:milliliter, any}
+  def to_milliliter({:milliliter, number}), do: {:milliliter, number}
+  def to_milliliter({:cup, number}), do: {:milliliter, number * 240}
+  def to_milliliter({:fluid_ounce, number}), do: {:milliliter, number * 30}
+  def to_milliliter({:teaspoon, number}), do: {:milliliter, number * 5}
+  def to_milliliter({:tablespoon, number}), do: {:milliliter, number * 15}
+
+  @spec from_milliliter(
+          {:milliliter, any},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def from_milliliter({:milliliter, number}, :milliliter), do: {:milliliter, number}
+  def from_milliliter({:milliliter, number}, :cup), do: {:cup, number / 240}
+  def from_milliliter({:milliliter, number}, :fluid_ounce), do: {:fluid_ounce, number / 30}
+  def from_milliliter({:milliliter, number}, :teaspoon), do: {:teaspoon, number / 5}
+  def from_milliliter({:milliliter, number}, :tablespoon), do: {:tablespoon, number / 15}
+
+  @spec convert(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def convert(volume_pair, unit), do: to_milliliter(volume_pair) |> from_milliliter(unit)
+end
+
+defmodule KitchenCalculator2 do
+  @ratios %{
+    milliliter: 1,
+    cup: 240,
+    fluid_ounce: 30,
+    teaspoon: 5,
+    tablespoon: 15
+  }
+
+  @spec get_volume({any, number}) :: number
+  def get_volume({_unit, volume}), do: volume
+
+  @spec to_milliliter(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number}
+        ) :: {:milliliter, any}
+  def to_milliliter({unit, volume}), do: {:milliliter, volume * @ratios[unit]}
+
+  @spec from_milliliter(
+          {:milliliter, any},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def from_milliliter({:milliliter, number}, unit), do: {unit, number / @ratios[unit]}
+
+  @spec convert(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def convert(volume_pair, unit) do
+    volume_pair |> to_milliliter |> from_milliliter(unit)
+  end
+end
+
+defmodule KitchenCalculator3 do
+  @spec factor(
+    :cup
+    |:fluid_ounce
+    |:teaspoon
+    |:tablespoon
+    |:milliliter
+  ) :: number
+  defp factor unit do
+    case {unit} do
+      {:cup} -> 240
+      {:fluid_ounce} -> 30
+      {:teaspoon} -> 5
+      {:tablespoon} -> 15
+      {:milliliter} -> 1
+    end
+  end
+
+  @spec get_volume({any, number}) :: number
+  def get_volume({_unit, volume}), do: volume
+
+  @spec to_milliliter(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number}
+        ) :: {:milliliter, any}
+  def to_milliliter({unit, volume}), do: {:milliliter, volume * factor(unit)}
+
+  @spec from_milliliter(
+          {:milliliter, any},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def from_milliliter({:milliliter, number}, unit), do: {unit, number / factor(unit)}
+
+  @spec convert(
+          {:cup, number}
+          | {:fluid_ounce, number}
+          | {:milliliter, any}
+          | {:tablespoon, number}
+          | {:teaspoon, number},
+          :cup | :fluid_ounce | :milliliter | :tablespoon | :teaspoon
+        ) ::
+          {:cup, float}
+          | {:fluid_ounce, float}
+          | {:milliliter, any}
+          | {:tablespoon, float}
+          | {:teaspoon, float}
+  def convert(volume_pair, unit) do
+    # also you can: {unit, volume * factor(base_unit) / factor(unit)}
+    volume_pair |> to_milliliter |> from_milliliter(unit)
+  end
+end
