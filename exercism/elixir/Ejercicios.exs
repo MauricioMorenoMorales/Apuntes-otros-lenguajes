@@ -569,3 +569,77 @@ defmodule HighSchoolSweetheart2 do
     #               *
   end
 end
+
+# Recursividad
+defmodule BirdCount do
+  def today([]), do: nil
+  def today([head | _tail]), do: head
+
+  def increment_day_count([]), do: [1]
+  def increment_day_count([head | tail]), do: [head + 1 | tail]
+
+  def has_day_without_birds?([]), do: false
+  def has_day_without_birds?([head | tail]) do
+    cond do
+      head == 0 -> true
+      true -> has_day_without_birds? tail
+    end
+  end
+
+  def total([]), do: 0
+  def total([head | tail]), do: head + total tail
+
+  def busy_days([]), do: 0
+  def busy_days([head | tail]) do
+    cond do
+      head >= 5 -> 1 + busy_days tail
+      true -> 0 + busy_days tail
+    end
+  end
+end
+
+defmodule BirdCount2 do
+  @spec today(maybe_improper_list) :: any
+  def today([]), do: nil
+  def today([head | _tail]), do: head
+
+  @spec increment_day_count(maybe_improper_list) :: nonempty_maybe_improper_list
+  def increment_day_count([]), do: [1]
+  def increment_day_count([head | tail]), do: [head + 1 | tail]
+
+  @spec has_day_without_birds?(maybe_improper_list) :: boolean
+  def has_day_without_birds?([]), do: false
+  def has_day_without_birds?([0 | _]), do: true
+  def has_day_without_birds?([_ | tail]), do: has_day_without_birds? tail
+
+  @spec total([number]) :: number
+  def total([]), do: 0
+  def total([head | tail]), do: head + total tail
+
+  @spec busy_days(list) :: non_neg_integer
+  def busy_days([]), do: 0
+  def busy_days([head | tail]) when head >= 5, do: 1 + busy_days tail
+  def busy_days([_head | tail]), do: busy_days tail
+end
+
+#? no recursivo
+defmodule BirdCount3 do
+  @spec today(maybe_improper_list) :: any
+  def today([]), do: nil
+  def today([head | _tail]), do: head
+
+  @spec increment_day_count(maybe_improper_list) :: nonempty_maybe_improper_list
+  def increment_day_count([]), do: [1]
+  def increment_day_count([head | tail]), do: [head + 1 | tail]
+
+  @spec has_day_without_birds?(maybe_improper_list) :: boolean
+  def has_day_without_birds?([]), do: false
+  def has_day_without_birds?([0 | _]), do: true
+  def has_day_without_birds?([_ | tail]), do: has_day_without_birds? tail
+
+  @spec total([number]) :: number
+  def total(list), do: list |> Enum.sum
+
+  @spec busy_days(list) :: non_neg_integer
+  def busy_days(list), do: list |> Enum.filter(fn e -> e >= 5 end) |> length
+end
