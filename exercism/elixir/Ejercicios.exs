@@ -643,3 +643,77 @@ defmodule BirdCount3 do
   @spec busy_days(list) :: non_neg_integer
   def busy_days(list), do: list |> Enum.filter(fn e -> e >= 5 end) |> length
 end
+
+#! Maps manipulation
+
+defmodule HighScore do
+  @initial_score 0
+  @spec new :: %{}
+  def new, do: %{}
+
+  @spec add_player(map, string, number) :: map
+  def add_player(scores, name, score \\ @initial_score), do: scores |> Map.put(name, score)
+
+  @spec remove_player(map, string) :: map
+  def remove_player(scores, name), do: scores |> Map.delete(name)
+
+  @spec reset_score(map, string) :: map
+  def reset_score(scores, name), do: scores |> Map.put(name, @initial_score)
+
+  @spec update_score(map, string, number) :: map
+  def update_score(scores, name, score), do: scores |> Map.update(name, score, fn existing_value -> existing_value + score end)
+
+  @spec get_players(map) :: list
+  def get_players(scores), do: scores |> Map.keys
+end
+
+defmodule HighScore2 do
+  @initial_score 0
+  @spec new :: %{}
+  def new, do: %{}
+
+  @spec add_player(map, string, number) :: map
+  def add_player(scores, name, score \\ @initial_score), do: scores |> Map.put(name, score)
+
+  @spec remove_player(map, string) :: map
+  def remove_player(scores, name), do: scores |> Map.delete(name)
+
+  @spec reset_score(map, string) :: map
+  def reset_score(scores, name), do: scores |> Map.put(name, @initial_score)
+
+  @spec update_score(map, string, number) :: map
+  def update_score(scores, name, score) do
+    old_score = scores |> Map.get(name, @initial_score)
+    scores |> Map.put(name, old_score + score)
+  end
+
+  @spec get_players(map) :: list
+  def get_players(scores), do: scores |> Map.keys
+end
+
+defmodule HighScore do
+  @initial_score 0
+  @spec new :: %{}
+  def new, do: %{}
+
+  @spec add_player(map, string, number) :: map
+  def add_player(scores, name, score \\ @initial_score), do: scores |> Map.put(name, score)
+
+  @spec remove_player(map, string) :: map
+  def remove_player(scores, name), do: scores |> Map.delete(name)
+
+  @spec reset_score(map, string) :: map
+  def reset_score(scores, name), do: scores |> Map.put(name, @initial_score)
+
+  @spec update_score(map, string, number) :: map
+  def update_score(scores, name, score) do
+    if scores |> Map.has_key?(name) do
+      scores |> Map.replace(name, scores[name] + score)
+    else
+      scores |> add_player(name, score)
+    end
+  end
+
+  @spec get_players(map) :: list
+  def get_players(scores), do: scores |> Map.keys
+end
