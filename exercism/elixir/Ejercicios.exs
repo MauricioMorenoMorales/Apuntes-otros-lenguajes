@@ -791,3 +791,95 @@ defmodule Form do
     """
   end
 end
+
+#! charlists, recursion filter map
+
+defmodule Username do
+	@spec sanitize(username :: charlist()) :: charlist()
+	def sanitize([]), do: []
+	def sanitize([head | tail]) do
+		case head do
+			head when head >= 97 and head <= 122 -> [head|sanitize(tail)]
+			head when head ==  95 -> [head|sanitize(tail)]
+			head when head == 252 -> [117,101|sanitize(tail)] #ü -> ae
+			head when head == 246 -> [111,101|sanitize(tail)] #ö -> oe
+			head when head == 228 -> [97,101|sanitize(tail)] #ö -> ue
+			head when head == 223 -> [115,115|sanitize(tail)] #ß -> ss
+			_ -> sanitize(tail)
+		end
+	end
+end
+
+defmodule Username do
+  @spec sanitize(username :: charlist()) :: charlist()
+  def sanitize([]), do: []
+  def sanitize([head | tail]) do
+    case head do
+      head when head >= ?a and head <= ?z -> [head|sanitize(tail)]
+      head when head ==  ?_ -> [head|sanitize(tail)]
+      head when head == ?ü -> [117,101|sanitize(tail)] #ae
+      head when head == ?ö -> [111,101|sanitize(tail)] #oe
+      head when head == ?ä -> [97,101|sanitize(tail)] #ue
+      head when head == ?ß -> [115,115|sanitize(tail)] #ss
+      _ -> sanitize(tail)
+    end
+  end
+end
+# reduce
+defmodule Username do
+  @spec sanitize(username :: charlist()) :: charlist()
+  def sanitize username do
+    username |> Enum.reduce('', fn c, acc ->
+      acc ++ case c do
+        ?_ -> '_'
+        ?ä -> 'ae'
+        ?ö -> 'oe'
+        ?ß -> 'ss'
+        ?ü -> 'ue'
+        c when c in ?a..?z -> [c]
+        _ -> ''
+      end
+    end)
+  end
+end
+
+defmodule Username do
+  @spec sanitize(username :: charlist()) :: charlist()
+  def sanitize(''), do: ''
+  def sanitize([head|tail]) do
+    sanitized =
+      case head do
+        ?ß -> 'ss'
+        ?ä -> 'ae'
+        ?ö -> 'oe'
+        ?ü -> 'ue'
+        ?_ -> '_'
+        x when x >= ?a and x <= ?z -> [x]
+      end
+    sanitized ++ sanitize(tail)
+  end
+end
+#defguards simplified functions
+
+defmodule Username do
+  defguard is_lowercase(codepoint) when codepoint in ?a..?z
+  defguard is_underscore(codepoint) when codepoint == ?_
+
+  @spec sanitize(username :: charlist()) :: charlist()
+  def sanitize username do
+    username
+      |> Enum.map(&substitute_german_chars/1)
+      |> List.flatten
+      |> Enum.filter(&(is_lowercase(&1) or is_underscore(&1)))
+  end
+
+  defp substitute_german_chars codepoint do
+    case codepoint do
+      ?ä -> 'ae'
+      ?ö -> 'oe'
+      ?ü -> 'ue'
+      ?ß -> 'ss'
+      _ -> codepoint
+    end
+  end
+end
