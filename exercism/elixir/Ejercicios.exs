@@ -815,16 +815,17 @@ defmodule Username do
   def sanitize([]), do: []
   def sanitize([head | tail]) do
     case head do
-      head when head >= ?a and head <= ?z -> [head|sanitize(tail)]
-      head when head ==  ?_ -> [head|sanitize(tail)]
-      head when head == ?ü -> [117,101|sanitize(tail)] #ae
-      head when head == ?ö -> [111,101|sanitize(tail)] #oe
-      head when head == ?ä -> [97,101|sanitize(tail)] #ue
-      head when head == ?ß -> [115,115|sanitize(tail)] #ss
+      head when head in ?a..?z -> [head|sanitize(tail)]
+      ?_ -> [head|sanitize(tail)]
+      ?ü -> [?u,?e|sanitize(tail)]
+      ?ö -> [?o,?e|sanitize(tail)]
+      ?ä -> [?a,?e|sanitize(tail)]
+      ?ß -> [?s,?s|sanitize(tail)]
       _ -> sanitize(tail)
     end
   end
 end
+
 # reduce
 defmodule Username do
   @spec sanitize(username :: charlist()) :: charlist()
