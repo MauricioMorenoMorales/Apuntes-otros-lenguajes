@@ -69,3 +69,30 @@ static class QuestLogic2
             ? !archerIsAwake
             : !knightIsAwake && !archerIsAwake && prisonerIsAwake;
 }
+
+// Manejo de strings
+
+
+static class LogLine
+{
+    public static string Message(string logLine) =>
+        logLine.Trim().Split(": ")[1].Trim();
+
+    public static string LogLevel(string logLine) =>
+        logLine.Trim().Split("]: ")[0].Substring(1).ToLower();
+
+    public static string Reformat(string logLine) =>
+        $"{Message(logLine)} ({LogLevel(logLine)})".Trim();
+}
+
+static class LogLine
+{
+    public static string Message(string logLine) =>
+        logLine[(logLine.IndexOf(":") + 1)..].Trim();
+
+    public static string LogLevel(string logLine) =>
+        logLine[1..logLine.IndexOf("]")].ToLower();
+
+    public static string Reformat(string logLine) =>
+        $"{Message(logLine)} ({LogLevel(logLine)})".Trim();
+}
