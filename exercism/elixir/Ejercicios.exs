@@ -884,3 +884,135 @@ defmodule Username do
     end
   end
 end
+
+defmodule DateParser do
+  def day(), do: "([1-9]|[0][1-9]|[12][0-9]|3[01])"
+
+  def month(), do: "([1-9]|0[1-9]|1[12])"
+
+  def year(), do: "([12]{1}[0-9]{3})"
+
+  def day_names(), do: "(Sunday|Monday|Tuesday|Wednesday|Thursday|Friday|Saturday)"
+
+  def month_names do
+    "(January|February|March|April|May|June|July|August|September|October|November|December)"
+  end
+  def capture_day(), do: "(?<day>#{day()})"
+
+  def capture_month(), do: "(?<month>#{month()})"
+
+  def capture_year(), do: "(?<year>#{year()})"
+
+  def capture_day_name(), do: "(?<day_name>#{day_names()})"
+
+  def capture_month_name(), do: "(?<month_name>#{month_names()})"
+
+  def capture_numeric_date do
+    "(#{capture_day()}/#{capture_month()}/#{capture_year()})"
+  end
+
+  def capture_month_name_date do
+    "(#{capture_month_name()} #{capture_day()}, #{capture_year()})"
+  end
+
+  def capture_day_month_name_date do
+    "(#{capture_day_name()}, #{capture_month_name()} #{capture_day()}, #{capture_year()})"
+  end
+
+  def match_numeric_date(), do: ~r/^#{capture_numeric_date()}$/
+
+  def match_month_name_date(), do: ~r/^#{capture_month_name_date()}$/
+
+  def match_day_month_name_date(), do: ~r/^#{capture_day_month_name_date()}$/
+end
+
+defmodule DateParser do
+  @moduledoc """
+  Module provides a set of functions to parse various date formats.
+  """
+  @day_names ["Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday", "Sunday"]
+  @month_names ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
+  @doc """
+  Returns a regex string which matches a day number.
+  """
+  @spec day() :: String.t()
+  def day(), do: "\\d{1,2}"
+  @doc """
+  Returns a regex string which matches a month number.
+  """
+  @spec month() :: String.t()
+  def month(), do: "\\d{1,2}"
+  @doc """
+  Returns a regex string which matches a year number.
+  """
+  @spec year() :: String.t()
+  def year(), do: "\\d{4}"
+  @doc """
+  Returns a regex string which matches a day name.
+  """
+  @spec day_names() :: String.t()
+  def day_names(), do: "(" <> Enum.join(@day_names, "|") <> ")"
+  @doc """
+  Returns a regex string which matches a month name.
+  """
+  @spec month_names() :: String.t()
+  def month_names(), do: "(" <> Enum.join(@month_names, "|") <> ")"
+  @doc """
+  Returns a string pattern which captures the day number.
+  """
+  @spec capture_day() :: String.t()
+  def capture_day(), do: "(?P<day>#{day()})"
+  @doc """
+  Returns a string pattern which captures the month number.
+  """
+  @spec capture_month() :: String.t()
+  def capture_month(), do: "(?P<month>#{month()})"
+  @doc """
+  Returns a string pattern which captures the year number.
+  """
+  @spec capture_year() :: String.t()
+  def capture_year(), do: "(?P<year>#{year()})"
+  @doc """
+  Returns a string pattern which captures the day name.
+  """
+  @spec capture_day_name() :: String.t()
+  def capture_day_name(), do: "(?P<day_name>#{day_names()})"
+  @doc """
+  Returns a string pattern which captures the month name.
+  """
+  @spec capture_month_name() :: String.t()
+  def capture_month_name(), do: "(?P<month_name>#{month_names()})"
+  @doc """
+  Returns a string pattern which captures numeric date format.
+  """
+  @spec capture_numeric_date() :: String.t()
+  def capture_numeric_date(), do: "#{capture_day()}/#{capture_month()}/#{capture_year()}"
+  @doc """
+  Returns a string pattern which captures month name date format.
+  """
+  @spec capture_month_name_date() :: String.t()
+  def capture_month_name_date(), do: "#{capture_month_name()} #{capture_day()}, #{capture_year()}"
+  @doc """
+  Returns a string pattern which captures day month name date format.
+  """
+  @spec capture_day_month_name_date() :: String.t()
+  def capture_day_month_name_date(), do: "#{capture_day_name()}, #{capture_month_name()} #{capture_day()}, #{capture_year()}"
+  @doc """
+  Returns a compiled regular expression that only matches the numeric date format,
+  and which can also capture the date's components.
+  """
+  @spec match_numeric_date() :: Regex.t()
+  def match_numeric_date(), do: ~r/^#{capture_numeric_date()}$/
+  @doc """
+  Returns a compiled regular expression that only matches the month name date format,
+  and which can also capture the date's components.
+  """
+  @spec match_month_name_date() :: Regex.t()
+  def match_month_name_date(), do: ~r/^#{capture_month_name_date()}$/
+  @doc """
+  Returns a compiled regular expression that only matches the day month name date format,
+  and which can also capture the date's components.
+  """
+  @spec match_day_month_name_date() :: Regex.t()
+  def match_day_month_name_date(), do: ~r/^#{capture_day_month_name_date()}$/
+end
