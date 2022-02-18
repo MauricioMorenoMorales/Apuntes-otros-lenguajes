@@ -1018,3 +1018,34 @@ defmodule DateParser do
   @spec match_day_month_name_date() :: Regex.t()
   def match_day_month_name_date(), do: ~r/^#{capture_day_month_name_date()}$/
 end
+
+#! Ifs simplified functions
+
+defmodule NameBadge do
+  def print(id, name, department) do
+    department_name = if(department, do: String.upcase(department), else: "OWNER")
+    if id do
+      "[#{id}] - #{name} - #{department_name}"
+    else
+      "#{name} - #{department_name}"
+    end
+  end
+end
+
+defmodule NameBadge do
+  def print(id, name, department) do
+    department = if department, do: String.upcase(department), else: "OWNER"
+    prefix = if id, do: "[#{id}] - ", else: ""
+    prefix <> "#{name} - #{department}"
+  end
+end
+
+defmodule NameBadge do
+  @owner_dep "OWNER"
+  @separator " - "
+  def print(id, name, department) do
+    prefix = if id, do: "[#{id}]"
+    department = if department, do: String.upcase(department), else: @owner_dep
+    [prefix, name, department] |> Enum.reject(&is_nil/1) |> Enum.join(@separator)
+  end
+end
