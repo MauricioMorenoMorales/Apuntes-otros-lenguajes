@@ -19,8 +19,8 @@ end
 
 defmodule CollatzConjecture do
   @spec calc(input :: pos_integer()) :: non_neg_integer()
-  def calc(input) when input == 1, do: 0
-  def calc(input) when input > 0 do
+  def calc(1), do: 0
+  def calc(input) when is_number(input) and input > 0 do
     case {input |> round |> rem(2)} do
       {0} -> 1 + calc(input / 2)
       {1} -> 1 + calc((input * 3) + 1)

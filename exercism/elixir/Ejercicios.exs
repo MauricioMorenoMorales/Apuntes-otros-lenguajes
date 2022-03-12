@@ -1049,3 +1049,57 @@ defmodule NameBadge do
     [prefix, name, department] |> Enum.reject(&is_nil/1) |> Enum.join(@separator)
   end
 end
+
+#! Procesos, manten un proceso vivo y cada vez quelo llamen, retorna determinadas cosas
+#? mal
+# defmodule TakeANumber do
+#   def start() do
+#     spawn(fn ->
+#       receive do
+#         {:report_state, sender_pid} -> send(sender_pid, 0)
+#         :do_nothing -> nil
+#       after
+#         1_000 -> "Nothing has appened"
+#       end
+#     end)
+#   end
+# end
+
+defmodule TakeANumber do
+  def start, do: spawn(fn -> loop(0) end)
+  def loop state do
+    receive do
+      {:report_state, pid} ->
+        send(pid, state)
+        loop(state)
+      {:take_a_number, pid} ->
+        send(pid, state + 1)
+        loop(state + 1)
+      :stop -> :ok
+      _ -> loop(state)
+    end
+  end
+end
+
+defmodule TakeANumber do
+  @initial_state 0
+  @state_key :ticket_number
+
+  def start, do: spawn(fn -> handler end)
+
+  defp handler do
+    receive do
+      {:report_state, sender_pid} ->
+        send(sender_pid, get_ticket())
+      {:take_a_number, sender_pid} ->
+        next_ticket = get_ticket() + 1
+        send(sender_pid, next_ticket)
+        Process.put(@state_key, next_ticket)
+      :stop -> exit(:stop)
+      _ -> nil
+    end
+    handler()
+  end
+
+  defp get_ticket, do: Process.get(@state_key, @initial_state)
+end
