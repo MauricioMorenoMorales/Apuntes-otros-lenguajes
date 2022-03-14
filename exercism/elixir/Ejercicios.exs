@@ -1103,3 +1103,92 @@ defmodule TakeANumber do
 
   defp get_ticket, do: Process.get(@state_key, @initial_state)
 end
+
+#! Realiza las operaciones basicas de la consola en el objeto IO
+
+defmodule RPG.CharacterSheet do
+  def welcome() do
+    IO.puts "Welcome! Let's fill out your character sheet together."
+  end
+
+  def ask_name() do
+    input = IO.gets "What is your character's name?\n"
+    input |> String.trim
+  end
+
+  def ask_class() do
+    input = IO.gets "What is your character's class?\n"
+    input |> String.trim
+  end
+
+  def ask_level() do
+    input = IO.gets "What is your character's level?\n"
+    input |> String.trim |> String.to_integer
+  end
+
+  def run() do
+    IO.puts "Welcome! Let's fill out your character sheet together."
+    name = ask_name()
+    class = ask_class()
+    level = ask_level()
+    character = %{class: class, level: level, name: name}
+    IO.inspect(character, label: "Your character" )
+    character
+  end
+end
+
+defmodule RPG.CharacterSheet do
+  @spec welcome() :: :ok
+  def welcome, do: IO.puts("Welcome! Let's fill out your character sheet together.")
+
+  @spec ask_name() :: String.t()
+  def ask_name, do:
+    IO.gets("What is your character's name?\n")
+    |> String.trim()
+
+    @spec ask_class() :: String.t()
+  def ask_class(), do:
+    IO.gets("What is your character's class?\n")
+    |> String.trim()
+
+  @spec ask_level() :: String.t()
+  def ask_level, do:
+    IO.gets("What is your character's level?\n")
+    |> String.trim()
+    |> String.to_integer()
+
+  def run do
+    welcome()
+    %{name: ask_name(), class: ask_class(), level: ask_level()}
+    |> IO.inspect(label: "Your character: ")
+  end
+end
+
+defmodule RPG.CharacterSheet1 do
+  @spec welcome() :: :ok
+  def welcome, do:
+    IO.puts("Welcome! Let's fill out your character sheet together.")
+
+  @spec ask_name() :: String.t()
+  def ask_name, do:
+    IO.gets("What is your character's name?\n")
+    |> String.trim
+
+  @spec ask_class() :: String.t()
+  def ask_class, do:
+    IO.gets("What is your character's class?\n")
+    |> String.trim
+
+  @spec ask_level() :: String.t()
+  def ask_level, do:
+    IO.gets("What is your character's level?\n")
+    |> String.trim
+    |> String.to_integer
+
+  @spec run() :: String.t()
+  def run do
+    welcome
+    %{name: ask_name, class: ask_class, level: ask_level}
+    |> IO.inspect(label: "Your character")
+  end
+end
