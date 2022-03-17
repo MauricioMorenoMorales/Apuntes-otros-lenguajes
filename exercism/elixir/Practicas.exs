@@ -60,3 +60,87 @@ defmodule CollatzConjecture do
     |> Enum.count()
   end
 end
+
+#! calcula el valor de dos elementos dentro de una lista enlazada
+defmodule ResistorColorDuo do
+  @doc """
+  Calculate a resistance value from two colors
+  """
+  @spec value(colors :: [atom]) :: integer
+  def value([]), do: 0
+  def value([firstColor | [secondColor | tail]]) do
+    firstColor
+    |> colorValue
+    |> to_string
+    |> Kernel.<>(to_string(colorValue(secondColor)))
+    |> String.to_integer
+  end
+
+  @spec colorValue(color :: atom) :: integer
+  defp colorValue color do
+    case {color} do
+      {:black} -> 0
+      {:brown} -> 1
+      {:red} -> 2
+      {:orange} -> 3
+      {:yellow} -> 4
+      {:green} -> 5
+      {:blue} -> 6
+      {:violet} -> 7
+      {:grey} -> 8
+      {:white} -> 9
+      _ -> 0
+    end
+  end
+end
+
+defmodule ResistorColorDuo do
+  @resistance_chart %{
+    :black => 0,
+    :brown => 1,
+    :red => 2,
+    :orange => 3,
+    :yellow => 4,
+    :green => 5,
+    :blue => 6,
+    :violet => 7,
+    :grey => 8,
+    :white => 9
+  }
+  @spec value(colors :: [atom]) :: integer
+  def value colors do
+    colors
+    |> Enum.map(&(@resistance_chart[&1]))
+    |> Enum.take(2)
+    |> Integer.undigits
+  end
+end
+defmodule ResistorColorDuo do
+  @doc """
+  Calculate a resistance value from two colors
+  """
+  @spec value(colors :: [atom]) :: integer
+  def value colors, do:
+    colors
+    |> Enum.take(2)
+    |> Enum.map(&colorValue/1)
+    |> Enum.join
+    |> String.to_integer
+
+  @spec colorValue(color :: atom) :: integer
+  defp colorValue color do
+    case {color} do
+      {:black} -> 0
+      {:brown} -> 1
+      {:red} -> 2
+      {:orange} -> 3
+      {:yellow} -> 4
+      {:green} -> 5
+      {:blue} -> 6
+      {:violet} -> 7
+      {:grey} -> 8
+      {:white} -> 9
+      _ -> 0
+    end
+  end
+end
