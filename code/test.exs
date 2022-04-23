@@ -1,5 +1,4 @@
-defmodule Solution do
-  def two_oldest_ages(ages) do
-    
-  end
-end
+(2418, 24)
+(18, 24)
+(18, 6)
+(18, 6)
