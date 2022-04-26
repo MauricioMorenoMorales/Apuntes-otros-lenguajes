@@ -56,3 +56,49 @@
     (add-language "Java")
     (add-language "JavaScript")
     (count-languages)))
+
+;! manejo de vectores
+
+(ns bird-watcher)
+
+; retorna un vector
+(def last-week [0 2 5 3 7 8 4])
+
+; retorna el ultimo elemento de un vector
+(defn today [birds] (last birds))
+
+; retorna el conteo de los pajaros pero incrementando solo el ultimo elemento
+(defn inc-bird [birds]
+  (let [new-count (inc (today birds))]
+    (-> birds
+        pop
+        (conj new-count))))
+
+; cuenta la cantidad de días en los que el conteo fue = 0
+(defn day-without-birds? [birds]
+  (if (some #{0} birds)
+    true
+    (empty? birds)))
+
+; suma determinada cantidad de dias dentro de un vector
+(defn n-days-count [birds n]
+  (->> birds
+    (take n)
+    (apply +)))
+
+; cuenta la cantidad de veces que en un día se mostraron más de 5 pajaros
+(defn busy-days [birds]
+  (->> birds
+      (filter #(>= % 5))
+      (count))
+  )
+
+; busca la aparicion de un patron similar a este [1 0 1 0 1 0 1]
+(defn odd-week? [birds]
+  (if (every? #{0 1} birds)
+    (->> (rest birds)
+        (reduce (fn [{:keys [prev]} n]
+                  {:prev n :res (not= prev n)})
+                  {:prev (first birds)})
+        :res)
+    false))
