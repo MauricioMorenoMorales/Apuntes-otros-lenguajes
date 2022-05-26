@@ -96,3 +96,79 @@ static class LogLine
     public static string Reformat(string logLine) =>
         $"{Message(logLine)} ({LogLevel(logLine)})".Trim();
 }
+
+//! Numbers And Coercion and switch ===============================================
+
+static class AssemblyLine
+{
+    private const int BaseProductionRatePerHour = 221;
+    public static double SuccessRate(int speed)
+    {
+        if(speed == 0)
+        {
+            return 0;
+        }
+        else if(speed <= 4)
+        {
+            return 1;
+        }
+        else if(speed <= 8)
+        {
+            return 0.9;
+        }
+        else if(speed == 9)
+        {
+            return 0.8;
+        }
+        else
+        {
+            return 0.77;
+        }
+    }
+    public static double ProductionRatePerHour(int speed)
+    {
+        return speed * BaseProductionRatePerHour * SuccessRate(speed);
+    }
+    public static int WorkingItemsPerMinute(int speed)
+    {
+        return (int)ProductionRatePerHour(speed) / 60;
+    }
+}
+
+// In this way we can use switch case and arrow functions
+static class AssemblyLine
+{
+    private const int BaseProductionRatePerHour = 221;
+    public static double SuccessRate(int speed) => speed switch
+    {
+        < 1 => 0.0,
+        <= 4 => 1.0,
+        <= 8 => 0.9,
+        9 => 0.8,
+        10 => 0.77,
+        _ => 0
+    };
+    public static double ProductionRatePerHour(int speed) =>
+        speed * BaseProductionRatePerHour * SuccessRate(speed);
+    public static int WorkingItemsPerMinute(int speed) =>
+        (int)ProductionRatePerHour(speed) / 60;
+}
+
+//! Another switch implementation
+
+static class AssemblyLine
+{
+    private const int BaseProductionRatePerHour = 221;
+    public static double SuccessRate(int speed) =>
+    speed switch {
+        (> 0) and (< 5) => 1.0,
+        (> 4) and (< 9) => 0.90,
+        9 => .80,
+        10 => .77,
+        _ => 0
+    };
+    public static double ProductionRatePerHour(int speed) =>
+        speed * BaseProductionRatePerHour * SuccessRate(speed);
+    public static int WorkingItemsPerMinute(int speed) =>
+        (int)ProductionRatePerHour(speed) / 60;
+}
