@@ -1,4 +1,4 @@
-; retorna valores sobre como hacer una lasagna
+; retorna valores sobre como hacer una lasagna ===========================
 
 (ns lucians-luscious-lasagna)
 
@@ -14,7 +14,7 @@
 (defn total-time [num-layers actual-time]
   (+ (prep-time num-layers) actual-time))
 
-; Manejo de listas
+; Manejo de listas ========================================================
 
 (ns tracks-on-tracks-on-tracks)
 
@@ -57,7 +57,7 @@
     (add-language "JavaScript")
     (count-languages)))
 
-;! manejo de vectores
+;! manejo de vectores ==============================================================
 
 (ns bird-watcher)
 
