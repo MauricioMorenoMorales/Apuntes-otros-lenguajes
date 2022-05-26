@@ -172,3 +172,94 @@ static class AssemblyLine
     public static int WorkingItemsPerMinute(int speed) =>
         (int)ProductionRatePerHour(speed) / 60;
 }
+
+/* This is the implementation of a class with private values and logic */
+
+// Mi solucion
+class RemoteControlCar
+{
+    private int drivedDistance = 0;
+    private int batteryCharge = 100;
+
+    public static RemoteControlCar Buy() =>
+        new RemoteControlCar();
+
+    public string DistanceDisplay() =>
+        $"Driven {this.drivedDistance} meters";
+
+    public string BatteryDisplay() =>
+        this.batteryCharge > 0
+            ? $"Battery at {this.batteryCharge}%"
+            : "Battery empty";
+
+    public void Drive()
+    {
+        if(this.batteryCharge > 0)
+        {
+            this.drivedDistance += 20;
+            this.batteryCharge -= 1;
+        }
+    }
+}
+
+//? Better solution
+
+class RemoteControlCar
+{
+    private int _batteryLevel;
+    private int _distanceDriven;
+
+    public RemoteControlCar()
+    {
+        _batteryLevel = 100;
+        _distanceDriven = 0;
+    }
+
+    public static RemoteControlCar Buy() => new();
+
+    public string DistanceDisplay() =>
+
+        $"Driven {_distanceDriven} meters";
+    public string BatteryDisplay() =>
+        _batteryLevel == 0 ? "Battery empty" : $"Battery at {_batteryLevel}%";
+
+    public void Drive()
+    {
+        if (_batteryLevel <= 0) return;
+        _batteryLevel--;
+        _distanceDriven += 20;
+    }
+}
+
+// In this solution we can specify better the type of the variables
+
+class RemoteControlCar
+{
+    private static readonly int _startingDistance = 0;
+    private static readonly int _startingBattery = 100;
+    private readonly int _distancePerDrive = 20;
+    private readonly int _batteryPerDrive = 1;
+
+    private int _distanceDriven = _startingDistance;
+    private int _batteryRemaining = _startingBattery;
+
+    public RemoteControlCar()
+    {
+        _batteryRemaining = _startingBattery;
+        _distanceDriven = _startingDistance;
+    }
+
+    public static RemoteControlCar Buy() => new();
+
+    public string DistanceDisplay() => $"Driven {_distanceDriven} meters";
+
+    public string BatteryDisplay() =>
+        _batteryRemaining == 0 ? "Battery empty" : $"Battery at {_batteryRemaining}%";
+
+        public void Drive()
+    {
+        if (_batteryRemaining <= 0) return;
+        _batteryRemaining--;
+        _distanceDriven += 20;
+    }
+}
