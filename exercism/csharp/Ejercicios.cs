@@ -291,3 +291,86 @@ static class Appointment
     public static DateTime AnniversaryDate()
         => new DateTime(DateTime.Now.Year, _anniversaryMonth, _anniversaryDay);
 }
+
+//! Manipulacion de arrays y metodos map filter =========================================
+// Imperativo
+
+class BirdCount
+{
+    private int[] birdsPerDay;
+
+    public BirdCount(int[] birdsPerDay)
+    {
+        this.birdsPerDay = birdsPerDay;
+    }
+
+
+    public static int[] LastWeek() => new[] {0, 2, 5, 3, 7, 8, 4};
+
+    public int Today()
+        => birdsPerDay[birdsPerDay.Length - 1];
+
+    public void IncrementTodaysCount()
+        => birdsPerDay[birdsPerDay.Length - 1]++;
+
+    public bool HasDayWithoutBirds()
+    {
+        bool response = false;
+        foreach (int element in birdsPerDay)
+            if(element == 0)
+            {
+                response = true;
+                break;
+            }
+        return response;
+    }
+
+    public int CountForFirstDays(int numberOfDays)
+    {
+        int response = 0;
+        for(int i = 0; i <= numberOfDays - 1; i++)
+        {
+            response += birdsPerDay[i];
+        }
+        return response;
+    }
+
+    public int BusyDays()
+    {
+        int response = 0;
+        foreach(int element in birdsPerDay)
+            if(element >= 5) response++;
+        return response;
+    }
+}
+
+// Functional
+
+
+class BirdCount
+{
+    private int[] birdsPerDay;
+
+    public BirdCount(int[] birdsPerDay)
+    {
+        this.birdsPerDay = birdsPerDay;
+    }
+
+
+    public static int[] LastWeek() => new[] {0, 2, 5, 3, 7, 8, 4};
+
+    public int Today()
+        => birdsPerDay[^1];
+
+    public void IncrementTodaysCount()
+        => birdsPerDay[^1]++;
+
+    public bool HasDayWithoutBirds()
+        => birdsPerDay.Contains(0);
+
+    public int CountForFirstDays(int numberOfDays)
+        => birdsPerDay.Take(numberOfDays).Sum();
+
+    public int BusyDays()
+        => birdsPerDay.Count(element => element >= 5);
+}
