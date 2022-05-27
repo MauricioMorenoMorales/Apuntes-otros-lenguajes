@@ -173,6 +173,7 @@ static class AssemblyLine
         (int)ProductionRatePerHour(speed) / 60;
 }
 
+//! Classes ============================================================
 /* This is the implementation of a class with private values and logic */
 
 // Mi solucion
@@ -262,4 +263,31 @@ class RemoteControlCar
         _batteryRemaining--;
         _distanceDriven += 20;
     }
+}
+
+//! Dates ==============================================================================
+
+
+static class Appointment
+{
+    private static readonly int _afternoonStartHour = 12;
+    private static readonly int _afternoonEndHour = 18;
+    private static readonly int _anniversaryMonth = 9;
+    private static readonly int _anniversaryDay = 15;
+
+    public static DateTime Schedule(string appointmentDateDescription)
+        => DateTime.Parse(appointmentDateDescription);
+
+    public static bool HasPassed(DateTime appointmentDate)
+        => appointmentDate < DateTime.Now;
+
+    public static bool IsAfternoonAppointment(DateTime appointmentDate)
+        => (_afternoonStartHour <= appointmentDate.Hour) &&
+            (_afternoonEndHour > appointmentDate.Hour);
+
+    public static string Description(DateTime appointmentDate)
+        => $"You have an appointment on {appointmentDate}.";
+
+    public static DateTime AnniversaryDate()
+        => new DateTime(DateTime.Now.Year, _anniversaryMonth, _anniversaryDay);
 }
