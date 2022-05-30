@@ -265,15 +265,130 @@ class RemoteControlCar
     }
 }
 
+// Classes interaction example ===================================================
+
+class RemoteControlCar
+{
+
+    #region Class variables;
+        private int speedPerMinute;
+        private int batteryDrain;
+        private int batteryTotal = 100;
+        private int distanceDrived = 0;
+    #endregion
+
+    public RemoteControlCar(int speedPerMinute, int batteryDrain)
+    {
+        this.speedPerMinute = speedPerMinute;
+        this.batteryDrain = batteryDrain;
+    }
+    public bool BatteryDrained() => batteryTotal < batteryDrain;
+
+    public int DistanceDriven() => this.distanceDrived;
+
+    public void Drive()
+    {
+        if(BatteryDrained()) return;
+        this.batteryTotal -= batteryDrain;
+        this.distanceDrived += speedPerMinute;
+    }
+
+    public static RemoteControlCar Nitro()
+        => new RemoteControlCar(50, 4);
+}
+
+class RaceTrack
+{
+    // TODO: define the constructor for the 'RaceTrack' class
+    #region Global values
+    int distance;
+    #endregion
+
+    public RaceTrack(int distance)
+    {
+        this.distance = distance;
+    }
+
+    public bool TryFinishTrack(RemoteControlCar car)
+    {
+        bool response = false;
+        while (!car.BatteryDrained())
+        {
+            car.Drive();
+            if (car.DistanceDriven() >= this.distance)
+            {
+                response = true;
+                break;
+            }
+        }
+        return response;
+    }
+}
+
+//? Classes inheritance ================================================================
+
+
+abstract class Character
+{
+    private readonly string characterType;
+    protected Character(string characterType)
+    {
+        this.characterType = characterType;
+    }
+
+    public abstract int DamagePoints(Character target);
+
+    public virtual bool Vulnerable()
+        => false;
+
+    public override string ToString()
+        => $"Character is a {this.characterType}";
+}
+
+class Warrior : Character
+{
+    public Warrior() : base("Warrior") {}
+
+    public override int DamagePoints(Character target)
+        => target.Vulnerable()? 10 : 6;
+
+    public override string ToString() => "Character is a Warrior";
+}
+
+class Wizard : Character
+{
+    private bool isSpellPrepared = false;
+    public Wizard() : base("Wizard") {}
+
+    public override int DamagePoints(Character target)
+    {
+        int damage = isSpellPrepared ? 12: 3;
+        isSpellPrepared = false;
+        return damage;
+    }
+
+    public override bool Vulnerable() => !isSpellPrepared;
+
+    public void PrepareSpell()
+        => this.isSpellPrepared = true;
+
+	public override string ToString() => "Character is a Wizard";
+}
+
+
+
+
 //! Dates ==============================================================================
 
 
 static class Appointment
 {
+    #region Constant values.
     private static readonly int _afternoonStartHour = 12;
     private static readonly int _afternoonEndHour = 18;
     private static readonly int _anniversaryMonth = 9;
     private static readonly int _anniversaryDay = 15;
+    #endregion
 
     public static DateTime Schedule(string appointmentDateDescription)
         => DateTime.Parse(appointmentDateDescription);
@@ -373,4 +488,33 @@ class BirdCount
 
     public int BusyDays()
         => birdsPerDay.Count(element => element >= 5);
+}
+
+//! Char and a way way to filter and map elements
+
+public static class Identifier
+{
+    #region Helper methods.
+    private static bool IsGreekLowercase(char character)
+        => (character >= 'α' && character <= 'ω');
+    #endregion
+    public static string Clean(string identifier)
+    {
+        var stringBuilder = new StringBuilder();
+        var isAfterDash = false;
+
+        foreach (char letter in identifier)
+        {
+            stringBuilder.Append(letter switch {
+                _ when IsGreekLowercase(letter) => default,
+                _ when isAfterDash => char.ToUpperInvariant(letter),
+                _ when char.IsWhiteSpace(letter) => '_',
+                _ when char.IsControl(letter) => "CTRL",
+                _ when char.IsLetter(letter) => letter,
+                _ => default,
+            });
+            isAfterDash = letter.Equals('-');
+        }
+        return stringBuilder.ToString();
+    }
 }
