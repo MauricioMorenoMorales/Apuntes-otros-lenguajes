@@ -139,8 +139,8 @@ static class AssemblyLine
 static class AssemblyLine
 {
     private const int BaseProductionRatePerHour = 221;
-    public static double SuccessRate(int speed) => speed switch
-    {
+    public static double SuccessRate(int speed)
+    => speed switch {
         < 1 => 0.0,
         <= 4 => 1.0,
         <= 8 => 0.9,
@@ -375,11 +375,7 @@ class Wizard : Character
 	public override string ToString() => "Character is a Wizard";
 }
 
-
-
-
 //! Dates ==============================================================================
-
 
 static class Appointment
 {
