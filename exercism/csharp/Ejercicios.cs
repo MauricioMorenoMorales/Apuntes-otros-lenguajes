@@ -514,3 +514,97 @@ public static class Identifier
         return stringBuilder.ToString();
     }
 }
+
+//! BUffers and bytes ======================================================
+
+
+public static class TelemetryBuffer
+{
+    public static byte[] ToBuffer(long reading)
+    {
+        var bytes = reading switch
+        {
+            < Int32.MinValue => BitConverter.GetBytes((long)reading).Prepend((byte)(256 - 8)),
+            < Int16.MinValue => BitConverter.GetBytes((int)reading).Prepend((byte)(256 - 4)),
+            < UInt16.MinValue => BitConverter.GetBytes((short)reading).Prepend((byte)(256 - 2)),
+            <= UInt16.MaxValue => BitConverter.GetBytes((ushort)reading).Prepend((byte)2),
+            <= Int32.MaxValue => BitConverter.GetBytes((int)reading).Prepend((byte)(256 - 4)),
+            <= UInt32.MaxValue => BitConverter.GetBytes((uint)reading).Prepend((byte)4),
+            _ => BitConverter.GetBytes((long)reading).Prepend((byte)(256 - 8)),
+        };
+        return bytes.Concat(new byte[9 - bytes.Count()]).ToArray();
+    }
+
+    public static long FromBuffer(byte[] buffer)
+    => buffer[0] switch {
+        256 - 8 or 4 or 2 => BitConverter.ToInt64(buffer, 1),
+        256 - 4 => BitConverter.ToInt32(buffer, 1),
+        256 - 2 => BitConverter.ToInt16(buffer, 1),
+        _ => 0
+    };
+}
+
+//! Lists ===========================================================================
+
+public static class Languages
+{
+    public static List<string> NewList()
+        => new List<string>();
+
+    public static List<string> GetExistingLanguages()
+    {
+        var response = NewList();
+        response.Add("C#");
+        response.Add("Clojure");
+        response.Add("Elm");
+        return response;
+    }
+
+    public static List<string> AddLanguage(List<string> languages, string language)
+    {
+        languages.Add(language);
+        return languages;
+    }
+
+    public static int CountLanguages(List<string> languages)
+    {
+        byte response = 0;
+        foreach (string language in languages)
+        {
+            response++;
+        }
+        return response;
+    }
+
+    public static bool HasLanguage(List<string> languages, string language)
+    {
+        foreach(string element in languages)
+            if(element == language) return true;
+        return false;
+    }
+
+    public static List<string> ReverseList(List<string> languages)
+    {
+        languages.Reverse();
+        return languages;
+    }
+
+    public static bool IsExciting(List<string> languages)
+    {
+        if(languages.Count() == 0) return false;
+        if(languages[0] == "C#") return true;
+        if(languages[1] == "C#" && (languages.Count() == 2 || languages.Count == 3)) return true;
+        else return false;
+    }
+
+    public static List<string> RemoveLanguage(List<string> languages, string language)
+    {
+        List<string> response = NewList();
+        foreach(string element in languages)
+            if(element != language) response.Add(element);
+        return response;
+    }
+
+    public static bool IsUnique(List<string> languages)
+        => languages.Distinct().Count() == languages.Count();
+}
