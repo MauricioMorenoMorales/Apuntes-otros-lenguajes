@@ -767,3 +767,46 @@ public static class DialingCodes
             ? string.Empty
             : existingDictionary.Values.Max();
 }
+
+//! Nullable values and default values from nullables
+
+// Bad implementation
+static class Badge
+{
+    public static string Print(int? id, string name, string? department)
+        =>  (id != null && department == null) ? $"[{id}] - {name} - OWNER" :
+            (department == null) ? $"{name} - OWNER" :
+            (id == null) ? $"{name} - {department.ToUpper()}"
+            : $"[{id}] - {name} - {department.ToUpper()}";
+}
+
+// Good implementation
+
+
+static class Badge
+{
+    public static string Print(int? id, string name, string? department)
+    {
+        department = (department ?? "Owner").ToUpper();
+
+        return id.HasValue switch {
+            true => $"[{id}] - {name} - {department}",
+            false => $"{name} - {department}",
+        };
+    }
+}
+
+// Alternative
+
+
+static class Badge
+{
+    public static string Print(int? id, string name, string? department)
+    {
+        department = (department ?? "Owner").ToUpper();
+
+        return id.HasValue
+            ? $"[{id}] - {name} - {department}"
+            : $"{name} - {department}";
+    }
+}
