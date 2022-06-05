@@ -810,3 +810,110 @@ static class Badge
             : $"{name} - {department}";
     }
 }
+
+//! Switch =====================================================================
+
+
+public static class PlayAnalyzer
+{
+    public static string AnalyzeOnField(int shirtNum)
+    {
+        string response;
+        switch (shirtNum)
+        {
+            case 1:
+                response = "goalie";
+                break;
+            case 2:
+                response = "left back";
+                break;
+            case 3:
+            case 4:
+                response = "center back";
+                break;
+            case 5:
+                response = "right back";
+                break;
+            case 6:
+            case 7:
+            case 8:
+                response = "midfielder";
+                break;
+            case 9:
+                response = "left wing";
+                break;
+            case 10:
+                response = "striker";
+                break;
+            case 11:
+                response = "right wing";
+                break;
+            default:
+                throw new ArgumentOutOfRangeException();
+        }
+        return response;
+    }
+
+/* This switch casts the type of the object and declares variables that you can
+aalso check using guards */
+    public static string AnalyzeOffField(object report)
+    {
+        string message;
+        switch (report)
+        {
+            case int:
+                message = $"There are {report} supporters at the match.";
+                break;
+            case string:
+                message = (string)report;
+                break;
+            case Foul foul:
+                message = foul.GetDescription();
+                break;
+            case Injury injury:
+                message = $"Oh no! {injury.GetDescription()} Medics are on the field.";
+                break;
+            case Incident incident:
+                message = incident.GetDescription();
+                break;
+            case Manager manager when manager.Club == null:
+                message = manager.Name;
+                break;
+            case Manager manager:
+                message = $"{manager.Name} ({manager.Club})";
+                break;
+            default:
+                throw new ArgumentException();
+        }
+        return message;
+    }
+}
+
+// Compact version
+public static class PlayAnalyzer
+{
+    public static string AnalyzeOnField(int shirtNum)
+    => shirtNum switch {
+        1 => "goalie",
+        2 => "left back",
+        3 or 4 => "center back",
+        5 => "right back",
+        6 or 7 or 8 => "midfielder",
+        9 => "left wing",
+        10 => "striker",
+        11 => "right wing",
+        _ => throw new ArgumentOutOfRangeException()
+    };
+
+    public static string AnalyzeOffField(object report)
+    => report switch {
+        int supporters => $"There are {supporters} supporters at the match.",
+        string announcement => announcement,
+        Injury injury => $"Oh no! {injury.GetDescription()} Medics are on the field.",
+        Incident incident => incident.GetDescription(),
+        Manager manager => manager.Club == null
+            ? manager.Name
+            : $"{manager.Name} ({manager.Club})",
+        _ => throw new ArgumentException(nameof(report), $"Not expected data type: {report}")
+    };
+}

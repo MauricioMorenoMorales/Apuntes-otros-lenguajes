@@ -124,3 +124,167 @@
 (or + -)
 ((and (= 1 1) +) 1 2 3)
 ((first [+ 0]) 1 2 3)
+; Example of high order function
+(inc 1.1); 2.1
+(map inc [0 1 2 3]); (1 2 3 4)
+
+(+ (inc 199) (/ 100 (- 7 2)))
+(+ 200 (/ 100 5))
+(+ 200 20); --> 220
+
+
+
+; Defining functions ==========================================================
+(defn too-enthusiastic
+	"Return a cherr that might be a bit too ethusiastic"
+	[name]
+	(str "Oh my god! " name "you are most definetiley like the best "
+		"Man slash woman ever i love you and we should run away somewhere"))
+
+(too-enthusiastic "Zelda")
+
+; Functions also support arity
+
+(defn no-params
+	[]
+	"I take no parameters")
+
+(defn one-param
+	[x]
+	(str "I take one parameter: " x))
+
+(defn two-params
+	[x y]
+	(str "Two parameters! That's nothing! Pah! I will smosh them "
+	"togeter to spite you! " x y))
+
+; an arity shortcut
+
+(defn multy-arity
+	([first-argument second-argument third-argument]
+		(do-things first-argument second-argument third-argument))
+	([first-argument second-argument]
+		(do-things first-argument second-argument))
+	([first-argument]
+	(do-things first-argument)))
+
+; We can use arity overloading to define default values
+
+(defn x-chop
+	"Describe the kind of chop you are inflicting on someone"
+	([name chop-type]
+		(str "I " chop-type " chop " name "! Take that!"))
+	([name]
+		(x-chop name "karate")))
+
+; Also you can use arity to create completely different things
+
+(defn weird-arity
+  ([]
+		"Destiny dressed you this morning, my friend, and now Fear is
+		trying to pull off your pants. If you give up, if you give in,
+		you're gonna end up naked with Fear just standing there laughing
+		at your dangling unmentionables! - the Tick")
+  ([number]
+		(inc number)))
+
+; Also you can use the rest parameters
+
+(defn codger-communication
+	[whisppersnapper]
+	(str "Get off my lawn, " whisppersnapper "!!!"))
+
+(defn codger
+	[& whispersnappers]
+	(map codger-communication whispersnappers))
+
+(defn favorite-things
+	[name & things]
+	(str "Hi, " name ", here are my favorite things: "
+		(clojure.string/join ", " things)))
+
+; Also we can use destructuring
+
+(defn my-first
+	[[first-thing]]
+	first-thing)
+
+; We can combine this with rest parameters
+
+(defn chooser
+	[[first-choice second-choice & unimportant-choices]]
+	(println (str "Your first choice is: " first-choice))
+	(println (str "Your second choice is: " second-choice))
+	(println (str "We're ignoring the rest of your choices. "
+								"Here they are in case you need to cry over them: "
+								(clojure.string/join ", " unimportant-choices))))
+
+; Also you can destructure maps
+
+(defn announce-treasure-location
+	[{lat :lat lng :lng}] ; naming the keys
+	(println (str "treasure lat: " lat))
+	(println (str "treasure lng: " lng)))
+
+(defn announce-treasure-location
+	[{:keys [lat lng]}]; Only takes the keys with their original names
+	(println (str "treasure lat: " lat))
+	(println (str "treasure lng: " lng)))
+
+
+(announce-treasure-location {:lat 28.22 :lng 81.33})
+
+; Also we can retain the original map in this way
+
+(defn receive
+	[{:keys [lat lng] :as treasure-location}]; We retain access to the original object
+	(println (str "treasure lat: " lat))
+	(println (str "treasure lng: " lng)))
+
+; Function body ========================================================
+
+; Clojure returns the last form evaluated
+
+(defn illustrative-function
+	[]
+	(+ 1 304)
+	30
+	"Joe"); => Joe
+
+(defn number-content
+	[y]
+	(if (>= y 7)
+		"Oh my gosh! What a big number!"
+		"That number's OK, I guess"))
+
+; Anonymous functions
+(fn [param-list]
+	function body)
+
+(map (fn [name] (str "Hi, " name))
+	["Darth vader" "Mr. Magoo"]); Here we pass the parameter
+
+((fn [x] (* x 3)) 8)
+
+(def my-special-multiplier (fn [x] (* x 3)))
+(my-special-multiplier 12); 36
+
+; Anonymous function shortcut
+#(* % 3)
+(#(* % 3) 8)
+
+(map #(str "Hi, " %)
+	["Darth Vader" "Mr. Magoo"])
+
+(#(str %1 " and " %2) "Cornerbread" "butter beans")
+
+;Also you can use rest parameter
+(#(identity %&) 1 2 3)
+
+;Closure =============================================================
+(defn inc-maker
+	"Create a custom incrementor"
+	[inc-by]
+	#(+ % inc-by))
+
+(def inc3 (inc-maker 3))
