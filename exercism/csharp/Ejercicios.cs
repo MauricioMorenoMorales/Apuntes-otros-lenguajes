@@ -104,26 +104,11 @@ static class AssemblyLine
     private const int BaseProductionRatePerHour = 221;
     public static double SuccessRate(int speed)
     {
-        if(speed == 0)
-        {
-            return 0;
-        }
-        else if(speed <= 4)
-        {
-            return 1;
-        }
-        else if(speed <= 8)
-        {
-            return 0.9;
-        }
-        else if(speed == 9)
-        {
-            return 0.8;
-        }
-        else
-        {
-            return 0.77;
-        }
+        if(speed == 0) return 0;
+        else if(speed <= 4) return 1;
+        else if(speed <= 8) return 0.9;
+        else if(speed == 9) return 0.8;
+        else return 0.77;
     }
     public static double ProductionRatePerHour(int speed)
     {
@@ -916,4 +901,17 @@ public static class PlayAnalyzer
             : $"{manager.Name} ({manager.Club})",
         _ => throw new ArgumentException(nameof(report), $"Not expected data type: {report}")
     };
+}
+
+//! Random numbers ================================================================
+
+
+public class Player
+{
+    private Random random = new Random();
+    private static readonly double maxStrength = 100.0;
+    public int RollDie() => random.Next(1, 18);
+
+    public double GenerateSpellStrength()
+        => random.NextDouble() * maxStrength;
 }
