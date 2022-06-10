@@ -958,3 +958,16 @@ static class Permissions
     public static bool Check(Permission current, Permission check)
     => current.HasFlag(check);
 }
+
+//! Typeofs =========================================================================
+
+
+public class SecurityPassMaker
+{
+    public string GetDisplayName(TeamSupport support)
+    => support switch {
+        _ when support.GetType() == typeof(Security) => "Security Team Member Priority Personnel",
+        _ when support is Manager => "Too Important for a Security Pass",
+        _ => support.Title
+    };
+}
