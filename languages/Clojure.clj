@@ -328,3 +328,94 @@
 				(recur remaining
 					(into final-body-parts
 						(set [part (matching-part part)])))))))
+
+;;! Let
+; let allows you to declare variables inside the functions
+(let [x 3] x); 3
+
+(def dalmatian-list
+	["Pongo" "Perdita" "Puppy 1" "Puppy 2"])
+(let [dalmatians (take 2 dalmatian-list)] dalmatians)
+
+; you can refer another values
+(def x 0)
+(let [x (inc x)] x)
+
+; Rest parameter and destructuring
+(let [[pongo & dalmatians] dalmatian-list]
+	[pongo dalmatians]); ["Pongo" ("Perdita" "Puppy 1" "Puppy 2")]
+
+; Try understand this
+
+(let [[part & remaining] remaining-asym-parts]
+	(recur remaining
+		(into final-body-parts
+			(set [part (matching-part part)]))))
+
+;;! Loop
+
+(loop [iteration 0]
+	(println (str "Iteration " iteration))
+	(if (> iteration 3)
+		(println "Goodbye!")
+		(recur (inc iteration)))); Else that iterates again
+
+; Loop with recursive
+
+(defn recursive-printer
+	([]
+		(recursive-printer 0))
+	([iteration]
+		(println iteration)
+		(if (> iteration 3)
+			(println "Goodbye!")
+			(recursive-printer (inc iteration)))))
+
+;;! regular expresions
+(re-find #"left-" "left-eye"); "left-"
+(re-find #"left-" "cleft-chin"); nil
+
+;example
+
+(defn matching-part
+	[part]
+	{:name (clojure.string/replace (:name part) #"left-" "right-")
+	:size (:size part)})
+
+(matching-part {:name "left-eye" :size 1}); {:name "right-eye" :size 1}]
+
+;;! Reduce
+(reduce + [1 2 3 4 ]); 10
+(+ (+ (+ 1 2) 3) 4)
+; with initial value
+(reduce + 15 [1 2 3 4 5])
+
+(defn my-reduce
+	([f initial coll]
+		(loop [result initial
+					remaining coll]
+			(if (empty? remaining)
+				reulst
+				(recur (f result (first remaining)) (rest remaining)))))
+	([f [head & tail]]
+		(my-reduce f head tail)))
+
+(defn better-symmetrize-body-parts
+	"Expects a seq of maps that have a :name and :size"
+	[asym-body-parts]
+	(reduce (fn [final-body-parts part]
+							(into final-body-parts (set [part (matching-part part)])))
+					[]
+					asym-body-parts))
+
+(defn hit
+  [asym-body-parts]
+  (let [sym-parts (better-symmetrize-body-parts asym-body-parts)
+        body-part-size-sum (reduce + (map :size sym-parts))
+        target (rand body-part-size-sum)]
+    (loop [[part & remaining] sym-parts
+          accumulated-size (:size part)]
+      (if (> accumulated-size target)
+        part
+        (recur remaining (+ accumulated-size (:size (first remaining))))))))
+				
