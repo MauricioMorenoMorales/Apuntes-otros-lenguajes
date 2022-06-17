@@ -60,3 +60,94 @@
 	(condp = (mod number 2)
 		0 "Even"
 		1 "Odd"))
+
+;;! Receives a number and returns the number reversed as type list
+
+(defn digitize
+  [parameter]
+  (->> parameter
+    str
+    reverse
+    (map #(Character/digit % 10))))
+
+(defn digitize
+  [parameter]
+  (->> (str parameter)
+    reverse
+    (map str)
+    (map read-string)))
+
+(defn parse
+  [parameter]
+  (Integer/parseInt (str parameter)))
+(defn digitize
+  [parameter]
+  (->> parameter
+    str
+    to-array
+    reverse
+    (map parse)))
+
+;;? Complex ############
+(defn digitize
+  ([parameter] (digitize parameter []))
+  ([parameter list]
+    (if (< parameter 10)
+      (concat list [parameter])
+      (recur (quot parameter 10)
+      (concat list [(mod parameter 10)])))))
+
+(defn digitize
+  [parameter]
+  (let [q (quot parameter 10) m (mod parameter 10)]
+    (if (= q 0) [m] (into [m] (digitize q)))))
+
+(defn digitize
+  [parameter]
+  (loop [ digits parameter
+          result []]
+    (let [digit (mod digits 10)
+          digits' (long (/ digits 10))
+          result' (conj result digit)]
+      (if (> digits' 0)
+        (recur digits' result')
+        result'))))
+
+;;! Conditionals with objects
+
+(defn chromosome-check
+  [parameter]
+  (if (= parameter "XY")
+    "Congratulations! You're going to have a son."
+    "Congratulations! You're going to have a daughter."))
+
+(defn chromosome-check
+  [parameter]
+  ({"XY" "Congratulations! You're going to have a son."
+    "XX" "Congratulations! You're going to have a daughter."} parameter))
+
+(defn chromosome-check
+  [parameter]
+  (case parameter
+    "XY" "Congratulations! You're going to have a son."
+    "XX" "Congratulations! You're going to have a daughter."))
+
+;;! Xor, create a function that returns a cor
+
+(defn xor
+  [a, b]
+  (case a
+    true (if (= b true) false true)
+    false (if (= b false) false true)))
+
+;; We give this an alias
+(defn xor not=)
+(defn xor [a,b]
+  (not= a b))
+
+(defn xor [a, b]
+  (and (or a b) (not (and a b))))
+
+(defn xor
+  [a, b]
+  (= (true? a) (false? b)))
