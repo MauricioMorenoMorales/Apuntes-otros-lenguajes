@@ -61,3 +61,47 @@ class Program
         return max;
     }
 }
+    //! Calculate if you are above the average of a group =========================================
+    public static bool BetterThanAverage1(int[] classPoints, int YourPoints)
+    {
+        #region Calculate average of class
+        ushort totalPoints = 0;
+        foreach (var point in classPoints)
+            totalPoints += (ushort)point;
+        ushort average = (ushort)(totalPoints / classPoints.Length);
+        #endregion
+        return YourPoints > average; 
+    }
+
+    public static bool BetterThanAverage2(int[] classPoints, int YourPoints)
+    {
+        int average = (classPoints.Sum() + YourPoints) / (classPoints.Length + 1);
+        return YourPoints > average;
+    }
+
+    public static bool BetterThanAverage(int[] classPoints, int YourPoints)
+    => YourPoints > classPoints.Average();
+
+    //! Calculate the result of a piedra papel o tijeras game =======================================
+    public static string Rps2(string player1, string player2)
+    => player1 switch
+    {
+        "rock"     when player2 == "scissors" => "Player 1 won!",
+        "rock"     when player2 == "paper"    => "Player 2 won!",
+        "scissors" when player2 == "paper"    => "Player 1 won!",
+        "scissors" when player2 == "rock"     => "Player 2 won!",
+        "paper"    when player2 == "rock"     => "Player 1 won!",
+        "paper"    when player2 == "scissors" => "Player 2 won!",
+        _ => "Nobody wins"
+    };
+    
+    public static string Rps(string player1, string player2)
+    {
+        if (player1 == player2) return "Draw!";
+        string combination = (player1 + player2);
+        int winner = combination == "scissorspaper"
+                  || combination == "rockscissors"
+                  || combination == "paperrock"
+                  ? 1 : 2;
+        return $"Player {winner} won!";
+    }
