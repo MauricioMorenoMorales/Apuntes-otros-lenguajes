@@ -60,8 +60,36 @@ class Program
         max = Math.Max(max, a + b + c);
         return max;
     }
-}
-    //! Calculate if you are above the average of a group =========================================
+    
+    //! Select first element of a string and parses it ========================
+    public static int GetAge1(string parameter)
+    => Int32.Parse(parameter.Split(' ')[0]);
+
+    public static int GetAge2(string parameter)
+    => (int)char.GetNumericValue(parameter[0]);
+
+    public static int GetAge3(string parameter)
+    => parameter[0] - '0';
+
+    //! Duplicates the value of each element in a string =======================
+    public static int[] Maps1(int[] parameter)
+    => parameter.Select(x => x * 2).ToArray();
+
+    public static int[] Maps(int[] parameter)
+    {
+        for (int i = 0; i < parameter.Length; i++)
+            parameter[i] *= 2;
+        return parameter;
+    }
+
+    //! Sorts values in an array in diferent directions R L ======================
+    public static int[] Flip1(char direction, int[] parameter)
+    => direction == 'R'
+        ? parameter.OrderBy(x => x).ToArray()
+        : parameter.OrderByDescending(x => x).ToArray();
+    public static int[] Flip2(char direction, int[] parameter)
+    => parameter.OrderBy(x => direction == 'R' ? 1 : -1).ToArray();
+        //! Calculate if you are above the average of a group =========================================
     public static bool BetterThanAverage1(int[] classPoints, int YourPoints)
     {
         #region Calculate average of class
@@ -105,3 +133,5 @@ class Program
                   ? 1 : 2;
         return $"Player {winner} won!";
     }
+
+}
