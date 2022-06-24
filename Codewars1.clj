@@ -151,3 +151,36 @@
 (defn xor
   [a, b]
   (= (true? a) (false? b)))
+
+
+;;! Sorts an array in diferent directions
+(defn flip1
+  [direction array]
+  (if (= direction \R)
+    (-> array
+      sort
+      reverse)
+    (sort array)))
+
+(defn flip2
+  [direction array]
+  (case direction
+    \R (sort < array)
+    \L (sort > array)))
+
+(defn flip3
+  [direction array]
+  (sort (case direction \R < \L >) array))
+
+;;! Takes the first element of a string and parses it
+(defn how-old
+  [her-old]
+  (-> her-old
+    (clojure.string/split #"\s")
+    first
+    Integer.))
+
+(defn how-old2
+  [her-old]
+  (Integer. (re-find #"\d" her-old)))
+
