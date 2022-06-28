@@ -184,3 +184,49 @@
   [her-old]
   (Integer. (re-find #"\d" her-old)))
 
+
+;;! reverses a word string
+
+(defn reverse-words
+  [string-parameter]
+  (->> (clojure.string/split string-parameter)
+    reverse
+    (clojure.string/join " ")))
+
+;;! Sums only positive numbers
+(defn positive-sum
+  [number-array]
+  (->> number-array
+    (filter #(< 0 %))
+    (reduce +)))
+
+(defn positive-sum
+  [number-array]
+  (->> number-array
+    (filter pos?)
+    (reduce +)))
+
+;;! Divisibility test x and y of another number
+
+(defn is-divisible
+  [number x y]
+  (= 0
+    (mod number x)
+    (mod number y)))
+
+;;! Trims the "!" symbols of a string and only left the last one
+
+(defn remove-bang
+  [string-parameter]
+  (->> string-parameter
+    (filter #(not= \! %))
+    reverse
+    (cons \!)
+    reverse
+    (apply str)))
+
+(defn remove-bang
+  [string-parameter]
+  (-> string-parameter
+    (.replace "!" "")
+    (.concat "!")))
