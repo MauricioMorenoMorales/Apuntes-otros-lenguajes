@@ -134,4 +134,15 @@ class Program
         return $"Player {winner} won!";
     }
 
+    //! Reverse the words order of a string
+    public static string ReverseWords(string parameter)
+    => string.Join(" ", parameter.Split(' ').Reverse());
+
+    public static string ReverseWords2(string parameter)
+    {
+        string[] words = parameter.Split(' ');
+        Array.Reverse(words);
+        return string.Join(" ", words); 
+    }
+
 }
