@@ -144,5 +144,18 @@ class Program
         Array.Reverse(words);
         return string.Join(" ", words); 
     }
+    
+     /*! Sum digits of a number and subtract the result to the number itself, and then if the number
+     * is smaller than 100 return it*/
+    public static string SubtractSum(int parameter)
+    {
+        while (true)
+        {
+            parameter -= parameter.ToString().Sum(x => int.Parse(x.ToString())) - 1;
+            Console.WriteLine(parameter);
+            if (parameter <= 100) return parameter.ToString();
+        }
+    }
+
 
 }
