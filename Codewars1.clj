@@ -193,6 +193,14 @@
     reverse
     (clojure.string/join " ")))
 
+(defn testing-reverse
+  [string-parameter]
+  (-> string-parameter
+    (clojure.string/split #" ")
+    (->> reverse
+      (clojure.string/join " "))))
+
+
 ;;! Sums only positive numbers
 (defn positive-sum
   [number-array]
@@ -230,3 +238,8 @@
   (-> string-parameter
     (.replace "!" "")
     (.concat "!")))
+
+;;! Converts a number to string
+(defn number-to-string
+  [number-parameter]
+  (str number-parameter))
