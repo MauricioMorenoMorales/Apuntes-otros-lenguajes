@@ -258,3 +258,18 @@
     (if (<= result 100)
       result
       (sum-digits-bellow-hundred result))))
+
+;;! Counts the value of an array of game scores in the form of "1:2" and count the points
+(defn scorer
+  [game]
+  (let [[x y] (->> (clojure.string/split game #":")
+                   (map #(Integer/parseInt %)))]
+    (cond
+      (> x y) 3
+      (< x y) 0
+      (= x y) 1)))
+
+(defn points
+  [games-array]
+  (->> (map scorer games-array)
+       (reduce +)))
