@@ -102,3 +102,15 @@
                   {:prev (first birds)})
         :res)
     false))
+
+
+;;! Check
+(defn odd-week? [birds]
+  (let [odds (take-nth 2 birds)
+        evens (take-nth 2 (rest birds))
+        check01 (fn [coll1 coll2]
+                  (and (every? zero? coll1) (every? #(= 1 %) coll2)))]
+    (case (first odds)
+      0 (check01 odds evens)
+      1 (check01 evens odds)
+      false)))
