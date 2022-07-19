@@ -152,3 +152,31 @@
     (-> production-per-minute
         (Math/floor)
         (int))))
+;; Manipulating floats =================================================
+
+(defn interest-rate
+  "TODO: add docstring"
+  [balance]
+  (cond
+    (>= balance 5000) 2.475
+    (>= balance 1000) 1.621
+    (>= balance 0)    0.5
+    :default  -3.213))
+
+(defn annual-balance-update
+  "TODO: add docstring"
+  [balance]
+  (->> (interest-rate balance)
+    (bigdec)
+    (#(if (neg? %)
+      (-' %)
+      %))
+    (*' balance 0.01M)
+    (+' balance)))
+
+(defn amount-to-donate
+  "TODO: add docstring"
+  [balance tax-free-percentage]
+  (if (pos? balance)
+    (int (* tax-free-percentage 0.01 balance 2))
+    0))
