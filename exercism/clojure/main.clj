@@ -114,3 +114,41 @@
       0 (check01 odds evens)
       1 (check01 evens odds)
       false)))
+
+;! Number manipulation ==============================================================
+
+
+(defn production-rate1
+  "Returns the assembly line's production rate per hour,
+   taking into account its success rate"
+  [speed]
+  (let [total-production (float (* 221 speed))
+        success-rate (cond
+                       (>= speed 10) 0.77
+                       (>= speed 9)  0.8
+                       (>= speed 5)  0.9
+                       (>= speed 1)  1
+                       :defaut       0)]
+    (* total-production success-rate)))
+
+(defn production-rate
+  "Returns the assembly line's production rate per hour,
+   taking into account its success rate"
+  [speed]
+  (let [total-production (float (* 221 speed))
+        success-rate (case speed
+                       (10)       0.77
+                       (9)        0.8
+                       (5 6 7 8)  0.9
+                       (1 2 3 4)  1
+                       0)]
+    (* total-production success-rate)))
+
+(defn working-items
+  "Calculates how many working cars are produced per minute"
+  [speed]
+  (let [total-production (production-rate speed)
+        production-per-minute (/ total-production 60)]
+    (-> production-per-minute
+        (Math/floor)
+        (int))))
