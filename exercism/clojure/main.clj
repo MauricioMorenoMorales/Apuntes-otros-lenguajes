@@ -180,3 +180,33 @@
   (if (pos? balance)
     (int (* tax-free-percentage 0.01 balance 2))
     0))
+
+;; Manipulating Strings =============================================
+(defn message
+  "Takes a string representing a log line
+    and returns its message with whitespace trimmed."
+  [string-parameter]
+  (-> string-parameter
+      (clojure.string/split #" ")
+      (->> (drop 1)
+            (clojure.string/join #" ")
+            (clojure.string/trim))))
+
+(defn log-level
+  "Takes a string representing a log line
+    and returns its level in lower-case."
+  [string-parameter]
+  (-> string-parameter
+      (clojure.string/split #" ")
+      (first)
+      (clojure.string/replace #"(\[|\]|\:)" "")
+      (clojure.string/lower-case)))
+
+(defn reformat
+  "Takes a string representing a log line and formats it
+   with the message first and the log level in parentheses."
+  [string-parameter]
+  (let [log-level (log-level string-parameter)
+        message (message string-parameter)]
+    (str message " (" log-level ")")))
+
