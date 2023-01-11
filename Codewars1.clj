@@ -248,13 +248,12 @@
 ;;! The number is smaller than 100
 (defn sum-digits-bellow-hundred
   [number-parameter]
-  (let [
-  number-sum (-> number-parameter
+  (let [number-sum (-> number-parameter
                   str
                   (clojure.string/split #"")
                   (->> (map #(Integer. %))
                   (reduce +)))
-  result (- number-parameter number-sum)]
+        result (- number-parameter number-sum)]
     (if (<= result 100)
       result
       (sum-digits-bellow-hundred result))))
@@ -273,3 +272,4 @@
   [games-array]
   (->> (map scorer games-array)
        (reduce +)))
+
