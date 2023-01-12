@@ -32,13 +32,26 @@ var node0 = cons("new first", node1)
 
 first(rest(node0))
 
-var map = (list, mapFunction) =>
-	list === null
-		? null
-		: cons(mapFunction(first(list)), map(rest(list), mapFunction))
+var map = (list, mapFunction) => list === null
+	? null
+	: cons(mapFunction(first(list)), map(rest(list), mapFunction))
 
 console.log(
 	first(
-		map(node1, value => value + " mapped!")
+		map(node1, value => `${value} maped!`)
 	)
+)
+
+// Array Implementation
+
+var first = array => array[0]
+var rest = (array, sliced = array.slice(1, array.length)) =>
+	sliced.length === 0
+		? null
+		: sliced
+var cons = (newValue, array) => [newValue].concat(array)
+
+var list = ["Transylvania", "Forks WA"];
+console.log(
+	map(list, value => `${value} mapped!!`)
 )
