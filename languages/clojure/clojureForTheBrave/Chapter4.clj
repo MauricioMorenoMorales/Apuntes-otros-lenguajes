@@ -153,3 +153,68 @@
 	(first (filter vampire?
 		(map vampire-related-details social-security-numbers))))
 
+
+;;! Lazy sequences
+
+(take 3 (repeatedly (fn [] (rand-int 10))))
+; returns three random numbers lazy sequence
+
+(defn even-numbers
+	([] (even-numbers 0)
+	([n] (cons n (lazy-seq (even-numbers (+ 2 n)))))))
+(take 10 (even-numbers)) ; returns 0 2 4 6 8 10 12 14 16 18 20
+
+(map identity {:sunlight-reaction "Glitter"})
+; ([:sunlight-reaction "Glitter"])
+
+(into {} (map identity {:sunlight-reaction "Glitter"}))
+; {:sunlight-reaction "Glitter"}
+
+(map identity [:garlic :sesame-oil :fried-eggs])
+; (:garlic :sesame-oil :fried-eggs)
+
+(into [] (map identity [:garlic :sesame-oil :fried-eggs]))
+; [:garlic :sesame-oil :fried-eggs]
+
+
+;;! difference between conj and into
+
+(conj [0] [1]); [0 [1]]
+(into [0] [1]); [0 1]
+(conj [0] 1);   [0 1]
+
+;;! Apply convierte un valor que incluye muchos valores en muchos valores en vez de uno
+
+(max 0 1 2); 2
+(max [0 1 2]); [0 1 2]
+(apply max [0 1 2]) ; 2
+
+(defn my-into [target additions] (apply conj target additions))
+(my-into [0] [1 2 3])
+
+;;! Partial
+(def add10 (partial + 10))
+(add10 3); 13
+(add10 5); 15
+
+(def add-missing-elements
+	(partial conj ["water" "warth" "air"]))
+(add-missing-elements "unobtanium" "adamantium")
+; ["water" "warth" "air" "unobtanium" "adamantium"]
+
+
+(defn my-partial
+	[partialized-fn & args]
+	(fn [& more-args]
+		(apply partialized-fn (into args more-args))))
+(defn add20 (my-partial + 20))
+(add20 3); 23
+
+(defn lousy-logger
+	[log-level message]
+	(condp = log-level
+		:warn      (clojure.string/lower-case message)
+		:emergency (clojure.string/upper-case message)))
+(def warn (partial lousy-loger :warn))
+(warn "Red light ahead"); Red light ahead
+
