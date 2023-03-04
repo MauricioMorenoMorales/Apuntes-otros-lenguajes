@@ -455,16 +455,16 @@ end
 
 def switch_it_up(number)
 	case number
-	when 1 then 'One'
-	when 2 then 'Two'
-	when 3 then 'Three'
-	when 4 then 'Four'
-	when 5 then 'Five'
-	when 6 then 'Six'
-	when 7 then 'Seven'
-	when 8 then 'Eight'
-	when 9 then 'Nine'
-	when 0 then 'Zero'
+		when 1 then 'One'
+		when 2 then 'Two'
+		when 3 then 'Three'
+		when 4 then 'Four'
+		when 5 then 'Five'
+		when 6 then 'Six'
+		when 7 then 'Seven'
+		when 8 then 'Eight'
+		when 9 then 'Nine'
+		when 0 then 'Zero'
 	end
 end
 
@@ -676,7 +676,7 @@ def calculate_tip(amount, rating)
 		when "great" then (amount * 0.15).ceil
 		when "excellent" then (amount * 0.2).ceil
 		else "Rating not recognised"; 
-		end
+	end
 end
 
 
@@ -691,13 +691,9 @@ end
 
 def well(x)
   case x.count('good')
-  when 0
-    'Fail!'
-  when (1..2)
-    'Publish!'
-  else
-    'I smell a series!'
-  end
+  when 0 'Fail!'
+  when (1..2) 'Publish!'
+  else 'I smell a series!' end
 end
 
 def well(x)

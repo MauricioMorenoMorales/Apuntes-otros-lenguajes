@@ -210,3 +210,38 @@
         message (message string-parameter)]
     (str message " (" log-level ")")))
 
+(defn reformat
+  "Takes another thing and returns the last element
+  of the ")
+
+;;! manipulating booleans
+
+(ns annalyns-infiltration)
+
+(defn can-fast-attack?
+  "Returns true if a fast-attack can be made, false otherwise."
+  [knight-awake?]
+  (not knight-awake?))
+
+(defn can-spy?
+  "Returns true if the kidnappers can be spied upon, false otherwise."
+  [knight-awake? archer-awake? prisoner-awake?]
+  (or knight-awake? archer-awake? prisoner-awake?))
+
+(defn can-signal-prisoner?
+  "Returns true if the prisoner can be signalled, false otherwise."
+  [archer-awake? prisoner-awake?]
+  (and
+    (not archer-awake?)
+    prisoner-awake?))
+
+(defn can-free-prisoner?
+  "Returns true if prisoner can be freed, false otherwise."
+  [knight-awake? archer-awake? prisoner-awake? dog-present?]
+  (let [prisoner-sleeps? (not prisoner-awake?)
+        knight-sleeps?   (not knight-awake?)
+        archer-sleeps?   (not archer-awake?)
+        guards-sleep?    (and knight-sleeps? archer-sleeps?)]
+    (or
+      (and guards-sleep? prisoner-awake?)
+      (and archer-sleeps? dog-present?))))
