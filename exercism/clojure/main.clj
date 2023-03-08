@@ -245,3 +245,48 @@
     (or
       (and guards-sleep? prisoner-awake?)
       (and archer-sleeps? dog-present?))))
+
+;;! Manipulating vectors
+;;? First iteration
+
+(ns elyses-destructured-enchantments)
+
+(defn first-card
+  "Returns the first card from deck."
+  [deck]
+  (first deck))
+
+(defn second-card
+  "Returns the second card from deck."
+  [deck]
+  (second deck))
+
+(defn swap-top-two-cards
+  "Returns the deck with first two items reversed."
+  [deck]
+  (let [[first second & remaining] deck]
+    (if (= remaining nil)
+      [second first]
+      [second first remaining]))
+)
+
+(defn discard-top-card
+  "Returns a sequence containing the first card and
+   a sequence of the remaining cards in the deck."
+  [deck]
+  (let [[first & remaining] deck]
+    [first remaining])
+)
+
+(def face-cards
+  ["jack" "queen" "king"])
+
+(defn insert-face-cards
+  "Returns the deck with face cards between its head and tail."
+  ([deck]
+  (if (empty? deck)
+    face-cards
+    (let [[first second third fourth & remaining] deck]
+      (if (= remaining nil)
+        '(first face-cards))
+      ))))
