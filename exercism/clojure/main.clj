@@ -326,3 +326,21 @@
   (->> [first face-cards remaining]
     (flatten)
     (remove nil?))))
+
+;;! Default values
+
+(defn two-fer
+  ([]
+  "One for you, one for me.")
+  ([name]
+  (format "One for %s, one for me." name)))
+
+
+(defn two-fer
+  ([]
+  (two-fer "you"))
+  ([name]
+  (format "One for %s, one for me." name)))
+
+(defn two-fer [& [recipient]]
+  (format "One for %s, one for me." (or recipient "you")))
