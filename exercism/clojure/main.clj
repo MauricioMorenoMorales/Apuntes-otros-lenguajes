@@ -344,3 +344,16 @@
 
 (defn two-fer [& [recipient]]
   (format "One for %s, one for me." (or recipient "you")))
+
+;;! Iterating through Numbers
+
+(defn armstrong
+  [parameter]
+  (->> (str parameter)
+        seq
+        (map str)
+        (map read-string)
+        ((map #(reduce * (repeat (count (str n)) %))))
+        (reduce +)
+        (= parameter)))
+
