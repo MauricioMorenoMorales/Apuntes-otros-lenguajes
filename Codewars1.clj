@@ -249,10 +249,10 @@
 (defn sum-digits-bellow-hundred
   [number-parameter]
   (let [number-sum (-> number-parameter
-                  str
-                  (clojure.string/split #"")
-                  (->> (map #(Integer. %))
-                  (reduce +)))
+                    str
+                    (clojure.string/split #"")
+                    (->> (map #(Integer. %))
+                    (reduce +)))
         result (- number-parameter number-sum)]
     (if (<= result 100)
       result
@@ -273,3 +273,11 @@
   (->> (map scorer games-array)
        (reduce +)))
 
+;;! Invierte un numero
+(defn inverting
+  [parameter]
+  (->> parameter
+      str
+      reverse
+      clojure.string/join
+      Integer.))
