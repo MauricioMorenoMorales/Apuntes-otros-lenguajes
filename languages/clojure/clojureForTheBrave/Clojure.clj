@@ -403,10 +403,11 @@
 (defn better-symmetrize-body-parts
 	"Expects a seq of maps that have a :name and :size"
 	[asym-body-parts]
-	(reduce (fn [final-body-parts part]
-							(into final-body-parts (set [part (matching-part part)])))
-					[]
-					asym-body-parts))
+	(reduce
+		(fn [final-body-parts part]
+			(into final-body-parts (set [part (matching-part part)])))
+		[]
+		asym-body-parts))
 
 (defn hit
   [asym-body-parts]
@@ -418,4 +419,3 @@
       (if (> accumulated-size target)
         part
         (recur remaining (+ accumulated-size (:size (first remaining))))))))
-				

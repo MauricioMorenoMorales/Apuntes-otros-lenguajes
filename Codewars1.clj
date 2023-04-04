@@ -277,7 +277,7 @@
 (defn inverting
   [parameter]
   (->> parameter
-      str
-      reverse
-      clojure.string/join
-      Integer.))
+      (str)
+      (reverse)
+      (clojure.string/join)
+      (Integer.)))
