@@ -64,3 +64,49 @@
 (require '[clojure.repl :refer [source]])
 (source identity)
 
+;;! Flow control Do and if
+
+;;Do ignores the return values of all its forms except the last and allows side effects
+
+(defn is-small?
+  [number]
+  (if (< number 100)
+    "Yes"
+    (do
+      (println "Saw a big number " number)
+      "No")))
+
+(loop [result [] x 5]
+  (if (zero? x)
+    result
+    (recur (conf result x) (dec x))))
+
+(defn countdown [result x]
+  (if (zero? x)
+    result
+    (recur (conj result x) (dec x))))
+;; Another ways to write the same funcion
+
+(into [] (take 5 (iterate dec 5)))
+(into [] (drop-last (reverse (range 6))))
+(vec (reverse (rest (range 6))))
+
+
+;; Encuentra el indice de un grupo denumeros dentro de un array ejemplo: ​"zzabyycdxx"​,[​'b'​,​'y'​] -> 3
+
+(defn indexed [coll] (map-indexed vector coll)); (indexed "abcde") -> ([0 ​\a​] [1 ​\b​] [2 ​\c​] [3 ​\d​] [4 ​\e​])
+
+(defn index-filter [pred coll]
+  (when pred
+    (for [[idx elt] (indexed coll) :when (pred elt)] idx)))
+
+(index-filter #{\a \b} "abcdbbb"); -> (0 1 4 5 6)
+
+(index-filter #{\a \b} "xyzxzy"); -> ()
+
+(defn index-of-any [pred coll]
+  (first (index-filter pred coll)))
+
+(index-of-any #{\z \a} "zzabyycdxx"); -> 0
+(index-of-any #{\b \y} "zzabyycdxx"); -> 3
+
