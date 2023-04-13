@@ -110,7 +110,7 @@
 #{"Kurt vonnegut" 20 :icicle}
 (hash-set "kurt vonnegut" 20 :icicle)
 
-(conj ${:a :ab} :b); #{:a :b}
+(conj #{:a :ab} :b); #{:a :b}
 (set [3 3 3 4 4]); #{3 4}
 
 ; Functions ===================================================================0
@@ -299,7 +299,7 @@
 	{:name "nose" :size 1}
 	{:name "neck" :size 2}
 	{:name "left-shoulder" :size 3}
-	{:name "left-upper-arm" :size 3}
+	{:name "ojeft-upper-arm" :size 3}
 	{:name "chest" :size 10}
 	{:name "back" :size 10}
 	{:name "left-forearm" :size 3}

@@ -357,3 +357,33 @@
         (reduce +)
         (= parameter)))
 
+;;! Armstrong numbers
+
+(defn ^Boolean armstrong?
+  [^String parameter]
+  (->> (str parameter)
+    (seq)
+    (map str)
+    (map read-string)
+    (map #(reduce * (repeat (count (str parameter)) %)))
+    (reduce +)
+    (= parameter)))
+
+;; Second iteration
+
+(defn- to-digits
+  [^Number parameter]
+  (loop [num parameter
+        digits nil]
+      (if (< num 10)
+        (conj digits num)
+        (recur  (quot num 10)
+                (conj digits (rem num 10))))))
+
+(defn- expt [base n]
+  (apply * (repeat n base)))
+
+(defn armstrong? [^Number n]
+  (let [digits (to-digits n)
+        digits-count (count digits)]
+    (= (reduce #(+ %1 (expt %2 digits-count)) 0 digits) n)))

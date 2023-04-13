@@ -1,5 +1,7 @@
 ;;! Sums the square of an array [5, 3, 4] ==> 50
 
+(require '[clojure.string :refer [split join]])
+
 (defn square-sum
   [list]
   (->> list
@@ -281,3 +283,25 @@
       (reverse)
       (clojure.string/join)
       (Integer.)))
+
+(defn ^String get-drink-by-profession
+  "Maps a profession with a certain value of beer"
+  [^String profession]
+  (let [capitalized-words (->>  (split profession #" ")
+                                (map #(capitalize %))
+                                (join #" "))]
+    (condp = capitalized-words
+      "Jabroni"           "Patron Tequila"
+      "School Counselor"  "Anything with Alcohol"
+      "Programmer"        "Hipster Craft Beer"
+      "Bike Gang Member"  "Moonshine"
+      "Politician"        "Your tax dollars"
+      "Rapper"            "Crystal"
+                          "Beer")))
+
+;; ((get-drink-by-profession "school counselor")); Anything with Alcohol
+;; ((get-drink-by-profession "jabroni")); Patron Tequila
+;; ((get-drink-by-profession "politician"))
+;; ((get-drink-by-profession "rapper"))
+;; ((get-drink-by-profession "Musician")); Beer
+;; ((get-drink-by-profession "bike gang member"))
