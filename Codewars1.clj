@@ -1,6 +1,6 @@
 ;;! Sums the square of an array [5, 3, 4] ==> 50
 
-(require '[clojure.string :refer [split join]])
+(require '[clojure.string :as string :refer [split join]])
 
 (defn square-sum
   [list]
@@ -18,16 +18,16 @@
   (Integer. str))
 
 (defn string-to-number
-	[str]
-	(Integer/parseInt str))
+  [str]
+  (Integer/parseInt str))
 
 (defn string-to-number
-	[str]
-	(read-string str))
+  [str]
+  (read-string str))
 
 (defn string-to-number
-	[str]
-	(Integer/valueOf str))
+  [str]
+  (Integer/valueOf str))
 
 ;;! Transform numbers greather or equal than 5 in 1, or else return a 0
 
@@ -38,10 +38,10 @@
         x)))
 
 (defn fake-bin
-	[x]
-	(-> x
-		(clojure.string/replace #"[0-4]" "0")
-		(clojure.string/replace #"[5-9]" "1")))
+  [x]
+  (-> x
+     (clojure.string/replace #"[0-4]" "0")
+     (clojure.string/replace #"[5-9]" "1")))
 
 (defn fake-bin
   [x]
@@ -56,12 +56,12 @@
   (if (= 0 (mod number 2)) "Even" "Odd"))
 
 (defn even-or-odd [number]
-	(if (even? number) "Even" "Odd"))
+  (if (even? number) "Even" "Odd"))
 
 (defn even-or-odd [number]
-	(condp = (mod number 2)
-		0 "Even"
-		1 "Odd"))
+  (condp = (mod number 2)
+     0 "Even"
+     1 "Odd"))
 
 ;;! Receives a number and returns the number reversed as type list
 
@@ -93,11 +93,11 @@
 ;;? Complex ############
 (defn digitize
   ([parameter] (digitize parameter []))
-  ([parameter list]
+  ([parameter list
     (if (< parameter 10)
       (concat list [parameter])
-      (recur (quot parameter 10)
-      (concat list [(mod parameter 10)])))))
+      (recur (quot parameter 10))
+      (concat list [(mod parameter 10)]))]))
 
 (defn digitize
   [parameter]
@@ -253,8 +253,8 @@
   (let [number-sum (-> number-parameter
                     str
                     (clojure.string/split #"")
-                    (->> (map #(Integer. %))
-                    (reduce +)))
+                    (->> (map #(Integer. %)))
+                    (reduce +))
         result (- number-parameter number-sum)]
     (if (<= result 100)
       result

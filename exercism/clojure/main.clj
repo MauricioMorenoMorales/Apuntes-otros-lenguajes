@@ -1,5 +1,7 @@
 ; retorna valores sobre como hacer una lasagna ===========================
 
+(require '[clojure.string :refer [join split]])
+
 (ns lucians-luscious-lasagna)
 
 (def expected-time 40)
@@ -90,8 +92,8 @@
 (defn busy-days [birds]
   (->> birds
       (filter #(>= % 5))
-      (count))
-  )
+      (count)))
+  
 
 ; busca la aparicion de un patron similar a este [1 0 1 0 1 0 1]
 (defn odd-week? [birds]
@@ -99,7 +101,7 @@
     (->> (rest birds)
         (reduce (fn [{:keys [prev]} n]
                   {:prev n :res (not= prev n)})
-                  {:prev (first birds)})
+                {:prev (first birds)})
         :res)
     false))
 
@@ -169,8 +171,8 @@
   (->> (interest-rate balance)
     (bigdec)
     (#(if (neg? %)
-      (-' %)
-      %))
+       (-' %)
+       %))
     (*' balance 0.01M)
     (+' balance)))
 
@@ -189,8 +191,8 @@
   (-> string-parameter
       (clojure.string/split #" ")
       (->> (drop 1)
-            (clojure.string/join #" ")
-            (clojure.string/trim))))
+           (clojure.string/join #" ")
+           (clojure.string/trim))))
 
 (defn log-level
   "Takes a string representing a log line
@@ -267,16 +269,15 @@
   (let [[first second & remaining] deck]
     (if (= remaining nil)
       [second first]
-      [second first remaining]))
-)
+      [second first remaining])))
+
 
 (defn discard-top-card
   "Returns a sequence containing the first card and
    a sequence of the remaining cards in the deck."
   [deck]
   (let [[first & remaining] deck]
-    [first remaining])
-)
+    [first remaining]))
 
 (def face-cards
   ["jack" "queen" "king"])
@@ -284,12 +285,11 @@
 (defn insert-face-cards
   "Returns the deck with face cards between its head and tail."
   ([deck]
-  (if (empty? deck)
-    face-cards
-    (let [[first second third fourth & remaining] deck]
-      (if (= remaining nil)
-        '(first face-cards))
-      ))))
+   (if (empty? deck)
+     face-cards
+     (let [[first second third fourth & remaining] deck]
+       (if (= remaining nil)
+         '(first face-cards))))))
 
 ;;? Second iteration
 
@@ -323,24 +323,24 @@
 (defn insert-face-cards
   "Returns the deck with face cards between its head and tail."
   ([[first & remaining]]
-  (->> [first face-cards remaining]
-    (flatten)
-    (remove nil?))))
+   (->> [first face-cards remaining]
+        (flatten)
+        (remove nil?))))
 
 ;;! Default values
 
 (defn two-fer
   ([]
-  "One for you, one for me.")
+   "One for you, one for me.")
   ([name]
-  (format "One for %s, one for me." name)))
+   (format "One for %s, one for me." name)))
 
 
 (defn two-fer
   ([]
-  (two-fer "you"))
+   (two-fer "you"))
   ([name]
-  (format "One for %s, one for me." name)))
+   (format "One for %s, one for me." name)))
 
 (defn two-fer [& [recipient]]
   (format "One for %s, one for me." (or recipient "you")))
@@ -350,12 +350,12 @@
 (defn armstrong
   [parameter]
   (->> (str parameter)
-        seq
-        (map str)
-        (map read-string)
-        ((map #(reduce * (repeat (count (str n)) %))))
-        (reduce +)
-        (= parameter)))
+       seq
+       (map str)
+       (map read-string)
+       ((map #(reduce * (repeat (count (str n)) %))))
+       (reduce +)
+       (= parameter)))
 
 ;;! Armstrong numbers
 
@@ -374,7 +374,7 @@
 (defn- to-digits
   [^Number parameter]
   (loop [num parameter
-        digits nil]
+         digits nil]
       (if (< num 10)
         (conj digits num)
         (recur  (quot num 10)
@@ -387,3 +387,20 @@
   (let [digits (to-digits n)
         digits-count (count digits)]
     (= (reduce #(+ %1 (expt %2 digits-count)) 0 digits) n)))
+
+;;! Reverses a string
+
+(defn reverse-string
+  (^String [^String parameter]
+   (-> parameter
+       (split #"")
+       reverse
+       (->> (join #"")))))
+
+(defn reverse-string2
+  (^String [^String s]
+    (reduce #(str %2 %1) "" s)))
+
+(defn reverse-string3
+  (^String [^String s]
+    (apply str (into ()))))
