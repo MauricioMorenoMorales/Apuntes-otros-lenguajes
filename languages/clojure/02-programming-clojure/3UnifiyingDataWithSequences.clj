@@ -34,4 +34,19 @@
 (set [1 2 3])
 (hash-set 1 2 3)
 
-;;! Filtering sequences
+;;! for
+
+(for [word ["The" "quick" "brown" "fox"]]
+  (format "<p>%s</p>" word))
+
+(take 10 (for [n whole-numbers :when (even? n)] n))
+
+(take 10 (for [n whole-numbers :while (odd? n)] n))
+
+(for [file "ABCDEFGH"
+      rank (range 1 9)]
+  (format "%c%d" file rank)); ("A1" "A2" ... "H7" "H8")
+
+(for [rank (range 1 9)
+      file "ABCDEFGH"]
+  (format "%c%d" file rank)); ("A1" "B1" ... "G8" "H8")
