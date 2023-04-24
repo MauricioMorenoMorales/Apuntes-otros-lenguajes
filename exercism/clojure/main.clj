@@ -404,3 +404,12 @@
 (defn reverse-string3
   (^String [^String s]
     (apply str (into ()))))
+
+;; Manipula vector de numeros
+
+(defn accumulate
+  [function numbers]
+  (if (empty? numbers)
+    []
+     (->> numbers
+          (map function))))
