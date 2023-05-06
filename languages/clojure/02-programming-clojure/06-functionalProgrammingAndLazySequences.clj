@@ -104,4 +104,26 @@
   (count (filter (fn [pair] (every? #(= :h %) pair))
                  (by-pairs coll))))
 
-;; Simplificacion de las dos funciones anteriores con funciones de clojure
+;; Revisiting recursion
+
+;; Allows you to declare functions before initialization
+(declare my-odd? my-even?)
+
+(defn my-odd?
+  [n]
+  (if (= n 0)
+    false
+    (my-even? (dec n))))
+
+(defn my-even?
+  [n]
+  (if (= n 0)
+    true
+    (my-odd? (dec n))))
+
+(defn parity
+  [n]
+  (loop [n n par 0]
+    par
+    (recur (dec n) (- 1 par))))
+

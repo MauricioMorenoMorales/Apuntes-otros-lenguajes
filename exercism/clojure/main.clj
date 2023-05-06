@@ -413,3 +413,28 @@
     []
      (->> numbers
           (map function))))
+
+;;! Acronym generator
+
+(defn is-pascal-case?
+  (^String [^String word]
+   (re-matches #"^[A-Z][a-z]+(?:[A-Z][a-z]+)*$" word)))
+
+(defn pascal-case-split
+  "Splits the word if its pascal case if not returns the word"
+  (^String [^String word]
+   (if (is-pascal-case? word)
+     (split word #"(?<!^)(?=[A-Z]|(?<!\d)\d)")
+     word)))
+
+(defn acronym
+  "Converts phrase to its acronym."
+  (^String [^String phrase]
+   (if (= phrase "")
+     ""
+     (->> (split phrase #"\s|-")
+          (map pascal-case-split)
+          flatten
+          (map first)
+          (map upper-case)
+          (join "")))))
