@@ -461,3 +461,25 @@
                                 response
                                 (recur (conj response (rem current-number 2)) (quot current-number 2)))))]
     (convert-to-absolute input input-base)))
+
+(defn convert2
+  [input-base input output-base]
+  (letfn [(guard [input input-base output-base]
+            (and (seq input)
+                (> output-base 1)
+                (every? #(and (number? %) (<= 0 % (dec input-base)))
+                        input)))
+          (to-decimal [input-base number-list]
+            (reduce #(+ (* %1 input-base) %2) 0 number-list))
+          (to-specified-base [output-base number]
+            (loop [response '()
+                  current-number number]
+              (if (= 0 current-number)
+                response
+                (recur (conj response (rem current-number output-base)) (quot current-number output-base)))))]
+    (when (guard input input-base output-base)
+      (if (every? #(zero? %) input)
+        '(0)
+        (->> input
+            (to-decimal input-base)
+            (to-specified-base output-base))))))
