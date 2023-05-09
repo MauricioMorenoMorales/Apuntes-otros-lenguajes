@@ -438,3 +438,26 @@
           (map first)
           (map upper-case)
           (join "")))))
+
+
+;; Convierte numeros a cualquier base
+
+(defn convert
+  "This functions fails !!!!"
+  [input-base input output-base]
+  (let [convert-to-absolute (fn [numbers input-base]
+                              (loop [numbers (reverse numbers)
+                                     current-potency 0
+                                     response '()]
+                                (if (empty? numbers)
+                                  (reduce + response)
+                                  (recur (drop 1 numbers)
+                                         (inc current-potency)
+                                         (conj response (* (exp input-base current-potency) (peek numbers)))))))
+        convert-to-binary (fn [numbers]
+                            (loop [response '()
+                                   current-number (Integer. (apply str numbers))]
+                              (if (= 0 current-number)
+                                response
+                                (recur (conj response (rem current-number 2)) (quot current-number 2)))))]
+    (convert-to-absolute input input-base)))
