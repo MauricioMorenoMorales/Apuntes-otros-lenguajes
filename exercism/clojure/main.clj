@@ -483,3 +483,55 @@
         (->> input
             (to-decimal input-base)
             (to-specified-base output-base))))))
+
+(defn convert3
+  [input-base input output-base]
+  (letfn [(guard
+            [input input-base output-base]
+            (and (seq input)
+                  (> output-base 1)
+                  (every? #(and (number? %) (<= 0 % (dec input-base)))
+                          input)))
+          (if-is-not-zero
+            [iterable form]
+            (if (every? #(zero? %) iterable)
+              '(0)
+              form))
+          (to-decimal
+            [input-base number-list]
+            (reduce #(+ (* %1 input-base) %2) 0 number-list))
+          (to-specified-base
+            [output-base number]
+            (loop [response '()
+                   current-number number]
+              (if (= 0 current-number)
+                response
+                (recur
+                 (conj response (rem current-number output-base))
+                 (quot current-number output-base)))))]
+    (when (guard input input-base output-base)
+      (if-is-not-zero input
+        (->> input
+             (to-decimal input-base)
+             (to-specified-base output-base))))))
+
+;;! verifies if a word is an anagram,
+
+(defn anagrams-for
+  "filtra las palabras que no son anagramas, por ejemplo bat, tab"
+  [word prospect-list]
+  (letfn [(format-word
+            [word]
+            (-> word
+                lower-case
+                sort))
+          (has-same-letters
+            [word1 word2]
+            (= (format-word word1) (format-word word2)))
+          (is-not-same-word 
+            [word1 word2]
+            (not= (lower-case word1) (lower-case word2)))]
+    (->> prospect-list
+         (filter #(is-not-same-word word %))
+         (filter #(has-same-letters word %)))))
+
