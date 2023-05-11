@@ -528,10 +528,82 @@
           (has-same-letters
             [word1 word2]
             (= (format-word word1) (format-word word2)))
-          (is-not-same-word 
+          (is-not-same-word
             [word1 word2]
             (not= (lower-case word1) (lower-case word2)))]
     (->> prospect-list
          (filter #(is-not-same-word word %))
          (filter #(has-same-letters word %)))))
 
+;; Returns a response depending the input
+
+(defn- does? [s, requirements]
+  (every? #(% s) requirements))
+
+(defn response-for
+  [^String s]
+  (letfn [(is-a-question? [s]
+            (= (last (trim s)) \?))
+          (is-yelling? [s]
+            (= (upper-case s) s))
+          (has-letters? [s]
+            (some #(Character/isLetter %) s))
+          (yells-question? [s]
+            (does? s [is-yelling? is-a-question? has-letters?]))
+          (is-white-space [s]
+            (= (trim s) ""))]
+    (cond
+      (yells-question? s) "Calm down, I know what I'm doing!"
+      (is-a-question? s) "Sure."
+      (is-white-space s) "Fine. Be that way!"
+      (not (has-letters? s)) "Whatever."
+      (is-yelling? s) "Whoa, chill out!"
+      :else "Whatever.")))
+
+(defn response-for2
+  [^String s]
+  (letfn [(is-empty-string [s]
+            (= (trim s) ""))
+          (is-a-question? [s]
+            (= (last (trim s)) \?))
+          (is-yelling? [s]
+            (= (upper-case s) s))
+          (has-letters? [s]
+            (some #(Character/isLetter %) s))]
+    (cond
+      (does? s [is-a-question? is-yelling? has-letters?]) "Calm down, I know what I'm doing!"
+      (does? s [is-yelling? has-letters?]) "Whoa, chill out!"
+      (is-a-question? s) "Sure."
+      (is-empty-string s) "Fine. Be that way!"
+      :else "Whatever.")))
+
+(defn response-for
+  [^String s]
+  (let [is-empty-string? #(= (trim %) "")
+        is-a-question?   #(= (-> % trim last) \?)
+        is-yelling?      #(= (upper-case %) %)
+        has-letters?     (fn [s]
+                           (some #(Character/isLetter %) s))]
+    (cond
+      (does? s [is-a-question? is-yelling? has-letters?]) "Calm down, I know what I'm doing!"
+      (does? s [is-yelling? has-letters?])                "Whoa, chill out!"
+      (is-a-question? s)                                  "Sure."
+      (is-empty-string? s)                                "Fine. Be that way!"
+      :else                                               "Whatever.")))
+
+;; Colatz conjecture iteration counter
+
+(defn collatz
+  [number]
+  (letfn [(guard
+            [number args]
+            (if (<= number 0)
+              (throw "Invalid number")
+              args))]
+    (guard number
+      (loop [current-number  number
+            iteration-count 0]
+        (cond
+          (<= current-number 1) iteration-count
+          (odd? current-number) (recur (inc (* 3 current-number)) (inc iteration-count))
+          :else (recur (/ current-number 2) (inc iteration-count)))))))
