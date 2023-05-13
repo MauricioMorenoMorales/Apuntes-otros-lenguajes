@@ -21,6 +21,7 @@ $$ -4\pm\sqrt 30 = x$$
 
 ### Pasos para obtener la formula general
 La formula general se obtiene de seguir los pasos de el metodo de completar el cuadrado
+
 $$ ax^2 + bx + c = 0 $$
 $$ x^2 + \frac{b}{a}x + \frac{c}{a} = 0 $$
 $$ x^2 + \frac{b}{a}x  = -\frac{c}{a} $$
