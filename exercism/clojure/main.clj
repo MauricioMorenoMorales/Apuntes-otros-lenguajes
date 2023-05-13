@@ -607,3 +607,12 @@
           (<= current-number 1) iteration-count
           (odd? current-number) (recur (inc (* 3 current-number)) (inc iteration-count))
           :else (recur (/ current-number 2) (inc iteration-count)))))))
+
+(defn collatz2
+  [number]
+    (if (<= number 0) (throw "Number cannot be negative")
+      (loop [current-number number iteration-count 0]
+        (cond
+          (<= current-number 1) iteration-count
+          (odd? current-number) (recur (inc (* 3 current-number)) (inc iteration-count))
+          :else (recur (/ current-number 2) (inc iteration-count))))))
