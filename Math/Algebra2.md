@@ -1,7 +1,28 @@
 # Algebra 2
 
 
-## Factorizacion cuadrados
+## Factorizacion cuadratica
+
+### Factorizar cuando existe A
+
+> Usa esta cuando existe A en el primer termino
+
+Primero multiplicaremos a por c en este caso 6 * -12
+$$ 6x^2 + x - 12$$
+
+$$ 6 * (-12) = -72 $$ 
+
+Despues factorizamos el resultado, en este caso 72 y sus multiplos deben de sumar b en este caso 1
+
+$$ 72 = 2^3 * 3^2 \therefore -8 +9 = 1$$
+
+Despues escribimos la misma ecuacion pero remplazamos b por la factorizacion anterior
+
+$$ 6x^2 + 9x - 8x -12$$
+
+Despues obtenemos factores comunes buscando el gcd
+
+$$ 3x(2x + 3) -4(2x + 3) \therefore (3x -4)(2x +3) $$
 
 ### Completar el cuadrado
 
@@ -54,6 +75,8 @@ $$ x + = \frac{-b \pm \sqrt{b^2 - 4ac}}{2a}$$
 > ? Si un polinomio exixte en la forma de $x^3+4x^2+x-6$ sus fatores podrian ser tres tipo (x+2)(x-1)(x+3)
 
 ### Factorizar agrupando
+
+
 
 $$x^3 - 3x^2 - 4x + 12$$
 
