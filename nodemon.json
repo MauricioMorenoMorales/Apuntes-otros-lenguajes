@@ -1,5 +1,5 @@
 {
 	"watch": ["code"],
-	"ext": "py",
-	"exec": "python3 code/test.py"
+	"ext": "js",
+	"exec": "node"
 }
