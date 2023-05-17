@@ -125,3 +125,27 @@ $$P = 12 = 1 | 2 | 3 | 4 | 6 | 12$$
 $$Q = 2 = 2 | 1$$
 
 $$ \frac{1}{2} \frac{1}{1} \frac{2}{2} \frac{2}{1} \frac{3}{2} \frac{3}{1} etc...$$
+
+### Simetria
+
+las ecuaciones son simetricas solo si todos sus factores
+son pares o impares
+
+Estas dos son simetricas
+
+$$ 3x^4 +2x^2 +2$$
+
+$$ -3x^5 +4x^3 $$
+
+Estas dos no
+
+$$ 3x^4 +2x^2 + 5x + 2 $$
+
+$$ -3x^5 + 7x^3 +1 $$
+
+> Cuando una grafica es solo impar forma como una S, cuando
+sus exponentes son pares forma una U
+
+#### <Investigar> The fundamental theorem of algebra
+
+### Investigar multiplicity
