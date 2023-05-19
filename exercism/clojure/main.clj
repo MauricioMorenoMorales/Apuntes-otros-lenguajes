@@ -616,3 +616,23 @@
           (<= current-number 1) iteration-count
           (odd? current-number) (recur (inc (* 3 current-number)) (inc iteration-count))
           :else (recur (/ current-number 2) (inc iteration-count))))))
+
+;; Cuenta las diferencias entre dos strings
+
+(defn distance
+  [strand1 strand2] ; <- arglist goes here
+  (when (= (count strand1) (count strand2))
+    (loop [current1 strand1
+           current2 strand2
+           differences 0]
+      (cond
+        (empty? current1) differences
+        (not= (first current1) (first current2)) (recur (rest current1) (rest current2) (inc differences))
+        :else (recur (rest current1) (rest current2) differences)))))
+
+(defn distance2
+  [strand1 strand2]
+  (when (= (count strand1) (count strand2))
+    (->> (map = strand1 strand2)
+         (filter false?)
+         count)))
