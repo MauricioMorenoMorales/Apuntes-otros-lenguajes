@@ -144,8 +144,40 @@ $$ -3x^5 + 7x^3 +1 $$
 > Cuando una grafica es solo impar forma como una S, cuando
 sus exponentes son pares forma una U
 
-#### <Investigar> The fundamental theorem of algebra</Investigar>
+####  The fundamental theorem of algebra<<< Investigar
 
-### Investigar multiplicity
+### multiplicity<<<
 
 $$ \frac{12}{1231} $$
+# Rational Functions
+
+## Direct and inverse variation
+
+> Direct variation:
+> The ratio of variables stays constant
+> If a variable increases the other increases
+> $$ k = \frac{y}{x}$$
+
+> Inverse variation
+> The product of variables stays constant
+> If one increases the other decreases
+> $$ k = xy $$
+
+In 4 days 4 painters can paint 12 rooms, how many days does it take for 4 painters to paint 3 rooms? <<<
+$$ \frac{12}{4}p*d = rooms $$
+
+
+In 1 day 4 painters can paint 3 rooms  how loint 36 rooms
+
+$$ \frac{3}{4}p*d = rooms$$
+
+#### Exponential variation
+Cuando hay varaciones e incluyen exponenciaciones x seria el valor que se multiplicaria
+$$ k=\frac{x}{x^p} \bigcirc k = x^py $$
+
+## Rational functions and domains
+A rational function is a ratio of two polynomials
+$$ y = \frac{4}{x^3} \bigcirc y= \frac{3x^2-4}{x+5} $$
+Algunas funciones tienen multiples asymptotas otras no por ejemplo este primer polinomio tiene multiples asymptotas y el segundo no
+$$y = \frac{1}{(x-7)(x+5)} $$
+$$ y = \frac{x -2}{(x-2)(x+3)} \therefore y= \frac{1}{(x+3)} $$

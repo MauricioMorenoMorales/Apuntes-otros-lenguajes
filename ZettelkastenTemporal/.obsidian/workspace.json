@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Algebra 2.md",
+                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Algebra 2.md",
+                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Algebra 2.md",
+                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Algebra 2.md"
+                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md"
               }
             }
           }
@@ -147,5 +147,9 @@
     }
   },
   "active": "ffdfd95abfd9baae",
-  "lastOpenFiles": []
+  "lastOpenFiles": [
+    "Matematicas/Algebra 2.md",
+    "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "Filosofia/Definicion filosofia.md"
+  ]
 }
