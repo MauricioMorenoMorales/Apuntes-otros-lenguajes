@@ -19,3 +19,6 @@ Algunas ideas y conceptos fueron importados de egipto y arrancados de su context
 
 ## La traducibilidad de los nombres divinos en las civilizaciones antiguas
 Los dioses son como lenguajes, pueden traducirse, los babilonicos tenian registros de dioses equivalentes, pero tambien en egipto se encontraba la idea de que cada dios era la mascara de un solo dios
+
+## Heracles y la ascencion filosofica
+Hay muchas similitudes entre heracles y gilgamesh incluso se puede llegar a teorizar que homero tambien venía de egipto de hecho su nombre puede venir del egipcio hemuter, que significa contador de historias u orador, Segun herodoto los ritos orficos tambien son ritos egipcios

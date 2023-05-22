@@ -258,8 +258,8 @@
 		"That number's OK, I guess"))
 
 ; Anonymous functions
-(fn [param-list]
-	function body)
+;; (fn [param-list]
+;; 	function body)
 
 (map (fn [name] (str "Hi, " name))
 	["Darth vader" "Mr. Magoo"]); Here we pass the parameter

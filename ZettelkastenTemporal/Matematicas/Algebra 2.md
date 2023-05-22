@@ -24,7 +24,7 @@ $$ 3x(2x + 3) -4(2x + 3) \therefore (3x -4)(2x +3) $$
 
 ### Completar el cuadrado
 
-> Si B es divisible entre dos podemos realizar esta tecnica
+> Si B es divisible entre dos y c es negativa podemos realizar esta tecnica
 
 $$f(x) = x^2 + 8x -14 $$
 
@@ -176,8 +176,23 @@ Cuando hay varaciones e incluyen exponenciaciones x seria el valor que se multip
 $$ k=\frac{x}{x^p} \bigcirc k = x^py $$
 
 ## Rational functions and domains
+
+Una asymptota vertical es creada cuando se trata de dividir por zero o la ecuacion resulta en una divicion entre cero, en este caso a será la asynptota
+$$f(x) = \frac{1}{x-a}$$
+Due this there will be missing domains in this example a
 A rational function is a ratio of two polynomials
 $$ y = \frac{4}{x^3} \bigcirc y= \frac{3x^2-4}{x+5} $$
 Algunas funciones tienen multiples asymptotas otras no por ejemplo este primer polinomio tiene multiples asymptotas y el segundo no
 $$y = \frac{1}{(x-7)(x+5)} $$
 $$ y = \frac{x -2}{(x-2)(x+3)} \therefore y= \frac{1}{(x+3)} $$
+
+## End behavior<<<
+A horizontal asymptote is a line $y = h$. A function has a orizontal asymptote at $y = h$ if the functions get closer and closer to h as x become either very large positive or very large negative
+
+> When the numerator has a smaller degree thant the denominator a rational function will have a horizontal asymptote at $y = 0$
+
+> when the numerator and denominator of a rational function have the same degree, the graph has a horizontal asymptote
+> This asymptote is at $y = h$, where h is the ratio of the leading coeficents
+
+> A horizontal asymptote is found when the numerator's degree is less than or equal to the denominator's degree
+> A slant asymptote is found when the numerator's degree is exactly one greater than the denomintaro's degree

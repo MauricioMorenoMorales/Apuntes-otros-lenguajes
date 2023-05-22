@@ -620,7 +620,7 @@
 ;; Cuenta las diferencias entre dos strings
 
 (defn distance
-  [strand1 strand2] ; <- arglist goes here
+  [strand1 strand2]
   (when (= (count strand1) (count strand2))
     (loop [current1 strand1
            current2 strand2
@@ -636,3 +636,17 @@
     (->> (map = strand1 strand2)
          (filter false?)
          count)))
+
+;; Obtiener el nth numero primo
+(defn nth-prime
+  "Returns the prime number in the nth position."
+  [n] ;; <- arglist goes here
+  (letfn [(is-prime?
+           [n]
+           (loop [divisor 2]
+             (cond (> (* divisor divisor) n) true
+                   (zero? (rem n divisor)) false
+                   :else (recur (inc divisor)))))]
+    (when (< n 1)
+      (throw (IllegalArgumentException. "Invalid index!")))
+    (nth (filter is-prime? (iterate inc 2)) (dec n))))
