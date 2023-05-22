@@ -650,3 +650,13 @@
     (when (< n 1)
       (throw (IllegalArgumentException. "Invalid index!")))
     (nth (filter is-prime? (iterate inc 2)) (dec n))))
+
+(def ^:private primes
+  (cons 2 (filter #(not-any?
+                    (comp zero? (partial rem %))
+                    (range 3 (inc (Math/sqrt %)) 2))
+                  (iterate (partial + 2) 3))))
+(defn nth-prime2 [n]
+  (when-not (pos? n)
+    (throw (IllegalArgumentException.)))
+  (nth primes (dec n)))
