@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Computer Science/Prompt engineering.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Computer Science/Prompt engineering.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Computer Science/Prompt engineering.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md"
+                "file": "Computer Science/Prompt engineering.md"
               }
             }
           }
@@ -148,9 +148,17 @@
   },
   "active": "ffdfd95abfd9baae",
   "lastOpenFiles": [
-    "Filosofia/Teologia/Filosofia Perenne.md",
+    "Computer Science/Prompt engineering.md",
+    "Computer Science/Untitled",
+    "Computer Science",
+    "Musica/Escalas.js",
+    "Musica/Escalas.md",
+    "Musica/Escalas.ts",
+    "Matematicas/Algebra Through puzzles.md",
+    "Musica",
     "Matematicas/Algebra 2.md",
     "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "Filosofia/Teologia/Filosofia Perenne.md",
     "Filosofia/Definicion filosofia.md"
   ]
 }

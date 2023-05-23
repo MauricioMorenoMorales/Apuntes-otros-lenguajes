@@ -196,3 +196,14 @@ A horizontal asymptote is a line $y = h$. A function has a orizontal asymptote a
 
 > A horizontal asymptote is found when the numerator's degree is less than or equal to the denominator's degree
 > A slant asymptote is found when the numerator's degree is exactly one greater than the denomintaro's degree
+
+## Valores absolutos
+En una funcion del tipo
+$$ f(x) = a|x+c|+d $$
+el valor de d va a mover la grafica hacia arriba o abajo, como en una ecuacion cuadratica
+c va a cambiar la posicion de izquierda a derecha, y a va a determinar la inclinacion de la parabola recta, es similar a una ecuacion cuadratica
+
+## Piecewise function
+Is defined by multiple functions, each applying to a dsifferent interval of the picewise function's domain
+Por ejemplo esta funcion es de impuestos, si ganas 110.000 a los primeros 100.000 se les aplicara un impuesto del 15% pero a lo restante se le aplicara uno de 25%
+

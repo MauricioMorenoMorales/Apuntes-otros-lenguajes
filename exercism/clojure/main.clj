@@ -660,3 +660,28 @@
   (when-not (pos? n)
     (throw (IllegalArgumentException.)))
   (nth primes (dec n)))
+
+;;! Using into to map an object
+
+(defn transform
+  [source]
+  (into {}
+    (for [[score letters] source
+          letter letters]
+      [(lower-case letter) score])))
+
+;; Cuenta las ocurrencias de ciertas letras, como si fuera un hash
+;; Tambien tiene pre condiciones
+
+(defn count-of-nucleotide-in-strand
+  [nucleotide strand]
+   {:pre [(contains? #{\A \T \C \G} nucleotide)]}
+   (->> strand
+        (filter #(= % nucleotide))
+        count))
+
+
+(defn nucleotide-counts [strand]
+  (->> [\A \T \G \C]
+       (map #(identity [% (count-of-nucleotide-in-strand % strand)]))
+       (into {})))
