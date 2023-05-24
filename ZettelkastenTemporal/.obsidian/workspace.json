@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Matematicas/Algebra 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Matematicas/Algebra 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Matematicas/Algebra 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Prompt engineering.md"
+                "file": "Matematicas/Algebra 2.md"
               }
             }
           }
@@ -148,15 +148,17 @@
   },
   "active": "ffdfd95abfd9baae",
   "lastOpenFiles": [
+    "Matematicas/Understanding Graphs.md",
+    "Matematicas/Algebra Through puzzles.md",
+    "Matematicas/Algebra 2.md",
+    "Filosofia/Teologia/Referencias a la conciencia universal.md",
     "Computer Science/Prompt engineering.md",
     "Computer Science/Untitled",
     "Computer Science",
     "Musica/Escalas.js",
     "Musica/Escalas.md",
     "Musica/Escalas.ts",
-    "Matematicas/Algebra Through puzzles.md",
     "Musica",
-    "Matematicas/Algebra 2.md",
     "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
     "Filosofia/Teologia/Filosofia Perenne.md",
     "Filosofia/Definicion filosofia.md"

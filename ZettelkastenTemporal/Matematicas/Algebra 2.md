@@ -1,5 +1,10 @@
+# Funciones
+## Domain and range
+El dominio de una funcion es el set de todos los inputs validos que puede recibir, ya sea por
+- Ua raiz negativa
+- Una division entre cero
 
-## Factorizacion cuadratica
+# Factorizacion cuadratica
 
 ### Factorizar cuando existe A
 
@@ -207,3 +212,6 @@ c va a cambiar la posicion de izquierda a derecha, y a va a determinar la inclin
 Is defined by multiple functions, each applying to a dsifferent interval of the picewise function's domain
 Por ejemplo esta funcion es de impuestos, si ganas 110.000 a los primeros 100.000 se les aplicara un impuesto del 15% pero a lo restante se le aplicara uno de 25%
 
+## Floor
+La funcion para rendondear hacia abajo un numero es la siguiente
+$$ f(x) = \{ n \therefore n <= x < n + 1 $$

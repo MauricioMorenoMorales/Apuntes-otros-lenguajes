@@ -670,7 +670,7 @@
           letter letters]
       [(lower-case letter) score])))
 
-;; Cuenta las ocurrencias de ciertas letras, como si fuera un hash
+;;! Cuenta las ocurrencias de ciertas letras, como si fuera un hash <<<
 ;; Tambien tiene pre condiciones
 
 (defn count-of-nucleotide-in-strand
@@ -685,3 +685,29 @@
   (->> [\A \T \G \C]
        (map #(identity [% (count-of-nucleotide-in-strand % strand)]))
        (into {})))
+
+(defn nucleotide-counts [strand]
+   (merge {\A 0 \T 0 \C 0 \G 0}
+         (frequencies strand)))
+
+(defn count-of-nucleotide-in-strand [nucleotide strand]
+  {:pre [(contains? #{\A \T \C \G} nucleotide)]}
+  ((nucleotide-counts strand) nucleotide))
+
+;;! Verifica que un string contenga todas las letras del alfabeto inglés
+
+(defn pangram?
+  [phrase]
+  (-> phrase
+      lower-case
+      (replace #"[^a-z]" "")
+      set
+      count
+      (= 26)))
+
+(defn pangram?2
+  [phrase]
+  (-> phrase
+      lower-case
+      set
+      (every? "abcdefghijklmnopqrstuvwxyz")))

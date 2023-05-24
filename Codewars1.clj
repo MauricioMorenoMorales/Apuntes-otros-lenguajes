@@ -143,7 +143,6 @@
     false (if (= b false) false true)))
 
 ;; We give this an alias
-(defn xor not=)
 (defn xor [a,b]
   (not= a b))
 
