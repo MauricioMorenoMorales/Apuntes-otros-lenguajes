@@ -20,3 +20,16 @@ func PreparationTime(numberOfLayers int) int {
 func ElapsedTime(numberOfLayers, actualMinutesInOven int) int {
 	return actualMinutesInOven + PreparationTime(numberOfLayers)
 }
+
+
+//! booleans
+
+// CanFreePrisoner can be executed if the prisoner is awake and the other 2 characters are asleep
+// or if Annalyn's pet dog is with her and the archer is sleeping.
+func CanFreePrisoner(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent bool) bool {
+	return (petDogIsPresent && !archerIsAwake) || (prisonerIsAwake && !archerIsAwake && !knightIsAwake)
+}
+
+func CanFreePrisoner2(knightIsAwake, archerIsAwake, prisonerIsAwake, petDogIsPresent bool) bool {
+	return !archerIsAwake && ((prisonerIsAwake && !knightIsAwake) || petDogIsPresent);
+}

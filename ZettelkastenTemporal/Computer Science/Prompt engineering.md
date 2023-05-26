@@ -10,3 +10,4 @@ Este proceso de refinamiento continuo permite que las respuestas generadas sean 
 -   Mejorar una misma respuesta hasta lograr el resultado deseado, dándole feedback a ChatGPT sobre qué debe cambiar en cada respuesta.
 -   Generar un elemento complejo o de varias etapas, dividiéndolo en varias subtareas. Por ejemplo.
 -   🧑‍💻 Generar código en diferentes lenguajes de programación, añadiendo elementos o funciones sobre cada respuesta generada.
+> Puedes darle instrucciones para que actue de cierto modo de ese modo haces mas humano a chatgtp y puedes darle roles tipo, se una terminal linux, se un critico de cine, se un personaje de ficcion, etc

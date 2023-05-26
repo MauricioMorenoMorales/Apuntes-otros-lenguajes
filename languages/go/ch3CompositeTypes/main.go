@@ -56,3 +56,34 @@ data := []int{2, 4, 5, 6}// Slice with default values
 
 // si sabes que tan largo va a ser tu array pero no que valores van a tener
 // entonces usa la funcion make
+
+
+//! Slicing Slices
+Para hacer un slice puedes usar esta notacion
+
+x := []string{"a", "b", "c", "d"}
+
+x[:2]
+x[1:2]
+x[1]
+x[:]// Everything
+
+// Cuando obtienes data de un slice no estás generando una copia
+// si no accediendo a una determinada porcion de la memoria dentro de ese slice
+// por lo que si haces una mutacion de el slice este afectara al slice al que apunta
+
+// La capacidad va a depender de como se haga el slice
+
+x := make([]string, 0, 5) // -> Capacidad 5
+x = append(x, "a", "b", "c", "d")
+y := x[:2] // -> Capacidad 5
+z := x[2:] // -> Capacidad 3
+fmt.Println(cap(x), cap(y), cap(z))
+y = append(y, "i", "j", "k")
+x = append(x, "x")
+z = append(z, "y")
+fmt.Println("x:", x) // -> [a b i j y] //? Append sobreescribe
+fmt.Println("y:", y) // -> [a b i j y]
+fmt.Println("z:", z) // -> [i j y]
+
+//? Para evitar confuciones nunca uses append en a subslice
