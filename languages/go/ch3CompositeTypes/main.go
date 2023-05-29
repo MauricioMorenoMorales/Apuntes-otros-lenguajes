@@ -87,3 +87,43 @@ fmt.Println("y:", y) // -> [a b i j y]
 fmt.Println("z:", z) // -> [i j y]
 
 //? Para evitar confuciones nunca uses append en a subslice
+
+//! Obtener copias de slices
+
+x: []int{1, 2, 3, 4}
+y := make([]int, 4)
+num := copy(y, x)
+fmt.Println(y, num)// [1 2 3 4] 4
+
+// puedes copiar desde cierto punto del slice
+
+copy(y, x[2:])
+
+//! convertir un array en un slice
+
+xArray := [4]int{5, 6, 7, 8}
+xSlice := xArray[:]
+
+// igualmente puedes tener problemas de memoria usando esta tecnica
+
+x := [4]int{5, 6, 7, 8}
+y := x[:2]
+z := x[2:]
+x[0] = 10
+fmt.Println("x: ", x)// [10 6 7 8]
+fmt.Println("y: ", y)// [10 6]
+fmt.Println("z: ", z)// [7 8]
+
+//! Converting Slices to arrays
+/* Haciendo esto no generara problemas de memoria por que estaras creando una
+Nueva ubicacion de memoria */
+
+xSlice := []int{1, 2, 3, 4}
+xArray := [4]int(xSlice)
+smallArray := [2]int(xSlice)
+xSlice[0] = 10
+fmt.Println(xSlice)// [10 2 3 4]
+fmt.Println(xArray)// [1 2 3 4 .]
+fmt.Println(smallArray)// [1 2]
+
+//? En este caso no puedes usar el [...] para convertir un slice a un array

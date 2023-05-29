@@ -8,3 +8,9 @@ const escalas = {
     cuartas: 70 * 4
   }
 }
+
+const pasajesComplejos = {
+  "invierno vivaldi": {
+    "Inicio con estaccato P1": 4 * 100n,
+  }
+}
