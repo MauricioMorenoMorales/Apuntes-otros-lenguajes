@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Prompt engineering.md",
+                "file": "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Prompt engineering.md"
+                "file": "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md"
               }
             }
           }
@@ -162,7 +162,13 @@
   "active": "d894cc94c6ddc922",
   "lastOpenFiles": [
     "Matematicas/Calculus in a nutshell.md",
+    "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Matematicas/Understanding Graphs.md",
+    "Libros a comprar.md",
+    "Historia/Union Sovietica.md",
+    "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "Filosofia/Teologia/Filosofia Perenne.md",
+    "Computer Science/Prompt engineering.md",
     "Matematicas/Algebra 2.md",
     "Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
     "Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
@@ -170,7 +176,6 @@
     "Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
     "2023-05-28.md",
     "Filosofia/Teologia/Referencias a la conciencia universal.md",
-    "Computer Science/Prompt engineering.md",
     "Matematicas/Algebra Through puzzles.md",
     "Computer Science/Untitled",
     "Computer Science",
@@ -178,8 +183,6 @@
     "Musica/Escalas.md",
     "Musica/Escalas.ts",
     "Musica",
-    "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
-    "Filosofia/Teologia/Filosofia Perenne.md",
     "Filosofia/Definicion filosofia.md"
   ]
 }

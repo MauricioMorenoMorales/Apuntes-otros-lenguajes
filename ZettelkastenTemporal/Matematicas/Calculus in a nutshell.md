@@ -8,7 +8,7 @@ $$ \frac{\delta y}{\delta x} $$
 
 > Linea tangente, si vas de manera discrecional entre puntos notaras que algunos cambios son distintos, por ejemplo en un segmento entre 0-1 el crecimiento puede ser igual a 1 pero en un segmento siguiente 1-2 el crecimiento puede ser tres, entonces el punto 1 debe de tener un valor intermedio entre 1 y 3, esa linea es la linea tangente
 
-Como el cambio solo puede medirse respecto a 2 puntos entonces no se puede medir el cambio dentro de un solo punto, ese es el problema que resuelve el calculo<<<!
+Como el cambio solo puede medirse respecto a 2 puntos entonces no se puede medir el cambio dentro de un solo punto, ese es el problema que resuelve el calculo
 
 Para resolver este punto seguiremos tomando dos puntos de referencia solo que seran infinitamente pequeños
 
@@ -38,3 +38,32 @@ _The derivative tells us that for any point x on A(x) = x^2 the slope of the lin
 > $$ 3x^2∂x $$
 > entonces el area total de cambio ∂A seria
 > $$ \frac{∂A}{∂x} = 3x^2 $$
+
+## Pendientes y optimizacion
+> Para calcular maximos y minimos tienes que verificar que haya un/a cima/fondo que es cuando la derivada vale 0, pero para saber si es cima o fondo tenemos que checar si antes de llegar a ese punto la pendiente era positiva o era negativa
+> - si la pendiente anterior es positiva entonces es maximo
+> - Sila pendiente anterior es negativa entonces es minimo
+
+>  *Obtener derivada*
+> tenemos esta funcion 'p(16-p)' y vamos a calcular los puntos [p, p + ∂p]
+> Primero reescribimos la funcion
+> $$ R = 16p - p^2 $$
+> Despues probaremos el punto ∂p
+> $$ R + ∂R = 16(p + ∂p) - (p + ∂p)^2 $$
+> 
+> $$R + ∂R = 16p + 16∂p - p^2 - 2p∂p - ∂p^2$$
+> Si te fijas en el resultado se encuentra la funcion original, aqui la pondremos al principio
+> > $$R + ∂R = 16p - p^2 + 16∂p - 2p∂p - ∂p^2$$
+> Ya que tenemos la funcion original odemos quitarla a ambos lados
+> $$∂R = 16∂p - 2p∂p - ∂p^2$$
+> Ya que ∂p^2 es sumamente pequeño lo podemos eliminar
+> $$∂R = 16∂p - 2p∂p$$
+> Podemos despejar la ∂p de los dos terminos
+> $$\frac{∂R}{∂p} = 16 - 2p $$
+
+> *Calcular los maximos o minimos*
+> Tomando la funcion del ejemplo anterior buscaremos primero que valor equivale a cero
+> $$ 0 = 16 - 2p \therefore p = 8 $$
+> Una vez obtenido el valor maximo podemos tomar uno antes para saber si es pendiente ascendente o descendente
+> $$16-2(7) = 2$$
+> Al ser pendiente ascendente sabemos que 8 es un maximo
