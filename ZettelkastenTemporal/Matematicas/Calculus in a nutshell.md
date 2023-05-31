@@ -67,3 +67,5 @@ _The derivative tells us that for any point x on A(x) = x^2 the slope of the lin
 > Una vez obtenido el valor maximo podemos tomar uno antes para saber si es pendiente ascendente o descendente
 > $$16-2(7) = 2$$
 > Al ser pendiente ascendente sabemos que 8 es un maximo
+
+## Que es una derivativa <<<2

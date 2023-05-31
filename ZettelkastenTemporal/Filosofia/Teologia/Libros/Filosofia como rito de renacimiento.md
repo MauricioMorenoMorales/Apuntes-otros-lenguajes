@@ -22,3 +22,19 @@ Los dioses son como lenguajes, pueden traducirse, los babilonicos tenian registr
 
 ## Heracles y la ascencion filosofica
 Hay muchas similitudes entre heracles y gilgamesh incluso se puede llegar a teorizar que homero tambien venía de egipto de hecho su nombre puede venir del egipcio hemuter, que significa contador de historias u orador, Segun herodoto los ritos orficos tambien son ritos egipcios
+
+## De ajenaton a tales
+Antes de Ajenaton se estaba gestando un movimiento monista similar al materialismo en egipto, trababan a aton como si fuera un faraon y se fijaba solo en lo que era perceptible a los sentidos
+
+La idea de pueblo elegido viene desde los tiempos en el que los pueblos empezaban a extender sus imperios Asirios, Babilonicos, Egipcios
+
+## Tales y los mitos Egipcios
+Se piensa que tales era materialista, pero este veia el mundo como un ser vivo lleno de dioses
+Tales no fue un punto de quiebre entre teologia y ciencia mas bien un desarrollo, como en su momento fue la astrologia y astronomia, la adivinacion de viseras y la anatomia, la alquimia y la quimica
+Tales probablemente escogio el agua para su metafora de la sustancia base de la realidad adaptandola de la mitologia egipcia que hacia lo mismo y mostraba el agua como la base de la realidad
+
+## El agua como principio metafisico y sustancia divina
+Aristoteles tomo de manera literal la metafora metafisica del agua
+
+## El significado metafisico de las mitologias antiguas
+Hermes es un arquetipo, y Platon aprendio de ese arquetipo

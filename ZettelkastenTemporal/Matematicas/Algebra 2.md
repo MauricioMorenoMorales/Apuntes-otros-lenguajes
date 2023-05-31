@@ -1,4 +1,6 @@
 # Funciones
+## Translations
+
 ## Domain and range
 El dominio de una funcion es el set de todos los inputs validos que puede recibir, ya sea por
 - Ua raiz negativa

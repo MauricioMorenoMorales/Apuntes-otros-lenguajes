@@ -127,3 +127,69 @@ fmt.Println(xArray)// [1 2 3 4 .]
 fmt.Println(smallArray)// [1 2]
 
 //? En este caso no puedes usar el [...] para convertir un slice a un array
+
+/*! Conversion de tipos */
+//! string
+/* Un string en go es una secuencia de bytes, no una secuencia de runas */
+
+var s string = "Hello there"
+var b byte = s[6]
+var s2 string = s[4:7]// Podemos usar la notacion de sliceso
+
+// A simple rune or byte can be converted to string
+
+var a rune = 'x'
+var s string = string(a)
+var b byte = 'y'
+var s2 string = string(b)
+//? Pero go no puede convertir integers a strings
+var x int = 65
+var y = string(x)// esto dará error
+
+// Convertir un string en slices de bytes o slices de runes
+var s string = "Hello, World"
+var bs []byte = []byte(s)
+var rs []rune = []rune(s)
+
+//! Maps
+// -> map[keyType]valueType => var nilMap map[string]int
+
+totalWins := map[string]int{}
+
+teams := map[string][]string [
+	"Orcas": []string{"Fred", "Ralph", "Bijou"},
+	"Lions": []string{"Sarah", "Peter", "Billie"},
+	"Kittens": []string{"Waldo", "Raul", "Ze"},
+]
+
+// si conoces el tamaño pero no los valores de tu mapa puedes crearlo asi
+
+ages := make(map[int][]string, 10)
+// Si un map no tiene valores retorna nil
+//? Los maps no son comparables
+
+//Using a map
+
+totalWins := map[string]int{}
+totalWins["Orcas"] = 1
+totalWins["Lions"] = 2
+totalWins["Kittens"]++
+totalWins["Lions"] = 3
+
+// Find if a key is in the map
+m := map[string]int{
+	"Hello": 5,
+	"World": 0,
+}
+v, ok := m["Hello"]
+v, ok := m["World"]
+v, ok := m["Goodbye"]
+
+// Eliminar una key de un objeto
+m := map[string]int{
+	"Hello": 5,
+	"World": 10,
+}
+delete(m, "Hello")
+
+// Using Maps as Sets
