@@ -1,6 +1,6 @@
 ; retorna valores sobre como hacer una lasagna ===========================
 
-(require '[clojure.string :refer [join split]])
+(require '[clojure.string :as str :refer [join split trim includes?]])
 
 (ns lucians-luscious-lasagna)
 
@@ -537,7 +537,7 @@
 
 ;; Returns a response depending the input
 
-(defn- does? [s, requirements]
+(defn- does? [s, r trim includeseequirements]
   (every? #(% s) requirements))
 
 (defn response-for
@@ -711,3 +711,63 @@
       lower-case
       set
       (every? "abcdefghijklmnopqrstuvwxyz")))
+
+;; MApea un string en clusters de 3 elementos
+
+(defn translate-codon
+  [codon]
+  (cond
+    (= "AUG" codon)                        "Methionine"
+    (= "UGG" codon)                        "Tryptophan"
+    (contains? #{"UUU" "UUC"} codon)       "Phenylalanine"
+    (contains? #{"UUA" "UUG"} codon)       "Leucine"
+    (contains? #{"UAU" "UAC"} codon)       "Tyrosine"
+    (contains? #{"UGU" "UGC"} codon)       "Cysteine"
+    (contains? #{"UAA" "UAG" "UGA"} codon) "STOP"
+    :else                                  "Serine"))
+
+(defn translate-rna
+  [rna]
+  (loop [response []
+         remaining rna]
+    (let [current-translation (->> remaining (take 3) (apply str) translate-codon)
+          next-value (->> remaining (drop 3) (apply str))]
+      (if (or (empty? remaining) (= "STOP" current-translation))
+        response
+        (recur (conj response current-translation) next-value)))))
+
+(defn translate-codon2
+  [codon]
+  (case codon
+    ("AUG")             "Methionine"
+    ("UGG")             "Tryptophan"
+    ("UUU" "UUC")       "Phenylalanine"
+    ("UUA" "UUG")       "Leucine"
+    ("UAU" "UAC")       "Tyrosine"
+    ("UGU" "UGC")       "Cysteine"
+    ("UAA" "UAG" "UGA") "STOP"
+                        "Serine"))
+
+(defn translate-rna2
+  [rna]
+  (->> rna
+       (partition 3) ;; (re-seq #".{3}") y con esto skipeas el (map join)
+       (map join)
+       (map translate-codon)
+       (take-while #(not= "STOP" %))))
+
+;;! Muta un valor dependiendo de los valores recibidos
+
+(defn convert [number]
+  (let [multiple-of-7 (if (= 0 (mod number 7)) "Plong" "")
+        multiple-of-5 (if (= 0 (mod number 5)) "Plang" "")
+        multiple-of-3 (if (= 0 (mod number 3)) "Pling" "")
+        result (str multiple-of-3 multiple-of-5 multiple-of-7)]
+    (if (empty? result) (str number) result)))
+
+(defn convert [number]
+  (cond-> nil
+    (zero? (mod number 3)) (str "Pling")
+    (zero? (mod number 5)) (str "Plang")
+    (zero? (mod number 7)) (str "Plong")
+    :always (or (str number))))

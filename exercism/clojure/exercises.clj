@@ -7,9 +7,8 @@
   (let [is-vowel? #(includes? "aeiouxy" (str %))
         is-consonant? #(not (is-vowel? %))
         swap (fn [letters-to-swap string]
-               (str
-                  (apply str (drop letters-to-swap string))
-                  (apply str (take letters-to-swap string))))
+               (str (->> string (drop letters-to-swap) (apply str))
+                    (->> string (take letters-to-swap) (apply str))))
         translate (fn [^String x]
                       (let [[first second third] x]
                         (cond
