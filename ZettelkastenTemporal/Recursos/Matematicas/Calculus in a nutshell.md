@@ -69,3 +69,34 @@ _The derivative tells us that for any point x on A(x) = x^2 the slope of the lin
 > Al ser pendiente ascendente sabemos que 8 es un maximo
 
 ## Que es una derivativa <<<2
+
+## Para que son las derivativas<<<
+
+### Linear approximation
+In calculus, linear approximation is a method used to estimate the value of a function near a particular point by using the tangent line at that point as an approximation. It is also known as the tangent line approximation or the first-order approximation.
+
+The basic idea behind linear approximation is that if you zoom in closely enough to a smooth curve, it will appear to be a straight line. By using the slope of the tangent line at a given point on the curve, you can approximate the behavior of the function near that point.
+
+Mathematically, the linear approximation of a function f(x) at a point x=a can be expressed as:
+
+L(x) = f(a) + f'(a)(x - a),
+
+where L(x) represents the linear approximation of f(x), f(a) is the value of the function at x=a, f'(a) is the derivative of the function evaluated at x=a, and (x - a) represents the distance from the point of approximation.
+
+## The second derivative
+La segunda derivada nos ayuda a conocer minimos locales y maximos locales.
+The second derivative of f measures the rate of change of the first derivative, so if c is a LOCAL max then f''(c) < 0 or viseverse
+
+_saddle point_: cuando una grafica llega a un maximo pero regresa a un minimo pero vuelve a subir
+
+### Higher-order Derivatives
+Hay distintos niveles de derivadas a estas se les llaman ordenes
+$$f^n(x) $$
+Donde la n es el numero de niveles
+$$ f^3(x) = f'''(3) $$
+$$ f^0(x) = f(x) $$
+Tambien se puede escribir
+$$ \frac{d^nf}{dx^n} $$
+### Para que nos sirven este tipo de derivadas<<<
+Imagina que la funcion x(t) describe la posicion de un objeto en cierto tiempo t
+entonces v(t) := x'(t) describe la velocidad, entonces x''(t) decribiria la aceleracion

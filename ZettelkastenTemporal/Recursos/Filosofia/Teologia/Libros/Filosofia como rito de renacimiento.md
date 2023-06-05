@@ -38,3 +38,12 @@ Aristoteles tomo de manera literal la metafora metafisica del agua
 
 ## El significado metafisico de las mitologias antiguas
 Hermes es un arquetipo, y Platon aprendio de ese arquetipo
+
+## Los numeros pitagoricos y sus paradigmas
+Para pitagoras los numeros revelaban los arquetipos ocultos de la naturaleza y pitagoras tambien desarrollo su propio metodo de enseñanza basado en los egipcios. Para pitagoras la vida virtuosa conssiste en organizar lo irracional sensible y material mediante lo racional inteligible e inmaterial
+
+## En pie sobre la barca solar<<<
+## El nilo celeestial como causa de la geometria<<<
+El tetrakys representa la unicidad volviendose multiplicida 
+- la gometria asciende al alma
+- 

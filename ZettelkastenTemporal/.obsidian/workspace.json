@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Algebra 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Matematicas/Algebra 2.md",
+                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "231e5637d503b6ac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Matematicas/Algebra 2.md"
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md"
               }
             }
           }
@@ -159,30 +171,36 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d894cc94c6ddc922",
+  "active": "231e5637d503b6ac",
   "lastOpenFiles": [
-    "Matematicas/Calculus in a nutshell.md",
-    "Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
-    "Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
-    "Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
-    "Matematicas/Algebra 2.md",
-    "Historia/Union Sovietica.md",
-    "Matematicas/Understanding Graphs.md",
-    "Libros a comprar.md",
-    "Filosofia/Teologia/Filosofia Perenne.md",
-    "Computer Science/Prompt engineering.md",
-    "Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
-    "Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
-    "Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
+    "Recursos/Computer Science/Computer Networks.md",
+    "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "n.md",
+    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
+    "Recursos/Matematicas/Algebra 2.md",
+    "Meditaciones/Filosofia",
+    "Meditaciones",
+    "Recursos",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
+    "Recursos/Historia/Union Sovietica.md",
+    "Recursos/Matematicas/Understanding Graphs.md",
+    "Recursos/Libros a comprar.md",
+    "Recursos/Filosofia/Teologia/Filosofia Perenne.md",
+    "Recursos/Computer Science/Prompt engineering.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
     "2023-05-28.md",
-    "Filosofia/Teologia/Referencias a la conciencia universal.md",
-    "Matematicas/Algebra Through puzzles.md",
+    "Recursos/Filosofia/Teologia/Referencias a la conciencia universal.md",
+    "Recursos/Matematicas/Algebra Through puzzles.md",
     "Computer Science/Untitled",
-    "Computer Science",
-    "Musica/Escalas.js",
+    "Recursos/Computer Science",
+    "Recursos/Musica/Escalas.js",
     "Musica/Escalas.md",
     "Musica/Escalas.ts",
-    "Musica",
-    "Filosofia/Definicion filosofia.md"
+    "Recursos/Musica",
+    "Recursos/Filosofia/Definicion filosofia.md"
   ]
 }
