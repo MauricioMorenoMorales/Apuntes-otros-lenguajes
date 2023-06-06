@@ -43,7 +43,26 @@ Hermes es un arquetipo, y Platon aprendio de ese arquetipo
 Para pitagoras los numeros revelaban los arquetipos ocultos de la naturaleza y pitagoras tambien desarrollo su propio metodo de enseñanza basado en los egipcios. Para pitagoras la vida virtuosa conssiste en organizar lo irracional sensible y material mediante lo racional inteligible e inmaterial
 
 ## En pie sobre la barca solar<<<
-## El nilo celeestial como causa de la geometria<<<
+## El nilo celestial como causa de la geometria<<<
 El tetrakys representa la unicidad volviendose multiplicida 
 - la gometria asciende al alma
-- 
+
+## LA filosofia como mistagogia divina y locura beneficiosa
+En los inicios de la filosofia no encontramos ni indagaciones titanicas ni dudas sacrilegas, la filosofiaempieza mas bien inspiradas en interpretaciones de los oraculos comentarios sobre el significado oculto de los ritos cosmogonicos, los calendarios sagrados y las genealogias etc.
+> El proposito de la filosofia es reorganizar toda nuestra vida con arreglo a prototipos divbinos. Por eso la filosofía como amor a la sabiduría no puede reducirse a la labor filologica, es decir a un amor por el discurso "Restaurar la semejanza con dios"
+
+>Para porgfirio el filosofo es solo un sacerdote, Aristoteles considera que la autorreflexividad y el conocimiento de si coinciden en dios pues en el pensamiento acerca del pensamiento, Dios piensa en si mismo, pero el conocimiento del intelecto es el conocimiento del ser
+
+> Hipatia de alejandria era considerada una genuina conductora de los misterios de la filosofía; los miembros de su circulo participaban en misterios filosoficos solo para iniciados que veian a la filosofia como el mas inefable de los inefables misterios 
+
+## La filosofia y el poder de la fe: hacia la unión final
+>Numenio neopitagorico predecesor de Plotinio llego a postular una doctrina proxima a la de philosophia perennis: trato de mostrar armonia y la concordancia interna que guardaban la filosofia pitagorica de platon y diversos ritos y doctrinas iniciaticas compartidas por brahmanes judios magos y egipcios
+
+> El proposito de la filosofia del platonismo medio consiste en alcanzar la mayor asimilacion posible con dios
+
+> Segun Henri Dominique Saffrey la filosofia s una actividad mental que los griegos siempre se esforzaron en convertir racional, y este viraje termino generando decadencia en la filosofia exceptuando a plotinio
+
+> Plotino distingue tres clases de hombres: aquellos que no tratan de elevarse por encima del mundo fisico, aquellos que lo intentan pero no pueden, y aquellos que lo logran y llegan al mundo divino de igual modo que un hombre que regresa a su tierra despues de un largo viaje y la encuentra bien gobernada
+
+"La filosofia es el amor a la sabiduria no el amor al habla"
+

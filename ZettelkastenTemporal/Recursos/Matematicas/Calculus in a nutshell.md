@@ -70,7 +70,7 @@ _The derivative tells us that for any point x on A(x) = x^2 the slope of the lin
 
 ## Que es una derivativa <<<2
 
-## Para que son las derivativas<<<
+## Para que son las derivativas<<< 
 
 ### Linear approximation
 In calculus, linear approximation is a method used to estimate the value of a function near a particular point by using the tangent line at that point as an approximation. It is also known as the tangent line approximation or the first-order approximation.
@@ -100,3 +100,4 @@ $$ \frac{d^nf}{dx^n} $$
 ### Para que nos sirven este tipo de derivadas<<<
 Imagina que la funcion x(t) describe la posicion de un objeto en cierto tiempo t
 entonces v(t) := x'(t) describe la velocidad, entonces x''(t) decribiria la aceleracion
+
