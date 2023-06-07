@@ -228,3 +228,57 @@ type person struct {
 	pet string
 }
 
+var fred person
+
+bob := person{}
+
+julia := person{
+	"Julia",
+	40,
+	"cat"
+}
+
+beth := person{
+	age: 30,
+	name: "Beth",
+}
+
+//? No puedes mezclar ambos tipos de declaraciones
+
+bob.name = "Bob"
+fmt.Println(beth.name)
+
+var person struct {
+	name string
+	age int
+	pet string
+}
+
+// Anonymous struct
+person.name = "bob"
+person.age = 50
+person.pet = "dog"
+
+pet := struct {
+	name string
+	kind string
+}{
+	name: "Fido",
+	kind: "Dog",
+}
+
+
+type firstPerson struct {
+	name string
+	age int
+}
+
+type sercondPerson struct {
+	name string
+	age int
+}
+
+type thirdPerson struct {
+	age int
+	name string
+}

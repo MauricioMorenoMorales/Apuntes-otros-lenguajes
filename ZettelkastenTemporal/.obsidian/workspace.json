@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md"
+                "file": "Recursos/Matematicas/Discrete mathematics.md"
               }
             }
           }
@@ -173,10 +173,10 @@
   },
   "active": "231e5637d503b6ac",
   "lastOpenFiles": [
-    "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Matematicas/Calculus in a nutshell.md",
-    "Recursos/Computer Science/Computer Networks.md",
     "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "Recursos/Matematicas/Discrete mathematics.md",
+    "Recursos/Computer Science/Computer Networks.md",
     "n.md",
     "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Recursos/Matematicas/Algebra 2.md",

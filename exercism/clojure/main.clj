@@ -1,6 +1,6 @@
 ; retorna valores sobre como hacer una lasagna ===========================
 
-(require '[clojure.string :as str :refer [join split trim includes?]])
+(require '[clojure.string :as str :refer [join split trim includes? replace]])
 
 (ns lucians-luscious-lasagna)
 
@@ -799,3 +799,59 @@
       hundreds  (str (get hundreds-map hundreds))
       tens      (str (get tens-map tens))
       units     (str (get units-map units)))))
+
+(defn subtractive-conversions [numeral]
+  (-> numeral
+      (str/replace "VIIII" "IX")
+      (str/replace "IIII" "IV")
+      (str/replace "LXXXX" "XC")
+      (str/replace "XXXX" "XL")
+      (str/replace "DCCCC" "CM")
+      (str/replace "CCCC" "CD")))
+(defn additive-convertor[digits num]
+  (str/join (cond
+              (>= num 1000) (additive-convertor (conj digits "M") (- num 1000))
+              (>= num 500)  (additive-convertor (conj digits "D") (- num 500))
+              (>= num 100)  (additive-convertor (conj digits "C") (- num 100))
+              (>= num 50)   (additive-convertor (conj digits "L") (- num 50))
+              (>= num 10)   (additive-convertor (conj digits "X") (- num 10))
+              (>= num 5)    (additive-convertor (conj digits "V") (- num 5))
+              (> num 0)     (additive-convertor (conj digits "I") (- num 1))
+              (= num 0)     digits)))
+(defn subtractive-convertor [additive-number]
+  (subtractive-conversions additive-number))
+(defn numerals [x]
+  (let [digits []]
+    (subtractive-convertor (additive-convertor digits x))))
+
+;;! ROta el orden de las palabras
+
+(deftest rotate-punctuation
+  (is (= (rotational-cipher/rotate "Let's eat, Grandma!" 21) "Gzo'n zvo, Bmviyhv!")))
+(defn rotate [string change]
+  (let [adjust-range (fn [number minimum maximum]
+                       (cond
+                         (< maximum number) (- number 26)
+                         (> minimum number) (+ number 26)
+                         :else              number))
+        change (cond
+                 (> change 26)  (- change 26)
+                 (< change -26) (+ change 26)
+                 :else          change)
+        rotate #(cond
+                  (.contains (range 97 123) %) (adjust-range (+ % change) 97 122)
+                  (.contains (range 65 91) %)  (adjust-range (+ % change) 65 90)
+                  :else                        %)]
+    (->> string
+         (seq)
+         (map int)
+         (map rotate)
+         (map char)
+         (join))))
+
+(def ^:const alphabet "abcdefghijklmnopqrstuvwxyz")
+(defn rotate2 [text key]
+  (let [shifted (take 26 (drop (mod key 26) (cycle alphabet)))
+        cipher (zipmap (str alphabet (s/upper-case alphabet))
+                       (concat shifted (map s/upper-case shifted)))]
+    (s/join (map #(cipher %1 %1) text))))
