@@ -834,10 +834,7 @@
                          (< maximum number) (- number 26)
                          (> minimum number) (+ number 26)
                          :else              number))
-        change (cond
-                 (> change 26)  (- change 26)
-                 (< change -26) (+ change 26)
-                 :else          change)
+        change (if (pos? change) (mod change 26) (mod change -26))
         rotate #(cond
                   (.contains (range 97 123) %) (adjust-range (+ % change) 97 122)
                   (.contains (range 65 91) %)  (adjust-range (+ % change) 65 90)
@@ -855,3 +852,4 @@
         cipher (zipmap (str alphabet (s/upper-case alphabet))
                        (concat shifted (map s/upper-case shifted)))]
     (s/join (map #(cipher %1 %1) text))))
+
