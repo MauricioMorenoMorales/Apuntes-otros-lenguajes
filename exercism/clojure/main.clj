@@ -853,3 +853,47 @@
                        (concat shifted (map s/upper-case shifted)))]
     (s/join (map #(cipher %1 %1) text))))
 
+;;! Genera una respuesta a partir de el binario de un numero
+
+;;?? Error
+
+(defn commands
+  [number]
+  (letfn [(to-binary [number]
+            (loop [response '()
+                   current-number number]
+              (if (= 0 current-number)
+                response
+                (recur (conj response (rem current-number 2)) (quot current-number 2)))))
+          (is-valid-parameter [parameter] (<= 0 parameter))]
+    (if-not is-valid-parameter []
+            (let [binary-number (->> number
+                                     to-binary
+                                     (map #(if (= 0 %) nil %))
+                                     reverse)
+                  [bit1 bit2 bit4 bit8 bit16] binary-number]
+              #_(cond-> []
+                  bit1 (conj "wink")
+                  bit2 (conj "double blink")
+                  bit4 (conj "close your eyes")
+                  bit8 (conj "jump")
+                  bit16 (reverse))
+              [bit16 bit8 bit4 bit2 bit1]))))
+
+;;<<<
+(defn commands
+  "Given a decimal number, convert it to the appropriate sequence of events for a secret handshake."
+  [n]
+  (let [events ["wink" "double blink" "close your eyes" "jump"]
+        handshake (->> (range (count events))
+                       (remove #(zero? (bit-and 1 (bit-shift-right n %))))
+                       (map #(events %)))]
+    (if (zero? (bit-and 1 (bit-shift-right n 4))) handshake (reverse handshake))))
+
+(defn commands [n]
+  (cond-> []
+    (bit-test n 0) (conj "wink")
+    (bit-test n 1) (conj "double blink")
+    (bit-test n 2) (conj "close your eyes")
+    (bit-test n 3) (conj "jump")
+    (bit-test n 4) reverse))

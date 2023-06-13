@@ -7,7 +7,7 @@ const escalas = {
   },
   sobreAgudos: {
     do: {
-      octavas: 72 * 4n //TODO
+      octavasCompleta: 60 * 4n //TODO
     }
   }
 }

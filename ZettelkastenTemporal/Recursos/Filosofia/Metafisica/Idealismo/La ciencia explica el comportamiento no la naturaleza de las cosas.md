@@ -5,3 +5,5 @@
 > Es através de conocer que es lo que la naturaleza hace despues que podemos crear tecnologia, modificar nuestro entorno para que ciertos comportamientos beneficiosos para nosotros se lleven acabo y podamos conseguir objetivos materiales
 
 > Cualquier deduccion de la naturaleza de alguna entidad hecha dentro de la ciencia es una [[Ficcion conveniente]]
+
+> Markus miller, la fisica trata sobre que es lo que vamos a ver despues
