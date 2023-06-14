@@ -188,7 +188,7 @@ var (
 	add = func(i, j int) int { return i + j }
 	sub = func(i, j int) int { return i - j }
 	mul = func(i, j int) int { return i * j }
-	div = func(i, j int) int [ return i / j ]
+	div = func(i, j int) int { return i / j }
 )
 
 func main() {
@@ -234,3 +234,160 @@ func main() {
 	fmt.Println(a)// 20
 }
 
+//! Passing functions as parameters
+
+type Person {
+	FirstName string
+	LastName string
+	Age int
+}
+
+people := []Person{
+	{"Pat", "Patterson", 37},
+	{"Tracy", "Bobdaughter", 23},
+	{"Fred", "Fredson", 37},
+}
+fmt.Println(people)
+// sort by last name
+sort.Splice(people, func(i, j int) bool {
+	return people[i].LastName < people[j].lastName
+})
+fmt.Println(people)
+
+//! Returning functions from functions
+
+func makeMult(base int) func(int) int {
+	return func(factor int) int {
+		return base * factor
+	}
+}
+
+func main() {
+	twoBase := makeMult(2)
+	threeBase := makeMult(3)
+	for i := 0; i < 3; i++ {
+		fmt.Println(twoBase(i), threeBase(i))
+	}
+}
+
+//! Defer
+
+func main() {
+	if len(osArgs) < 2 { log.Fatal("No file specified.") }
+
+	f, err := os.Open(os.Args[1])
+	if err != nil { log.Fatal(err) }
+	defer f.Close()
+
+	data := make([]byte, 2048)
+
+	for {
+		count, err := f.Read(data)
+		os.Stdout.Write(data[:count])
+		if err != nil {
+			if err != io.EOF { log.Fatal(err) }
+			break
+		}
+	}
+}
+
+func deferExample() int {
+	a := 10
+	defer func(val int) { 
+		fmt.Println("first:", val)
+	}(a)
+	a = 20
+	defer fun(val int) {
+		fmt.Println("second:", val)
+	}(a)
+	a = 30
+	fmt.Println("existing:", a)
+	return a
+}
+/* retornaria:
+existing: 30
+second: 20
+first: 10 */
+
+// A pattern using defer
+
+func DoSomeInserts(ctx context.Context, db *sql.DB, value1, value2 string)
+(err error) {
+	tx, err := db.BeginTx(ctx, nil)
+	if err != nil { return err }
+
+	defer func() {
+		if err == nil { err = tx.Commit() }
+		if err != nil { tx.Rollback() }
+	}()
+
+	_, err = tx.ExecContext9ctx, "INSERT INTO FOO (val) values $1", value1
+	if err != nil { return err }
+
+	// use tx to do more database insers here
+
+	return nil
+}
+
+// Another example
+
+func getFile(name string) (*os.File, func(), error) {
+	file, err := os.Open(name)
+	if err != nil { return nil, nil, err }
+
+	return file, func() {
+		file.Close()
+	}, nil
+}
+
+//! Las funciones siempre copian el valor por defecto
+
+type person struct {
+	age int
+	name string
+}
+
+func modifYfails(i int, s string, p person) {
+	i = i * 2
+	s = "Goodbye"
+	p.name = "bob"
+}
+
+func main() {
+	p := person{}
+	i := 2
+	s := "Hello"
+
+	modifYfails(i, s, p)
+	fmt.Println(i, s, p) // 2 Hello {0 }
+}
+
+// Pero los maps y slices si pueden ser cambiados
+
+func modMap(m map[int]string) {
+	m[2] = "hello"
+	m[3] = "hoodbye"
+	delete(m, 1)
+}
+
+func modSlice(s []int) {
+	for k, v := range s {
+		s[k] = v * 2
+	}
+	s = append(s, 10)
+}
+
+func main() {
+	m := map[int]string{
+		1: "first",
+		2: "second",
+	}
+	modMap(m)
+	fmt.Println(m)// map[2:hello 3:goodbye]
+
+	s := []int{1, 2, 3}
+	modSlice(s)
+	fmt.Println(s)// [2 4 6]
+}
+
+// puedes cambiar un slice en valores pero no en tamaño
