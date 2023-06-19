@@ -553,12 +553,12 @@
           (is-white-space [s]
             (= (trim s) ""))]
     (cond
-      (yells-question? s) "Calm down, I know what I'm doing!"
-      (is-a-question? s) "Sure."
-      (is-white-space s) "Fine. Be that way!"
+      (yells-question? s)    "Calm down, I know what I'm doing!"
+      (is-a-question? s)     "Sure."
+      (is-white-space s)     "Fine. Be that way!"
       (not (has-letters? s)) "Whatever."
-      (is-yelling? s) "Whoa, chill out!"
-      :else "Whatever.")))
+      (is-yelling? s)        "Whoa, chill out!"
+      :else                  "Whatever.")))
 
 (defn response-for2
   [^String s]
@@ -857,29 +857,6 @@ sd
 
 ;;?? Error
 
-(defn commands
-  [number]
-  (letfn [(to-binary [number]
-            (loop [response '()
-                   current-number number]
-              (if (= 0 current-number)
-                response
-                (recur (conj response (rem current-number 2)) (quot current-number 2)))))
-          (is-valid-parameter [parameter] (<= 0 parameter))]
-    (if-not is-valid-parameter []
-            (let [binary-number (->> number
-                                     to-binary
-                                     (map #(if (= 0 %) nil %))
-                                     reverse)
-                  [bit1 bit2 bit4 bit8 bit16] binary-number]
-              #_(cond-> []
-                  bit1 (conj "wink")
-                  bit2 (conj "double blink")
-                  bit4 (conj "close your eyes")
-                  bit8 (conj "jump")
-                  bit16 (reverse))
-              [bit16 bit8 bit4 bit2 bit1]))))
-
 ;;<<<
 (defn commands
   "Given a decimal number, convert it to the appropriate sequence of events for a secret handshake."
@@ -898,14 +875,13 @@ sd
     (bit-test n 3) (conj "jump")
     (bit-test n 4) reverse))
 
-;; Guarda con flecha
+;;! Guarda con flecha
 
 (defn slices
   [string length]
-  (let [are-invalid-parameters? (or (> length (count string)) (empty? string))
-        => #(cond
-              are-invalid-parameters? []
-              (zero? length)          [""]
-              :else %)]
+  (let [=> #(cond
+              (or (> length (count string)) (empty? string)) []
+              (zero? length)                                 [""]
+              :else                                          %)]
     (=> (->> (partition length 1 string)
              (map #(apply str %))))))

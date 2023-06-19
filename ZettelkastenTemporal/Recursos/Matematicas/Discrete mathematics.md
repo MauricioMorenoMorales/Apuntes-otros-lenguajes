@@ -30,3 +30,18 @@ Descripcion
 - Double negation: XD
 - Commutative Laws: El orden no importa cuando se usa un and y un or
 - Assosiative Laws: cuando hay varias operaciones iguales no importa el orden de los parentesis
+
+
+# Rules of inference [25]
+
+Para probar la validez de una inferencia tratamos de hacer la conclusión falsa y todas las premisas verdaderas, si no podemos entonces la inferencia es verdadera
+
+1. Modus Ponens [(P -> Q) ^ P] -> Q
+2. Modus Tollens [(P -> Q) ^ !Q] -> !P
+3. Hypothetical Syllogism [(P -> Q) ^ (Q -> R)] -> (P -> R)
+4. Disjunctive Syllogism [(P || Q) & ~P] -> Q
+5. Addition P -> (P || Q)
+6. Simplification (P ^ Q) -> P or (P ^ Q) -> Q
+7. Conjunction [(P) ^ (Q)] -> (P ^ Q)
+8. Resolution [(P || Q) ^ (!P || R)] -> (Q || R)
+9. 

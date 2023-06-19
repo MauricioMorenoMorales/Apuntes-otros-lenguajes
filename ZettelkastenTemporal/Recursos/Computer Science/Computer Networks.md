@@ -70,3 +70,64 @@ Protocols used in network communications also define
 - Request-Response model.
 - Scalable
 - Server may be overloaded
+
+# Components of a Computer network
+> Nodes:
+> End Nodes:
+> >Computers
+> >Network printrs
+> >VoIP Phones
+> >Telepresence endpoint
+> >Security Cameras
+> >Mobile handheld devices
+> Intermediary Nodes
+> >Switches
+> >Wireless Access Point
+> >Routers
+> >Security Devices
+> >Bridges
+> >Hubs
+> >Repeaters
+> >Cell tower
+
+> Media:
+> Wired Medium
+> > Ethernet straight-through cable
+> > Ethernet crossover cable
+> > Fiber Optic cable
+> > Cioaxial cable
+> > Usb Cable
+> Wireless Medium
+> > Infrared (tv-remote control)
+> > Radio (Bluetooth)
+> > Microwaves (Example: Cellular System)
+> > Satellite (Example: Long range communication -GPS)
+
+> Services:
+> Infrared (tv-remote control)
+> e-mail
+> storage services
+> file sharing
+> instant messaging
+> Online game
+> Voice over IP
+> video telephony
+> World Wide Web
+
+# Classification of Computer networks
+
+> Local Area Network (LAN)
+> Residendces Schools laboratories universities or offices buildings
+> _wired LAN_ (ethernet-hub, switch)
+> _wireless LAN_ (Wi-Fi)
+
+
+> Metropolitan Area Network (MAN)
+> Es como un LAN de LANS, o una coneccion entre dos LANS
+
+> Wide Area Network (WAN): Internet
+
+> Storage Area Network:
+> Cloud computing
+> > Is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
+
