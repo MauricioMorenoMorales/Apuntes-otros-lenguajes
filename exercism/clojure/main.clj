@@ -1,6 +1,7 @@
 ; retorna valores sobre como hacer una lasagna ===========================
 
 (require '[clojure.string :as str :refer [join split trim includes? replace]])
+(def ƒ #(%2 %1 %3)) (def is #(%2 %1))
 
 (ns lucians-luscious-lasagna)
 
@@ -775,7 +776,7 @@ sd
         multiple-of-5 (if (= 0 (mod number 5)) "Plang" "")
         multiple-of-3 (if (= 0 (mod number 3)) "Pling" "")
         result (str multiple-of-3 multiple-of-5 multiple-of-7)]
-    (if (empty? result) (str number) result)))
+    (if (is result empty?) (str number) result)))
 
 (defn convert [number]
   (cond-> nil
@@ -788,17 +789,18 @@ sd
 
 (defn numerals
   [number]
-  (let [number-string (-> number str reverse)
+  (let [=> #(if (>= number 5000) number %)
+        number-string (-> number str reverse)
         [units tens hundreds thousands] number-string
         thousands-map {\1 "M" \2 "MM" \3 "MMM" \4 "MMMM"}
         hundreds-map  {\1 "C" \2 "CC" \3 "CCC" \4 "CD" \5 "D" \6 "DC" \7 "DCC" \8 "DCCC" \9 "CM"}
         tens-map      {\1 "X" \2 "XX" \3 "XXX" \4 "XL" \5 "L" \6 "LX" \7 "LXX" \8 "LXXX" \9 "XC"}
         units-map     {\1 "I" \2 "II" \3 "III" \4 "IV" \5 "V" \6 "VI" \7 "VII" \8 "VIII" \9 "IX"}]
-    (cond-> ""
+    (=> (cond-> ""
       thousands (str (get thousands-map thousands))
       hundreds  (str (get hundreds-map hundreds))
       tens      (str (get tens-map tens))
-      units     (str (get units-map units)))))
+      units     (str (get units-map units))))))
 
 (defn subtractive-conversions [numeral]
   (-> numeral
@@ -828,23 +830,27 @@ sd
 
 (deftest rotate-punctuation
   (is (= (rotational-cipher/rotate "Let's eat, Grandma!" 21) "Gzo'n zvo, Bmviyhv!")))
+
+(def ƒ #(%2 %1 %3)) (def is #(%2 %1)); Allows infix and postfix functions
+
 (defn rotate [string change]
   (let [adjust-range (fn [number minimum maximum]
                        (cond
-                         (< maximum number) (- number 26)
-                         (> minimum number) (+ number 26)
+                         (ƒ maximum < number) (ƒ number - 26)
+                         (ƒ minimum > number) (ƒ number + 26)
                          :else              number))
-        change (if (pos? change) (mod change 26) (mod change -26))
+        change (if (is change pos?) (mod change 26) (mod change -26))
         rotate #(cond
-                  (.contains (range 97 123) %) (adjust-range (+ % change) 97 122)
-                  (.contains (range 65 91) %)  (adjust-range (+ % change) 65 90)
-                  :else                        %)]
+                  (and (ƒ % >= 97) (ƒ % <= 123)) (adjust-range (+ % change) 97 122)
+                  (and (ƒ % >= 65) (ƒ % <= 91))  (adjust-range (+ % change) 65 90)
+                  :else                          %)]
     (->> string
          (seq)
          (map int)
          (map rotate)
          (map char)
          (join))))
+
 
 (def ^:const alphabet "abcdefghijklmnopqrstuvwxyz")
 (defn rotate2 [text key]
@@ -885,3 +891,64 @@ sd
               :else                                          %)]
     (=> (->> (partition length 1 string)
              (map #(apply str %))))))
+
+;;! Metodo para crear funciones, como clojures avanzados, defmacros
+
+(def year-seconds (* 365.25 24 60 60))
+
+(defmacro defperiod [planet ratio]
+  `(defn ~(symbol (str "on-" planet))
+     [seconds#]
+     (/ seconds# (* ~ratio year-seconds))))
+
+(defperiod "earth"   1.0)
+(defperiod "mercury" 0.2408467)
+(defperiod "venus"   0.61519726)
+(defperiod "mars"    1.8808158)
+(defperiod "jupiter" 11.862615)
+(defperiod "saturn"  29.447498)
+(defperiod "uranus"  84.016846)
+(defperiod "neptune" 164.79132)
+
+;; Second iteration
+(def orbital-periods {
+  :earth      1
+  :mercury    0.2408467
+  :venus      0.61519726
+  :mars       1.8808158
+  :jupiter   11.862615
+  :saturn    29.447498
+  :uranus    84.016846
+  :neptune  164.79132
+  })
+
+(doseq [[planet earth-years] orbital-periods]
+  (intern *ns* (symbol "on-" (name planet)))
+  (fn [s]
+    (/ s year-seconds earth-years)))
+    
+
+;;! Determina si una lista es sublista o super lista de otra
+
+(defn classify
+  [list1 list2]
+  (let [list1 (join "_" list1)
+        list2 (join "_" list2)
+        is-sublist-of? (fn [small-list big-list]
+                    (ƒ big-list includes? small-list))]
+    (cond
+      (ƒ list1 = list2)              :equal
+      (ƒ list1 is-sublist-of? list2) :sublist
+      (ƒ list2 is-sublist-of? list1) :superlist
+      :else                          :unequal)))
+
+;;;;;;;;;;;;;;;;;;;;;;
+
+(defn sublist? [coll1 coll2]
+  (some #{coll1} (partition (count coll1) 1 coll2)))
+
+(defn classify [coll1 coll2]
+  (cond (= coll1 coll2) :equal
+        (sublist? coll1 coll2) :sublist
+        (sublist? coll2 coll1) :superlist
+        :else :unequal))

@@ -44,4 +44,11 @@ Para probar la validez de una inferencia tratamos de hacer la conclusión falsa 
 6. Simplification (P ^ Q) -> P or (P ^ Q) -> Q
 7. Conjunction [(P) ^ (Q)] -> (P ^ Q)
 8. Resolution [(P || Q) ^ (!P || R)] -> (Q || R)
-9. 
+
+# First order Logic
+## Predicates
+Un predicado es como una funcion que recibe una variable, esa variable puede ser verdadera o falsa, y tienes que determinar si es verdadera o falsa por ejemplo
+
+(defn example [students] (every? #(starts-with-h %) students))
+
+> Una frase usada a la hora de evaluar es "What are the truth values of"

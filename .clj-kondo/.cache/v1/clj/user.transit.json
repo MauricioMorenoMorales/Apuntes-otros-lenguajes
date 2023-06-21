@@ -1,1 +1,0 @@
-["^ ","~$test-function",["^ ","~:row",3,"~:col",1,"~:fixed-arities",["~#set",[1]],"~:name","^0","~:ns","~$user","~:top-ns",null,"~:arities",["^ ","~i1",["^ ","~:args",["~#list",["~:nilable/string"]],"~:arglist-str","[test]"]],"~:type","~:fn"],"~:filename","/Users/mauricio.moreno/Documents/GitHub/Apuntes-otros-lenguajes/test.clj"]

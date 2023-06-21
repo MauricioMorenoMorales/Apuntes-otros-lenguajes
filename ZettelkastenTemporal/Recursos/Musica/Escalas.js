@@ -1,6 +1,6 @@
 const escalas = {
   mi: {
-    octavas: 108 * 4, //TODO
+    octavas: 120 * 4, //TODO
     cuartas: 70 * 4, //TODO
     tresillos: 126 * 3, //TODO
     terceras: 120 * 2 //TODO

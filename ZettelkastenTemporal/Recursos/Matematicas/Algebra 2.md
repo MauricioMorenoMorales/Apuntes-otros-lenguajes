@@ -1,10 +1,20 @@
 # Funciones
-## Translations
 
 ## Domain and range
 El dominio de una funcion es el set de todos los inputs validos que puede recibir, ya sea por
 - Ua raiz negativa
 - Una division entre cero
+
+## Composicion de funciones
+Puedes hacer una composicion de funciones con dos tipos de notacion
+$$ h(g(x)) $$
+$$ (h\circ g)(x) $$
+Si te fijas el orden es como un pipeline inverso primero se aplica g y luego h lo que es desagradable jaja
+> Ejemplo, una persona vende limonadas a 2 dolares, pero tiene que pagar impuestos
+> f(x) calcula la ganancia y g(x) la ganancia despues de los impuestos
+> $$ (g \circ f)(x) $$
+
+
 
 # Factorizacion cuadratica
 
