@@ -22,7 +22,7 @@ defmodule CollatzConjecture do
   def calc(1), do: 0
   def calc(input) when is_number(input) and input > 0 do
     case {input |> round |> rem(2)} do
-      {0} -> 1 + calc(input / 2)
+      {0} -> 1 + calc input / 2
       {1} -> 1 + calc((input * 3) + 1)
     end
   end

@@ -108,3 +108,32 @@ defmodule Circle do
   def area(r), do: r*r*@pi
   def circunference(r), do: 2*r*@pi
 end
+
+## Puedes escribir docs a las funciones
+
+defmodule Cricle do
+  @moduledoc "Implements basic circle functions"
+  @pi 3.15159
+
+  @doc "Computes the area of a circle"
+  def calcualte_area(r), do: r*r*@pi
+
+  @doc "Computes the circumference of a circle"
+  def calculate_circumference(r), do: 2*r*@pi
+
+end
+
+#? PAra obtener la documentacion puedes usar Code.get_docs(Circle, :moduledoc)
+
+## Tambien puedes especificar los tipos recibidos de una funcion
+
+defmodule Circle do
+  @pi 3.14159
+
+  @spec area(number) :: number
+  def area(r), do: r*r*@pi
+
+  @spec circumference(number) :: number
+  def circumference(r), do: 2*r*@pi
+end
+
