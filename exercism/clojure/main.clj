@@ -926,7 +926,6 @@ sd
   (intern *ns* (symbol "on-" (name planet)))
   (fn [s]
     (/ s year-seconds earth-years)))
-    
 
 ;;! Determina si una lista es sublista o super lista de otra
 
@@ -952,3 +951,18 @@ sd
         (sublist? coll1 coll2) :sublist
         (sublist? coll2 coll1) :superlist
         :else :unequal))
+
+;;! Funcionamiento de mapcat
+
+(defn sum-of-multiples [list max]
+  (->> list
+       (map #(range % max %))
+       (apply concat)
+       (set)
+       (reduce +)))
+
+(defn sum-of-multiples2 [list max]
+  (->> list
+       (mapcat #(range % max %))
+       (set)
+       (reduce +)))

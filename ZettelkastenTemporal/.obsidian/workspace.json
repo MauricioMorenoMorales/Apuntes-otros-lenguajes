@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
+                "file": "Recursos/Computer Science/Computer Networks.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
+                "file": "Recursos/Computer Science/Computer Networks.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
+                "file": "Recursos/Computer Science/Computer Networks.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md"
+                "file": "Recursos/Computer Science/Computer Networks.md"
               }
             }
           }
@@ -173,14 +173,14 @@
   },
   "active": "231e5637d503b6ac",
   "lastOpenFiles": [
+    "Recursos/Matematicas/Discrete mathematics.md",
+    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
     "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
     "Recursos/Libros a comprar.md",
     "Recursos/Historia/Union Sovietica.md",
-    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Recursos/Matematicas/Algebra 2.md",
     "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Computer Science/Computer Networks.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Recursos/Computer Science/Prompt engineering.md",

@@ -52,3 +52,10 @@ Un predicado es como una funcion que recibe una variable, esa variable puede ser
 (defn example [students] (every? #(starts-with-h %) students))
 
 > Una frase usada a la hora de evaluar es "What are the truth values of"
+
+## Logical equivalences
+$$\forall x(g(x)\triangle f(x)) $$
+$$\forall x g(x) \triangle \forall x f(x) $$
+## De morgan laws for quantities
+$$ ¬\forall x P(X) \equiv \exists x ¬P(x) $$
+$$ ¬\exists x P(x)  \equiv \forall x ¬P(x)$$

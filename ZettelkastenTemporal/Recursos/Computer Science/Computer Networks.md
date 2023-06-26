@@ -131,3 +131,10 @@ Protocols used in network communications also define
 > Cloud computing
 > > Is the on-demand availability of computer system resources, especially data storage and computing power, without direct active management by the user.
 
+# Network topology
+Existen 5 tipos de networks
+- Bus topology
+- Ring Topology
+- Star Topology
+- Mesh topology
+https://www.youtube.com/watch?v=uSKdjjw5zow&list=PLBlnK6fEyqRgMCUAG0XRw78UA8qnv6jEx&index=8
