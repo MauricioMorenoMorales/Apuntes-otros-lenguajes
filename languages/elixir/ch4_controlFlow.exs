@@ -217,3 +217,42 @@ defmodule ListHelper do
 end
 
 #! Tail call optimization
+
+defmodule ListHelper do
+  def sum(list), do: do_sum 0, list
+
+  defp do_sum(current_sum, []), do: current_sum
+  defp do_sum(current_sum, [head | tail]) do
+    current_value = head + current_sum
+    do_sum current_value, tail
+  end
+
+  def range(number), do: generate_range [], number
+
+  defp generate_range(accumulator, 0), do: accumulator
+  defp generate_range(accumulator, number) do
+    iteration_decrease = number - 1
+    generate_range [number | accumulator], iteration_decrease
+  end
+end
+
+# Examples of high order functions
+Enum.reduce [1, "not a number", 2, :x, 3], 0,
+  fn
+    element, sum when is_number(element) -> sum + element
+    _, sum -> sum
+  end
+
+#! Fors
+
+# funciona como un map
+for x <- [1, 2, 3] do
+  x * x
+end
+
+for x <- [1,2,3], y <- [1,2,3], do: {x, y, x*y}
+[
+  {1, 1, 1}, {1, 2, 2}, {1, 3, 3},
+  {2, 1, 2}, {2, 2, 4}, {2, 3, 6},
+  {3, 1, 3}, {3, 2, 6}, {3, 3, 9}
+]
