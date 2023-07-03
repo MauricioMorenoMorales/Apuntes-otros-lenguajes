@@ -144,3 +144,77 @@ defmodule ResistorColorDuo do
     end
   end
 end
+
+#! Patter matching, describe el tipo del triangulo con base a sus lados
+
+defmodule Triangle do
+  @type kind :: :equilateral | :isosceles | :scalene
+  @positive_rule_error {:error, "all side lengths must be positive"}
+  @invalid_triangle_sizes_error {:error, "side lengths violate triangle inequality"}
+
+  defp are_valid_triangle_sides?(a, b, c) do
+    [first, second, third] = Enum.sort [a, b, c]
+    first + second >= third
+  end
+
+
+  @spec kind(number, number, number) :: {:ok, kind} | {:error, String.t()}
+  def kind(a, b, c) when a <= 0 or b <= 0 or c <= 0, do: @positive_rule_error
+  def kind(a, b, c) do
+    valid_input = are_valid_triangle_sides? a, b, c
+    different_values = Enum.frequencies([a, b, c]) |> Enum.count
+    case different_values do
+      _ when not valid_input -> @invalid_triangle_sizes_error
+      1 -> {:ok, :equilateral}
+      2 -> {:ok, :isosceles}
+      3 -> {:ok, :scalene}
+    end
+  end
+end
+
+defmodule Triangle do
+  @type kind :: :equilateral | :isosceles | :scalene
+  @pos_rule_error {:error, "all side lengths must be positive"}
+  @inequality_error {:error, "side lengths violate triangle inequality"}
+
+  @spec kind(number, number, number) :: {:ok, kind} | {:error, String.t()}
+  def kind(a, b, c), do: [a, b, c] |> Enum.sort() |> measure()
+
+  defp measure([a, _, _]) when a <= 0, do: @pos_rule_error
+  defp measure([a, b, c]) when a + b <= c, do: @inequality_error
+  defp measure([a, a, a]), do: {:ok, :equilateral}
+  defp measure([a, b, c]) when a == b or b == c, do: {:ok, :isosceles}
+  defp measure([_, _, _]), do: {:ok, :scalene}
+end
+
+#! Take only some parameters, and using maps to generate values
+
+defmodule ResistorColorTrio do
+  @giga 1_000_000_000
+  @mega 1_000_000
+  @kilo 1_000
+  @color_values %{
+    :black => 0,
+    :brown => 1,
+    :red => 2,
+    :orange => 3,
+    :yellow => 4,
+    :green => 5,
+    :blue => 6,
+    :violet => 7,
+    :grey => 8,
+    :white => 9,
+  }
+
+  @spec label(colors :: [atom]) :: {number, :ohms | :kiloohms | :megaohms | :gigaohms}
+  def label([:black, :black, :black]), do: {0, :ohms}
+  def label [first, second, third | _] do
+    number = ((@color_values[first] * 10) + @color_values[second]) * (10 ** @color_values[third])
+    cond do
+      rem(number, @giga) == 0 -> {number / @giga, :gigaohms}
+      rem(number, @mega) == 0 -> {number / @mega, :megaohms}
+      rem(number, @kilo) == 0 -> {number / @kilo, :kiloohms}
+      :else                   -> {number, :ohms}
+    end
+  end
+end

@@ -1,5 +1,26 @@
 # Funciones
 
+## Transformaciones
+Puedes modificar pendiente o posicion de una grafica
+#### Horizontalmente
+le aumentas el valor al parametro ejemplo (x - 2)^2
+> El movimiento es invertido, si es negativo el numero se movera a la derecha, si es positivo se movera a la izquierda
+#### Verticalmente
+Le aumentas el valor al resultado final por ejemplo x^2 + 2
+### Inclinacion, Anchura, Dirección
+Multiplicas el parametro por ejemplo 2x^2
+
+## Vertex
+EL vertex de una parabola es (h, k), en una parabola de la forma siguiente
+$$ y = a(x -h)^2 + k $$
+k = punto y del vertex
+h = punto x del vertex
+a = inclinacion, para calcular la inclinacion tienes que seleccionar un punto y remplazarlo y despejar por ejemplo tenemos el punto (0, -1)
+$$ y = a(x-1)^2+3$$
+$$ -1 = a(0-1)^2 + 3 $$
+$$-1= a + 3 \therefore a = -4$$
+
+
 ## Domain and range
 El dominio de una funcion es el set de todos los inputs validos que puede recibir, ya sea por
 - Ua raiz negativa
@@ -19,9 +40,7 @@ Si te fijas el orden es como un pipeline inverso primero se aplica g y luego h l
 # Factorizacion cuadratica
 
 ### Factorizar cuando existe A
-
 > Usa esta cuando existe A en el primer termino
-
 Primero multiplicaremos a por c en este caso 6 * -12
 $$ 6x^2 + x - 12$$
 

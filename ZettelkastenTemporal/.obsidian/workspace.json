@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Computer Science/Computer Networks.md",
+                "file": "Recursos/Matematicas/Algebra 2.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Computer Science/Computer Networks.md",
+                "file": "Recursos/Matematicas/Algebra 2.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Computer Science/Computer Networks.md",
+                "file": "Recursos/Matematicas/Algebra 2.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Computer Science/Computer Networks.md"
+                "file": "Recursos/Matematicas/Algebra 2.md"
               }
             }
           }
@@ -173,15 +173,17 @@
   },
   "active": "231e5637d503b6ac",
   "lastOpenFiles": [
+    "Recursos/Matematicas/Algebra 1.md",
+    "Recursos/Matematicas/Algebra 2.md",
+    "Recursos/Filosofia/Teologia/Religion Egipcia.md",
+    "Recursos/Historia/Union Sovietica.md",
+    "Recursos/Historia/Untitled",
+    "Recursos/Computer Science/Computer Networks.md",
     "Recursos/Matematicas/Discrete mathematics.md",
     "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
     "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
     "Recursos/Libros a comprar.md",
-    "Recursos/Historia/Union Sovietica.md",
-    "Recursos/Matematicas/Algebra 2.md",
-    "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Computer Science/Computer Networks.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Recursos/Computer Science/Prompt engineering.md",
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
@@ -205,7 +207,6 @@
     "Recursos/Musica/Escalas.js",
     "Musica/Escalas.md",
     "Musica/Escalas.ts",
-    "Recursos/Musica",
-    "Recursos/Filosofia/Definicion filosofia.md"
+    "Recursos/Musica"
   ]
 }
