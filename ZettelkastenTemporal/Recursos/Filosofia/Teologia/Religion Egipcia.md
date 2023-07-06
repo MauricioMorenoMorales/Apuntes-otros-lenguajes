@@ -21,3 +21,26 @@ Contextos arqueologicos, artefactos relacionados con la religion y relaciones. B
 
 > Antes cada ciudad tenia sus propios dioses, en la unificacion se sincretizaron de una manera no excluyente
 
+## Maat VS Isefet
+Maat representa lo verde el orden, Isefet representa el caos el desierto
+
+> Ellos buscaban crear oasis y hacer ganar a Maat
+
+## Dioses El uno y los multiples Erick Hornung
+- nacen y mueren en el eterno retorno (algunas excepciones)
+- Limitacion de accion y poder divino
+> Con la unificacion se busco generar una religion estatal
+
+
+# Cosmogonias
+Existen varios mitos de la creacion en el antiguo egipto
+> Cosmogonía heliopolitana
+> Antes solo existian las aguas primigenias y primordiales, en esas aguas vivia una serpiente con piernas, atum surge como la primera colina de tierra sobre el agua, surgen 3 aspectos de un solo dios, Atum (monticulo), Khepri (cambio), Ra (sol), 
+
+> Cosmogonia menfita
+
+> Cosmogonia hermopolitana
+
+> cosmogonia tebana
+
+> Cosmogonia de Esna

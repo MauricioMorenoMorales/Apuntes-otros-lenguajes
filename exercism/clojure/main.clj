@@ -153,8 +153,8 @@
   (let [total-production (production-rate speed)
         production-per-minute (/ total-production 60)]
     (-> production-per-minute
-        (Math/floor)
-        (int))))
+        Math/floor
+        int)))
 ;; Manipulating floats =================================================
 
 (defn interest-rate

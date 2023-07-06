@@ -11,3 +11,4 @@ Stalingrado
 
 ## Filosofia
 Filosofia Perenne Aldous huxley
+The crisis of our age - Sorokin

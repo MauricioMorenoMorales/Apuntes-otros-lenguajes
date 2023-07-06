@@ -59,3 +59,15 @@ $$\forall x g(x) \triangle \forall x f(x) $$
 ## De morgan laws for quantities
 $$ ¬\forall x P(X) \equiv \exists x ¬P(x) $$
 $$ ¬\exists x P(x)  \equiv \forall x ¬P(x)$$
+## Nested Quantifiers
+$$ \forall x \exists y Q(x, y) $$
+When the operations are the same you the order doesn't matter, solamente importa cuando las operaciones son distintas como en el ejemplo anterior, los siguientes son equivalentes
+$$ \forall x \forall y Q(x, y) \equiv \forall y \forall x Q(x, y) $$
+$$ \exists x \exists y Q(x, y) \equiv \exists y \exists x Q(x, y) $$
+
+## Pasos para definir frase con base a una frase en lenguaje
+- Read and understand the statement
+- Find the domain of discourse
+- Finde the associated quantifiers
+- Rewrite the statement
+- Introduce variables

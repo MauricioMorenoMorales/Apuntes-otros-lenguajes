@@ -157,7 +157,6 @@ defmodule Triangle do
     first + second >= third
   end
 
-
   @spec kind(number, number, number) :: {:ok, kind} | {:error, String.t()}
   def kind(a, b, c) when a <= 0 or b <= 0 or c <= 0, do: @positive_rule_error
   def kind(a, b, c) do
@@ -214,7 +213,47 @@ defmodule ResistorColorTrio do
       rem(number, @giga) == 0 -> {number / @giga, :gigaohms}
       rem(number, @mega) == 0 -> {number / @mega, :megaohms}
       rem(number, @kilo) == 0 -> {number / @kilo, :kiloohms}
-      :else                   -> {number, :ohms}
+      true                    -> {number, :ohms}
     end
+  end
+end
+
+##! Determina si una lista es sublista de una u otra
+
+defmodule Sublist do
+  @spec sublist?(list(number), list(number)) :: boolean
+  defp sublist?(superset, subset) do
+    superset = Enum.map(superset, fn x -> "#{x}*" end) |> Enum.join("/")
+    subset = Enum.map(subset, fn x -> "#{x}*" end) |> Enum.join("/")
+    String.contains? superset, subset
+  end
+
+  @spec compare(list(number), list(number)) :: :equal | :sublist | :superlist | :unequal
+  def compare(a, b) do
+    cond do
+      a == b        -> :equal
+      sublist? a, b -> :superlist
+      sublist? b, a -> :sublist
+      true          -> :unequal
+    end
+  end
+end
+
+defmodule Sublist do
+  @spec compare(list(number), list(number)) :: :equal | :sublist | :superlist | :unequal
+  def compare(a, b) do
+    cond do
+      a == b              -> :equal
+      is_subset_of?(a, b) -> :sublist
+      is_subset_of?(b, a) -> :superlist
+      true                -> :unequal
+    end
+  end
+
+  defp is_subset_of?([], _), do: true
+  defp is_subset_of?(a, b) do
+    b
+    |> Stream.chunk_every(length(a), 1, :discard)
+    |> Enum.any?(&(&1 === a))
   end
 end

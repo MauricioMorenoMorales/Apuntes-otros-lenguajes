@@ -37,14 +37,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d46b87dfb94a3352",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Matematicas/Derivadas.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -110,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Derivadas.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Matematicas/Algebra 2.md",
+                "file": "Recursos/Matematicas/Derivadas.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Matematicas/Algebra 2.md"
+                "file": "Recursos/Matematicas/Derivadas.md"
               }
             }
           }
@@ -171,24 +183,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "231e5637d503b6ac",
+  "active": "d46b87dfb94a3352",
   "lastOpenFiles": [
+    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Matematicas/Derivadas.md",
+    "Recursos/Matematicas/Geometry.md",
     "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Matematicas/Algebra 2.md",
+    "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Filosofia/Teologia/Religion Egipcia.md",
+    "Recursos/Filosofia/La Pasión de la mente occidental.md",
+    "Recursos/Libros a comprar.md",
+    "Recursos/Matematicas/Algebra 2.md",
     "Recursos/Historia/Union Sovietica.md",
     "Recursos/Historia/Untitled",
     "Recursos/Computer Science/Computer Networks.md",
-    "Recursos/Matematicas/Discrete mathematics.md",
     "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
     "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
-    "Recursos/Libros a comprar.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Recursos/Computer Science/Prompt engineering.md",
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Historia/Historia de los arabes.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
     "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
     "n.md",
     "Meditaciones/Filosofia",
@@ -200,12 +215,9 @@
     "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
     "2023-05-28.md",
-    "Recursos/Filosofia/Teologia/Referencias a la conciencia universal.md",
-    "Recursos/Matematicas/Algebra Through puzzles.md",
     "Computer Science/Untitled",
     "Recursos/Computer Science",
     "Recursos/Musica/Escalas.js",
-    "Musica/Escalas.md",
     "Musica/Escalas.ts",
     "Recursos/Musica"
   ]
