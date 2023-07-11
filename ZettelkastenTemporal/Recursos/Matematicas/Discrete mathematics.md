@@ -58,7 +58,9 @@ $$\forall x(g(x)\triangle f(x)) $$
 $$\forall x g(x) \triangle \forall x f(x) $$
 ## De morgan laws for quantities
 $$ ¬\forall x P(X) \equiv \exists x ¬P(x) $$
+$$ ¬\forall \exists y x P(X) \equiv \exists x ¬\exists yP(x) $$
 $$ ¬\exists x P(x)  \equiv \forall x ¬P(x)$$
+$$ \exists x ¬\exists y P(x)  \equiv \exists x \forall y ¬P(x)$$
 ## Nested Quantifiers
 $$ \forall x \exists y Q(x, y) $$
 When the operations are the same you the order doesn't matter, solamente importa cuando las operaciones son distintas como en el ejemplo anterior, los siguientes son equivalentes

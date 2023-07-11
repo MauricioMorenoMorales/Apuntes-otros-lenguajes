@@ -11,6 +11,7 @@
 > - Pedro el grande crea la academia de las ciencias (la actual academia mas grande por afiliados)
 > - Pedro el grande crea la primera biblioteca publica
 > - En el imperio se creo la universidad de lomonosov
+> - En el imperio se crearon las paradas militares desde pedro el grande
 
 # Brezhnev Cap 3 Sesion 1 JCV
 - La union sovietica prohibio las teorias de la relatividad y la fisica cuantica por que eran burguesas
