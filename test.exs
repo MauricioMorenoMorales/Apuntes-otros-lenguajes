@@ -1,13 +1,30 @@
 defmodule T do
 
-  def replaceElements arr do
-    arr |> Enum.reverse |> reduce([], -1)
+  # def is_subsequence(s, t) do
+  #   s = s |> String.graphemes |> Enum.sort
+  #   t = t |> String.graphemes |> Enum.sort |> Enum.take(Enum.count(s))
+  #   t == s
+  # end
+
+  def countOccurrences(_, _, count, goal) when goal == count, do: count
+  def countOcurrences(_, [], count, _), do: count
+  def countOcurrences([s_head|s_tail],[t_head| t_tail], count, goal) when s_head == t_head do
+    countOcurrences s_tail, t_tail, count + 1, goal
+  end
+  def countOcurrences([s_head|s_tail]=s, [_|t_tail], count, goal) do
+    if Enum.count(s) == count do
+      count
+    else
+      countOcurrences [s_head|s_tail], t_tail, count, goal
+    end
   end
 
-  defp reduce([], res, _), do: res
-  defp reduce([head|tail], res, previous_max) do
-    reduce tail, [previous_max|res], max(previous_max, head)
+  def is_subsequence(s, t) do
+    s_length = s |> String.graphemes |> Enum.count
+    sharedLetters = countOcurrences(String.graphemes(s), String.graphemes(t) , 0, s_length)
+    sharedLetters == s_length
   end
+
 
 #!######################################################################
   defp logTest(id, correct, function, parameters) do
@@ -26,6 +43,7 @@ defmodule T do
     end
   end
   def t do
-    logTest 1, [18,6,6,6,1,-1], &replaceElements/1, [[17,18,5,4,6,1]]
+    logTest 1, true, &is_subsequence/2, ["abc", "ahbgdc"]
+    logTest 1, false, &is_subsequence/2, ["ab", "baab"]
   end
 end

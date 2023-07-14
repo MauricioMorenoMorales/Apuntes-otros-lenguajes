@@ -2,3 +2,5 @@
 node_modules
 .clj-condo
 .lsp
+borrador.js
+guard.js
