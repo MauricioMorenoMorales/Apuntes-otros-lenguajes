@@ -65,27 +65,55 @@ defmodule Array do
     maximum_value = if head > current_max do head else current_max end
     recursion([tail], maximum_value, [maximum_value | accumulator])
   end
-end
 
-#! Retorna el valor a la derecha mas grande
+  #! Retorna el valor a la derecha mas grande
 
-def replaceElements arr do
-  arr |> Enum.reverse |> recursion
-end
+  def replaceElements arr do
+    arr |> Enum.reverse |> recursion
+  end
 
-defp recursion([], _, [_ | tail]), do: Enum.concat tail, [-1]
-defp recursion([head | tail], current_max \\ -1, accumulator \\ []) do
-  maximum_value = max head, current_max
-  recursion tail, maximum_value, [maximum_value | accumulator]
-end
+  defp recursion([], _, [_ | tail]), do: Enum.concat tail, [-1]
+  defp recursion([head | tail], current_max \\ -1, accumulator \\ []) do
+    maximum_value = max head, current_max
+    recursion tail, maximum_value, [maximum_value | accumulator]
+  end
 
-# Optimizacion
+  # Optimizacion
 
-def replaceElements arr do
-  arr |> Enum.reverse |> reduce([], -1)
-end
+  def replaceElements arr do
+    arr |> Enum.reverse |> reduce([], -1)
+  end
 
-defp reduce([], res, _), do: res
-defp reduce([head|tail], res, previous_max) do
-  reduce tail, [previous_max|res], max(previous_max, head)
+  defp reduce([], res, _), do: res
+  defp reduce([head|tail], res, previous_max) do
+    reduce tail, [previous_max|res], max(previous_max, head)
+  end
+
+  #! Determina si los las letras de un string son incluidas en otro array en el mismo orden
+
+  def is_subsequence(s, t), do: check(s |> String.to_charlist, t |> String.to_charlist)
+
+  def check([], _t), do: true
+  def check(_s, []), do: false
+  def check([s_h|s_t], [t_h|t_t]) when s_h == t_h, do: check(s_t, t_t)
+  def check(s, [_|t_t]), do: check(s, t_t)
+
+  #? Speed version
+  def is_subsequence_s("", _t), do: true
+  def is_subsequence_s(_s, ""), do: false
+  def is_subsequence(<<_c::8, s::binary>>, <<c::8, t::binary>>), do: is_subsequence_s(s, t)
+  def is_subsequence(s, <<_::8, t::binary>>), do: is_subsequence_s(s, t)
+
+  #? Memory version
+  def is_subsequence_m(s, t), do: check_m(s |> String.to_charlist, t |> String.to_charlist)
+
+  def check_m([], _t), do: true
+  def check_m(_s, []), do: false
+  def check_m(s=[s_h|s_t], [t_h|t_t]) do
+    cond do
+      s_h == t_h -> check_m(s_t, t_t)
+      true -> check_m(s, t_t)
+    end
+  end
+
 end

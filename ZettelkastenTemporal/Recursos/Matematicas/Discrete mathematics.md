@@ -73,3 +73,22 @@ $$ \exists x \exists y Q(x, y) \equiv \exists y \exists x Q(x, y) $$
 - Finde the associated quantifiers
 - Rewrite the statement
 - Introduce variables
+
+# Set theory
+## Inclusion and membership
+## Membership
+$$x\in[x,y,z] = true \bigcirc [x]\in[x,y,z] = false$$
+Recibe un valor y un set, determina si un elemento es parte de un set
+### Inclusion
+$$ [x, y]\subset[x,y,z] \therefore x \in [x,y,z] y \in [x,y,z]= true \bigcirc x \subset [x,y,z] = false $$
+Recibe dos arrays y verifica si cada uno de los miembros de ese array es miembro de otro array
+> Pero si el array es el mismo retorna falso, para que sea verdadero tienes que usar otro simbolo
+$$ [x,y] \subset [x,y] = false \bigcirc [x,y] \subseteq[x,y] = true $$
+> Todos los sets tienen un elemento vacio, como en las listas enlazadas de elixir , este elemento se denomina con la letra fi φ 
+
+> (Non empty set Theorem): Todos los sets tienen garantizados tener dos elementos, el set vacio y si mismo
+
+## Power sets
+Un power set es un set que contiene todos los posibles subsets de un set, el tamaño de un power set se calcula con 2^n
+
+$$ p([φ, [φ]]) \equiv [φ [φ], [[φ]], [φ, [φ]]] $$

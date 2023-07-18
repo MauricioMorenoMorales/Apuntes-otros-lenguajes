@@ -1,30 +1,25 @@
 defmodule T do
 
-  # def is_subsequence(s, t) do
-  #   s = s |> String.graphemes |> Enum.sort
-  #   t = t |> String.graphemes |> Enum.sort |> Enum.take(Enum.count(s))
-  #   t == s
-  # end
+  def is_subsequence(s, t), do: check(s |> String.to_charlist, t |> String.to_charlist)
 
-  def countOccurrences(_, _, count, goal) when goal == count, do: count
-  def countOcurrences(_, [], count, _), do: count
-  def countOcurrences([s_head|s_tail],[t_head| t_tail], count, goal) when s_head == t_head do
-    countOcurrences s_tail, t_tail, count + 1, goal
-  end
-  def countOcurrences([s_head|s_tail]=s, [_|t_tail], count, goal) do
-    if Enum.count(s) == count do
-      count
-    else
-      countOcurrences [s_head|s_tail], t_tail, count, goal
-    end
-  end
+  def check([], _t), do: true
+  def check(_s, []), do: false
+  def check([s_h|s_h], [t_h|t_t]) when s_h == t_h, do: check s_t, t_t
+  def check(s, [_|t_t]) do: check s, t_t
 
-  def is_subsequence(s, t) do
-    s_length = s |> String.graphemes |> Enum.count
-    sharedLetters = countOcurrences(String.graphemes(s), String.graphemes(t) , 0, s_length)
-    sharedLetters == s_length
-  end
+  #? Better solution
 
+  @spec length_of_last_word(s :: String.t) :: integer
+  def length_of_last_word s do
+    s
+    |> String.split(" ")
+    |> Enum.filter(fn x -> x != "" end)
+    |> Enum.reverse
+    |> Enum.take(1)
+    |> Enum.join
+    |> String.graphemes
+    |> Enum.count
+  end
 
 #!######################################################################
   defp logTest(id, correct, function, parameters) do
@@ -43,7 +38,9 @@ defmodule T do
     end
   end
   def t do
-    logTest 1, true, &is_subsequence/2, ["abc", "ahbgdc"]
-    logTest 1, false, &is_subsequence/2, ["ab", "baab"]
+
+    logTest 1, 5, &length_of_last_word/1, ["Hello World"]
+    logTest 2, 4, &length_of_last_word/1, ["   fly me to   the moon       "]
+    logTest 3, 6, &length_of_last_word/1, ["luffy is still joyboy"]
   end
 end

@@ -6,3 +6,7 @@
 (defn calculate-circle-area
   [radius]
   (* Math/PI (* radius radius)))
+
+(defn gauss-trick
+  [goal]
+  (* (/ goal 2) (+ goal 1)))
