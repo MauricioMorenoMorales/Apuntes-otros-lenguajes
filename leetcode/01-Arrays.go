@@ -1,6 +1,10 @@
 package main
 
-import "sort"
+import (
+	"sort"
+	"strings"
+	"unicode"
+)
 
 //! contains duplicate
 
@@ -158,7 +162,8 @@ func moveZeroes(nums []int) {
 //? Memoria
 
 func moveZeroes_m(nums []int) {
-	i, j := 0, i+1
+	i := 0
+	j := i + 1
 
 	for i < len(nums) && j < len(nums) {
 		if nums[i] == 0 && nums[j] != 0 {
@@ -172,4 +177,103 @@ func moveZeroes_m(nums []int) {
 			j++
 		}
 	}
+}
+
+//! verifica que sea un palindromo
+
+func removeSymbolsAndLowercase(input string) string {
+	var response strings.Builder
+
+	for _, char := range input {
+		if unicode.IsLetter(char) {
+			response.WriteRune(unicode.ToLower(char))
+		}
+		if unicode.IsNumber(char) {
+			response.WriteRune(char)
+		}
+	}
+	return response.String()
+}
+
+func isPalindrome(s string) bool {
+	s = removeSymbolsAndLowercase(s)
+	for i, j := 0, len(s) - 1; i < j; i, j = i+1, j-1 {
+		if s[i] != s[j] { return false }
+	}
+	return true
+}
+
+// ! Busca el elemento mas comun dentro de un array
+
+func majorityElemen(nums []int) int {
+	var mostOcurrent = -1
+	var response int
+	mapSet := make(map[int]int)
+
+	for _, element := range nums {
+		if _, ok := mapSet[element]; !ok {
+			mapSet[element] = 1
+		} else {
+			mapSet[element]++
+		}
+	}
+
+	for key, count := range mapSet {
+		if count > mostOcurrent {
+			mostOcurrent = count
+			response = key
+		}
+	}
+
+	return response
+}
+
+func majorityElement_s(nums []int) int { // <<<
+	var candidate, count int
+
+	for _, num := range nums {
+		if count == 0 {
+			candidate = num
+			count = 1
+		} else if num == candidate {
+			count++
+		} else {
+			count--
+		}
+	}
+
+	return candidate
+}
+
+func majorityElements_m(nums []int) int { //<<<
+	l := len(nums) / 2
+	ec := make(map[int]int, l)
+
+	for _, n := range nums {
+		if _, ok := ec[n]; !ok {
+			ec[n] = 0
+		}
+		ec[n] += 1
+
+		if ec[n] > l {
+			return n
+		}
+	}
+	return 0
+}
+
+//! Verifica cual es el maximo nivel de prefijos en comun entre varias palabras
+
+func longestCommonPrefix(strs []string) string {
+	var res strings.Builder
+
+	for letterPosition := 0; letterPosition < len(strs[0]); letterPosition++ {
+		for _, selectedString := range(strs) {
+			if letterPosition >= len(selectedString) || selectedString[letterPosition] != strs[0][letterPosition] {
+				return res.String()
+			}
+		}
+		res.WriteByte(strs[0][letterPosition])
+	}
+	return res.String()
 }

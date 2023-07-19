@@ -170,3 +170,46 @@ func rotate(matrix [][]int) {
 		}
 	}
 }
+
+//! Isomorfic strings
+
+func isIsomorphic(s string, t string) bool {
+	var setMap1 = make(map[byte]int)
+	var setMap2 = make(map[byte]int)
+
+	for i := 0; i < len(s); i++ {
+		value1, ok1 := setMap1[s[i]]
+		value2, ok2 := setMap2[t[i]]
+
+		if !ok1 && !ok2 {
+			setMap1[s[i]] = i
+			setMap2[t[i]] = i
+		} else if ok1 != ok2 || value1 != value2 {
+			return false
+		} else { continue }
+	}
+ return true
+}
+
+func majorityElement(nums []int) int {
+	var mostOccurrent = -1
+	var response int
+	mapSet := make(map[int]int)
+
+	for _, element := range nums {
+		if _, ok := mapSet[element]; !ok {
+			mapSet[element] = 1
+		} else {
+			mapSet[element]++
+		}
+	}
+
+	for key, count := range mapSet {
+		if count > mostOccurrent {
+			mostOccurrent = count
+			response = key
+		}
+	}
+
+	return response
+}

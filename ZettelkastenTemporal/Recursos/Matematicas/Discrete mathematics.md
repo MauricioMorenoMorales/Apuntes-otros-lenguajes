@@ -92,3 +92,9 @@ $$ [x,y] \subset [x,y] = false \bigcirc [x,y] \subseteq[x,y] = true $$
 Un power set es un set que contiene todos los posibles subsets de un set, el tamaño de un power set se calcula con 2^n
 
 $$ p([φ, [φ]]) \equiv [φ [φ], [[φ]], [φ, [φ]]] $$
+## Cartesian Product and Cardinality
+La cardinalidad es el tamaño de un set se calcula como en cualquier lenguaje de programacion {0, 1, 10} = 3
+
+El producto cartesiano se obtiene con la siguiente formula
+$$ AXB = [[a, b] | a \in A \space and \space b \in B] $$
+$$ AXB=[1,2]X[a,b,c]=[1a,1b,1c,2a,2b,2c] $$

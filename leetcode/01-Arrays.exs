@@ -1,4 +1,5 @@
 defmodule Array do
+  alias Mix.Tasks.Lsp.Mappings
   @spec contains_duplicate(nums :: [integer]) :: boolean
   def contains_duplicate nums do
     list_without_repetitions_size = nums |> Enum.uniq |> Enum.count
@@ -115,5 +116,49 @@ defmodule Array do
       true -> check_m(s, t_t)
     end
   end
+
+  #! Isomorfic strings
+
+  @spec is_isomorphic(s :: String.t, t :: String.t) :: boolean
+  def is_isomorphic(s, t) do
+    if String.length(s) != String.length(t) do
+      false
+    else
+      can_morph(%{}, Mapset.new(), String.to_charlist(s), String.to_charlist(t))
+    end
+  end
+
+  defp can_morph(_, _, [], []), do: true
+
+  def can_morph(mappings, domain, [x|xtail], [y|ytail]) do
+    existing = mappings[x]
+
+    cond do
+      existing == nil && not MapSet.member?(domain, y) ->
+        can_morph(Map.put(mappings, x, y), MapSet.put(domain, y), xtail, ytail)
+      existing == y ->
+        can_morph(mappings, domain, xtail, ytail)
+      true -> false
+    end
+  end
+
+  #! Most common element in a string
+
+  def majority_element nums do
+    nums
+    |> Enum.frequencies
+    |> Enum.map(fn {key, val} -> {val, key} end)
+    |> Enum.max
+    |> Tuple.to_list
+    |> Enum.at(1)
+  end
+
+  def majority_elements_m nums do
+    nums
+    |> Enum.frequencies
+    |> Enum.max_by(fn {n, c} -> c end)
+    |> elem(0)
+  end
+
 
 end
