@@ -277,3 +277,15 @@ func longestCommonPrefix(strs []string) string {
 	}
 	return res.String()
 }
+
+func removeElement(nums []int, value int) []int {
+	var response []int
+
+	for _, current := range nums {
+		if current != value {
+			response = append(response, value)
+		}
+	}
+
+	return response
+}

@@ -213,3 +213,62 @@ func majorityElement(nums []int) int {
 
 	return response
 }
+
+func generate(numRows int) [][]int {
+	response := [][]int{{1}, {1, 1}}
+
+	if numRows <= 2 { return response[0:numRows] }
+
+	var lastValue = 1
+	for numRows > 2 {
+		newValue := []int{1}
+		for i := 1; i < len(response[lastValue]); i++ {
+			newValue = append(newValue, response[lastValue][i-1] + response[lastValue][i])
+		}
+		newValue = append(newValue, 1)
+		response = append(response, newValue)
+		lastValue++
+		numRows--
+	}
+	return response
+}
+
+
+func twoSum(nums []int, target int) []int {
+	for i := 0; i < len(nums); i++ {
+		for j := len(nums) - 1; j >= 0; j-- {
+			if nums[i] + nums[j] == target {
+				return []int{i, j}
+			}
+		}
+	}
+	return []int{}
+}
+
+func twoSum2(nums []int, target int) []int {
+	mapHash := make(map[int]int)
+
+	for index, value := range nums {
+		neededValue := target - value
+		if storedIndex, ok := mapHash[neededValue]; ok {
+			return []int{index, storedIndex}
+		} else {
+			mapHash[value] = index
+		}
+	}
+	return []int{-1}
+}
+
+func test(nums []int, target int) []int {
+	hashMap := make(map[int]int)
+
+	for index, value := range nums {
+		neededValue := target - value
+		if storedIndex, ok := hashMap[neededValue]; ok {
+			return []int{index, storedIndex}
+		} else {
+			hashMap[value] = index
+		}
+	}
+	return []int{}
+}

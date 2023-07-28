@@ -98,3 +98,46 @@ La cardinalidad es el tamaño de un set se calcula como en cualquier lenguaje de
 El producto cartesiano se obtiene con la siguiente formula
 $$ AXB = [[a, b] | a \in A \space and \space b \in B] $$
 $$ AXB=[1,2]X[a,b,c]=[1a,1b,1c,2a,2b,2c] $$
+# Set operations
+Intersection
+$$ A \cap B = [x|[x \in A]\wedge[x\in B]] $$
+Union
+$$ A \cup B = [x|[x \in A]\vee[x\in B]] $$
+Difference
+$$ A-B = [x| x \in A \wedge x \notin B] $$
+Complement
+$$ A'=[x|x \notin A] $$
+
+# Set Identities
+Identity Laws
+$$A\cupφ  = A$$
+$$A\capφ  = A$$
+Domination Laws
+$$ A \cup U = U $$
+$$ A \cap φ = φ $$
+Idempotent Laws:
+$$ A \cup A = A $$
+$$ A \cap A = A $$
+Complementation Laws:
+$$ (A')' = A $$
+Commutative Laws: 
+$$ A \cap B = B \cap A $$
+$$ A \cup B = B \cup A $$
+Assosiative Laws:
+$$ A \cup (B \cup C) = (A \cup B) \cup C $$
+$$ A \cap (B \cap C) = (A \cap B) \cap C $$
+Distributive Laws:
+$$ A \cap (B \cup C) = (A \cap B) \cup (A \cap C) $$
+$$ A \cup (B \cap C) = (A \cup B) \cap (A \cup C) $$
+De morgan's Laws:
+$$ (A \cup B)' = A' \cap B' $$
+$$ (A \cap B)' = A' \cup B' $$
+Absorption Laws:
+$$ A \cup (A \cap B) = A $$
+$$ A \cap (A \cup B) = A$$
+Complement Laws:
+$$ A \cup A' = U $$
+$$ A \cap A' = φ$$
+Negation of Member
+$$ x \notin (A \cap B) $$
+$$ ¬(x \in (A \cap B)) $$

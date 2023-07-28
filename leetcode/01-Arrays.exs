@@ -160,5 +160,26 @@ defmodule Array do
     |> elem(0)
   end
 
+  #! Generate a pascal triangle
+  @spec generate(nums_rows :: integer) :: [[integer]]
+  def generate num_rows do
+    Stream.iterate([1], fn list ->
+      [0 | list]
+      |> Enum.chung_every(2, 1)
+      |> Enum.map(&Enum.sum/1)
+    end)
+    |> Enum.take(num_rows)
+  end
 
+  #? Recursion
+
+  @spec generate(num_rows ::integer) :: [[integer]]
+  def generate(num_rows), do: recursion([], num_rows, 0)
+
+  defp recursion(acc, num_rows, i) when i == num_rows, do: Enum.reverse(acc)
+  defp recursion([], num_rows, i), do: recursion([[1]], num_rows, i + 1)
+  defp recursion([hd | _tail] = acc, num_rows, i), do: recursion([1 | shift(hd, [])], num_rows, i + 1)
+
+  defp shift([hd1], acc), do: acc ++ [1]
+  defp shift([hd1, hd2 | tail], acc), do: shift([hd2 |tail], [hd1 + hd2 | acc])
 end

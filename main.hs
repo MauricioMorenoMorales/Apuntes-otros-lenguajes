@@ -872,7 +872,7 @@ module Kata where
 import Data.List
 
 expandedForm :: Int -> String
-expandedForm n = intercalate " + " [d : take ((length str) - pos) (repeat '0') | (d, pos) <- zip (str) [1..], d /= '0'] 
+expandedForm n = intercalate " + " [d : take ((length str) - pos) (repeat '0') | (d, pos) <- zip (str) [1..], d /= '0']
   where str = show n
 
 -- ! Cuenta el valor de una palabra por la posición de sus letras
