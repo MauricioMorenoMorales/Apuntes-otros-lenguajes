@@ -1,13 +1,13 @@
 const escalas = {
   mi: {
     octavas: 138 * 4, //TODO √
-    cuartas: 80 * 4, //TODO 
-    tresillos: 132 * 3, //TODO 
-    terceras: 138 * 2 //TODO 
+    cuartas: 80 * 4, //TODO
+    tresillos: 132 * 3, //TODO
+    terceras: 138 * 2 //TODO
   },
   sobreAgudos: {
     do: {
-      octavasCompleta: 60 * 4n //TODO 
+      octavasCompleta: 60 * 4n //TODO
     }
   }
 }

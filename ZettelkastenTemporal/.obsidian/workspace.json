@@ -49,14 +49,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Repasos.md",
+                "file": "Recursos/Matematicas/Geometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0f6b9ff945f08007",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -122,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Matematicas/Repasos.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Matematicas/Repasos.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Matematicas/Repasos.md"
+                "file": "Recursos/Matematicas/Discrete mathematics.md"
               }
             }
           }
@@ -183,14 +195,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d46b87dfb94a3352",
+  "active": "0f6b9ff945f08007",
   "lastOpenFiles": [
-    "Recursos/Matematicas/Algebra Through puzzles.md",
-    "Recursos/Matematicas/Repasos.md",
-    "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Matematicas/Understanding Graphs.md",
-    "Recursos/Matematicas/Geometry.md",
     "Recursos/Matematicas/Derivadas.md",
+    "Recursos/Matematicas/Geometry.md",
+    "Recursos/Matematicas/Discrete mathematics.md",
+    "Pasted image 20230802052018.png",
+    "Recursos/Matematicas/Repasos.md",
+    "Recursos/Matematicas/Algebra Through puzzles.md",
+    "Recursos/Matematicas/Understanding Graphs.md",
     "Recursos/Filosofia/La Pasión de la mente occidental.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Meditaciones/Filosofia/Roma se convirtio en la iglesia catolica.md",
@@ -211,7 +224,6 @@
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Historia/Historia de los arabes.md",
     "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
-    "n.md",
     "Meditaciones/Filosofia",
     "Meditaciones",
     "Recursos",

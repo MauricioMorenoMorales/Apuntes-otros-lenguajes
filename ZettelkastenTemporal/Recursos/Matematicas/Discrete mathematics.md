@@ -141,3 +141,19 @@ $$ A \cap A' = φ$$
 Negation of Member
 $$ x \notin (A \cap B) $$
 $$ ¬(x \in (A \cap B)) $$
+# Relations
+Las relaciones son propiedades de los contenidos dentro de un set, estos se refieren a listas ordenadas, propiedades de sets que tienen dos valores en cada valor
+
+- Reflexive, tiene que tener un elemento que repite cada valor por ejemplo 1 -> (1,1) $$ \forall a((a, a)\in R) $$
+$$[1, 2, 3, 4]$$
+$$[(1,1),(1,2),(2,2),(2,3),(3,3),(4,4)]$$
+- Irreflexive lo contrario a las reflexivas $$ \forall a ((a, a) \notin R) $$
+$$[(1,2),(2,1),(3,3),(4,4)]$$
+- Symmetric $$ \forall a \forall b ((a, b) \in R \rightarrow (b, a) \in R) $$
+$$[(1,1),(1,2),(2,1),(2,2)]$$
+- Antisymmetric, no existen valores inversos por ejemplo si existe (2,1) no debe de existir (1,2) $$ \forall a \forall b (((a,b)\in R) \wedge (b,a)\in R )) \rightarrow (a = b) $$
+$$correct =[(1,1),(2,1)]$$
+- Asymmetric lo mismo que antisimetrica pero mas estricto por que no puede existir un caso como (1, 1)$$ \forall a \forall b ((a,b)\in R \rightarrow (b, a)\notin R) $$
+$$[(1,1),(1,2),(1,3)]$$
+- Transitive $$ \forall a \forall b \forall c (((a, b) \in R \wedge (b, c)\in R) \rightarrow (a, b) \in R) $$
+$$[(2,1),(3,1),(3,2),(4,4)]$$ Es transitivo por que (3,2), (2,1) y (3,1) se encuentran dentro del set

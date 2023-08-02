@@ -25,3 +25,6 @@ $$ f(x) = a^{g(x)} \therefore f'(x) =  a^{g(x)} * Ln(a) * g'(x) $$
 ## Derivada e
 $$f(x) = e^x \therefore f'(x) = e^x $$
 $$ f(x) = e^{x^3} \therefore f'(x) = e^x*3x^2 $$
+## Derivada logaritmo natural
+$$ f(x) = Ln(u) $$
+$$f'(x) = \frac{u'}{u}$$

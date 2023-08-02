@@ -289,3 +289,79 @@ func removeElement(nums []int, value int) []int {
 
 	return response
 }
+
+func removeElem(nums []int, val int) int {
+	var response int
+
+	for i, j := 0, 0; i < len(nums); i++ {
+		if nums[i] != val {
+			nums[j] = nums[i]
+			j++
+			response++
+		}
+	}
+
+	return response
+}
+
+//! retorna el elemento mas grande de un array en la segunda parte
+func mapFirstGreatestElement (list []int) map[int]int {
+	response := make(map[int]int)
+
+	for i := 0; i < len(list); i++ {
+		var foundGreatestValue int = -1
+		for j := i + 1; j < len(list); j++ {
+			if list[i] < list[j] {
+				foundGreatestValue = list[j]
+				break
+			}
+		}
+		response[list[i]] = foundGreatestValue
+	}
+
+	return response
+}
+
+func nextGreaterElement(nums1 []int, nums2 []int) []int {
+	nums2FirstGreatestValue := mapFirstGreatestElement(nums2)
+	response := make([]int, len(nums1))
+
+	for i, value := range nums1 {
+		response[i] = nums2FirstGreatestValue[value]
+	}
+
+	return response
+}
+
+//! verifica que un email sea valido
+func formatEmail(email string) string {
+	var response strings.Builder
+	isArrobaFound, isPlusFound := false, false
+
+	for _, value := range email {
+		if value == '@' {
+			isArrobaFound = true
+			response.WriteRune(value)
+		} else if value == '+' {
+			isPlusFound = true
+		} else if !((value == '.' && !isArrobaFound) || (isPlusFound && !isArrobaFound)){
+			response.WriteRune(value)
+		}
+	}
+
+	return response.String()
+}
+
+func numUniqueEmails(emails []string) int {
+	formattedEmails := make([]string, len(emails))
+	for i, value := range emails {
+		formattedEmails[i] = formatEmail(value)
+	}
+
+	setMap := make(map[string]bool)
+	for _, value := range formattedEmails {
+		setMap[value] = true
+	}
+
+	return len(setMap)
+} 
