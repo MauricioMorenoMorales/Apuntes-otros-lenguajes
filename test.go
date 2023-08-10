@@ -1,6 +1,7 @@
 package main
 
 import (
+	"sort"
 	"strings"
 	"unicode"
 )
@@ -332,3 +333,247 @@ func numUniqueEmails(emails []string) int {
 
 	return len(setMap)
 } 
+
+//! Group anagrams
+/*
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+*/
+
+func sortString(s string) string {
+	bytes := []byte(s)
+	
+	sort.Slice(bytes, func(i, j int) bool {
+			return strings.ToLower(string(bytes[i])) < strings.ToLower(string(bytes[j]))
+	})
+	
+	return string(bytes)
+}
+
+func groupAnagrams(strs []string) [][]string {
+	anagramMap := make(map[string][]string)
+
+	for _, value := range strs {
+		sortedString := sortString(value)
+		anagramMap[sortedString] = append(anagramMap[sortedString], value)
+	}
+
+	var response [][]string
+	for _, array := range anagramMap {
+		response = append(response, array)
+	}
+
+	return response
+}
+
+func groupAnagrams_s(strs []string) [][]string {
+	m := make(map[[58]int8][]string, len(strs))
+	for _, str := range strs {
+		var hash [58]int8
+		for _, char := range str {
+			index := char - 'A'
+			hash[index] = hash[index] + 1
+		}
+		m[hash] = append(m[hash], str)
+	}
+
+	res := make([][]string, 0, len(m))
+	for _, val := range m {
+		res = append(res, val)
+	}
+	return res
+}
+
+//! Encuentra la cantidad de ocurrencias de la palabra baloon dentro de un string
+func sortString(s string) string {
+	bytes := []byte(s)
+	
+	sort.Slice(bytes, func(i, j int) bool {
+			return strings.ToLower(string(bytes[i])) < strings.ToLower(string(bytes[j]))
+	})
+	
+	return string(bytes)
+}
+
+func min(numbers ...int) int {
+	if len(numbers) == 0 {
+		return 0
+	}
+	response := numbers[0]
+	for _, num := range numbers[1:] {
+		if num < response {
+			response = num
+		}
+	}
+	return response
+}
+func maxNumberOfBalloons(text string) int {
+	sortedText := sortString(text)
+	baloonMapCount := make(map[byte]int)
+
+	for _, value := range sortedText {
+		if value == 'b' { baloonMapCount['b']++}
+		if value == 'a' { baloonMapCount['a']++}
+		if value == 'l' { baloonMapCount['l']++}
+		if value == 'o' { baloonMapCount['o']++}
+		if value == 'n' { baloonMapCount['n']++}
+	}
+
+	if len(baloonMapCount) != 5 { return 0 }
+
+	baloonMapCount['o'] /= 2
+	baloonMapCount['l'] /= 2
+
+	return min(
+		baloonMapCount['b'],
+		baloonMapCount['a'],
+		baloonMapCount['l'],
+		baloonMapCount['o'],
+		baloonMapCount['n'],)
+}
+
+func validPalindrome2(s string) bool {
+	i, j := 0, len(s)-1
+	isAValueDeleted := false
+
+	for i <= j {
+		if s[i] != s[j] {
+			if isAValueDeleted {
+				return false
+			}
+			if s[i] == s[j-1] && s[i+1] == s[j] {
+				j -= 2
+				i += 2
+				isAValueDeleted = true
+			} else if s[i] == s[j-1] {
+				j--
+				isAValueDeleted = true
+			} else if s[i+1] == s[j] {
+				i++
+				isAValueDeleted = true
+			} else {
+				return false
+			}
+		}
+		i++
+		j--
+	}
+	return true
+}
+
+func validPalindrome(s string) bool {
+	for i, j := 0, len(s)-1; i < j; i, j = i+1, j-1 {
+		if s[i] != s[j] {
+			return validPalindromeHelper(s, i+1, j) || validPalindromeHelper(s, i, j-1)
+		}
+	}
+	return true
+}
+
+func validPalindromeHelper(s string, i, j int) bool {
+	for i < j{
+		if s[i] != s[j] { return false }
+		i++
+		j--
+	}
+	return true
+}
+
+type pair struct {
+	key int
+	occurrence int
+}
+
+//! retorna cierta cantidad de elementos dependiendo su ocurrencia <<<
+func sortByOccurrence(m map[int]int) []pair { // <<<
+
+	pairs := make([]pair, len(m))
+	i := 0
+	for k, v := range m {
+		pairs[i] = pair{k, v}
+		i++
+	}
+
+	sort.Slice(pairs, func(i, j int) bool {
+		return pairs[i].occurrence > pairs[j].occurrence
+	})
+
+
+	return pairs
+}
+
+func topKFrequent(nums []int, k int) []int {
+	occurrencesMap := make(map[int]int)
+
+	for _, value := range nums {
+		occurrencesMap[value]++
+	}
+
+	sortedMap := sortByOccurrence(occurrencesMap)
+	var response []int
+
+	for _, value := range sortedMap {
+		if k == 0 { break }
+		response = append(response, value.key)
+		k--
+	}
+	return response
+}
+
+func sumElements(nums []int) int {
+	var response int
+	for _, value := range nums {
+		response += value
+	}
+	return response
+}
+
+func pivotIndex(nums []int) int {
+	rightValue := sumElements(nums)
+	var leftvalue int
+
+	for i, value := range nums {
+		if leftvalue == rightValue - value {
+			return i
+		} else {
+			rightValue -= value
+			leftvalue += value
+		}
+	}
+
+	return -1
+}
+
+func findDisappearedNumbers(nums []int) []int {
+	hashRange := make(map[int]bool)
+
+	for i := 1; i <= len(nums); i++ { hashRange[i] = false }
+	for _, value := range nums { hashRange[value] = true }
+
+	var response []int
+	for key, isFound := range hashRange {
+		if !isFound { response = append(response, key) }
+	}
+
+	return response
+}
+
+func absolute(n int) int {
+	if n < 0 { return n * -1 }
+	return n
+}
+
+func findDisappearedNumbers_s(nums []int) []int { //<<< 
+	for _, n := range nums {
+		i := absolute(n) - 1
+		nums[i] = -1 * absolute(nums[i])
+	}
+
+	var res []int
+	for i, n := range nums {
+		if n > 0 {
+			res = append(res, i + 1)
+		}
+	}
+	return res
+}

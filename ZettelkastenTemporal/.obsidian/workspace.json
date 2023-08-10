@@ -61,7 +61,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Discrete mathematics.md",
+                "file": "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "mode": "source",
                 "source": false
               }
@@ -134,7 +134,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Matematicas/Discrete mathematics.md",
+                "file": "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -151,7 +151,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Matematicas/Discrete mathematics.md",
+                "file": "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Matematicas/Discrete mathematics.md"
+                "file": "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md"
               }
             }
           }
@@ -197,9 +197,9 @@
   },
   "active": "0f6b9ff945f08007",
   "lastOpenFiles": [
+    "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Matematicas/Derivadas.md",
     "Recursos/Matematicas/Geometry.md",
-    "Recursos/Matematicas/Discrete mathematics.md",
     "Pasted image 20230802052018.png",
     "Recursos/Matematicas/Repasos.md",
     "Recursos/Matematicas/Algebra Through puzzles.md",
