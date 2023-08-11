@@ -1,6 +1,7 @@
 package main
 
 import (
+	"runtime/debug"
 	"sort"
 	"strings"
 	"unicode"
@@ -563,7 +564,7 @@ func absolute(n int) int {
 	return n
 }
 
-func findDisappearedNumbers_s(nums []int) []int { //<<< 
+func findDisappearedNumbers_s(nums []int) []int { //<<<
 	for _, n := range nums {
 		i := absolute(n) - 1
 		nums[i] = -1 * absolute(nums[i])
@@ -576,4 +577,80 @@ func findDisappearedNumbers_s(nums []int) []int { //<<<
 		}
 	}
 	return res
+}
+
+
+
+func longestConsecutive_f(nums []int) int {
+	if len(nums) == 0 { return 0 }
+
+	nextValueMap := make(map[int]int)
+	for _, value := range nums {
+		nextValueMap[value] = value + 1
+	}
+
+	response := 1
+	for _, num := range nums {
+		currenValue := num
+		iterationCount := 0
+		nextValue, ok := nextValueMap[currenValue]
+
+		for ok {
+			iterationCount++
+			currenValue = nextValue
+			nextValue, ok = nextValueMap[currenValue]
+		}
+
+		if iterationCount > response { response = iterationCount }
+	}
+
+	return response
+}
+
+func longestConsecutive_m(nums []int) int {
+	debug.SetGCPercent(1)
+	if len(nums) == 0 { return 0 }
+
+	set := make(map[int]bool)
+	for _, value := range nums { set[value] = true }
+	maxCount := 1
+
+	for _, value := range nums {
+		if set[value-1] { continue }
+
+		iterationCount := 1
+		current := value + 1
+		for set[current] {
+			iterationCount++
+			current++
+		}
+
+		if iterationCount > maxCount { maxCount = iterationCount }
+	}
+
+	return maxCount
+}
+
+func longestConsecutive(nums []int) int {
+	if len(nums) == 0 { return 0 }
+
+	sort.Slice(nums, func (i, j int) bool {
+		return nums[i] < nums[j]
+	})
+
+	longest := 1
+	current := 1
+
+	for i := 1; i < len(nums); i++ {
+		if nums[i] == nums[i-1] + 1 {
+			current++
+		} else if nums[i] != nums[i -1] {
+			current = 1
+		}
+
+		if current > longest {
+			longest = current
+		}
+	}
+	return longest
 }
