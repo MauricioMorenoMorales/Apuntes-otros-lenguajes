@@ -7,7 +7,7 @@ const escalas = {
   },
   sobreAgudos: {
     do: {
-      octavasCompleta: 60 * 4n //TODO
+      octavasCompleta: 63 * 4n //TODO
     }
   }
 }
@@ -26,3 +26,7 @@ const pasajesComplejos = {
 //TODO Ejercicios mecanicos repaso
 
 8/5
+
+/* 
+
+*/

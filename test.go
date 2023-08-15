@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"runtime/debug"
 	"sort"
 	"strings"
@@ -631,7 +632,7 @@ func longestConsecutive_m(nums []int) int {
 	return maxCount
 }
 
-func longestConsecutive(nums []int) int {
+func longestConsecutive_s(nums []int) int {
 	if len(nums) == 0 { return 0 }
 
 	sort.Slice(nums, func (i, j int) bool {
@@ -653,4 +654,91 @@ func longestConsecutive(nums []int) int {
 		}
 	}
 	return longest
+}
+
+//! Verifica que un sudoku sea valido
+func hasRepeatedElements(elements []byte) bool {
+	hashMap := make(map[byte]bool)
+	for _, value := range elements {
+		if value == '.' { continue }
+		if hashMap[value] {
+			return true
+		} else {
+			hashMap[value] = true
+		}
+	}
+	return false
+}
+
+func areValidRows(board [][]byte) bool {
+	for _, row := range board {
+		if hasRepeatedElements(row) { return false }
+	}
+	return true
+}
+
+func areValidColumns(board [][]byte) bool {
+	for i := 0; i < len(board); i++ {
+		var column []byte
+		for j := 0; j < len(board); j++ {
+			column = append(column, board[j][i])
+		}
+		if hasRepeatedElements(column) { return false }
+	}
+	return true
+}
+
+func areValidCuadrant(board [][]byte) bool {
+	for i := 0; i < len(board); i = i+3 {
+		var cuadrantValues []byte
+		for j := 0; j < len(board); j = j+3 {
+			cuadrantValues = append(cuadrantValues, board[j][i])
+			cuadrantValues = append(cuadrantValues, board[j][i+1])
+			cuadrantValues = append(cuadrantValues, board[j][i+2])
+			cuadrantValues = append(cuadrantValues, board[j+1][i])
+			cuadrantValues = append(cuadrantValues, board[j+1][i+1])
+			cuadrantValues = append(cuadrantValues, board[j+1][i+2])
+			cuadrantValues = append(cuadrantValues, board[j+2][i])
+			cuadrantValues = append(cuadrantValues, board[j+2][i+1])
+			cuadrantValues = append(cuadrantValues, board[j+2][i+2])
+
+			if hasRepeatedElements(cuadrantValues) {return false}
+			cuadrantValues = []byte{}
+		}
+	}
+	return true
+}
+
+func isValidSudoku(board [][]byte) bool {
+	return areValidRows(board) && areValidColumns(board) && areValidCuadrant(board)
+}
+
+func areValidCuadrantTest() {
+	matrix := [][]byte{
+		{'5', '3', '.', '.', '7', '.', '.', '.', '.'},
+		{'6', '.', '.', '1', '9', '5', '.', '.', '.'},
+		{'.', '9', '8', '.', '.', '.', '.', '6', '.'},
+		{'8', '.', '.', '.', '6', '.', '.', '.', '3'},
+		{'4', '.', '.', '8', '.', '3', '.', '.', '1'},
+		{'7', '.', '.', '.', '2', '.', '.', '.', '6'},
+		{'.', '6', '.', '.', '.', '.', '2', '8', '.'},
+		{'.', '.', '.', '4', '1', '9', '.', '.', '5'},
+		{'.', '.', '.', '.', '8', '.', '.', '7', '9'},
+	}
+	fmt.Println(isValidSudoku(matrix))
+}
+
+func sortColors(nums []int) {
+	for c := 0; c < len(nums)/3; c++ {
+		for i, j := 0, len(nums)-1; i < len(nums) && j >= 0; i, j = i+1, j-1 {
+			if nums[i] < nums[j] {
+				nums[j], nums[i] = nums[i], nums[j]
+			}
+		}
+		for i := 1; i < len(nums); i++ {
+			if nums[i-1] > nums[i] {
+				nums[i-1], nums[i] = nums[i], nums[i-1]
+			}
+		}
+	}
 }
