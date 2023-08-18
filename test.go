@@ -742,3 +742,39 @@ func sortColors(nums []int) {
 		}
 	}
 }
+
+func take(length int, s string) string {
+	var response strings.Builder
+	i := 0
+
+	for _, value := range s {
+		if i >= length { break }
+		response.WriteRune(value)
+		i++
+	}
+
+	return response.String()
+}
+
+func strStr(haystack string, needle string) int {
+	for i := range haystack {
+		if haystack[i] == needle[0] {
+			if take(len(needle), haystack[i:]) == needle { return i }
+		}
+	}
+	return -1
+}
+
+func subarraySum(nums []int, k int) int {// <<< https://leetcode.com/problems/subarray-sum-equals-k/
+	prefix := map[int]int{0:1}
+	currentSum := 0
+	response := 0
+	for _, number := range nums {
+		currentSum += number
+		if _, ok := prefix[currentSum-k]; ok {
+			response += prefix[currentSum-k]
+		}
+		prefix[currentSum]++
+	}
+	return response
+}
