@@ -28,3 +28,15 @@ $$ f(x) = e^{x^3} \therefore f'(x) = e^x*3x^2 $$
 ## Derivada logaritmo natural
 $$ f(x) = Ln(u) $$
 $$f'(x) = \frac{u'}{u}$$
+## Derivada de Seno
+$$ f(x) = Sen(x) \therefore f'(x) = Cos(x)*x' $$
+## Derivada Coseno
+$$ f(x) = Cos(x) \therefore f'(x) = -Sen(x) * x'$$
+## Derivada tangente
+$$ f(x) = Tan(x) \therefore f'(x) = Sec^2(x) $$
+## Derivada Cotangente
+$$ f(x) = Cot(x) \therefore f'(x) = -Csc^2(x) $$
+## Derivada Secante
+$$ f(x) = Sec(x) \therefore f'(x) = Sec(x)Tan(x) $$
+## Derivda Cosecante
+$$ f(x) = Csc(x) \therefore f'(x) = -Csc(x)Cot(x) $$

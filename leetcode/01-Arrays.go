@@ -387,3 +387,85 @@ func canPlaceFlowers(flowerbed []int, n int) bool {
 	}
 	return false
 }
+
+func mergeAlternately(word1 string, word2 string) string {
+	var response strings.Builder
+	for i := 0; i < len(word1) || i < len(word2); i++ {
+		if i < len(word1) { response.WriteByte(word1[i]) }
+		if i < len(word2) { response.WriteByte(word2[i]) }
+	}
+	return response.String()
+}
+
+func absolute(n int) int {
+	if n > 0 { return n }
+	return n * -1
+}
+
+func rotate(nums []int, k int) {
+	k = k % len(nums)
+	if k != 0 {
+		newValue := make([]int, len(nums))
+
+		pointer := len(nums)-k % len(nums)
+		for i := range newValue {
+			newValue[i] = nums[pointer]
+
+			pointer = (pointer+1) % len(nums)
+		}
+
+		for i := range newValue { nums[i] = newValue[i] }
+	}
+}
+
+func rotate_s(nums []int k int) {
+	k = k % len(nums) // quita sobrante con el modulo
+	reverse(nums, 0, len(nums) -1)// cero--final
+	reverse(nums, 0, k-1)// cero k
+	reverse(nums, k, len(nums)-1) // k final
+
+}
+
+func reverse(nums []int, start, end int) {
+	for start <= end { // swapea start con end
+		nums[start], nums[end] = nums[end], nums[start]
+		start++ // aumenta inicio reduce fin
+		end--
+	}
+}
+
+fmt.Println(rotate([]int{1,2,3,4,5,6,7}, 3))
+
+//! Busca en que punto de unos ladrillos puedes romper la menor
+//! Cantidad de ladrillos
+
+func maxValue(values map[int]int) int {
+	maxValue := 0
+	for _ , value := range values {
+		if value > maxValue { maxValue = value }
+	}
+	return maxValue
+}
+
+func leastBricks(wall [][]int) int {
+	sumRegister := make(map[int]int)
+	for _, row := range wall {
+		currentSize := 0
+		for _, brick := range row[:len(row)-1] {
+			currentSize += brick
+			sumRegister[currentSize]++
+		}
+	}
+
+	return len(wall) - maxValue(sumRegister)
+}
+
+//! Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
+// Sortear
+// Dos punteros
+	// Por extremos
+// Por hacer reverse
+
+/* Si tu iteracion ocupa obtener informacion de tanto el lado derecho o izquierdo puedes conocoerlo
+usando tablas de hash */

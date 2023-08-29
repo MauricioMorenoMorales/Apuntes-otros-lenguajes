@@ -11,3 +11,19 @@ https://www.youtube.com/watch?v=57Oguwg7omc&t=6186s ;; 19
 - hard problem of conciousness 2.05
 https://www.youtube.com/watch?v=HVqIpGp4gdg&t=3145s
 - Libre albedrio <<< 1:03:30
+https://www.youtube.com/watch?v=LlEjira2k5M&t=424s
+- 20;30 la mente no tiene causalidad en el materialismo
+- 1:04 Los instrumentos del tablero de instrumentos son correctos, pero no son la realidad en si
+- 1:14 tiempo 
+- 1:22 Es la mente una sustancia?
+- 1:40 materialismo y psicodelicos
+https://www.youtube.com/watch?v=ernczK-cCU0&t=1239s
+
+- 22:00 Physics
+- 31 Conciencia Metaconciencia y percepción
+- 38:40 metaconciencia aumenta la Conciencia
+- 59 Epistemologia
+- Thomas nagel
+https://www.youtube.com/watch?v=Pp8s_cAl2h4&list=PLgazZvsLDEaKoOaK0r8Z2DXMfQE40ycP8&index=2&t=1100s
+12:30
+- 

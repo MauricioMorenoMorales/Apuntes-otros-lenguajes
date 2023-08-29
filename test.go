@@ -729,13 +729,13 @@ func areValidCuadrantTest() {
 }
 
 func sortColors(nums []int) {
-	for c := 0; c < len(nums)/3; c++ {
-		for i, j := 0, len(nums)-1; i < len(nums) && j >= 0; i, j = i+1, j-1 {
-			if nums[i] < nums[j] {
+	for c := 0; c < len(nums)/3; c++ {// repeat algorithm bellow
+		for i, j := 0, len(nums)-1; i < len(nums) && j >= 0; i, j = i+1, j-1 {// left inc i, right decreasing j
+			if nums[i] < nums[j] { // i < j -> swap
 				nums[j], nums[i] = nums[i], nums[j]
 			}
 		}
-		for i := 1; i < len(nums); i++ {
+		for i := 1; i < len(nums); i++ { //Two pointers i and i-1 swap
 			if nums[i-1] > nums[i] {
 				nums[i-1], nums[i] = nums[i], nums[i-1]
 			}
@@ -765,7 +765,7 @@ func strStr(haystack string, needle string) int {
 	return -1
 }
 
-func subarraySum(nums []int, k int) int {// <<< https://leetcode.com/problems/subarray-sum-equals-k/
+func subarraySum(nums []int, k int) int {//? <<< https://leetcode.com/problems/subarray-sum-equals-k/
 	prefix := map[int]int{0:1}
 	currentSum := 0
 	response := 0
@@ -775,6 +775,168 @@ func subarraySum(nums []int, k int) int {// <<< https://leetcode.com/problems/su
 			response += prefix[currentSum-k]
 		}
 		prefix[currentSum]++
+	}
+	return response
+}
+
+func toString(a, b, c byte) string {
+	return string([]byte{a,b,c})
+}
+
+func countPalindromicSubsequence(s string) int {
+	set := map[string]bool{}
+	for i := 0; i < len(s); i++ {
+		for j := len(s)-1; j >= 0; j-- {
+			if s[i] == s[j] {
+				for x := i+1; x < j; x++ {
+					set[toString(s[i],s[x],s[j])] = true
+				}
+			}
+		}
+	}
+	return len(set)
+}
+
+func last(stack []byte) byte {
+	return stack[len(stack)-1]
+}
+
+func isValid(s string) bool {
+	var stack []byte
+
+	for _, character := range s {
+		switch character {
+			case '(':
+				stack = append(stack, '(')
+			case '[':
+				stack = append(stack, '[')
+			case '{':
+				stack = append(stack, '{')
+			case ')':
+				if len(stack) == 0 { return false }
+				if last(stack) == '(' {
+					stack = stack[:len(stack)-1]
+				} else { return false }
+			case ']':
+				if len(stack) == 0 { return false }
+				if last(stack) == '[' {
+					stack = stack[:len(stack)-1]
+				} else { return false }
+			case '}':
+				if len(stack) == 0 { return false }
+				if last(stack) == '{' {
+					stack = stack[:len(stack)-1]
+				} else { return false }
+		}
+	}
+
+	return len(stack) == 0
+}
+
+func isValid_s(s string) bool { //<<<
+	pairs := map[byte]byte {
+		'}': '{',
+		']': '[',
+		')': '(',
+	}
+
+	stack := make([]byte, 0)
+
+	for _, char := range []byte(s) {
+		pair, ok := pairs[char]
+
+		if !ok {
+			stack = append(stack, char)
+			continue
+		}
+
+		if len(stack) == 0 { return false }
+
+		if stack[len(stack)-1] != pair { return false }
+
+		stack = stack[:len(stack)-1]
+	}
+
+	return len(stack) == 0
+}
+
+
+func mergeArray(list1 []int, list2[]int) []int {
+	var response []int
+	i, j := 0, 0
+
+	for i < len(list1) && j < len(list2) {
+		if list1[i] < list2[j] {
+			response = append(response, list1[i])
+			i++
+		} else if list1[i] > list2[j] {
+			response = append(response, list2[j])
+			j++
+		} else {
+			response = append(response, list1[i])
+			response = append(response, list2[j])
+			i++; j++
+		}
+	}
+	for i < len(list1) {
+		response = append(response, list1[i])
+		i++
+	}
+	for j < len(list2) {
+		response = append(response, list2[j])
+		j++
+	}
+	return response
+}
+
+func findMedian(list []int) float64 {
+	size := len(list)
+	for i, j := 0, size-1; i <= j; i, j = i+1, j-1 {
+		if size % 2 == 1 && i == j { return float64(list[i]) }
+		if size % 2 == 0 &&  j - i == 1 { return (float64(list[j]) + float64(list[i])) / 2 }
+	}
+	return -1
+}
+
+func findMedianSortedArrays(nums1 []int, nums2 []int) float64 {
+	mergedArray := mergeArray(nums1, nums2)
+	return findMedian(mergedArray)
+}
+
+func reorganizeString(s string) string {
+	bytes := []byte(s)
+
+	for i := 1; i < len(bytes)-1; i++ {
+		if bytes[i-1] == bytes[i] {
+			bytes[i], bytes[i+1] = bytes[i+1], bytes[i]
+		}
+	}
+
+	for i := 1; i < len(bytes)-1; i++ {
+		if bytes[i] == bytes[i-1] { return "" }
+	}
+	return string(bytes)
+}
+
+func getSum(a int, b int) int {
+	response := 0
+	for a != 0 {
+		if a > 0 {
+			response++
+			a--
+		} else {
+			response--
+			a++
+		}
+	}
+	for b != 0 {
+		if b > 0 {
+			response++
+			b--
+		} else {
+			response--
+			b++
+		}
 	}
 	return response
 }

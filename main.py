@@ -1285,3 +1285,21 @@ from re import findall
 def solve(s):
     return max(map(len, findall("[aeiou]+", s)))
 
+
+class PalindromicSubsequence:
+    def countPalindromicSubsequence(self, s: str) -> int:
+        res = set()
+        left = set() # Agrega un elemento pero solo si no se repite
+        right = collections.Counter(s) # Hace un conteo sobre las ocurrencias de una letra
+
+        for i in range(len(s)): # Itera uno a uno los elementos
+            current = s[i]
+            right[current] -= 1 # Elimina la ocurrencia de la letra
+            if right[current] == 0: # Si ya no hay ocurrencias entonces se elimina la llave
+                right.pop(current)
+            for j in range(26):
+                c = chr(ord('a') + j) # Busca en cada letra del alfabeto
+                if c in left and c in right:
+                    res.add((current, c))
+            left.add(current)
+        return len(res)
