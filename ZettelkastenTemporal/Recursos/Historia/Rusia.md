@@ -40,4 +40,27 @@
 - Sakharov hace burla a la retorica socialista haciendo un argumento de que "lenin se volvió un champiñon"
 - Gorvachov estaba indeciso entre los conservadores de Ligachev y los ultrareformadores de yeltsin
 - Gorvachov llama a elecciones libres lo que destruye el partido comunista
-- 
+# Relacion rusia y occidente
+- Rusia y latinoamerica siempre se han comparado y obsecionado con europa
+- Rusia siempre ha tenido problemas con su identidad Existen dos terminos para los rusos Rossiskij / Russkij
+- Rusia dejo de buscar parecer a europa desde el 2008 que empezo el discurso de que europa es un simple lacayo de estados unidos, y que las ayudas buscan someter a rusia
+- Europa se ha visto como el civilizador del mundo, quien trae el progreso y orden, y a rusia como un oso barbaro, con la misma descripcion que se usa de los vikingos
+- Rusia se ve como guardia del verdadero cristianismo, quienes no perdieron el camino y tienen que enseñar a europa a regresar a los valores cristianos morales, incluso en la union sovietica y con los zares
+- Catalina la grande legalmente declara que rusia es europea
+- Con pedro el grande legalmente se establece que la gente se debe de comportar como europeos (es como si un gobernanante latino llegara y tratara de hacer que nos comportemos como rusos)
+- No existia una identidad nacional uniforme en el imperio hasta la llegada de napoleon, fue imponiendose la culturizacion a traves de europa
+- Putin fue quien empezo a decir que rusia era euroasiatica
+- Los ruskijs eran minoria en su propio imperio, por lo que cuando empezaron a introducir el nacionalismo el imperio colapsó se rebeló finlandia y otras zonas (lo mismo le pasó a los turcos)
+- Europa es una construccion politica, pertenecer a europa era equivalente a pertenecer a la civilizacion, quien no fuera europa era barbaro, los rusos terminaron definiendo europa hasta los urales
+- >> Se formaron 2 escuelas filosoficas en rusia occidentalistas con herzen y Belinsky y los Eslavofilos con Khomiakov, Samarin, los hermanos Aksákov Tolstoi y Dovstoyevsky, Stalin Y putin
+- Hawai era rusa
+- Occidentalizarse traia la revolucion
+- Con lenin surgieron alternativas euroasiaticas con Trubetskoi y Vernadsky
+- Stalin al igual que pedro empezó a traer ingenieros Alemanes y de europa
+# Federacion Rusa
+- En rusia existe el terror de dejar de ser importantes y de dejar de existir
+- Rusia se siente a si misma como una fortaleza asediada, rodeada de enemigos
+- Rusia es similar y a la vez diferente que occidente, es cristiana pero es ortodoxa, heredera de bizancio y los mongoles
+- En 1948 Habia un politic (tuchev?) que decia que rusia llegaba hasta el nilo  el ganges indochin sus 3 capitales eran constantinopla san petersburgo y que todo esto fue previsto por el espiritu santo
+- Rusia ha conquistado y sido ofensiva para defenderse, para defenderse de nomadas los conquistaban, pero despues encontraban otros nomadas asi que tenian que volver a conquistarlos, de este modo asegurar su control y seguridad de la zona
+- Boris yeltsin acuña el termino extrangero  cercano, para referirse a ex miembros del imperio ruso

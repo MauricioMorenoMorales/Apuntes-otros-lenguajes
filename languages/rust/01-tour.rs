@@ -13,3 +13,14 @@ fn build_vector2() -> vec<i16> {
   v;
 }
 
+// Types
+
+f32 f64 // fLoating
+
+(char, u8, i32) // Tuple mixed types
+() // Unit empty tuple
+
+struct S { x: f32, y: f32 } // Named-field struct
+
+struct T (i32, char); // Struct type tuple
+struct E // Unit like struct

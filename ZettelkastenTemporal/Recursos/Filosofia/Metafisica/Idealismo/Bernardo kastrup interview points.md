@@ -26,4 +26,7 @@ https://www.youtube.com/watch?v=ernczK-cCU0&t=1239s
 - Thomas nagel
 https://www.youtube.com/watch?v=Pp8s_cAl2h4&list=PLgazZvsLDEaKoOaK0r8Z2DXMfQE40ycP8&index=2&t=1100s
 12:30
-- 
+
+https://www.youtube.com/watch?v=DyzHYnOqIoU
+- 10:00 Gato schrodinger
+- 16:00 A que punto podemos conocer la mente universal

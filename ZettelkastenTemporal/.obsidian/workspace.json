@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ffdfd95abfd9baae",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Matematicas/Algebra 2.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "d894cc94c6ddc922",
             "type": "leaf",
             "state": {
@@ -44,18 +32,6 @@
             }
           },
           {
-            "id": "d46b87dfb94a3352",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Matematicas/Geometry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "0f6b9ff945f08007",
             "type": "leaf",
             "state": {
@@ -68,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 4
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -198,11 +174,19 @@
   "active": "0f6b9ff945f08007",
   "lastOpenFiles": [
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
-    "Recursos/Matematicas/Derivadas.md",
-    "Recursos/Matematicas/Trigonometria.md",
     "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Matematicas/Geometry.md",
+    "Recursos/Matematicas/Algebra Through puzzles.md",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Matematicas/Algebra 1.md",
     "Recursos/Matematicas/Algebra 2.md",
+    "Recursos/Matematicas/Geometry.md",
+    "Recursos/Matematicas/Repasos.md",
+    "Recursos/Matematicas/Trigonometria.md",
+    "Recursos/Matematicas/Understanding Graphs.md",
+    "Recursos/Matematicas/Derivadas.md",
+    "Recursos/Historia/Rusia.md",
+    "Recursos/Historia/Turquia.md",
+    "Pasted image 20230802052018.png",
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
@@ -212,19 +196,11 @@
     "Meditaciones/Filosofia/Libre albedrio.md",
     "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Meditaciones/Filosofia/Critica Gustavo bueno.md",
-    "Pasted image 20230802052018.png",
-    "Recursos/Matematicas/Repasos.md",
-    "Recursos/Matematicas/Algebra Through puzzles.md",
-    "Recursos/Matematicas/Understanding Graphs.md",
     "Recursos/Filosofia/La Pasión de la mente occidental.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Libros/Untitled.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
-    "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Historia/Union Sovietica.md",
     "Recursos/Filosofia/Teologia/Religion Egipcia.md",
     "Recursos/Libros a comprar.md",
     "Recursos/Historia/Untitled",
-    "Recursos/Computer Science/Computer Networks.md",
     "Meditaciones/Filosofia",
     "Meditaciones",
     "Recursos",

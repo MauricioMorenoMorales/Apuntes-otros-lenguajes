@@ -22,6 +22,7 @@
 - Distributive Laws:       P || (Q & R) == (P || Q) & (P || R), (P & Q) & R == (P & R)&(Q & R)
 - De Morgan's Laws:     !(P & Q) === !P || Q!,           !(P or Q) == !P & !Q
 - Absorption Laws:        P or (P & Q) == P,                P & (P or Q) === P
+> Example of a practical usage
 
 Descripcion
 - Identity laws: cuando la existencia de un valor booleano no garantiza que algo sea cierto

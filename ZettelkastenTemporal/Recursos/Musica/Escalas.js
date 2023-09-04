@@ -14,7 +14,7 @@ const escalas = {
 
 const pasajesComplejos = {
   "invierno vivaldi": {
-    "Inicio con estaccato P1": 4 * 108n, //TODO 
+    "Inicio con estaccato P1": 4 * 108n, //TODO √
     "Obstinato fa": 4 * 100n, //TODO
   },
   "Capricho paganini": {

@@ -466,6 +466,8 @@ func leastBricks(wall [][]int) int {
 // Dos punteros
 	// Por extremos
 // Por hacer reverse
+// Nesting for loop
+	// Conditional nested for
 
 /* Si tu iteracion ocupa obtener informacion de tanto el lado derecho o izquierdo puedes conocoerlo
 usando tablas de hash */

@@ -1,0 +1,3 @@
+- A turquia se le llamaba la puerta, o la sublime puerta
+- Para que un funcionario entrara a una casa se requeria permiso del dueño esto hacia que se propagaran incendios
+- Los esclavos normalmente ocupaban cargos publicos importantes

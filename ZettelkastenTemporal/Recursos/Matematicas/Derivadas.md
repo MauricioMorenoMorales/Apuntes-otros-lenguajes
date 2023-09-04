@@ -40,3 +40,10 @@ $$ f(x) = Cot(x) \therefore f'(x) = -Csc^2(x) $$
 $$ f(x) = Sec(x) \therefore f'(x) = Sec(x)Tan(x) $$
 ## Derivda Cosecante
 $$ f(x) = Csc(x) \therefore f'(x) = -Csc(x)Cot(x) $$
+# Derivadas funciones inversas
+$$ ArcSen(u) \therefore \frac{u'}{\sqrt{1-2^2}} $$
+$$ ArcCos(u)\therefore \frac{-u'}{\sqrt{1-u^2}} $$
+$$ ArcTan(u) \therefore \frac{u'}{1+u^2} $$
+$$ ArcCot(u) \therefore \frac{-u'}{1+u^2} $$
+$$ ArcSec(u) \therefore \frac{u'}{|u|\sqrt{u^2-1}} $$
+$$ ArcCsc(u) \therefore \frac{-u'}{|u|\sqrt{u^2-1}} $$
