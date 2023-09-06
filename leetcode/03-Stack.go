@@ -9,11 +9,13 @@ func (s *Stack) Add(n int) {
 }
 
 func (s *Stack) Pop() int {
-	if len(s.data) <= 0 { return -666 }
+	if len(s.data) <= 0 { return -1 }
 	response := s.data[len(s.data)-1]
 	s.data = s.data[:len(s.data)-1]
 	return response
 }
+
+func 
 
 //! Reverse polish notation
 func evalRPN(tokens []string) int {

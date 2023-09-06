@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Derivadas.md",
+                "file": "Recursos/Matematicas/Geometry.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Matematicas/Derivadas.md",
+                "file": "Recursos/Matematicas/Geometry.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Matematicas/Derivadas.md",
+                "file": "Recursos/Matematicas/Geometry.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Matematicas/Derivadas.md"
+                "file": "Recursos/Matematicas/Geometry.md"
               }
             }
           }
@@ -173,6 +173,8 @@
   },
   "active": "0f6b9ff945f08007",
   "lastOpenFiles": [
+    "Recursos/Historia/Turquia.md",
+    "Recursos/Matematicas/Derivadas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Matematicas/Algebra Through puzzles.md",
@@ -183,9 +185,7 @@
     "Recursos/Matematicas/Repasos.md",
     "Recursos/Matematicas/Trigonometria.md",
     "Recursos/Matematicas/Understanding Graphs.md",
-    "Recursos/Matematicas/Derivadas.md",
     "Recursos/Historia/Rusia.md",
-    "Recursos/Historia/Turquia.md",
     "Pasted image 20230802052018.png",
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",

@@ -1,3 +1,7 @@
 - A turquia se le llamaba la puerta, o la sublime puerta
 - Para que un funcionario entrara a una casa se requeria permiso del dueño esto hacia que se propagaran incendios
 - Los esclavos normalmente ocupaban cargos publicos importantes
+- Otomano no refiere a un pueblo si no a la dinastia de un imperio
+- Ellos mismos se llamaban Osmali
+- Los turcos son chamanicos
+- La primera dinastia turca fue la selyuki, fundada por selyuk

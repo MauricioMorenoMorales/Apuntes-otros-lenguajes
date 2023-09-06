@@ -119,7 +119,7 @@ defmodule Array do
 
   #! Isomorfic strings
 
-  @spec is_isomorphic(s :: String.t, t :: String.t) :: boolean
+  @spec is_isomorphic(s::String.t, t::String.t)::boolean
   def is_isomorphic(s, t) do
     if String.length(s) != String.length(t) do
       false
@@ -161,7 +161,7 @@ defmodule Array do
   end
 
   #! Generate a pascal triangle
-  @spec generate(nums_rows :: integer) :: [[integer]]
+  @spec generate(nums_rows::integer)::[[integer]]
   def generate num_rows do
     Stream.iterate([1], fn list ->
       [0 | list]
@@ -183,3 +183,7 @@ defmodule Array do
   defp shift([hd1], acc), do: acc ++ [1]
   defp shift([hd1, hd2 | tail], acc), do: shift([hd2 |tail], [hd1 + hd2 | acc])
 end
+
+
+# ValidateOrder
+#
