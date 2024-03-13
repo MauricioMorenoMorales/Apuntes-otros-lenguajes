@@ -1,0 +1,395 @@
+# Entender medio oriente(Parte 1)
+- Durante un tiempo los historiadores marxistas sovieticos trataron de explicar la historia romana en conceptos de lucha de clases, los cuales son conceptos modernos
+- Los conceptos geopoliticos no son neutrales todos tienen una carga politica, los conceptos geograficos siempre estan cargados de intereses politicos e imperiales, por ejemplo los nombres de Medio Oriente y Latinoamerica
+- La palabra medio oriente nace en 1902 es un termino inventado en reino unido que define un territorio entre India y el mediterraneo
+- Es como decirle a un texano si es sureño o norteño, para un mexicano es un norteño y para un estadounidense es un sureño
+- Los mismos mapas de medio oriente en el pasado el norte era el sur y el sur era el norte estaba invertido, los arabes eran norteños y turcos sureños
+- Los britanicos dominaban el sur de italia
+- El termino medio Oriente nace entre Almirantes ingleses refiriendose a esa zona la cual deberian controlar
+- Si buscas en google books la palabra medio oriente no aparece hasta el año 1902
+- Medio oriente se define por alteridad, alteridad es cuando te defines por no ser algo, en este caso por no ser occidental
+- Los franceses definen medio oriente desde egipto hasta siria, los paises en los que tenia interés
+- Los rusos definiran asia central y el caucaso en los cuales tenian intereses a controlar
+- Creciente fertil = shams
+- Las regiones que ahora se llaman medio oriente se le llamaba arabistan en su periodo, pero ellos mismo no se llamaban asi se llamaban otomanos
+- los romanticos idealizaban a medio oriente como Chataubriand en itinerario de paris a jerusalen
+- muchos europeos con el auge del metodo cientifico viajan a medio oriente para verificar libros sagrados o mitos
+- los imperios empezaron a idealizar a los cristianos de oriente y buscar su liberacion
+- nace la cuestion de oriente
+- Existen muchos bandidos del desierto, era muy facil atracar caravanas y escapar rapido
+- Era comun que la gente al hacer el Hajj no volvieran a su casa, a veces se les hacian funerales en vez de despedidas
+- 1.500.000 esclavos llegaban a estambul entre ellos cristianos durante el periodo de la modernidad
+- Existe el peregrinaje a Tombuctú
+- Los turcos eran una sociedad preindustrial lo que significa alta mortalidad y alta natalidad, la gente buscaba tener demasiados hijos para ir sacando adelante al pais
+- La poligamia es bastante rara en turquia solo las familias mas ricas podian tener varias esposas, o concubinas que por lo general eran esclavas
+- En la region los cristianos tambien eran poligamos, cuando eran ricos tenian varias esposas
+- Existian eunucos los cuales protegian a la familia a pesar de ser esclavos tambien se podian terminar haciendo ricos
+- Los exclavos romanos terminaban muchas veces haciendose ricos y liberandose a si mismos y llegando a puestos importantes cosa que no pasaba en la exclavitud estadounidense
+- En marruecos muchos mamelucos terminaban casandose con hijas o hermanas del sultan llegando a niveles de poder bastante altos
+- De los 23 millones 13 millones viven solo en egipto, siendo el país mas importante del imperio
+-  A lo largo del siglo XIX iran crece mas rapido duplicando su poblacion hasta 10 millones
+- El 75% de los niños mueren antes de los 5 años en medio oriente
+- De libia a mauritania se le llama el Maghreb, es la zona donde se habla bereber
+- En la zona del arabistan entre el 10 20% de la poblacion es cristiana en especial en egipto
+- En estambul el 50% de la poblacion es cristiana en 1800
+- Lo unico que une a medi ooriente es el pasado otomano
+- Para los musulmanes la llegada de los mongoles es el inicio de su edad media
+- Azerbaijan pertenecia a iran historicamente pero fue conquistado por los rusos
+- Los rusos tambien se llegan a presentar como imperio musulman, como protectora de los musulmanes, catalina la grande llega a declararse en textos dirigidos a la poblacion musulmana como soberana musulmana
+- Los parisinos no inventan el cafe, son los turcos, ya que ellos no podian beber alcohol y se reunian a beber café
+- Los postres con miel eran postres romanos que heredaron en medio oriente, la berenjena igual lo es, el gusto por la jurisprudencia
+- La mayoria de esposas del sultan era cristiana
+- Las tribus eran la unidad escencial de las sociedades, los linajes y los clanes.
+- Sadam hussein goberno irak por que dominaba a los jefes de las tribus
+- Entre mas cercana sea una familia a la familia del profeta, mas importante es ese clan
+- En el Magreb se esta completamente islamizado, pero no está arabizado, en egipto y siria son completamente arabizados pero no cristianizados, en turquia y iran no estan ni islamizados ni arabisados
+# Entender el medio oriente 2
+- Al liberar a Grecia los occidentales se dispararon en el pie ya que empezaria una oleada de nacionalismos en la region que empezaron la primera guerra mundial y destruyeron el imperio AustroHungaro
+- Los occidentales siempre han hablado de epocas de decadencia por un trauma hecho desde roma, en la que buscamos aplicarla a todos los demas imperios
+- El objetivo de las reformas eran de proteger al Islam, no querer occidentalizarse, o occidentalizar al Islam, o modernizar el islam, los historiadores por lo general mencionan lo contrario
+- Los sultanes empiezan a reclutar occidentales para aprender de los occidentales atrayendo talento y tecnologia occidental
+- En Ryhad empieza la rebelion de los Saudies en 1744, una revuelta en rechazo a la modernidad europea
+- Hasta 1816 los egipcios derrotan a los sauditas y los reintegran al imperio otomano
+- Los jenizaros asesinan al sultan
+- Los europeos aprovechan la situacion y los franceses conquistan Argelia
+- La inmensa mayoria de altos funcionarios del Imperio otomano eran esclavos
+- Muhamed ali era albano termina unas rebeliones en egipto y se dirige a arabia y termina la rebelion de los Saud
+- Mehmed ali crea el primer ejercito de conscripcion de medio oriente adelantandosele a los otomanos
+- Hasta napoleon los ejercitos eran de mercenarios, napoleon llego a tener tanto poder por que organizo la conscripcion obligatoria
+- El ejercito Egipcio es dirigido por dirigentes europeos o arabes entrenados en europa
+- Mehmed Ali se vuelve en la persona mas poderosa de medio oriente por encima de los otomanos
+- En la Revuelta Griega los europeos tienen que detener a Mehmed Ali
+- Mehmed ali busca crear un estado independiente de los otomanos e invade el levante y derrota ejercitos del sultan otomano y llega hasta conia
+- Mehmed ali termina colonizando sudan, empieza a conquistar el sur, imitando a los europeos
+- Los franceses empiezan a apoyar a Mehmed Ali, para poder debilitar al imperio Britanico
+- Los europeos en general empiezan a ver el rapido crecimiento de Mehmed Ali y se alian para detener a francia y egipto, y los obligan a renunciar a sus conquistas en siria el libano y la peninsula arabica
+- Los egipcios se vuelven practicamente autonomos, e imponen su voluntad al sultan otomano, y puede heredar su trono en vez de ser nombrado desde constantinopla
+- Algunos franceses como Joseph de Sève (Solimán Pasha) viajan a medio oriente y se convierten al islam y empiezan a servir a Mehmed ali buscando mayor exito y menor competencia en francia
+- Mehmed ali habla sobre que ellos traian la civilización a la zona, imitando a occidente pero con un significado distinto, ellos veian que los musulmanes iban a avanzar mas rapido que los cristianos, que se modernizarian mas rápido por el mejor desarrollo del hombre musulman
+- Occidente ve a los demas como lugares sin historia sin civilización pero gracias a occidente van a conseguir su civilización
+- Mahmud II y pedro el grande normalmente son comparados con Muhammed Ali ya que los 3 modernizaron sus respectivos estados
+- Tras la modernización empiezan a entrar ideas revolucionarias o nacionalistas, en las que se buscaba crear estados basados principalmente en la lengua, el problema es que los imperios como los otomanos austriacos y rusos tenian problemas con esto debido a que tenian varios lenguajes
+- Abdulmecit I empieza a promulgar ideas de igualdad y darle derechos a todos los sujetos, pero esto da entrada a intervenciones por parte de los europeos, via los cristianos y pueblos eslavos, presionando mas al gobierno otomano
+- Debido a que no querian dar mala imagen a las reformas subiendo impuestos empiezan a financiar las reformas con inflacion quebrando al estado https://jira.fmi.adaptavist.cloud/browse/PTLS-397`
+- Llegan misioneros anglicanos principalmente y catolicos a ciudades otomanas como mosul
+- Empieza el milenarismo, la idea de que el final esta cerca, y que hay que estar cerca de las ciudades sagradas para buscar salvacion
+- Empiezan estudios musulmanes los cuales buscaban mejorar las tecnicas para poder dominar medio oriente
+- Francia busca proteger a los catolicos dentro de territorio otomano, y los rusos buscan protejer a los eslavos y a los ortodoxos
+- Las misiones tambien estaban conectadas con  las embajadas, tenian apoyo politico, y llegaron gracias a la politica
+- Los franceses tras el asesinato de un monje capuchino en mosul empezaron a culpar a los judios de haber asesinado al monje, y que lo habia hecho de manera ritual, la principal acusasion medieval contra las brujas eran que participaban en el sabhat con  judios en asesinatos rituales contra niños un judio es asesinado tras tortura siendo culpado por el asesinato del monje capuchino
+- En el imperio otomano empiezan a entrar los prejuicios europeos en contra de judios y musulmanes
+- Empieza la alianza israelita universal
+- En este momento dentro del imperio en vez de identificarse respecto al poder del sultan  otomano, empiezan a identiicarse respecto a su lenguaje o religion o raza
+- Palestina se vuelve una zona violenta debido a que es una zona santa, donde convergen las 3 religiones mas importantes, los ortodoxos catolicos y anglicanos empiezan a intervenir en palestina desatando la guerra de palestina tras rusia reestablecer el patriarcado ortodoxo
+- Calvino es similar a los wahabitas, mencionan la busqueda de regresar a un cristianismo primitivo
+- En el siglo 18 19 los peregrinajes a la meca aumentaron mucho creando intercambios culturales y aumentando la riqueza de la zona
+- En la imprenta muchas lenguas no se imprimen y esto genera que solo se usen unas pocas lenguas y muchas lenguas vernaculas murieron durante este periodo
+- Quienes dominan  la produccion de libros en arabe fueron los ingleses y los Rusos, la primera impresión de un coran aparece en Kazan y en Calcuta protectorado inglés
+- Aparece la prensa en 1840 el cual terminó favoreciendo ideas nacionalistas
+- Llega la literatura europea tras la invenci´øn de la imprenta
+- Gente como muhamed ali queda decepcionado de la literatura europea ya que consideraba que en oriente tenian gente como Ibn Jaldun u otros autores igual de importantes
+- En 1800 empieza una explosion demografica al bajar la mortalidad infantil y mantenerse la tasa de nacimientos
+- Debido a las intervenciones europeas los otomanos se esfuerzan en crear una identidad turca
+- El estado otomano ahora empieza a financiarse con prestamos de occidente lo cual aumenta la inferencia europeo
+- Abdulaziz es el unico sultan que visita europa, impresionandose de su avance, pero es depuesto por una revuelta apoyada por occidente, llega Abdul Hamid II
+- Abdul hamid buscando frenar a occidente crea una constitucion la cual alejaba al estado de la sharia
+- El derecho frances empieza a influenciar medio oriente
+- A finales del siglo 19 turquia se quiebra tunez que era independiente se quiebra al igual egipto lo cual aumenta la intervención de europa, se crean estados dentro del estado encargados de administrar la deuda publica
+- En alejandria empieza una rebelion contra los europeos, empiezan a poner pancartas que decian "egipto para los egipcios", los britanicos llegan y bombardean la ciudad de alejandria destruyendola, reprimen la revuelta con un baño de sangre, y a partir de alli egipto se convierte en un protectorado britanico
+# Entender el medio oriente 3
+- Con el nacimiento de las ciencias exactas se empiezan a usar para justificar el racismo, evaluar la gente por posiciones de la nariz y tamaño de la cabeza
+- Controlar el medio oriente a travez de las comisiones de la deuda era mas barato, ya que era indirecto se dividia la administracion entre locales otomanos y europeos
+- Las poblaciones sentian mayor peso al estar bajo el gobierno occidental, que cuando estaban gobernados por los sultanes
+- Los efectivos de mehmed ali se reducen y el ejercito es liderado por los britanicos
+- No hubo mucha resistencia a el dominio inglés
+- Mucha gente inglesa no queria el protectorado e incluso muchos egipcios si querian el protectorado inglés y sus valores victorianos, el emprendimiento la globalizacion la puntualidad el capitalismo ahorro el orden, estos cuando el imperio se retira son acusados de colaboradores
+- Micro historia: analizar eventos grandes desde el punto de vista de individuos
+- El foco de los reformadores, y uno de los debates islamicos mas importantes es tratar de explicar por que el islam se debilitó
+- Las reformas musulmanas se parecen a las reforma cristiana, atribuian la decadencia de la region a la ignorancia que los ulemás no conocian su propia religion y por lo tanto el pueblo tampoco, que estaban corruptos y que habia que regresar a un islamismo (cristianismo) primitivo y puro
+- En la edad media no existia un concepto juridico de brujeria, este empieza despues de las reformas, cuando los intelectuales cristianos empiean a analizar las supersticiones populares
+- Se rezaban a santos en esas epocas, cosa que era prohibida por el islam
+- Ijtihad, Interpretacion o reflexión de los ulemás
+- Se critica la aparicion de escuelas juridicas dentro del islam, se buscaba abrir las puertas del Ijtihad, volver a empezar a interpretar el coran
+- Aparece en egipto el partido de la Umma, la cual deja de tener su significado original de comunidad al significado de Nación, y se le asocia a los nacionalismos
+- Umma era un partido bastante occidentalizado que apoyaba la ciencia y educacion
+- En general hay dos estilos de partidos, partidos occidentales y partidos orientalistas
+- En general hay dos bloques en oriente medio los dictadores laicos y los lideres religiosos
+- La presencia militar en la peninsula arabe, no es total solo hay/habia bases militares en ciertos puntos estrategicos de algunas zonas
+- Los britanicos con pretexto de luchar contra la pirateria empieza a desmontar flotas de estados importantes que podrian ser amenazas en un futuro
+- Las zonas que fueron desarmadas se les llamo la zona de la tregua, zonas como el estrecho de ormuz, los emiratos de la tregua
+- Los europeos tenian un poder economico superior, los ciudadanos europeos dentro de los protectorados eran inmunes juridicamente, medio oriente dependia de los capitales europeos
+- A travez de conseciones los capitales europeos empiezan a apropiarse de tierras en medio oriente, las conseciones de la epoca eran de 100 años minimo
+- Las conseciones terminan haciendose sobre terrenos con recursos naturales importantes, debajo de vias ferreas, muchos capitalistas desviaban las vias ferreas para apropiarse de ciudades como pergamo, se llevaron cosas a museos alemanes, Ferrocarril de Bagdad
+- Algunos locales tambien se enriquecian e invertian en compañias europeas, aunque eran minoria
+- El canal de suez es controlado por empresas francesas, y los egipcios no obtenian ningun beneficio
+- Los judios empiezan a emigrar a palestina desde los años 1800
+- Aparecen los Kibbutz, organizaciones agrarias de europeos en medio oriente
+- Aparece el sionismo, sion es el nombre de jerusalen en la biblia, decia que los judios eran una nacion no una religión, y surge como respuesta a otros nacionalismos que estaban surgiendo, tras el asesinato de Alejandro II los rusos empiezan a culpar a los judios de los problemas, los camisas negras en san petesburgo, (el primer grupo anti semita de la historia) empiezan a hacer pogroms, linchamientos de judios
+- Los judios en un principio eran mas socialistas
+- Se escribe un libro llamado der Jugend Stadt, creado por Theodor Herzl, el cual buscaba resolver el problema de los progroms y tambien el Affaire Dreyfus, la cual buscaba culpar a los judios de traición al estado frances
+- Los Rohtschild son los que mas financian al movimiento sionista
+- Ninguna nacion mantenia un monopolio en turquia lo que garantizaba su supervivencia si inglaterra o alemania tenian monopolio practicamente hubiera sido conquistada
+- Entre mas titulos se pone un lider muchas veces significa que es mas debil y necesita validacion
+- Empiezan a haber revueltas cuestionando el uso del titulo de Califa por el sultan otomano ya que no era ni arabe y muchos musulmanes no eran otomanos
+- El shah persa se mencionaba como el protector de los chihitas del mundo
+- Es asesinado el shah persa por dividir el islam
+- La vida cotidiana va cambiando, empiezan ahaber espejos y cuadros en vez de tapices haber sillones en la sala, se suele tener un piano o un fonografo, el piano es el simbolo del siglo 19, un instrumento producido industrialmente y mejorado para sonar mas fuerte, que a su vez impulsaba el individualismo, un instrumento que se toca solo, en vez de orquestas o ensambles grandes
+- Tolstoi se hace muy popular en medio oriente y en el mundo, es la primera rockstar del mundo necesitaba gente que le ayudara a revisar sus cartas recibidas
+- La gente empieza a vestirse como occidentales de corbata y vestido, se empieza a usar la hora occidental, ya no se mide amanecer senit y atardecer
+- Se producen revueltas por los relojes publicos, eran destruidos en inglaterra ya que buscaban controlar a la gente y la gente percibia esta presión
+- A los que usaban corbata o seguian costumbres occidentales se les llamaban vendidos a los francos
+- Empieza a surgir el feminismo, las mujeres empiezan a trabajar empezando con las no musulmanas, con el objetivo de competir con la productividad de occidente
+- el velo se empieza a usar bastante menos
+- El velo tambien se usaba por hombres en el desierto para protegerse
+- Qasim Amin que se movia en el ambiente de los Ulemás, escribe el libro de la Emancipación de la mujer lo cual genera un escandalo
+- La revolucion de 1905 hace bastante eco en europa, empiezan a hacerse ecos de debilitamiento europeo, se derrota al ejercito ruso por parte de japon y empieza la revolución de los boxers
+- El shah Mostafar ed-Din, crea un parlamento copiando a los rusos
+- El shah trata de detener el avance del poder del parlamento y restaurar el poder del monarca, pero es detenido y destronado
+- Los jovenes turcos mantienen al sultan ya que era lo que unia al imperio otomano, quien tenia autoridad para dirigir y permitiendoles dirigir desde las sombras
+- Los jovenes turcos es la primera dictadura de corte militar en la región
+- Mas que ser una dictadura de Enver pasha es una dictadura colectiva del comite union y progreso
+- Los monarcas se desacraliza, ya no es representante de dios en la tierra, no se le rezaba a él los viernes y se les empieza a criticar
+- Enver pasha muere luchando contra los bolchevikes tratando de unir a los turcos, es el principal arquitecto del genocidio Armenio
+- El termino medio oriente es acuñado por Alfred T. Mahan que escribe "la influencia del poder maritimo en la historia" que habla del peligro de los alemanes influyendo en turquia la cual podria intervenir en el comercio con inglaterra en la india, alemania era la primera potencia del mundo
+- Se trata de intervenir en medio oriente para proteger las lineas comerciales del mundo
+- Los imperios eran integradores los nacionalismos eran excluyentes tu si eras frances no podias ser aleman ni ser español en un imperio se incluian varias nacionalidades y se les federaba
+# Entender el medio oriente 4
+- La primera guerra mundial en europa termina en 1918 pero en medio oriente termina en 1924
+- nacionalismo es la idea de que las fronteras politicas tienen que coincidir con una cultura
+- Las prensas en determinados lenguajes empiezan a fomentar la creación de una identidad nacional, las revistas armenias buscaban revivir la genialidad de la lengua armenia para crear un sentido de identidad
+- Los turcos y rusos empezaron a perder identidad con el imperio turco otomano -> la etnia dominante y la dinastia dominante para tratar de crear una nacion turca o rusa
+- La cultura se tiene que definir por un principio unificador, ya sea religion, zona geografica raza idioma o historia.
+-  La vision nacionalista l Umma de medio oriente es en terminos de clanes, en terminos de clanes, en terminos filiales, la tierra de los ancestros, en terminos de antepasados
+- Hay distintas definiciones de patria en algunas culturas
+- La patria turca se define por el territorio de anatolia
+- En egipto la patria se determina por el rio nilo
+- Los griegos se querian determinar en toda la costa de grecia incluyendo anatolia en algo llamado "la gran idea" a pesar de que en la zona ya no se hablaba griego
+- Los arabes no esta definido puede variar, algunos definen patria todo el creciente fertil, pero hay arabes fuera del cresciente fertil y no se incluye el Hebyaz, para otros la patria arabe es el Hebyaz, y la peninsula arabica
+- La patria tambien puede ser la lengua
+- El mismo lenguaje arabe es dificil de definir ya que muchos dialectos son ininteligibles
+- El arabe es importante por que es la lengua de dios
+- La religion es importante
+- El panturquismo actual sigue siendo importante, la guerra de Nagorno Karabakh es causada en busqueda de crear una coneccion entre Azerbaijan y turquia y poder unificar a todos los turcos 
+- Los turcos al tratar de imponer el turco provoca a los arabes que incluso pensaban iba en contra de la religion querer reemplazar al arabe la lengua de Dios
+- Cada individuo a partir de la primera guerra mundial enfrenta una ruptura que nunca habia existido en la zona, la desición de decidir a que nación se pertenece
+- Muchos turco parlantes se empiezan a definir como Arabes
+- Nacen estados arabes pero por divisiones politicas bajo el mandato de los Franceses y los Britanicos
+- Los austriacos en la primera guerra mundial no sirvieron de nada
+- El sultan en la primera guerra mundial convoca el yihad
+- Los otomanos no podian movilizar tanta gente como sus enemigos
+- El ejercito turco es el que menos motivos tiene
+- En el imperio otomano no existe la guerra de trincheras, se desempeña en un territorio muy extenso 
+- En la batalla de los dardanelos wiston churchill es derrotado en galipoli
+- Se corta el suministro alimenticio en el imperio
+- Hay una plaga de langostas que afecta al imperio turco y sus cosechas
+- Las mujeres se vuelven la cabeza de familia en el imperio, hay una crisis de paternidad por la cantidad de hombres muertos, mueren 4 millones de personas en un imperio de 30 millones de personas
+- La mitad de los armenios del mundo mueren en el genocidio armenio
+- Los ingleses empiezan a intervenir medio oriente financiando revueltas, seducen a Husein ben Ali el cherif de la meca
+- Husein ben ali ve peligro en el nacionalismo turco y la turquificacion del imperio
+- manda a su hijo a egipto a negociar la independencia de los arabes contra los turcos junto con los britanicos (con Herny McMahon) para que apoyaran su independencia
+- En los tratados sykes-picot traicionan a los arabes, y se reparten siria irak etc entre franceses e ingleses
+- Los bolcheviques revelan el plan sykes picot al mundo
+- empieza la revuelta arabe en el hebyjaz
+- LAwrence de arabia apoya a los arabes n
+- Feisal tenia problemas para crear su nacion por que era una zona de nomadas, los nomadas no tenian concepto de territorios, y no les decia nada el luchar por una nacion, los movilizaba por la religion
+- proclaman a hussein el rey de los arabes
+- aparece la bandera de la revuelta arabe, diseñada por sikes
+- una vez llegan a las fronteras de egipto la rebelion es dirigida por Edmund Allenby
+- Los principales luchadores de las revueltas eran pakistanies enviados desde el imperio britanico
+- Los ingleses empiezan a hacer promesas sobre palestina a todo el mundo para encontentarlos y apoderarse de la zona
+- La declaracion del secretario de relaciones exteriores ingleses, hace la declaracion de Arthur Balfour
+- los rothschild reciben una carta en la que le prometen ayuda en su proyecto para recibir ayuda de los judios para pelear contra los otomanos
+- Los britanicos prometen el mismo territorio a ambas comunidades
+- Georgia Armenia y Azerbaijan se buscan independizar y los turcos conquistan Baku una conquista sin peso estratégico
+- El fin de la primera guerra mundial no terminó en la derrota de la alemania militarista, si no en la expansión del imperialismo Britanico y francés
+- Feisal al ver que los europeos no planeaban crear un pais arabe, entonces empieza a negociar pequeños territorios o titulos publicos
+- Los cristianos empiezan a apoyar a los franceses para no ser controlados por arabes y empieza un nacionalismo libanes en contra de los arabes, ellos no son arabes son fenicios
+- Los arabes del creciente fertil no querian ser gobernados por beduinos
+- AL feisal obtener el titulo de rey empieza a ser visto como traidor
+- Se crea el primer partido egipcio el Waf que pide una independencia de los britanicos, pero los britanicos los arrestan incluyendo al padre de la patria Saad Zaghloul lo cual empieza unas revueltas las cuales son reprimidas violentamente
+- En las negociaciones de paz de paris de 1919 se negocia la paz en medio oriente donde no participan ni alemanes ni astriacos ni otomanos ni rusos, solo participan delegaciones como testigos, los judios armenios libaneses si tienen representacion
+- Se estaciona la flota en turquia, si los otomanos no aceptaban los terminos bombardearian la capital
+- La sociedad de naciones niega a los arabes ser independientes por no ser lo suficientemente maduros, y obliga a los britanicos y a franceses a tener dominio en medio oriente para prepararlos para ser independientes
+- Puesto que algunos pueblos no sabian lo que era tener un estado debian de ser enseñados a tener uno siendo colonizados a estos los llamaban por categoria B
+- Los arabes eran cateboria A por haber tenido civilizacion pero tenian que ser guiados para aprender mas
+- En siria empiezan combates en la que los sirios buscaban independizarse, los franceses toman damasco y la resistencia dura hasta 1925
+- Los britanicos dan conseciones a los hijos de hussein para hacerse reyes de algunas regiones pero bajo el control de los britanicos, en jordania se crea una monarquia que aun continua, y en irak le dan a feisal el reino
+- Balfour prometio un estado para los judios
+- El white paper es mas ambiguo, que decia que no se crearia un pais judio pero se desarrollaria la comunidad judia de la zona, lo cual no responde nada
+- El reino de hussein tambien le promete palestina
+- Lis ingleses declaran la independencia de egipto, igual estaba intervenida, se reservan 4 asuntos, la seguridad del canal de suez, egipto no podia tener ejercito, control sobre sudan, y proteccion de los britanicos (osea tener impunidad)
+- En persia los britanicos imponen la dinastia Pahlavi
+- Tras la abolicion del kalifato por atatürk empieza una batalla por obtener el titulo de kalifa entre varias facciones
+## Entender el medio oriente 5
+- El eurocentrismo impone periodos europeos y sistemas politicos a distintos lugares del mundo (edad media islamica, edad media china, feudalismo chino, feudalismo arabe)
+- Las divisiones de los territorios en medio oriente hechos en francia e inglaterra se defienden por las armas se reprime y asesina a los que no estén de acuerdo
+- Alexandreta que posee a antioquia es un territorio poblado por arabes pero es concebido por los franceses para tratar de calmar su frontera norte
+- Mosul es negociado con turquia, se les da petroleo con tal de mantener la zona
+- Los franceses obtienen el monopolio del tabaco en territorios medio orientales, no tenian permiso los arabes de cultivar tabaco
+- Turquia acepta su derrota y empieza a renegar sobre su pasado imperial y crear una identidad nacional
+- La deuda no la terminan de pagar hasta los 40s
+- Los turcos se empiezan a definir en terminos raciales ya no en su religion, se empieza a prohibir el fez o tarbusch que en su momento era simbolo de modernidad y despues simbolo de atraso
+- Se acepta el calendario gregoriano, que se basa en el nacimiento de cristo, el domingo es festivo en vez del viernes y sabado
+- Se adapta el alfabeto arabe
+- Imagina que todos los monumentos de un pais queden en un alfabeto que no puedes comprender, esa sociedad empieza a perder su memoria
+- Empiezan a usar el sistema metrico
+- Se prohibe la poligamia, se agrega una edad minima para casarse, y el derecho al divorcio en las mujeres, las mujeres empiezan a participar en la politica incluso antes que los franceses
+- En persia llega Reza Shah de los pahlavi, solamente sale de su pais una vez yendo a turquia
+- Una religion impuesta por la fuerza es igual de feroz que una ideologia laica impuesta por la fuerza
+- Con pahlavi se empieza a prohibir por la fuerza el uso de turbante siendo llevados a la carcel, y se les impone el uso del sombrero, tambien se expulsa violentamente a los juridicos Ulemás
+- El shah prohibe el velo, también fue visto como una reforma humillante, por que la gente que portaba velos en la calle se les destruia en la calle, aquellas que sufrieron esto decian que se sentian desnudadas en la calle, justo esto es lo mismo que pasa actualmente en iran pero a la inversa
+- Los saudies acusaban a los iranies y paises occidentalizados de ser paises ateos
+- Los saudies son los paladines de la politizacion del Islam
+- Se empiezan a crear dos corrientes, los que buscaban modernizar pero renunciaban a sus raices y quienes buscaban mantenerlos
+- Los saudies destacan en tener una eficiencia administrativa excepcional, reorganizan efectivamente el Hajj
+- Los saudies destruyeron todo templo que no tuviera que ver con rezar a dios
+- Yemen se independiza de los arabes y de los Britanicos, llega el Imam Yahya el cual logra organizar una independencia, pero aun mantiene conflictos contra los Saudies
+- Empiezan a haber debates sobre como terminar con el dominio europeo en la zona
+- Los publicistas eran los dueños de la opinion publica durante la epoca, el publisista mas importante de la epoca Rashid Rida crea el Faro
+- Con los publisistas, y la prensa empieza a pasar el poder del clero de los Ulemás a la gente normal y a los politicos, y el islam empieza a usarse como un arma politica para movilizar gente
+- Pasamos de buscar reformar el islam a unir a la gente via el islam
+- La retorica islamista es la misma retorica marxista, buscar eliminar fronteras eliminar sistemas politicos y economicos de sumisión
+- Se funda la Imprenta Salafista
+- Se funda la imprenta al Fat que muestra al islam como una fortaleza asediada, y critica que las mujeres se quiten el velo y crea un discurso anti imperialista
+- Crean partidos politicos del Islam
+- Los hermanos musulmanes se fundan por Hasan Al-Banna discipulo de Rashid Rida el cual buscaba fundar una sociedad politica islamica, crean una "asociación que lucha contra el mal buscando la victoria del mal", retorica muy similar a la sovietica al ser ambigua
+- El modelo de los hermanos musulmanes es el YMCA, el islam tiene que regir tu vida a la hora de hacer negocios y en la politica, esto empieza a notarse autoritario, lo que pasa en todos lados con los nazis y con los comunistas
+- Los Hermanos musulmanes empiezan a crecer exponencialmente y empiezan a crear su brazo armado reclutando gente en las clases medias, lo suficientemente educadas para sentirse perdidas, empiezan a reclutar jovenes o boy scouts, como lo hacen los sovieticos y los nazis, El wafd crea las Camisas azules
+- Hawrani y Aflaq fundan el partido Ba'ath el partido de bashar al assad y sadam hussein, que significa la Resureccion, el cual era nacionalista etnico, el cual podia incluir mas a los cristianos de la zona, el partido es fundado en parís
+- La segunda guerra mundial destruye el poder de los europeos en el mundo
+- iran vuelve a ser neutral y vuelve a ser invadido, se usa iran para hacer reuniones entre potencias y los mensajes secretos pasaban siempre por iran
+- Los alemanes eran aliados atractivos al luchar contra los Britanicos y Franceses 
+- Se crea la liga arabe calcada de la ONU
+- Inglaterra desaparece de la region dejando un caos, el mundo se divide entre sovieticos y estado unidenses, se empieza a dividir el mundo en dos polos
+- El tema de la epoca es el holocausto, se buscaba proteger a los judios para evitar que nunca mas volviera a suceder eso
+- Se divide palestina por una de las primeras resoluciones de la ONU, la resolucion 181
+- Los arabes no aceptan la primera división de su estado palestino, el cual era bastante grande, y los judios si, empieza una guerra civil por lo general las guerras civiles son mas violentas que las guerras internacionales
+- En Deir Yassin se masacran a 250 personas
+- En 1048 David Ben Gurión proclama la creasion del estado judio de palestina el cual terminará siendo israel
+- Ben Gurión en su discurso no menciona territorios ya que con esto podria acaparar mas territorios, su nacion es reconocida por los sovieticos y estado unidenses
+- El wahabismo es mas radical que el salafismo
+- Los britanicos por lo general dividian los paises que crehaban o hacian paises pequeños para poder controlarlos mejor
+# Entender el medio oriente 6 (Israel)
+> Hamit Bozarslan: Pasiones revolucionarias
+- El pais estrategicamente y culturalmente mas importante de la region no es Arabia saudi ni turquia ni Qatar es Egipto
+- Finalizando la WWII egipto y medio oriente empieza una revolucion en todos los ambitos sociales
+- Empiezan a haber golpes de estados muy similares a America Latina
+- Llega la izquierda y pensamientos de izquierda a medio oriente
+- La aramco tenia conseciones en Arabia al final tiene que repartir beneficios con los arabes, tambien los britanicos tenian conseciones en el canal de suez pero despues termina repartiendose beneficios dandoselas de "un acto generoso"
+- Empieza a haber ideas de Redistribución de la riqueza
+- Gran Bretaña copta las elites del medio oriente
+- Las elites del medio oriente coptadas empiezan a ser asesinadas
+- Los Hermanos Musulmanes eran grupos religiosos creados por laicos para crear identidades en el pueblo desarraigado
+- Los Hermanos Muisulmanes planean asesinatos politicos como el de Mahmoud an-Nukrashi Pacha
+- El estado egipcio asesina a Hasan al-Banna lider de los hermanos musulmanes, y termina persiguiendo a los hermanos musulmanes lo que les da popularidad
+- Aparece el Ba'ath (Bass) en siria y alrededores, que buscaban crear un estado socialista mas incluyente
+- En medio oriente la izquierda y el nacionalismo va de la mano en sus partidos
+- Mohammad Mossadegh lucha para independizar y democratizar el regimen de los Shah en Iran, teniendo un nivel alto de popularidad
+- Tras el aniversario del ataque britanico en alejandria en Egipto 1952 empiezan a haber revueltas las cuales dejan decenas de muertos
+- Pasa un golpe de estado en 1952 por unos soldados que decian "que buscaban restaurar el orden", pero tambien buscaban la independencia y cierta revolución, el rey Farud tiene que abdicar, se prohiben los titulos de Bay y pasha, y se busca reestablecer la republica, se busca hacer una ley de reforma agraria
+- Se hace un partido unico elimina la posición y empieza a establecerse un regimen autoritario
+- El primer presidente egipcio es Muhammad Naguib, y su primer ministro es Nasser
+- La revista time pone a nasser como un nuevo faraon egipcio con armas sovieticas, nasser terminaria creyendose este relato
+- Nasser arresta al presidente Naguib, ya que él tenia el verdadero poder militar
+- Nasser es super carismatico y maneja la comunicacion muy bien
+- Nasser es el primer lider de medio oriente que hablaba por Radio
+- Crea una estación llamada "la voz de los árabes"
+- Medio oriente se divide entre dictaduras y monarquias
+- En siria hay 3 golpes de estado en el mismo año, Adib Shishakli establece una dictadura militar
+- El partido Ba'ath(bas) domina tanto siria tanto iraq, un partido republicano socialista y nacionalista
+- En turquia la costa por lo general son mas liberales y socialistas, kemalistas y tierra adentro son mas conservadores islamistas, y tienen zonas kurdas
+- Con kemal se prohibe el llamado a la oracion en arabe
+- El estado de israel se funda buscando un estado laico pero con justificaciones religiosas
+- Muchos judios no venian de europa venian de Irak o siria, en Irak pasan de 100.000 judios a 3000 en los años 60
+- El unico lugar en la region que instala exitosamente un estado parlamentario es israel
+- El parlamento esta diseñado de tal modo que no pueda haber dominancia de un solo partido lo que siempre lleva a coaliciones
+- Israel tiene el mismo problema de buscar gobernar entre la religion y el laicismo
+- Occidente buscaba "estabilizar" la region para permitir la creacion de israel, pero tambien buscaba evitar la expansión de la unión sovietica
+- Aparece el Pacto de Bagdad que es como una otan en medio oriente
+- Nasser propone una neutralidad positiva 'en si buscaba ser aliado de todos y comprarle armas a todos'
+- Nasser buscaba hacer ruido en el exterior para que se silencien los ruidos internos, practica hecha por los caudillos latinos también
+- De la nada y sin decirle a nadie de golpe nasser nacionaliza el canal de suez, usando un plebiscito, y anuncia que iba a crear una presa junto a los sovieticos
+- Al anunciar la nacionalización lo hace en la radio usando todos los medios, empezando hablando en un dialecto árabe toda la historia del canal de suez
+- Isrlael francia e Inglaterra empiezan a comparar a nasser con hitler hacen una alianza y hacen una operacion militar para sacar del poder a Nasser
+- Los Soviéticos al tener el negocio de la represa termina apoyando al régimen de Nasser
+- Los estados unidos la onu condenan la operación, la unión sovietica amenaza con lanzar armas nucleares y la operación se detiene
+- Nasser era tan popular que en las casas ponian fotos de Nasser al lado de sus familias
+- Siria y egipto se llevaban muy bien, en un punto en 1958 se crea la República Árabe Unida que incluia Egipto siria y por un momento Yemen, Nasser era el lider
+- Los demás paises temian al poder de Nasser que aumentaba cada vez, se creaban alianzas en contra de Nasser, bloques occidentales y bloques sovieticos, esto tiene relacion con la guerra civil libanesa
+- Faisal II es ejecutado sus cuerpos son entregadas a las masas y descuartizadas
+- Tras la promesa de unidad Árabe empiezan a haber guerras civiles
+- En 1961 un golpe militar en siria saca a siria de la Republica Árabe Unida, Egipto conservará el nombre durante un tiempo
+- Hasta este momento hay una guerra fria en la que luchan fuerzas progresistas vs conservadoras
+- Los Golpistas sirios entre ellos Afez al-Azad buscaban regresar al Ba'ath a sus origenes progresistas de izquierda
+- La izquierda socialista Islamica es muy distinta al marxismo sovietico, era nacionalista y no aceptaba el materialismo histórico
+- Iran es muy similar a la turquia del Kemalismo, ese proceso lo llamaban la revolución blanca
+- Los Chiitas no tenian una figura politica debido a que el Imam desaparece, por lo tanto era seguido por Ulemás, los cuales eran la principal oposición al Shah, el mayor rango de estos Ulemás eran los ayatolas
+- El shah empieza a cerrar madrasas, y atacar a los Ulemás, El ayatollah empieza a criticar al shah de autoritario, de representar al pueblo, Khomeini es arrestado y expulsado a turquia, cuando empieza la revolución iraní regresa y participa en la revolución y termina tomandose el poder
+# Entender el Medio oriente 7 (israel)
+> Especialista en medio oriente: Henry Lorens
+- Israel duplica en esta guerra su territoiro
+- En un momento no se mencionaba a Israel, se le mencionaba cono la "entidad sionista", para no darle reconocmiento de su existencia
+- Aparece la OLP, organizacion para la liberacion de palestina
+- Aparece el Movimiento para la liberacion de palestina "Fatah" su lider es Yaser Arafat
+- Nasser hace un bloqueo maritimo a israel y empieza la guerra de los 6 dias en la que israel toma la iniciativa sintiendo que la presión era cada vez más y más fuerte
+- En 3 horas israel destruye la fuerza aerea egipcia en un ataque sorpresa
+- Incluso nasser pensaba en renunciar, pero una manifestación pidó que se mantuviera en el poder
+- La ONU empieza a frenar el poder que empezaba a tener israel y no reconoce el territorio ganado, pero reconoce su derecho a existir, palestina no es mencionada
+- A medida que palestina deja de ser mencionada empieza a tomar medidas militares mas intensas
+- Abu Amar, empieza lucha armada
+- Nasser muere en 1970 3 años después de la guerra de 6 días
+- Llegan los dictadores Saday y Mubarak
+- Antes de los sesenta el islam era asociado con caudillos, pero despues de los 70s empieza a verse como zona fanatica religiosa
+- la politica empieza a tener discursos urbanos en vez de rurales
+- Se busca actualizar las costumbres rurales adaptados a la urbanizacion
+- Los temas mas hablados en iran en la epoca es la urbanizacion y la adaptaci´øn del islam a las urbes
+- Llega Anwar Sadat, despide a los consejeros de nasser se arregla de los sovieticos y acerca a estados unidos
+- Se acerca a una vision mas religiosa del poder con el objetivo de mover a masas
+- Al-asad es alawita una minoria chihita duodecimana del islam
+- En libia llega Gadafi quien era mas cercano a la religion y promovia su clan
+- Los lideres de esta epoca en general siempre proponian destruir Israel aprovechandose del resentimiento a la perdida de las guerras
+- Empieza una guerra que buscaba recuperar el sinai, israel fué atacado por sorpresa 70 mil soldados egipcios atacan el canal de suez
+- Los israelies usaron muros de arena para proteger el sinai, los Egipcios atacaron con barcos de agua para destruir silenciosamente estas murallas
+- En pocos dias Ariel Sharon, logró retomar la fuerza y contraatacar y frena a los egipcios, y obliga a los sirios a retirarse
+- Los sovieticos y estadounidenses obligan a israel y egipto a sentarse a negociar, es la vez que mas israelies murieron en guerra se negocia el dia de esta victoria
+- Una guerra siempre lleva a una crisis economica por el lado del atacante a pesar de ser victoria rapida, egipto y siria sufren revueltas de hambre
+- Tras perder su prestigio los regimenes arabes empiezan a hacerse mas autoritarios, admiten una politica neoliberal
+- La union sovietica en los 80s se habia hecho una potencia petrolifera, dependia mucho del petroleo por eso cuando el petroleo cayó se debilitó mucho
+- La union sovietica cae por que no tenia dinero para financiar su desarrollo centralizado
+- En siria y los paises islamicos la deuda aumenta
+- El marxismo en los 80s ya no era un discurso de los vulnerables, ya no era viable, no se criticaba el sistema neoliberal, el que reemplazo el discurso de los vulnerables fue la religión, la izquierda empieza a usar discursos religiosos para criticar regimenes neoliberales
+- Especialistas franceses descubrieron que el discruso marxista o retorica marxista continuó pero desde un punto religioso, caridad ayudar a los pobres criticar el neoliberalismo y occidentalizacion pero ahora desde la religión
+- Sadat empieza a aparecer con simbolos religiosos
+- Ayman al-Zawahiri asesina a Sadat lider del al caeda
+- Khomeini estudió en la sorbona, hablaba con michelle foucault y se llevaba bien con él
+- En 1978 empieza a haber manifestasiones en contra del shah que buscaban reestablecer una constitucion antigua,
+- El shah reacciona violentamente, y las manifestasiones son reprimidas violentamente iniciando la revolucion
+- Como un Hidra, cada vez que reprimian manifestaciones mas manifestaciones aparecian
+- Cada dia es Karbala cada lugar es ashura, karbala es el lugar donde es asesinado el nieto del profeta, y ashura es cuando se celebra el inicio del shihismo tras el asesinato del nieto de mahoma
+- El shah se exilia en egipto donde muere
+- Khomeini regresa a Iran como un retorno mesianico, y empieza a establecer poco a poco una dictadura, invaden la embajada de EEUU secuestrando a la gente dentro, tras 14 meses son liberados
+- Sadam hussein invade iran aprovechando la revuelta, lo cual empieza a aumentar el apoyo al ayatola khomeini, dandole pie a mantenerse en el poder
+- Khomeini se empieza a autoproclamar el lider de la revolución
+- En los 90s muere khomeini y llega Khameney
+- Empiezan a haber deseos de cambios, empiezan a salir mujeres, occidentalizadas que usaban velos coloridos mostraban parte de su cabello
+- Cuando nace el libano, un porcentage grande de cristianos tenia que controlar el poder debido a los resultados de un censo en 1932 pero el problema es que la demografia cambió y se mantuvo la misma estructura estatal siendo que despues ya eran minoria, se bloquearon hacer censos debido a la reestructuración del poder
+- Palestinos normalmente iban a el libano aumentando el numero de islamicos en el lugar
+- Empiezan a hacerse movimientos paramilitares en el libano
+- Los cristianos falangistas matan a palestinos dentro de un camión y empieza un ciclo de venganzas que terminan en la guerra del libano
+- La resistencia palestina no es islamica es nacionalista arabe, recibia apoyo de Nasser y miembros nacionalistas de la zona, el ejercito sirio empieza a intervenir para frenar los combates
+- Israel en contra de los palestinos invade el Líbano
+- Aparece hezbollah, muchos actores empiezan a intervenir en el libano
+- Incluso entre cristianos empiezan a combatir, no solo se divide entre religiones si no en facciones internas entre religiones
+- La literatura persa que se habia mantenido miles de años constante, empieza a ir cambiando para hacerse mas accesible
+- La primera Intifada (revuelta espontanea) es provocada por el choque de un taxi israelita y otro Jordano causando muertes
+- En este punto israel ya no es el debil contra el fuerte si no a la inversa, ya que eran jovnes los que participaban en la intifada normalmente luchando contra vehiculos blindados
+- Empezaron a comprender que el islam podia reemplazar discursos occidentales por que podia mover masas
+- El islamismo critica mas a los propios musulmanes por haberse occidentalizado demasiado
+- En los 70s empiezan las mujeres a empezar a usar nuevamente el velo, como simbolo politico en contra de la occidentalización
+- El velo en ciertos puntos era visto como campesinado, era estigma de las clases sociales marginadas, pero en los 70s se hace una moda como un mensaje, una accion militante de los conservadores
+- Empieza a popularizarse el hacerse una mancha en la frente que emula a alguien que esta inclinado en el suelo rezando todo el tiempo
+- El islam reemplaza a la religion marxista ambos cumplen las mismas necesidades religiosas de la gente
+- Empieza en egipto haber linchamientos contra de los cristianos coptos
+- Empieza la guerra del golfo lo cual radicaliza lo que ya estaba pasando
+- Existe tambien movimientos religiosos moderados democraticos por ejemplo Saad Hariri
+- Cuando cae la union sovietico un numero grande de judios sovieticos con conocimientos tecnicos empiezan a migrar a israel

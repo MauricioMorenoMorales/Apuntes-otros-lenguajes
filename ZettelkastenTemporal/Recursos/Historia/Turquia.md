@@ -5,3 +5,505 @@
 - Ellos mismos se llamaban Osmali
 - Los turcos son chamanicos
 - La primera dinastia turca fue la selyuki, fundada por selyuk
+- Gengish khan derrota a los selyukies, dando probabilidad a los otomanos de crecer y ser hegemonicos
+- Los Gobernantes preferian el turbante a la tiara catolica, poco a poco se fueron convirtiendo a el islam ademas que empezaron a llegar sufies persas a turquia
+- Los selyukies se enriquecen creando caravanserais 
+- Los griegos empiezan a tomar costumbres turcas, por ejemplo el yogurt es de asia central, comen mas carne etc.
+- Para los selyukies y turcos, las madres empiezan a mover cartas y matar a todos los demas para imponer a su hijo como el lider
+- Los mongoles destruyen a los selyukies y los condenan al olvido de la historia
+- El clero empieza a abandonar poblados bizantinos
+- Llega Jalal ad-Din Rumi (Mevlana) a turquia, vease libro de la filosofia, cuando llegaban a poblados bizantinos se hacian muchas conversiones, muchos entierros dejaron de ser cristianos a musulmanes (brazos cruzados y cara mirando a la meca)
+- Osman sobrevive ya que su pueblo era insignificante lejos de cualquier lugar importante, nada interesante para ser conquistado por los mongoles
+- Los turcos preferian rodear el estado con gente cristiana o judia debido a que no podian acceder al trono y aumentar asi la estabilidad
+- El sultan estaba por debajo de la sharia
+### Parte 2
+- Tamerlane fue el unico en derrotar a los otomanos en 300 años, lepanto no fue una derrota simplemente fue una no victoria
+- Serbia fue el estado ortodoxo mas importante despues de la caida de constantinopla
+- grecia se llamaba morea
+- Tamerlane conquistaba militarmente, los mongoles intimidaban haciendo terrorismo
+- Los elefantes eran guerra psicologica
+- la c en turco se pronuncia como y
+- en varna muere el ultimo jagellion
+- Mehmed era un genio hablaba griego antiguo italiano latin arabe turco persa
+- MEhmed el conquistador buscaba conquiostar roma y reestablecer el imperio romano pero se cancela el plan con su muerte
+- Bayezid II administrador 1447 152
+- Mehmed para financiar su invasion a constantinopla expropió ayuda para los pobres, llamados tambien waqf
+- La madre del sultan (Valide sultan) era muy influyente, sus pugnas determinaban quien iba a ser el heredero, y al obtnerlo ellas tambien obtenian poder
+- Un califa es heredero del profeta, un sultan un lider estatal poderoso, selim el cruel logra obtener ambos titulos para el sultanato, el de califa y sultan
+- Selim el cruel secuestra al califa del cairo hasta su muerte natural y despues de eso se empieza a llamar a si mismo sultan almutawaqil III
+- Ninguna potencia europea era verdaderamente peligrosa para los otomanos, solamente los persas era competencia directa
+- Despues de selim viene Soliman
+- Soliman fue hijo unico
+- El titulo original de soliman es kanuni, el legislador, el maginifico es un titulo italiano
+- Estambul viene de es tim poli, que significa hacia la ciudad
+- La mezquita de soliman es la mezquita mas importante de estambul
+- Sinan es el arquitecto mas importante de estambul
+- soliman pelea en viena, simplemente se retira no se sabe por que, no fue una victoria simplemente perdio el interes
+- soliman se alia con los franceces con francisco I para luchar contra los habsburgo, los franceses no ayudan en viena
+- El sultan empezó a llenar el harem de mujeres de familias poderosas europeas, lo cual funcionaba diplimaticamente como embajada pero tambien habia pugnas de poder y favores con el sultan entre las esposas
+- Como no se podia derramar sangre Osman cuando empezaba el fratricidio ahorcaban a los hermanos con una cuerda de seda
+- Roxelana fue la esposa de soliman, ucraniana comprada como esclava por ayudantes del padre de soliman, debido a su carisma escalo en la sociedad y es conocida como roxelana la alegre 
+- Roxelana triunfa sobre mustafa su principal competencia, convenciendo a soliman que mustafa buscaba asesinarlo, mustafa confiesa y soliman lo ejecuta
+- Hereda Selim II el Ebrio, alguien no cualificado, puesto por Roxelana
+## PArte 3
+- En el harem las mujeres se aliaban con ministros, aprendian artes pintura, musica, muchas obras musicales importantes en el imperio turco vienen de alli
+- El imperio se empezo a debilitar cuando la administracion empezó a aumentar en numero
+- Kösem llega tras Ahmed I con quien no se llevaba bien, pone 3 sultanes en el trono Murat 4, Ibraim 1
+- Llego al punto de quitar a sus propios hijos del poder quitó a ibraim 1 y puso a mehmed 4 ya que Ibraim estaba loco y era incapaz
+- Kösem muere asesinada en el harem
+- Selim II trata de conquistar chipre colonia de venecia, desencadenando una guerra innecesaria y desastrosa la cual genera ligas europeas terminando en la batalla de lepanto batalla que participa miguel cervantes.
+- En un año la flota de lepanto se recostruye y duplica
+- Murat 3 nunca sale de su harem para evitar conspiraciones pero faltó a las batallas lo cual genera baja moral en el ejercito y son derrotados contra austria
+- Ahmed I se sale de la vida politica, se dedica a la religion
+- Osman II ataca polonia, pierde hay un motin de los jenizaros, le sacan los ojos y estrangulan
+- Murat IV muere de causas naturales, hereda Ibraim I el loco
+- A pesar de todo la familia Osman nunca fue cuestionada fue estable externamente
+- Mientras los otomanos estaban bien, europa estaba en crisis, republica checa pierde el 60% de su poblacion en guerras
+- El sultan tambien es Gazi, expandir el dar-al-islam, el territorio ocupado por los musulmanes, si perdian una guerra les costaba la vida
+- Los sultanes son enviados de dios para administrar la justicia
+- Los askeri eran sirvientes del sultan los rangos eraneran militares kapikulu, ulemas, y marqueses timariotas
+- Jerarquias religiosas, mufti ellos eran los doctores del islam ellos creaban fatuas eran propuestas legales
+- Mudarrisun ellos enseñaban leyes coranicas daban opiniones
+- Faqhis, ellos eran maestros
+- Devshirme: Era un cristiano que entraba a la administracion imperial y se convierte al islam, es entrenado para apoyar al sultan, los mejores llegaban a altos cargos
+- Gran Visir, mano derecha del sultan
+- El gobierno se le llamaba el divan (archivo)
+- Los sultanes nunca hablaban con los extranjeros solamente el visir
+- El sultan no asistia a las sesiones de gobierno, las observaba en una rejilla
+- los hungaros eran vasallos de turquia, tenian gobernantes europeos pero no tenian relaciones diplomaticas
+- las regionse administrativas se llamaban sanyak
+- los reportes administrativos se escribian como poesia
+- El estrecho de gibraltar bloquea la salida a america del imperio turco
+- Los avestas son el libro sagrado soroastriano
+- Los ayan fue una elite que tenia mayor estabilidad en las localidades se mantenian en ese mismo lugar creando lazos y aumentando su poder, muchos eran jenizaros
+- Los administradores ganaban su salario no directamente de toktapi ellos mismos lo obtenian de administrar sus tierras
+- Turquia no se industrializó debido a que la produccion agricola nunca tuvo problemas
+- Los otomanos se atransan en la revolucion industrial
+- Los timariotas eran cargos temporales
+- Los ayanes con tal de enriquecerse aumentaron los impuestos, dañando la economia y haciendo que los ciudadanos se endeuden
+- el tabaco se empieza a plantar para poder pagar impuestos
+- Hubo migraciones con los cultivadores hacia las montañas y los pastores a las costas
+- debido al exito y alta produccion de turquia esta no se modernizo ni capitalizó
+## Parte 4
+- Los musulmanes siempre cuestionaban el dominio turco del islam
+- Antes de los nacionalismos, las etnias se referian entre ellas por su estilo de vida, los nomadas, citadinos etc
+- Los egipcios nunca se refirieron a si mismos como arabes, los turcos tamien los llamaban egipcios
+- Importaban mas las religiones que las lenguas en la identidad etnica
+- Hashemitas, clan del profeta
+- Los gobernadores de las provincias eran extrangeros, en los balcanes gobernaban arabes y en zonas arabes los gobernadores eran de los balcanes
+- Los nomadas estaban moderadamente regulados ya que no se les podia pedir impuestos regularmente, pero si el impero se aseguraba que no interfirieran en los peregrinajes
+- Los otomanos subcidiaban pueblos como los bereberes o drusos para contrarrestar a los arabes
+- >>> Los estados mas exitosos igualitarios y ricos eran los imperios no las naciones, los estados nacion son las organizaciones politicas mas agresivas y discriminadoras
+- Una desventaja de los imperios es que se extraen riquezas de las provincias y la capital es la zona mas rica de todo el imperio
+- Mas informacion de imperios leer Jane Burbank
+- Sherif, son lideres de ciudades sagradas
+- Gobernador del cairo se llamaba beylerbey, nunca los dejaban mas de 6 meses como gobernadores del cairo, ya que el cairo era la segunda ciudad mas importante del imperio
+- Napoleon introdujo ideas nacionalistas en egipto junto a mehmet ali
+- Abad al-wahab funda el wahabismo que es un puritanismo islamico que busca el retorno a los tiempos del profeta
+- El wahabismo se expandio y trato de conquistar bagdad, logran tomar kerbala y otras ciudades importantes, masacran a los chiitas, toman la meca y medina, los sultanes mandaron 3 ejercitos contra ellos
+- El rol de la mujer dentro del islam no depende del islam, en Estambul es una religion mas mistica, en tunez la mujer tiene mas relevancia por herencia bereber
+- El wahabismo se da cuenta que el islam fue muy exitoso en sus tiempos, y en la actualidad se atrasó, por lo que busca replicar el comportamiento de los antiguos de forma fundamentalista
+- Los musulmanes no podian usar ropa similar a los musulmanes no podian usar armas, montar a caballo, usaban tambores para llamar a las iglesias, no campanas 
+- Las comunidades religiosas distintas eran llamadas millet
+- habian millets involucrados en el gobierno
+- Mehmed llego a tener cargos importantes judios
+- Bayezid II mando barcos por los judios expulsados de europa
+- Una melodia en el lenguaje del pueblo judio expulsado de españa es Adió Kerida
+- Los judios de rusia y polonia tambien escapaban a el imperio otomano especialmente en Salónica
+- Los judios y armenios eran musicos en turquia 
+- el patriarca ruso se reunia seguido con los sultanes, ya que los sultanes pensaban que asi ganaban la lealtad de los cristianos armenios etc
+- no se van a a obligar a cristianos a convertirse al islam, ya que generaria conflictos, incluso se llegaba a convertidos al islam a regresar al cristianismo
+- Existen plazas con iglesisas mosquitas y sinagogas en el mismo lugar incluso con la misma entrada
+- El comercio era una actividad principalmente cristiana
+- En la revolucion industrial se hicieron muy ricos los cristianos
+- Los conflictos empezaron al abolirse los millets, y al llegar el discurso de busqueda de la independencia de todas las comunidades
+- Bibliografia: Sabrina Mervin, historia de los arabes
+- Los rusos tenian permitido que un musulman fuera juzgado por musulmanes o por el estado ruso, los musulmanes normalmente escogian a los cristianos ya que eran mas eficientes
+- La violencia en medio oriente empieza tras el desmembramiento del imperio otomano, los britanicos generan un regimen del terror
+- El islamismo es la aplicacion politica del islam, no es lo mismo, por ejemplo en iran hay islamismo
+- Las leyes muchas veces dependen mas del lugar que de la religion en si no es lo mismo el papel de la mujer en turquia egipto azerbaijan tunisia iran afganistan y arabia saudita del mismo modo que se diferenciaria entre rusa mexico estados unidos suecia a pesar de ser todos cristianos
+- 
+## Parte 5
+- El principal enemigo de los turcos eran los safavidas, los cuales tambien eran chiitas en vez de sunitas
+- Los safavidas estaban dominados por otro clan turquico
+- Las guerras en la zona han sido por el poder de armenia y azerbayan
+- Siempre que querian invadir europa el clima lo evitaba
+- el asedio de viena no tuvo artilleria por que se atoraban en pantanos
+- los turcos siempre se retiraban con su ejercito intacto
+- los vasallos ortodoxos de transilvania moldovia serbia valakia tambien trataban de invadir vienna
+-  los habsburgo se proclamaban emperadores romanos y lideres del cristianismo, pero los sultanes turcos tambien se denominaban igual
+- Carlos V fue el emperador mas poderoso de europa, fue quien peleó contra soliman
+- Los hariyitas (ibaiditas) buscan que el califa sea decidido por dios en combate
+- Los europeos en las guerras de religion ganaron experiencia y alli empezaron a ser mas peligrosos para los otomanos
+- Turquia estaba aliada con polonia turquia y francia, debido a que buscaban contrarrestar el poder de los habsburgo
+- despues de francia turquia se alio con alemania
+- Jareddyn Barbarossa un otomano dirigia la flota francesa, barcos turcos atracaban en costas francesas
+- Francia se distancia de los otomanos en el siglo 17 y 18
+- Napoleon traiciona a los otomanos invadiendo egipto
+- En la creacion de las naciones de medio oriente se crea un relato anti-imperialista culpando de todos los males a los otomanos, un imperio corrupto, se tiene que crear un enemigo perfecto para crear identidades, del mismo modo paso en america latina con el imperio español
+- Actualmente hay una moda en historiografia de que los impeirios eran pacificos, comparados con los estados nacion modernos
+- Rusia empezo a buscar conquistar el imperio otomano ya que buscaba unir a los ortodoxos al ser este el unico estado ortodoxo independiente
+- Los chihitas buscan recuperar israel por que contiene ciudades sagradas, como el domo de la roca
+- Gracias a las alianzas con reinos europeos se alcanzo una paz en la zona de los balcanes
+- Los turcos comen carne, tienen dietas de nomadas no de civilizaciones maritimas
+- Los turcos tuvieron problemas al expandirse por que no tenian una cultura maritima y tenian problemas con venecia
+- Los bizantinos perdieron su poder tras perder su flota ante los venecianos
+- Barbarrosa era un corsario financiado por stambul debido a su eficacia y lo convierte en Kapudan Pasha, lider de la flota
+- En preveza derrotan a todos los cristianos de la santa liga en una batalla 300 vs 100 sin perder un barco
+- Portugal se volvio en la principal amenaza a los otomanos por que perfeccionaron la navegacion oceanica y atacaba por las espaldas de turquia en medina y la meca
+- Ademas el comercio paso de ocurrir en el mediterraneo a ocurrir en el atlantico donde españa y portugal eran los maestros
+- El turismo nace en turquia, con el orient express, una coneccion entre paris y estambul, agatha cristie empieza a viajar etc
+## Parte 6
+- Desde napoleon empezo en europa un deseo por hacerse con tierras de  estambul
+- Poco a poco las naciones estan retomando las relaciones previas a la guerra fria, rivalidades y amistades
+- La historia esta ligada al presente y sociedades del presente no del pasado, quienes escriben la historia lo hacen en el presente y con una mentalidad actual
+- El imperio otomano determina las relaciones y estructura de medio oriente y los balcanes y africa, todas zonas muy conflictivas
+- Durante el imperio otomano toda la zona era de las ams pacificas del mundo, fue ante su caida que toda esta zona se volvio conflictiva
+- Vienna fue la primera gran derrota del imperio turco, Hicieron el tratado de paz de Karlowitz, en la que el imperio turco admite haber sido derrotado
+- El imperio turco empieza a batallar al financiar sus guerras, empezaron a devaluar moneda e incluso los militares tenian que recaudar los impuestos para pagar su propio salario
+- El ejercito no estaba acostumbrado a ejecutar retiradas y empieza a perder disciplina
+- El imperio ruso empieza a ser amenaza para el imperio otomano 
+- Los otomanos fueron los ultimos en perder la primera guerra mundial y en parte debido a que fue abandonado por sus aliados, los ingleses son derrotados en galipoli tras tratar de conquistar constantinopla
+- El termino el hombre enfermo de europa fue acuñado por Nicolas I quien fue derrotado por los turcos
+- La paz de westfalia fue el momento en el que se hicieron los tratados de paz para terminar las guerras de religion
+- En medio oriente siempre ha habido un debate sobre si se deberia de reformar el islam o la estructura social el problema es que no se sabe si funcionaria y tambien causaria una perdida de identidad
+- Los ayanes empiezan a ganarse sus impuestos cobrandolos directamente a los ciudadanos, sin  embargo esto empieza a generar abuso por su parte
+- Vemos a rusia como un estado al que todo le sale mal, un estado fracasado, sin embargo es el unico imperio europeo existente a este momento, fue el mas eficaz
+- Habia sectores en especial las elites que no buscaban que se generaran cambios en el imperio turco (elite politica, elite religiosa, elite militar)
+- El sistema de los milet son como comunidades  de distintas culturas, en las que el sultan era el protector, los cristianos judios armenios etc
+- Rusia si fue capaz de reformarse, son bastante similares las situaciones del imperio otomano y el imperio ruso
+- Las reformas fueron absolutas en el imperio ruso hasta se buscaba cambiar el lenguaje al holandes
+- Rusia es el unico estado independiente que tiene como religion oficial el cristianismo ortodoxo, por eso buscaban destruir el imperio otomano, para liberar a los ortodoxos
+- Los safavidas con shah nader, empiezan a buscar expandirse en direccion del imperio turco, los turcos se ven rodeados entre austria rusia y persia
+-  los turcos tratan de intervenir dentro de una sucesion persa, pero son derrotados y pierden territorios, tienen que pedir la paz para arreglarlo
+- La primera guerra ruso turca fue entre catalina la grande y turquia, queienes buscaban convertir en crimea en un territorio ruso
+- los rusos ya llevaban varias guerras ganadas, todas las estaban ganando en una racha bastante intensa, su ejercito era el mejor de europa
+- En la guerra llegan hasta el danubio, los rusos ganan la batalla de Chesmé, la flota otomana es destruida y desembarcan en rumania
+- El proyecto griego es la idea rusa de buscar restaurar el imperio bizantino, expulsar a los otomanos y 
+- Cuando los rusos tratan de atacar a los otomanos varias naciones occidentales apoyan a turquia para evitar la expansión rusa en el mediterraneao
+- Cada nacion se eempezaba a autodenominar el protector de los ortodoxos o el protector de los catolicos o el protector de los protestantes con tal de intervenir  en turquia politicamente
+- En este momento empieza a haber roces entre los  musulmanes y los cristianos
+- Los otomanos al ver que rusia intervenia mas y empezaba a extender sus fronteras poco a poco, declaran la guerra y pierden moldavia y valaquia
+- Selim 3 otorga a los rusos el dnister y el dnieper y , tras esto trata de iniciar una reforma, y eliminar a los jenizaros y elites antiguas
+- Empieza la revolucion francesa, matan a los reyes en la plaza de la concordia, y europa  empieza a tener batallas entre monarquistas y revolucionarios, napoleon ataca a rusia y esto le da un  tiempo para respirar al imperio otomano
+- Napoleon buscaba liberar al mundo entero (imponer su idea de libertad), y empieza por tratar de liberar egipto, traicionando a los otomanos, en este momento es cuando beethoven compone la sinfonia para el
+- Napoleon fracasa en su expedicion en egipto
+## Parte 7
+- Napoleon peleó contra los mamelucos debido a que ellos tenian una imagen de ser despotas y retrogadas, buscaban civilizarlos con los frutos de la revolucion, pensaba que todos añorabamos procesos europeos, y la revolucion francesa
+- Napoleon en vez de iluminar, llego empezó a dividir, a destruir la reputacion del sultan
+- En este periodo el poder pasa del sultan a los ulemas, y a los jenizaros, debido tambien a el conflicto que hubo por las reformas del sultan selim III
+- Volney; escritor frances: Critica la ausencia de la imprenta en el imperio otomano, causando atraso mental, todo esto es causado segun volney por el despotismo oriental,
+- Volney y los occidentales tambien culpan a las lenguas no romances de ser dificiles con alfabeto "vicioso" y esto causar atraso en culturas no europeas, les sorprende que los arabes son capaces de leer y escribir igual de facil que nosotros
+- Volney tambien culpa a los arabes de que no hay libres, no hay nada mas raro que un libro
+- Volney critica que si es que existen libros, no existen buenos libros en medio oriente
+- Volney critica que la causa raiz de la ignoracia oriental es el gobierno que se esfuerza en que no haya educacion y persista la ignorancia (desconociendo el periodo mu tazili)
+- Volney critica a medio oriente de que por ser ignorante entonces tambien se es pobre
+- Libro: Orientalismo, edward said
+- Los sheiks eran personas completamente sabias, conocian mucho de ciencia la mezclaban con teologia poesia teoricos legales, Por ejemplo Murtada al husain al sabid al hanafi, Otro ejemplo el Sheik Abu Fahad al Sayyid
+- Napoleon es el inicio de una etapa en la que occidente trata de interferir en el medio oriente y la civilización islamica,
+- Selim III fue sorprendido con napoleon, por la tradicional alianza franco-turca, y nunca hubo una guerra entre francia y turquia
+- La revolucion francesa la cual era atea era impensable en una sociedad islamica en la que no existian los ateos
+- Occidente en nombre de la democracia interviene paises en medio oriente y termina instalando tiranias en medio oriente
+- Napoleon lo que trataba invadiendo turquia era cortar rutas comerciales de inglaterra, pero tambien buscaba llevar la civilizacion a medio oriente
+- Napoleon tambien era un intelectual, como lo eran los militares fraceces, buscaba entender la civilizacion egipta
+- El imperio otomano en esta epoca los otomanos necesitaban estar aliados a una potencia occidental para mantener su supervivencia
+- Las cruzadas son insignificantes en la historia del islam, hay muy pocas referencias en escritos musulmanes a esa epoca, es un pequeño parentesis pero la historia que conocemos es contada por los occidentales
+- Napoleon fue una novedad, debido a que ataco el centro del islam
+- Fue dificil de digerir que una civilizacion en su momento insignificante derrotara a los otomanos, y despues vinieran los ingleses con Nelson y derrotaran al invasor
+- Los otomanos pasaron de ser una potencia, a ser un terreno de juego de potencias occidentales
+- Napoleon trata de imponer el derecho romano el cual es laico, lo cual es dificil en una civilizacion islamica, en el islam no existe el "al cesar lo que es del cesar y a dios lo que es de dios", en la mayoria de las religiones el cesar y el papa eran el mismo, incluso en la roma julio cesar era el sumo pontifice, la mayoria de las religiones el lider es un lider tambien religioso
+- Los otomanos no tenian a occidente como modelo a seguir, si no mas bien a persia, pero todo cambio tras la invasion napoleonica, y en rusia y turquia la gente tenia una sensación no admitida de inferioridad
+- Napoleon fue el primero en publicar libros en arabe en masa
+- Tras napoleon empieza el sentimiento artificial arabe de deseo de independencia del imperio turco, alteridad, independencia respecto a otra nacion tal como en america latina se hizo respecto a españa
+- Napoleon restaura la esclavitud en Haiti
+- Napoleon trato de instaurar la civilizacion occidental en medio oriente tomar instituciones islamicas, imagina que vienen un grupo de personas de Oman Dubai o Qatar y tratan de imponer sus normas juridicas y practicas sociales a tu sociedad argumentando que estan trayendo la luz a tu civilizacion
+- Napoleon interrumpio las reformas que estaba llevando a cabo Selim III, ya que al momento de llegar al imperio turco, la elite empezo a culpar a las reformas de Selim de causar el fracaso
+- El sombrero llamado Fez, era un sombrero que buscaba implementar una estetica moderna del imperio otomano
+- Los otomanos en 3 años lograron a modernizar sus ejercitos artilleria y uniformes, con el ejemplo del Nizam-I Cedid los cuales tenian que reemplazar a los jenizaros
+- Selim trata de aliarse con los franceces para hacer contrapeso contra los Rusos
+- Con alejandro I empieza una guerra entre turquia/ rusia inglaterra, en la que los franceses no apoyaron
+- Los jenizaros se rebelan y ponen a Mustafá IV como sultan, pero es simplemente un titere, los jenizaros incluso saquean Estambul y al final terminan quitando a Mustafa IV del poder cuando empezó a dar problemas
+- Napoleon trató de hacer a Alejandro I de firmar una paz con los turcos, pero no termina dando frutos
+- Alemdar Mustafá Pasha se revela antre Mustafá IV, y ante el panico Mustafá IV manda asesinar a Selim III, lo cual genera problemas y termina escapando, después de él llega Mahmud II, fue el primer momento en el que factores externos a topkapi termina generando un cambio de sultanes
+- Mehmet Ali es de los primeros musulmanes en lograr Modernizar una zona islamica, logro asimilar y sincretizar las ideas revolucionarias y el mundo musulman, tras esto logro independizar egipto de los turcos
+## Parte 8
+- Muhhamed ali, se independiza de turquia de forma de facto aunque legalmente era parte de turquia
+- Muhhamed ali genera una sintesis entre el islam y la modernidad, genera un estado que compite contra los turcos en cierto modo de manera interna
+- Para entender la historia no solo se usan textos, tambien pinturas monedas piedra, materiales de escritura, arquitectura, herramientas, cosas en general
+- Mahmud II empieza a reformar el imperio otomano, entre ellos se eliminaron a los jenizaros, fueron asesinados, Mahmud II es similar en esto a pedro el grande eliminando a los streltsi
+- Topkapi fue remplazado por el palacio de Dolmabahçe, el cual tiene una apariencia mucho mas occidental
+- En este periodo Grecia busca la independencia apoyada por las grandes potencias occidentales
+- Los Dhimis empezaron a tener mas relevancia durante el periodo Tanzimat
+- Se empezo a buscar una igualdada entre todas las castas del imperio otomano
+- Los otomanos empiezan a asimilar ideas y tecnologias occidentales para afianzarse en su vision otomana del mundo, al igual que lo hizo rusia
+- El parlamento otomano no servia para aprobar leyes, si no como un complemento a donde se hacian las leyes, con los ulemás 
+- Los otomanos se empiezan a guiar por el estado frances el cual es centralizado y fuerte
+- En politicas exteriores empezaron a seguir el ejemplo de inglaterra
+- Con el Edicto de Gülhane se busca establecer la igualdad entre milets, el problema es que fue el momento en el que empezaron a haber problemas tras los musulmanes sentirse amenazados
+- Se crea el banco nacional de turquia
+- Turquia se empieza a endeudar
+- Se crean universidades replicando a francia, las escuelas politecnicas empezaron en francia, empezaron a entrenarse ingenieros civiles los cuales terminaban trabajando para el estado
+- El galatasaray es la universidad mas importante de alli vienen todos los presidentes de turquia menos erdogan, se enseña frances y tienen una vison occidental
+- Tambien se crea la universidad de Mármara de estas universidades provienen los jovenes turcos
+- Se trata de imponer la idea de ciudadania en el imperio turco, cosa que no existia, se requiere definir que es lo otomano, siendo que es un imperio con nombre de la dinastia de Osman, nisiquiera el nombre de la nacion dice algo, existen millets diferentes culturas y era muy dificil crear un ciudadano
+- Los nacionalismos destruyeron a los imperios ruso turco y austro-hungaro, de hecho los mismos cayeron en el mismo momento
+- En los imperios, la etnia dominante era la que iba a las batallas y quienes sufrian las batallas principalmente, es en este periodo en el que empieza el servicio militar obligatorio en el que empiezan a perder el control
+- Los rusos propusieron a los ingleses conquistar estambul y dividirse al hombre enfermo de europa, sin embargo estaba en contra de los intereses ingleses ya que con este movimiento rusia podria cortar las vias de transporte entre inglaterra e india
+- Los turcos se volvieron un terreno de batalla entre potencias europeas
+- Los franceses aliados con mehmed ali conquistan algeria, volviendo a traicionar a los otomanos
+- Los otomanos dieron beneficios economicos al comercio con inglaterra, lo cual destruyo la industria local otomana
+- Uno de los ejercitos mas poderosos de la Otan es el ejercito turco, los turcos son un pueblo guerrero
+- El mayor enemigo de Inglaterra en la epoca contemporanea fueron los Rusos, tenian algo llamado "El gran juego", que era toda la politica y movimientos politicos entre rusia e inglaterra
+- Los otomanos perdieron poderio militar debido a la falta de logistica moderna, transporte alimentacion, comunicaciones etc, en capacidad humana tenian igual o mas que los europeos, pero es este punto en el que fallan, igual esta explicacion se aplica a china, quien tenia mayor poblacion pero menos logistica y tecnologica que japon
+- Los turcos estaban en su momento militar mas grande, pero por cada 2 pasos que daban los turcos los occidentales daban 10
+- La guerra de crimea es la primera guerra moderna de la historia, aprecen los hospitales de campaña, la fotografia, los barcos a vapor
+- Los otomanos aliados con los ingleses logran derrotar a los rusos conquistando sebastopol, sin embargo en la practica los beneficiados de la guerra son los franceses y los ingleses
+- Los documentos o tratados siempre tienen una trampa, un interés politico de tras.
+- El tratado mencionaba que los rusos no podian tener ningun puerto en el sur
+- Los serbios obtenian proteccion por los rusos, lo cual afectaba a los otomanos
+- Con Alejandro II los rusos se rearmaron e iniciaron la guerra ruso-turca
+- Hubo reformas turcas que garantizaron la disolucion de los millets y la igualdad ante la ley
+- Los alumnos del galataserai empiezan a formar sociedades secretas que buscaban empezar la revolucion, y crear la republica turca, entre ellos los jovenes otomanos como Namik Kemal
+- El sultan exilió a los jovenes, quienes fueron a francia y continuaron haciendo activismo politico fuera del control del sultan
+- La generación del Tanzimat va mueriendo y siendo remplazada por los nacionalistas
+- Llega un sultan bastante mediocre: Abdülaziz
+- Tras la derrota de napoleon III en la guerra franco-prussiana, los reformistas empiezan a mirar a alemania como el modelo a seguir, un modelo militarista, organizada
+- Murad V llega al poder tras el "Suicidio" de Abdülaziz
+- Murad V es destronado debido a una "depresión"
+- Abdul Hamid II llega al poder "el sultan triste"
+- Abdul Hamid llega prometiendo una reforma constitucional
+- Los otomanos pierden su alianza con los Britanicos y terminan expuestos
+- En 1878 serbia y montenegro se rebelan y declaran la guerra al imperio otomano, apoyada por rusia tras la inestabilidad del gobierno otomano, los rusos llegan a los suburbios de constantinopla
+- Alejandro II, muy cerca de tomar constantinopla frena su avance por que los alemanes franceses austriacos y los britanicos se aliaron y obligaron a los rusos a que hubiera unas negociaciones de paz con los otomanos, lo curioso es que los otomanos no fueron invitados a las negociaciones
+- La victoria rusa sorprende a Otto von Bismark, convoca el "congreso de Berlin" donde busca convertirse en el arbitro de europa, en una guerra entre rusia y turquia, buscando evitar "una guerra entre toda europa", aumentan el tamaño del imperio austrohungaro, se añaden protectorados sobre zonas cristianas, se extienden naciones y se reparten parte de turquia, alejan a rusia de estambul, es en este congreso que los otomanos se alian con los alemanes
+- La alianza con los alemanes seria la perdicion del imperio otomano ya que los puso del lado perdedor de la primera guerra mundial
+- Abdul Hamid II habla con los reformistas constitucionales y cede y crea un parlamento Otomano
+## Parte 9
+- Hay un deseo interno turco por ser parte de la civilizacion europea, debido a esto empiezan a hacer reformas y buscar una constitucion
+- Midhat Pasha es el ultimo lider del periodo tanzimat
+- El sultan Abdul Hamid II bloqueaba la creacion de un sistema constitucional lo cual provoca a los jovenes turcos a hacer una revolucion que llamo a la creacion de un parlamento 1n 1908
+- La constitucion es el principal punto de ruptura de la cultura otomana
+- La constitucion no buscaba eliminar al sultan si no crear una monarquia constitucional a la inglesa
+- Tampoco buscaban eliminar completamente la sharia, buscar una sintesis entre ambas formas de ver el mundo
+- Los jovenes turcos pasan a la clandestinidad, tras ser baneados por el sultan, empieza una epoca de conspiraciones por los jovenes turcos
+- A Abdul Hamid II se le atribuye la creacion de la constitucion pero en si solo la hizo por que estaba siendo chantajeado
+- El sultan podia en cualquier momento mandar a matar a quien guste, o tenia poder de disolver el senado
+- Las firmas que tienen forma de una lampara de aladino, es una firma de un sultan otomano
+- El sultan siempre habla en 1ra persona plural, dice nosotros en vez de yo
+- Los otomanos pensaban que haciendo una constitucion los occidentales, franceses ingleses iban a defender a los otomanos en contra de rusia, la cosa que es completamente falsa, esto genera un sin sabor respecto a la idea de constitucion
+- En la creacion del senado, debido a que la mayoria era musulmana y siempre ganarian partidos musulmantes, se planifico de tal modo que siempre haya participantes cristianos de forma artificial, es en este momento que empieza la discordia entre las etnias ya que todas buscaban tener su participacion de manera alta en el parlamento, la politica se mezcla con etnicidades y religiones, y la gente empieza a deshumanizar al contrincante
+- En la creacion del parlamento Otomano se desata un caos dentro del parlamento ya que nadie sabia debatir, al igual que pasó con los rusos
+- Tras el fracaso de las reformas y la implantacion del parlamento Abdul Hamid vuelve a convertirse en un auotrata
+- Abdul Hamid II Busca la restauracion de los millets, de tal modo que buscaba hacer convivir a las etnias, sin embargo empezaron las ideas de nacionalismos y vieron a Abdul Hamid como un entorpecedor de las independencias
+- Debido al endeudamiento se crea la Administración de la Deuda Pública, la cual era dominada por extranjeros, y un otomano que era griego cristiano, perdiendo poder de facto el sultan
+- En mismo periodo turquia avanza enormemente, se revitaliza y empieza a modernizar
+- Empezaron a llegar barcos a vapor a turquia, eran las maquinas mas caras y modernas que existian en la epoca, tener una demostraba un nivel de avance tecnologico muy alto
+- Hubo una guerra entre turquia y grecia, turquia ganó por su modernidad pero los occidentales intervinieron para salvar a grecia
+- Por lo general, turquia empieza a tomar impulso y empieza a igualarse con europa, pero en el momento que los occidentales veian que los otomanos llevaban impulso se aliaban y atacaban turquia
+- Empieza una rebelión armenia creando una primera masacre armenia
+- Los armenios llaman Abdul Hamid II el sultan rojo por las masacres
+- Empiezan a haber movimientos secretos ahora de intelectuales con conocimientos o transfondo militar, el mas importante de ellos llamados los Jóvenes Turcos (no confundir con jovenes otomanos)
+- Ellos buscaban la turquificacion de todos los paises turcos bajo una lengua una religion, una misma etnia y dominar el mundo (todos los pueblos turcos incluyendo turkmenistan azerbaijan, los uygures)
+- Buscaban asesinar al sultan, acabar con la dinastía otomana e imponer una republica Turca
+- Se crea una asosiación de conspiraciones similar a los bolcheviques llamado el "comite union y progreso" el cual estaba conformado por oficiales militares
+- Se hace el primer golpe militar en turquia
+# Turquia Moderna 1 (Reforma constitucional)
+- Todos los lideres del imperio otomano al finalizar el imperio turco quedan desprestigiados excepto Ataturk
+- En 1881 egipto se convierte en un protectorado Inglés
+- Grecia y serbia también son independientes
+- Tras ver que las reformas no funcionaban se trata de revertir las remormas constitucionales provocando la apricion de los jovenes turcos que buscaban continuar con la o0ccidentalización
+- Los jovenes turcos eran mas como una clase social hecha por oficiales militares, no hay una figura centralizada funcionaba de manera anónima
+- No se pudo realizar una revolución clara por que los jovenes turcos no tenian una ideologia concreta era un conjunto de muchas filosofias
+- Al ser militares los jovenes turcos, normalmente no se debatian las acciones llevadas a cabo por el gobierno, se mandaba y se hacia
+- Poco a poco medio oriente fue llenandose mini dictadores militares que formaban parte de los jovenes turcos
+- Los jovenes turcos confundian el ser Otomano y ser Turco y terminan imponiendo la cultura turca
+- Los jovenes turcos querian tener a el otoman de fachada mientras ellos gobernaban desde las sombras
+- Empieza a haber movimientos marxistas incluso dentro de los jovenes turcos, pero no fue aceptado ya que era incopatible con el islam
+- La revolucion otomana es mas una revolucion fallida aunque el discurso diga lo contrario
+- Al Abdul Amid II ver que los jovenes turcos se acercaban a estambul, antes de que llegaran reinstala la constitucion, haciendo parecer que él tenia el poder todavia y se hacia lo que el queria en su imperio
+- El presidente del congreso es Ahmet Riza
+- EL comite union y progreso no obtiene mayoria en el congreso y sus propuestas son rechazadas
+- Al ver que el congreso nunca llegaba a nada debido a que siempre estaba en duda (como opinaban los rusos de los presidentes de estados unidos) los conservadores empiezan a buscar que el sultan retome el poder
+- Estaba mal visto que la gente normal incluido cristianos judios creara leyes, cuando antes lo hacian los Ulemás
+- Se organiza el primer partido musulman que empieza a buscar el poder y empieza a usar el islam como herramienta politica
+- En Taksim se busco hacer un golpe de estado para restaurar la sharia en contra de los jovenes turcos asediando el palacio de Dolma Badgtsche
+- La retorica oficial dice que el sultan organizó el golpe lo cual es falso, de hecho el sultan estaba dentro del mismo palacio incluso asustando al sultan pensando que el CUP iba a culpar al sultan de este evento en el cual realmente no tenia nada que ver
+- Tras la noticia del golpe de Taksim empiezan a haber conflictos locales en las provincias entre etnias
+- Los jovenes turcos toman de lider para defender la revolucion a Mahmud Shevket Pasha, el cual organiza el ejercito para la liberacion (Hareket Ordusu), quienes vuelven a marchar en estambul y derrota a los rebeldes, a los rebeldes los asesina en la plaza civica
+- Los paises musulmanes heredan este tipo de gobiernos en la sombra a semejanza de los jovenes turcos
+- El imperio español es similar al turco por que empezó a tener crisis revolucionarias y los paises resultantes heredaron problemas similares a medio oriente debido a las crisis cosa que no pasó con los paises britanicos, ellos no tuvieron revoluciones
+- Lo que mas le temia el CUP era a los nacionalismos de orden Cristiano
+- Mehmet V es coronado sultan pero es un titere del CUP
+- EL cup empieza a reprimir a la oposicion
+- El CUP obliga a pasar leyes que le daban poder de suprimir bandas armadas en los balcanes los cuales daban poder al ejercito e intervenir en la prensa
+- Prohiben asociaciones no turcas
+- prohiben huelgas y crean conscripcion universal, anteriormente solo los musulmanes combatian en el ejercito
+- El CUP fue la primera dictadura moderna en el mundo islamico, primer gobierno unipartidista sin oposición que no respondia a nadie, los dictadores modernos se inspiraban mucho en el
+- EL CUP Recurre frecuentemente al espionaje y asesinatos y termina siendo mas dictatorial que cualquier sultan anterior, un robespierre es mas dictatorial que un luis 16, un stalin mas dictatorial que un zar
+- La oposición se radicaliza
+- Llega al poder Enver Pasha
+- Se hace una coalicion grande en contra del CUP llamada la union liberal liderada por Damat Ferid Pasha que pedian elecciones libres y autonomias locales
+- El candidato de la union liberal gana en Estambul, lo cual hace al CUP buscar una nueva reforma interna, termina soltando un poco las riendas del poder para liberar tensiones
+- Mehmet V condena las acciones del CUP lo cual provoca que el CUP retorne a sus malas practicas
+- El visir Mehmet Said Pasha, crea el comite de salvacion nacional al cual asigna a mMahmud Shekvet Pasha y busca asumir mas el poder y salir desde las sombras
+- La fachada constitucional desaparece
+- Empiezan a haber conspiraciones en contra de las cara visibles del CUP
+- Empieza a haber disidencias dentro del ejercito el cual estaba bajo el mando del CUP y buscan darle un golpe de estado al CUP, buscaban que el ejercito no se politizara
+- Gazi Ahmet Muhtar Pasha llega al poder con ministro de guerra Hussein Nazim Pasha quienes eran mas liberales y buscaban crear un parlamento pero fueron expulsados por el CUP tras un mes de mando
+- en 1913 una parte del CUP liderada por Enver Pasha hacen un golpe de estado, el mas sangriento de todos hasta el momento entran a el palacio de gobierno a disparos y asesinan a Hussein Nazim Pasha y a Muhtar Pasha y lo amenazan de muerte
+- Instalan una dictadura militar con Enver Pasha, Cemal Pasha, y Talat Pasha, el llamado Triumvirato
+- empieza la primera dictadura monopartidista de medio oriente
+- buscaban manetner el esatus de gran estado nacion en europa y mantener las mismas fronteras, y que toda la nacion fuera turca
+- Yusuf  Akshura es el padre del panturquismo, el cual escribio una tesis llamada 3 sistemas politicos el cual habla de lo siguiente:
+- Los nacionalismos se estan imponiendo en europa, europa esta constituido por imperios, y al morir estos imperios habra un baño de sangre debido a los nacionalismos
+-  tras la derrota de rusia por japon menciona que el futuro no le pertenecen a los imperios si no a las razas
+- Predice el nacimiento de las ciencias politicas
+- Aconseja a el sultan de 1 crear una nacionalidad otomana y crear un ciudadano otomano
+- 2 una nacion politica de todos los musulmanes bajo la direccion de los otomanos, buscar un islamismo
+- 3 no ser ni otomano ni musulman, la construccion de una nacionalidad turca basada en la raza
+# Turquia moderna (capitulo 2)
+- Existió un tratado llamado sykes-picot en el cual los aliados Italianos franceses ingleses y rusos se buscaban repartir turquia, el discurso oficial dice que rusia entra a la guerra debido a este tratado, el problema con esta teoria es que este tratado se firmó en 1916 despues de que turquia ya entró a la WWI
+- Trotsky busco volcar a medio oriente contra occidente y de este modo indirectamente beneficiar a la revolucion rusa
+- Sergei Dmitrevich Sazonov fue el arquitecto de los acuerdos Sykes-Pikot los cuales deberian de ser los tratados Sykes-Sazonov-Pikot
+- El jefe del estado mayor austriaco Franz Conrad von Hötzendorf y el ministro de relaciones exteriores, Leopold bon Berchtold son normalmente culpados como los responsables de la WWI debido a que sonsacaron al emperador austriaco que esta era una guerra facil de ganar
+- Enver Pasha es culpable de la entrada a la WWI pero no el unico ya que habia un sentimiento politico a favor de entrar a la guerra en la clase politica
+- En parte la primera guerra mundial sucedio por los nacionalismos ya que cada nacion queria probar que su nacion era superior a las demas
+- Cuando Enver Pasha llega al poder turquia ya tenia conflictos militares internos
+- Otto Liman von Sanders llega al imperio otomano a reformar el imperio otomano, los franceses e ingleses no ayudaron a los turcos a hacer esto
+- Los alemanes ganan guerras cortas y pierde guerras largas, enseñaron tecnicas prusianas a los otomanos
+- Gracias a las contribuciones ElefetriosVEnizelos logra hacer que alemania reconozca a grecia como un pais independiente
+- Los otomanos buscaron alianza con otros paises balcanicos como bulgaria para evitar que grecia se independizara
+- Los otomanos compraron Buques a vapor a alemania para poder defender a grecia de su intento de independencia pero es interrumpido por la primera guerra mundial
+-  Los otomanos negocian condiciones favorables con los alemanes, buscaban asegurar grecia y obtener tierras en los balcanes
+- Cemal Pasha miembro del CUP buscaba una alianza con inglaterra en vez de alemania
+- Churchill decomisa unos acorazados comprados por turquia a inglaterra lo cual saboteo tambien la posibilidad de aliarse con los britanicos
+- En un principio los turcos mostraron una fachada de ser neutros "negando" la entrada a cualquiera pero
+- Llega Wilhem Sauchon en un acorazado a estambul y es recibido por los turcos con bastante euforia, destruyendo su fachada de neutralidad Said Halim  Pasha dice que ese barco fue comprado no fue protegido
+- Los persas eran neutrales pero aun asi inglaterra los invadió para poder atacar a los otomanos
+- Para demostrar neutralidad abre la entrada a barcos mercantes de cualquier bando
+- Repentinamente vuelven a cerrar las entradas a todos los barcos
+- El acoradazo de Sauchon empieza a hacer movimientos militares contra rusia y destruyen a sebastopol
+- Elvet Pasha felicita a los alemanes, y rusia le declara la guerra a rusia
+- Habia periodicos bastante curiosos en la epoca por ejemplo uno frances diciendo que la primera guerra mundial iba a ser bastante buena por que las balas debido a la velocidad que iban cauterizaban las heridas
+- Los otomanos no tuvieron deserciones masivas, por ejemplo los austriacos el 40% de los soldados huian del ejercito
+- La diferencia industrial era enorme, por ejemplo turquia producia 600.000 toneladas de carbon mientras rusia 60.000.000 y alemania e inglaterra 200.000.000
+- La primera guerra mundial llevo a una emancipacion de la mujer mucho mas intensa que en europa
+- Los turcos permiten a las mujeres votar antes que los franceses de hecho los turcos tuvieron parlamentarias mujeres antes que los europeos
+- Mucha gente comentaba que rusia se podria haber convertido en la primera potencia del mundo hasta que pasó la revolución rusa
+- El imperio ruso era el pais con mas vias ferreas por encima de los estadounidenses franceses y alemanes
+- Francia tenia la red de trenes mas densa
+- Los otomanos tenian 2 vias ferreas
+- Los otomanos no tenian bancos fueron otorgados debido a deudas a los alemanes
+- Los otomanos tienen una crisis fiscal empiezan a haber hambrunas y empiezan a haber revueltas
+- Los otomanos realizan un ataque a la capital de georgia contra los rusos
+- El segundo ataque fue contra el canal de Suez para cortar a inglaterra con la india
+- Enver pasha dirige personalmente a el ejercito siendo un completo fracaso en la batalla de Sarikamish
+- Los armenios toman ciudades torcas haciendo atrocidades mutuamente entre otomanos y armenios
+- Los otomanos masacran a 20.000 armenios en la plaza publica
+- Los otomanos se retiran para buscar reforzarse, traicionando a los armenios, cuando buscaron empezaron a deportar a los armenios a campos de concentracion sin comida ni agua, el 60% de los armenios del mundo mueren en este evento
+- Los britanicos en venganza por suez trataron de llegar directo a la capital de turquia y vencer a los turcos, el encargado fue wiston churchill y ue derrotado
+# Turquia moderna (cap 3)
+- Por primera vez durante la primera guerra mundial los turcos triunfan sobre su principal enemigo los cuales eran los rusos
+- Los rusos dejan en paz a los turcos tras la revolucion rusa
+-  Yudenich derrota a MAhmud Kamil Pasha en un ataque en el caucaso durante el invierno y entran al corazon de anatolia sobre armenia
+- Los rusos buscaban llegar a alepo decaputar el imperio turco dividiendolo entre turcos y arabes lo cual seria letal para el imperio turco
+- Los rusos buscaban invadir tambien Ankara y de alli a Estambul
+- El frente turco colapsa
+- Los turcos temian que les pasara lo mismo que a los circassianos
+- La revolucion rusa explota y detiene la guerra muchos soldados desertan y se van a rusia a pelear por la revolucion
+- Tras ver el estallido de la revolucion los alemanes financian a Lenin para que se radicalizara la revolucion
+- Los rusos firman el tratadeo de Paz de Brest-Litovsk en los cuales los alemanes reciben ucrania rusia y zonas balticas
+- Los alemanes obligaron a los turcos a hacer un estado tapon de armenia entre azerbaian y Turquia, azerbayan pertenecia a rusia
+- Los Britanicos se estancaron en el sinai en el estrecho de suez, no pudieron invadir irak desde persia, los turcos estaban avanzando hacia el caucaso
+- Enver Pasha guiado por el nacionalismo turco, buscaron unificar a los turcos atravezando el caspio y conquistar kazakstan turkistan etc. aprovechando la revolucion rusa
+- Debido a su nacionalismo Enver no invirtio recursos para contrarrestar a los Britanicos en el sur lo cual causo su derrota
+- Cemal Pasha trabajaba en el sur y Enver en el norte
+- Friedrich Kress von Kressenstein, que trabajaba con los turcos entra en un ataque preventivo contra los britanicos sufren una terrible derrota y tienen que replegarse
+-  El estado britanico empieza a promover la independencia de los arabes, como se ve en Lawrence from arabia
+- Cemal Pasha empezó a establecer leyes draconicas que fusilaban a cualquier sospechoso de nacionalista arabe, no habia un nacionalismo previo a esto pero esta medida termina creando el nacionalismo arabe
+- Hussein ibn Ali al-Hashimi era el sherif (protector de lugares sagrados) de la meca, al-hashimi el cual es el clan del profeta
+- Los britanicos empiezan a financiar a Hussein ibn Ali Al-Hashimi para que promueva la independencia arabe
+- La primera guerra mundial amenazaba el peregrinaje a la meca lo cual afectaba a los Hashimitas, y se cortan los alimentos de egipto que eran britanicos
+- Hussein juega un doble juego obteniendo beneficios tanto de los britanicos y tanto de los otomanos
+- La Bandera que creo Hussein es usada por la mayoria de los paises actuales, las cuales buscaban el panarabismo
+- Cae la meca pero es un daño simbolico no un daño practico, no fue una verdadera amenaza contra los otomanos
+- No hay nada mas mentiroso que una autobiografia
+- Lawrence de Arabia es una ficcion completa
+- Muchos Arabes se referian a los beduinos como arabes, no se identificaban con el termino arabe aunque hablaran Arabe
+- Una derrota importante del imperio turco ocurrio en palestina pro Edmund Allenby
+- Los Britanicos usaron tropas Indias para entrar en jerusalen, para que no parezca una invasión cristiana en medio Oriente
+- Al final el ejercito no colapsa por los rusos ya que empieza la revolucion rusa, ni por los ingleses los cuales fracasan en su guerra
+- Los otomanos toman Baku pero es un territorio sin importancia tactica
+- El frente balcanico en bulgaria el menos importante por lejos de todos es el que colapsa por parte de los franceses bajo el comando de Louis Franchet d'Esperey
+- Elvet Pasha abdica al trono tras la derrota y el comite union y progreso sale del poder
+- Se establece un gobierno provicional a cargo de un official naval llamado Hüseyin Rauf Orbay
+- El gobierno se reune en un acorazado inglés llamado Agamenon, los ingleses comunmente usan el nombre de sus barcos para burlarse del enemigo, por ejemplo napoleon tras waterloo fue llevado en un barco llamado la bella gallina
+- Mustafá Kemal Es el unico general otomano que no es derrotado, y es de los pocos militares que no se rindieron, fue de los pocos militares que no estaban asociados al comite union y progreso
+- Von sanders, aconseja a Kemal de que escondan sus armas, por que los britanicos tratarian de Colonizarlos
+- Kemal tenia el ultimo ejercito, todos los demas fueron derrotados
+- La sociedad de naciones es una fachada de organizacion internacional en la que en realidad se apoyaba el expansionismo inglés y francés
+- Mustafá Kemal el occidentalizador de turquia, en un principio hizo promesas islamicas hablando desde el islam para motivar a los arabes y turcos para apoyar la resistencia  
+## Turquia moderna (Capítulo 4)
+- Al igual que romulo augusto, constantino, Mehmet tambien es el ultimo sultan
+- El visir termina pagando los platos rotos a pesar de que fue el comite union y progreso el causante de los problemas
+- Los turcos negocian contra Sir Somerset Gaugh-Calthorpe almirante del reino unido
+- El armisticio tenia la intencion de colonizar al imperio turco
+- Las conquistas logradas por elvet pasha por castigo son retomadas nuevamente por la union sovietica
+- Los britanicos empiezan a decomisar las armas uno a uno en fila soldado por soldado
+- Los britanicos tratan de someter a las elites anteriores
+- Mehmet VI expulsa a los jovenes turcos, y trata de empezar a organizar el imperio de un modo conservador tratando de restaurar la logica del antiguo regimen
+- Se empiezan a encontrar documentos acerca del genocidio armenio
+- El general frances al entrar a estambul lo hace cabalgando en un caballo blanco
+- Los ingleses empiezan a promulgar la libre determinacion de los pueblos en especial el griego, y empiezan a autoritariamente arrestar y desaparecer a todo otomano que se opusiera
+- El tratado sikes picot se hace cierto, se reparte el imperio turco entre franceses italianos griegos armenios e ingleses
+- Segun los franceses y britanicos, las tropas estaban en medio oriente para enseñar a los arabes a ser independientes de los otomanos, enseñandoles lo que es la libertad mandandoles soldados
+- Los nombres de los paises arabes son impuestos desde occidente por ejemplo nombres de regiones romanas, no son nombres escogidos por los arabes lo cual escandaliza a los arabes
+- Mustafá kemal encabeza la resistencia a todos estos eventos 
+- Una de las sociedades mas modernas es turquia debido a que logró escapar de occidente
+- Los occidentales querian restaurar toda grecia incluyendo constantinopla y ionia, proyecto que le llamaron la gran idea, el problema es que la zona ya no era griega, era completamente turca
+- Los griegos intentan conquistar toda turquia pero son derrotados en Ankara y Dumlupimar
+- Se celebran segundos acuerdos de paz dirigidos por Atatürk
+- Intercambian ciudadanos, turcos por Griegos y viseversa
+- Atatürk crea una republica laica para sepultar al imperio Otomano, se vuelve el primer estado musulman laico
+- Puesto que los armenios no buscaban aprender turco o convertirse musulmanes empiezan a exterminar a los armenios, solucionando un problema del nacionalismo turco
+- Un pretexto es que los armenios habian apoyado a los rusos, por esto fueron deportados al norte de siria a morir de sed y hambre
+- Las tropas irregulares de Kurdos son las que mas armenios asesinan
+- Al llegar a las zonas de trenes, los turcos les prohiben el uso de trenes "por que eran usados para la guerra"
+- Terminan las deportaciones por que ya no habia armenios
+- El 80% de los armenios del mundo mueren en esta situación
+- Tambien sufrieron masacres los sirios cristianos llamados Asirios y griegos ortodoxos
+- En la negociación de mudros se descubre el genocidio pero tambien empiezan a surgir documentos falsos para ocultar el genocidio armenio
+- Los kemalistas tambien ocultan los documentos del genocidio armenio
+# Turquia moderna (parte 5)
+- Los turcos logran expulsar a los rebeldes griegos
+- No era seguro que estuviera muerto el imperio otomano y que era logico tras su derrota que se creara una republica, que la republica iba a ser algo natural fue mas bien la agilidad politica de kemal
+- Varias reformas del periodo kemalista estaban basadas en el periodo tanzimat
+- Un estado laico no puede tener una monarquia, por que el rey se justifica al gobernar por mandato te dios
+- Al momento de la rendicion de Mehmet VI no habia criticas al sultan ni a la dinastia, fue despues que se empezó con kemal a hacer critica a ese sistema de gobierno, no se hablaba de crear una republica
+- Los metodos de gobierno turcos se mantienen, al igual que los bolcheviques aplicaban los mismos metodos del imperio ruso
+- Los kemalistas no oponian resistencia a recuperar territorios arabes debido a que seria contraproducente al crear una identidad Turca
+- Empiezan a hacerse intercambio de poblaciones dependiendo las etnias empezando una costumbre en medio oriente que termina en genocidios
+- Griegos en turquia se deportaban a grecia y viceversa
+- Monasterios griegos en turquia desaparecen
+- Los otomanos que habian hecho de atenas una de las ciudades mas ricas son expulsados, aqui es donde el imperio empieza a morir, la convivencia entre culturas empieza a desaparecer empezando xenofobia y separación
+- Los polacos y checos tambien intercambian poblacion con los alemanes, tambien asesinando alemanes en linchamientos
+- Los turcos tuvieron el mejor resultado de los aliados, con el tratado los de la triple entente se retira de turquia
+- Ismet Inönü fue el primero en buscar la republica, es el segundo presidente de turquia despues de Kemal
+- Se vota la destitución del Mehmet VI y la abolición del Califato, institución que existía desde Abu Bakr
+- Kemal crea el partido Halk Partisi, crea un partido politico único y elimina a la oposición
+- Kemal veia a el islam como un obstaculo para crear una turquia moderna y buscaron estrechar lazos con la europa a la que veian como civilizada
+- La mayoria de los turcos extrangeros regresaron a anatolia, un tercio de la poblacion no conocia a su propio país
+- Esto causa problemas con la alimentación, llega gente que no conoce la tierra tratando de plantar en ambientes completamente contrarios 
+- Turquia se recupera hasta la decada de los 40s despues de todas las muertes y daño a la economia por la perdida de interaccion con los armenios
+- Buscaron crear una capital que no tuviera relacion con el islam y edificios otomanos como los que había en turquia
+- La caida del Califa termina politizando aún más el islam
+- La constitucion turca termina siendo mas liberal que algunas constituciones europeas, respondiendo tambien a las demandas populares
+- La razon de prohibir los abyads por encima del alfabeto era para evitar que los nuevos ciudadanos turcos no pudieran entender su pasado, no podrían leer informacion del periodo otomano y olvidarán su pasado
+- El estado se encargaría de enseñar el islam quitandole el poder a los ulemás
+- En escuela se obliga al uniforme asi evitar que se distinguieran clases sociales o etnias
+- Se formaliza el nombre, anteriormente se usaba el estilo de apellidos, y se cambiaron al estilo europeo
+- El fez y el turbante es prohibido
+- El velo queda prohibido
+- Los paises independientes por lo general terminan imitando al imperio otomano tras independizarse
+- El imperio otomano no realizaba expulsiones o conversiones forzosas de hecho pedian consejo a patriarcas cristianos o judios
+- Los cristianos de los balcanes preferian ser gobernados por rusos zaristas que eran herederos de los bizantinos, y los turcos, lo que nunca hubieran deseado es aliarse con los latinos

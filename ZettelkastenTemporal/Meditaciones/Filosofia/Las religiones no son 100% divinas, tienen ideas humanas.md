@@ -1,0 +1,4 @@
+- Las visiones de mahoma se volvieron administrativas al momento de llegar a medina
+- Aquel que conquistara constantinopla tenia el paraiso asegurado
+- El zoroastrismo se parece mucho al cristianismo
+- Se pueden rastrear las ideas que hay en la biblia en otras culturas anteriores

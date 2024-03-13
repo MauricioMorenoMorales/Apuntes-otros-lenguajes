@@ -31,6 +31,8 @@ defmodule Rules do
     touching_power_pellet or touching_dot
   end
 
+
+
   @spec lose?(boolean, boolean) :: boolean
   def lose?(power_pellet_active, touching_ghost) do
     is_posible_to_lose = not power_pellet_active
@@ -1342,7 +1344,7 @@ defmodule WineCellar do
     ]
 
   def filter(cellar, color, opts \\ [])
-  
+
   def filter(cellar, color, []), do: cellar |> Keyword.get_values(color)
   def filter(cellar, color, filters) do
     cellar = filter(cellar,color)

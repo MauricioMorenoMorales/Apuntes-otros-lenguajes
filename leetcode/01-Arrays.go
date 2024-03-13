@@ -418,12 +418,11 @@ func rotate(nums []int, k int) {
 	}
 }
 
-func rotate_s(nums []int k int) {
+func rotate_s(nums []int, k int) {
 	k = k % len(nums) // quita sobrante con el modulo
 	reverse(nums, 0, len(nums) -1)// cero--final
 	reverse(nums, 0, k-1)// cero k
 	reverse(nums, k, len(nums)-1) // k final
-
 }
 
 func reverse(nums []int, start, end int) {
@@ -460,7 +459,71 @@ func leastBricks(wall [][]int) int {
 	return len(wall) - maxValue(sumRegister)
 }
 
+//! equilibra un string
+/*
+"][][" -> 1
+"]]][[[" -> 2
+"[]" -> 0
+*/
+func minSwaps(s string) int {
+	var maxCount int
+	var currentCount int
+
+	for _, value := range s {
+		if value == ']' {
+			currentCount++
+		} else {
+			currentCount--
+		}
+		if currentCount > maxCount {
+			maxCount = currentCount
+		}
+	}
+	return maxCount + 1 >> 1
+}
+
+//! Hash map optimization
+// Memory
+
+func MyHashSet struct {
+	data map[int]bool
+}
+
+func Constructor() MyHashSet {
+	return MyHashSet{
+		data: make(map[int]bool),
+	}
+}
+
+func (this *MyHashSet) Add(key int) {
+	delete(this.data, key)
+}
+
+func (this *MyHashSet) Contains(key int) bool {
+	_, ok := this.data[key]
+	return ok
+}
+
+//! Best time to buy and Sell Stock II
+
+/*
+  [7,1,5,3,6,4] |> 7
+  [1,2,3,4,5]   |> 4
+	[7,6,4,3,1]   |> 0
+*/
+
+func maxProfit(prices []int) int {
+	var maxProfit int
+	for i := 0; i < len(prices) -1; i++ {
+		if prices[i] < prices[i+1] {
+			maxProfit += prices[i+1] - prices[i]
+		}
+	}
+	return maxProfit
+}
+
 //! Notes %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%5
+
 
 // Sortear
 // Dos punteros
@@ -468,6 +531,8 @@ func leastBricks(wall [][]int) int {
 // Por hacer reverse
 // Nesting for loop
 	// Conditional nested for
+
+// Cuando busques balances usa un 0 suma y resta dependiendo el balance
 
 /* Si tu iteracion ocupa obtener informacion de tanto el lado derecho o izquierdo puedes conocoerlo
 usando tablas de hash */

@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d894cc94c6ddc922",
+            "id": "4df92b968fdbc6ca",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+                "file": "Recursos/Historia/Arabia.md",
                 "mode": "source",
                 "source": false
               }
@@ -32,12 +32,12 @@
             }
           },
           {
-            "id": "0f6b9ff945f08007",
+            "id": "d894cc94c6ddc922",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Geometry.md",
+                "file": "Recursos/Historia/Arabia.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200
   },
   "right": {
     "id": "a0c39640caf4c3e8",
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Matematicas/Geometry.md",
+                "file": "Recursos/Historia/Arabia.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Matematicas/Geometry.md",
+                "file": "Recursos/Historia/Arabia.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Matematicas/Geometry.md"
+                "file": "Recursos/Historia/Arabia.md"
               }
             }
           }
@@ -171,35 +171,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0f6b9ff945f08007",
+  "active": "d894cc94c6ddc922",
   "lastOpenFiles": [
-    "Recursos/Historia/Turquia.md",
-    "Recursos/Matematicas/Derivadas.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
-    "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Matematicas/Algebra Through puzzles.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
-    "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Matematicas/Algebra 2.md",
-    "Recursos/Matematicas/Geometry.md",
     "Recursos/Matematicas/Repasos.md",
-    "Recursos/Matematicas/Trigonometria.md",
-    "Recursos/Matematicas/Understanding Graphs.md",
+    "Recursos/Historia/Arabia.md",
+    "Recursos/Filosofia/John Vervaeke Course.md",
+    "Recursos/Historia/Turquia.md",
     "Recursos/Historia/Rusia.md",
-    "Pasted image 20230802052018.png",
-    "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
+    "Recursos/Historia/Historia de los arabes.md",
+    "Recursos/Matematicas/Geometry.md",
+    "Meditaciones/Exclavitud.md",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Matematicas/Estadistica.md",
+    "Recursos/Matematicas/Teoria de numeros.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
+    "Recursos/Matematicas/Current lessons repased.md",
+    "Recursos/Matematicas/Discrete mathematics.md",
+    "Recursos/Matematicas/Trigonometria.md",
+    "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
+    "Meditaciones/Filosofia/Nacionalismos.md",
+    "Meditaciones/Filosofia/Naturaleza humana.md",
+    "Recursos/Matematicas/Bases numericas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
-    "Meditaciones/Filosofia/Roma se convirtio en la iglesia catolica.md",
-    "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
-    "Meditaciones/Filosofia/Libre albedrio.md",
-    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
-    "Meditaciones/Filosofia/Critica Gustavo bueno.md",
-    "Recursos/Filosofia/La Pasión de la mente occidental.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Libros/Untitled.md",
-    "Recursos/Filosofia/Teologia/Religion Egipcia.md",
     "Recursos/Libros a comprar.md",
+    "Recursos/Matematicas/Algebra 1.md",
+    "Recursos/Matematicas/Derivadas.md",
+    "Meditaciones/Filosofia/Las religiones no son 100% divinas, tienen ideas humanas.md",
+    "Pasted image 20230802052018.png",
     "Recursos/Historia/Untitled",
     "Meditaciones/Filosofia",
     "Meditaciones",

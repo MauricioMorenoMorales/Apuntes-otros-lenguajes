@@ -1,6 +1,6 @@
 ; retorna valores sobre como hacer una lasagna ===========================
 
-(require '[clojure.string :as str :refer [join split trim includes? replace]])
+(require'[clojure.string :as str :refer [join split trim includes? replace]])
 (def ƒ #(%2 %1 %3)) (def is #(%2 %1))
 
 (ns lucians-luscious-lasagna)
@@ -789,7 +789,7 @@ sd
 
 (defn numerals
   [number]
-  (let [=> #(if (>= number 5000) number %)
+  (let [=> #(if (>= number 5000) (throw "Invalid input") %)
         number-string (-> number str reverse)
         [units tens hundreds thousands] number-string
         thousands-map {\1 "M" \2 "MM" \3 "MMM" \4 "MMMM"}
@@ -919,10 +919,9 @@ sd
   :jupiter   11.862615
   :saturn    29.447498
   :uranus    84.016846
-  :neptune  164.79132
-  })
+  :neptune  164.79132})
 
-(doseq [[planet earth-years] orbital-periods]
+(doseq [[et earth-years] orbital-periods]
   (intern *ns* (symbol "on-" (name planet)))
   (fn [s]
     (/ s year-seconds earth-years)))
@@ -947,10 +946,10 @@ sd
   (some #{coll1} (partition (count coll1) 1 coll2)))
 
 (defn classify [coll1 coll2]
-  (cond (= coll1 coll2) :equal
+  (cond (= coll1 coll2)        :equal
         (sublist? coll1 coll2) :sublist
         (sublist? coll2 coll1) :superlist
-        :else :unequal))
+        :else                  :unequal))
 
 ;;! Funcionamiento de mapcat
 

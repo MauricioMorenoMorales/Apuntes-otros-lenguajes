@@ -940,3 +940,41 @@ func getSum(a int, b int) int {
 	}
 	return response
 }
+
+var romanNumerals = map[int]string{
+	1000: "M",
+	900:  "CM",
+	500:  "D",
+	400:  "CD",
+	100:  "C",
+	90:   "XC",
+	50:   "L",
+	40:   "XL",
+	10:   "X",
+	9:    "IX",
+	5:    "V",
+	4:    "IV",
+	1:    "I",
+}
+
+func intToRoman(num int) string {
+	roman := ""
+	keys := make([]int, 0, len(romanNumerals))
+
+	for key := range romanNumerals {
+		keys = append(keys, key)
+	}
+
+	// Ordenar las claves en orden descendente
+	for i := len(keys) - 1; i >= 0; i-- {
+		key := keys[i]
+		value := romanNumerals[key]
+
+		for num >= key {
+			roman += value
+			num -= key
+		}
+	}
+
+	return roman
+}

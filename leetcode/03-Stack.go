@@ -15,7 +15,7 @@ func (s *Stack) Pop() int {
 	return response
 }
 
-func 
+func
 
 //! Reverse polish notation
 func evalRPN(tokens []string) int {
@@ -44,4 +44,19 @@ func evalRPN(tokens []string) int {
 		}
 	}
 	return stack.Pop()
+}
+
+type Stack struct {
+	data []int
+}
+
+func (stack *Stack) Add(value int) {
+	stack.data = append(stack.data, value)
+}
+
+func (stack *Stack) Peek() (response int, success bool) {
+	if len(stack.data) == 0 {
+		return 0, false
+	}
+	return stack.data[len(stack.data)-1)], true
 }

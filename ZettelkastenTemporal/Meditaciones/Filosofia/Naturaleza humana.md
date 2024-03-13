@@ -1,0 +1,1 @@
+- Las expresiones faciales son las mismas independientemente la epoca y cultura

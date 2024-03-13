@@ -19,25 +19,24 @@
 - Parallel lines: lines that are always the same distance apart They never meet
 - Perpendicular lines: una cruz, lines that intersect to form four right angles
 - Plane: a flat 2d surface that extends infinitely in all directions
-- Coplanar: pooints lie on the same plane
-- Congruent lines: Two line segments that have the same length
+- Coplanar: pooints lie on the same plane <<<
+- Congruent lines: Two line segments that have the same length <<<
 - Segment mid point a poiont that divides the line segment into two congruent segments
-- Segment bisector: is a line ray, segment, or plane that passes through a ssegment at its midpoint (bisects it).
+- Segment bisector: is a line ray, segment, or plane that passes through a ssegment at its midpoint (bisects it). <<< 
 - Right angle: measures 90
 - Acute angle: Measures less than 90
 - Obtuse angle: Measures greater than 90 and less than 180
-- Adjacent angles: Angles that lie in the same plane, have a commond (the same) vertex, share a common side, and have no common interior points.
-- Non-Adjacent angles: Angles that do not have a vertex or a side in common.
+- Adjacent angles: Angles that lie in the same plane, have a commond (the same) vertex, share a common side, and have no common interior points. <<<
+- Non-Adjacent angles: Angles that do not have a vertex or a side in common. <<<
 - Congruent Angles: Two angles are congruent if their angle measures are equal
 - Angle pairs: Two angles can be related to each other by their measures or orientations. These are called Angle Pairs. There are different types of angle pairs.
-- Adjacent Angles: Lie in the same plane, have a common vertex, share a common side, and have no common interior points.
-- Vertical angles: are nonadjacent and opposite each other. They are formed when two lines intersect. They share same vertex.
-- Complementary angles: two angles whose sum is 90 degrees
-- Supplementary angles: Two angles whose sum is 180
-- Linear Pair: Two angles that are adjacent and supplementary
+- Adjacent Angles: Lie in the same plane, have a common vertex, share a common side, and have no common interior points. <<<
+- Vertical angles: are nonadjacent and opposite each other. They are formed when two lines intersect. They share same vertex. <<<
+- Complementary angles: two angles whose sum is 90 degrees <<<
+- Supplementary angles: Two angles whose sum is 180 <<<
+- Linear Pair: Two angles that are adjacent and supplementary <<< 
 - Angle Bisectors: An angle bisector is a ray that divides an angle into two congruent angles.
 - Perpendicular bisector: A Perpendicular Bisector is a line, ray or line segment that divides a line segment into two congruent segments and forms four right angles with it.
 - Inductive Reasoning is used to form hypotheses (explanations) based on a set of observations. The explanation or conclusion, is called a Conjecture
 - Inductive Reasoning: uses specific examples or past observations to reach a conclusion
 - Deductive ReasoningL uses given facts and statements to reach a conclusion logically.
-- 
