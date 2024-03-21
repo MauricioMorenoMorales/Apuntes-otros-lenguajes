@@ -35,23 +35,16 @@ type falsy = false | null | undefined
 type ListNodeNull = ListNode | null
 //! Helpers ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
 
-function swapPairs(head: ListNode | null): ListNode | null {
-  let dummy = new ListNode(0, head)
-  let previous = dummy, current = head
+// _([1,2,1])(
+//   generateRow,
+//   generateRow,
+//   generateRow,
+//   console.log
+// )
 
-  while(current && current.next) {
-    // Saving pointers
-    const nextNext: ListNode | null = current.next.next
-    const next: ListNode | null = current.next
-
-    // Reverse pointers
-    next.next = current
-    current.next = nextNext
-    previous.next = next
-
-    // Update pointers
-    previous = current
-    current = nextNext
-  }
-  return dummy.next
-}
+// console.log(generate(1))
+// console.log(generate(2))
+// console.log(generate(3))
+// console.log(generate(4))
+// console.log(generate(5))
+// console.log(generate(6))

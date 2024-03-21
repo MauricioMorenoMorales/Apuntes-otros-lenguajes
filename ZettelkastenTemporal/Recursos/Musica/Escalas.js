@@ -11,7 +11,7 @@ const escalas = {
       cuartas: 66 * 4n, //TODO
     },
     la: {
-      octavasComleta: 69 * 4n, //TODO
+      octavasComleta: 80 * 4n, //TODO
       cuartas: 69 * 4n //TODO
     }
   }

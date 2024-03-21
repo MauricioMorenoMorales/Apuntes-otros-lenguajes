@@ -6,29 +6,20 @@ import (
 	"unicode"
 )
 
-//! contains duplicate
+//! 217. contains duplicate
 
-func generateSet(list []int) []int {
-	var setMap = map[int]bool{}
-	for _, value := range list {
-		setMap[value] = true
-	}
+/*
+  Input: nums = [1,2,3,1]
+  Output: true
+  Example 2:
 
-	var response []int
-	for key := range setMap {
-		response = append(response, key)
-	}
-	return response
-}
+  Input: nums = [1,2,3,4]
+  Output: false
+  Example 3:
 
-func containsDuplicate(nums []int) bool {
-	listWithoutRepetitionsSize := len(generateSet(nums))
-	listSize := len(nums)
-
-	return listWithoutRepetitionsSize != listSize
-}
-
-//? Speed -----------------------------------------------
+  Input: nums = [1,1,1,3,3,4,3,2,4,2]
+  Output: true
+*/
 
 func containsDuplicateS(nums []int) bool {
 	sNums := make(map[int]bool)
@@ -55,8 +46,17 @@ func containsDuplicateM(nums []int) bool {
 	return false
 }
 
-//! Is anagram
+//! 242 Valid Anagram
 
+/*
+Input: s = "anagram", t = "nagaram"
+Output: true
+
+Input: s = "rat", t = "car"
+Output: false
+*/
+
+//TODO
 func isAnagram(s string, t string) bool {
 	if len(s) != len(t) { return false }
 

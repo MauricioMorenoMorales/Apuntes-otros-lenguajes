@@ -96,6 +96,7 @@
 - El derecho frances empieza a influenciar medio oriente
 - A finales del siglo 19 turquia se quiebra tunez que era independiente se quiebra al igual egipto lo cual aumenta la intervención de europa, se crean estados dentro del estado encargados de administrar la deuda publica
 - En alejandria empieza una rebelion contra los europeos, empiezan a poner pancartas que decian "egipto para los egipcios", los britanicos llegan y bombardean la ciudad de alejandria destruyendola, reprimen la revuelta con un baño de sangre, y a partir de alli egipto se convierte en un protectorado britanico
+- Los britanicos obtienen (autonomía) impunidad de los ciudadanos europeos, sus capitalistas se vuelven los dueños de las economías de estos territorios
 # Entender el medio oriente 3
 - Con el nacimiento de las ciencias exactas se empiezan a usar para justificar el racismo, evaluar la gente por posiciones de la nariz y tamaño de la cabeza
 - Controlar el medio oriente a travez de las comisiones de la deuda era mas barato, ya que era indirecto se dividia la administracion entre locales otomanos y europeos
@@ -153,6 +154,7 @@
 - El termino medio oriente es acuñado por Alfred T. Mahan que escribe "la influencia del poder maritimo en la historia" que habla del peligro de los alemanes influyendo en turquia la cual podria intervenir en el comercio con inglaterra en la india, alemania era la primera potencia del mundo
 - Se trata de intervenir en medio oriente para proteger las lineas comerciales del mundo
 - Los imperios eran integradores los nacionalismos eran excluyentes tu si eras frances no podias ser aleman ni ser español en un imperio se incluian varias nacionalidades y se les federaba
+- Con el General Treaty empiezan los britanicos a coptar a las elites de la región crear una pax britanica en la zona y la zona de emiratos arabes unidos qater es llamada la costa de la tregua, a la zona les llaman los emiratos de la tregua, los miembros renuncian a tener politica exterior, todo esto pasó a finales del siglo XIX e inicios del siglo XX
 # Entender el medio oriente 4
 - La primera guerra mundial en europa termina en 1918 pero en medio oriente termina en 1924
 - nacionalismo es la idea de que las fronteras politicas tienen que coincidir con una cultura
@@ -393,3 +395,63 @@
 - Empieza la guerra del golfo lo cual radicaliza lo que ya estaba pasando
 - Existe tambien movimientos religiosos moderados democraticos por ejemplo Saad Hariri
 - Cuando cae la union sovietico un numero grande de judios sovieticos con conocimientos tecnicos empiezan a migrar a israel
+# Entender el medio oriente 8
+- En occidente pensamos que la democracia es la modernidad, la organización moral
+- Occidente soportaba regimenes autoritarios o islamistas con tal de que se beneficiaran de ellos, aunque esto alimentaba a futuros enemigos
+- Bashar al-azad "ganaba" con un 99% de los votos
+- La democracia no es solo ser capaz de elegir un lider si no de igual controlarlo una vez en el poder
+- Las industrias externas destruyen las industrias locales
+- Los paises empiezan a invertir un porcentaje muy alto del PIB en las fuerzas militares
+- Los poderes laicos empiezan a parecer mas Hereditarios, como con la familia Al-azad y la familia Mubarak Saleh y Saif-al-islam de gadafi
+- Aparecen los Neocons que buscaban hacer de EEUU un policia global
+- A pesar de Arabia saudita tener nexos con Al-Qaeda muy grandes, EEUU no bombardea arabia por que eran provedores de petroleo y contenian a la Meca la cual causaria un levantamiento en la region en vez de eso invaden Afganistán
+- Los americanos ponen a Hamid Karzai en el poder de afghanistan uno de los lideres mas corruptos de la humanidad
+- Después atacan a Iraq quitando al presidente y generando una zona de anarquia que succiona a todo medio oriente creando guerras civiles
+- Las primaveras arabes mas que traer el paraiso democratico termina en guerras civiles y más anarquia y facciones combatientes
+- Los refugiados de siria en europa son una minoria alrededor de un 5% comparado con migraciones a Libia Irak Turquia
+- La guerra del golfo fue una invasión mas que nada aerea, la guerra de Syria si fue una intervención terrestre mas intensa
+- El jefe de la diplomacia francesa Dominic Villepin hace una profecia, no invadan Irak por que crearan un monstruo peor de el que hay ahora que al menos garantiza en cierto modo la estabilidad de la región "se los dice un viejo país", Bush responde que en estados unidos las papas a la francesa se empezaran a llamar las papas de la libertad
+- El objetivo de los estadounidenses era crear un modelo democrático en Irak que sea seguido por toda la región
+- Los norteamericanos llegaron al museo  y la biblioteca de Baghdagh y la saquearon, rompieron tablillas mesopotamicas y empezaron a aparecer en colecciones privadas en estados unidos
+- Los estados unidos ponen de Embajador Virrey Paul Bremer, que empieza a governar a travez de decretos, les prohibe a todas las elites de Irak ejercer el poder y purga el ejercito iraki prohibe el partido Ba'ath
+- Iran practicamente empieza a financiar y organizar irak después del desastre que hizo estados unidos
+- Empiezan a haber organizaciones etnicas propensas a hacer genocidios
+- Abu Musab al-Zarqawi empieza a llamar a layihad empezando asi el estado islamico rival de Al Qaeda
+- Empieza el terrorismo en europa
+- En Irak empiezan a hacerse purificaciones etnicas, milicias Chiitas como el Ejército del Mahdi (descendiente del imam perdido) que buscaban eliminar a quienes apoyaron a hussein
+- Llegan asesinan a Hussein que era sunita, empiezan a armar chiitas para convatir sunitas, despues de las masacres del Ejército del Mahdi empiezan a armar a Chiitas
+- Obama retira el ejercito dejando Chiitas en el poder
+- Para los locales el estado islamico era visto como una organización de liberación nacional lo cual hace que esta crezca exponencialmente, toman Mosul ciudad de 2 millones de habitantes una de las más grandes de la zona
+- El estado no respondía por la sociedad, lo eran las ONGS las cuales tambien se hacen militantes y empiezan a sacar gente a las calles en los años 2011
+- Mohamed Buazizi ante el abandono del estado se inmola con fuego, lo cual empieza a generar una revolucion en tunez quienes tumban el gobierno
+- En egipto tambien logran derrocar al regimen, se unieron cristianos, musulmanes, de todos los tipos a pedir pan libertad y justicia social
+- En libia empiezan las revueltas pero en este caso son violentas se hace una guerra civil en contra y en apoyo de Gadhafi
+- Bashar al-Asad fomenta una politica del terror y de dividir a los enemigos para poder vencerlos
+- Bashar al-Asad empieza a usar el Islam a su favor desacreditando a sus opositores de laicos
+- Bashar al-Asad empieza a usar armas quimicas, se alia con distintas facciones religiosas, libera terroristas en las montañas para que terminaran peleando contra sus enemigos
+- Bashar al-Asad envia helicopteros que soltaban barriles con polvora y clavos para generar terror
+- Boris yeltsin tras la caida de la union sovietica crea un regimen policial y corrupto peor que el de la union sovietica, al llegar putin del mismo modo crea un regimen igual peor que el de yeltsin
+- Sultan -> Emperador, Emir -> Jefe militar local o gobernador, Kalifa -> Heredero del profeta
+- El Daesh es autosuficiente e independiente de externos y buscaban crear un Califato
+- Los kurdos con los Peshmerga luchaban contra el estado Islamico, no son santos los mismos Peshmerga son los principales asesinos de armenios en el genocidio armenio
+- Azerbaijan existe por que los rusos conquistaron ese territorio a los Iranies
+- El Daesh denunciaba que las fronteras de medio oriente eran creadas artificialmente por el imperialismo europeo y buscaba justicia y volver a unir a los musulmanes de la zona
+- Arabia saudita empieza a luchar contra el Daesh a pesar de que tenian los mismos objetivos, a pesar de regirse bajo el mismo sistema legal por que no buscaban una competencia
+- El daesh tenia un proyecto civilatorio que incluso seducia a europeos a ir a combatir a occidentales
+- Por medio del terrorismo el Daesh buscaba alimentar la islamofobia, por que entre mas occidente odiara al islam mas lo iba a reprimir, y entre mas lo reprimieran mas gente iba a defender el estado Islamico
+- Quienes finalizan al estado islamico fueron los rusos en el 2015 desde el caspio empiezan a lanzar misiles a diestra y siniestra terminando destruyendo al Daesh
+# Entender el medio oriente Final
+- Medio oriente es vulnerable a el cambio climatico hasta este momento empiezan a verse cada vez mas los peligros acercandose
+- La presa de asuan buscaba la modernidad pero ha estado afectando la disponibilidad de agua
+- Etiopia busca crear su propia presa la cual puede afectar a egipto y generar tensiones politicas
+- El turismo masivo tambien empieza a generar problemas
+- Zabol es la ciudad mas contaminada del mundo Riyad es una de las mas contaminadas del mundo también
+- En medio oriente normalmente dejan los carros prendidos con el aire acondicionado puesto para que no se caliente el carro
+- Estambul se empieza a gentrificar por gente de los emiratos árabes 
+- Los terremotos llegan a afectar por que los edificios son ilegales por la gentrificacion
+- Por la presión economica que conlleva tener muchos hijos (y que estos sobrevivan), las familias empiezan a tener cada vez menos hijos
+- En medio oriente tambien tiene un gran impacto las novelas televisivas
+- En el islam hay muchos tipos de matrimonio, existe el matrimonio temporal, el cual no da garantias a la mujer pero permite relaciones sexuales por un tiempo determinado, esta práctica habia quedado en desuso pero en el presente empieza a revivirse
+- Los principales promotores de los nacionalismos arabes eran cristianos ya que en esos proyectos cabia su existencia cosa que no pasaba con un nacionalismo musulman
+- Casi todos los judios de medio oriente desaparecen terminan yendo a israel
+- Cuando nasser nacionalizaba una empresa tambien la islamizaba llenaba con gente islamica terminando obligando a los cristianos a salir
