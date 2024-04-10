@@ -26,3 +26,6 @@
          (map #(str % "ay"))
          (join #" ")
          (trim))))
+
+
+(translate "")

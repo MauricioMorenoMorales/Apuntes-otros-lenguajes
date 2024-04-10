@@ -37,3 +37,14 @@
 - El problema de los 9 puntos, demuestra que inconscientemente le imponemos ciertas reglas a algo, lo mismo que nos permite adaptarnos u optimizar procesos puede limitarnos
 - Los chamanes por lo general son carismaticos, logran desencadenar el efecto placebo de las personas
 - El efecto placebo es real, un porcentage de las medicinas son placebos
+# Capitulo 2 Flow Methaphor and the Axial Revolution
+[Mikhail Csikszentmihalyi -> flow, ]
+- La experiencia de flujo es descrita como estar en la zona, un punto medio entre dificultad alta o baja, si es muy alta te estresas, si es muy baja te aburres, los errores te dan informacion clara y aprendes tras de ellos facilmente
+- Actualmente el flujo es inducido por los videojuegos para este modo ser adictivos
+- Las adicciones usan 
+- El escalar rocas genera el estado de flujo facilmente
+- El estado de flujo es altamente positivo, esta muy relacionado con el significado en la vida, de hecho entre mas tiempo pases en estado de flujo mayor la probabilidad de que califiques tu vida como significativa te sentiras mejor
+- El chamanismo tambien buscaba llegar a estar en ese estado
+- En diferentes culturas se menciona el estado de flujo, solo que usando distintas metaforas, al ser un global son importantes en las ciencias cognitivas debido a que te aportan informacion importante de tu maquinaria interna
+- Cuando estas en estado de flujo te sientes completamente uno con las cosas, te sientes conectado con la actividad te olvidas de ti mismo y llegsa a obtener cierto grado de espontaneidad, todo fluye automaticamente de adentro de uno, tambien el mundo se ve mas intenso se siente mas interiorizado te sientes mas conectado a él y sientes que haces tu mejor trabajo
+- Para obtener el estado de flujo necesitas un equilibrio entre habilidad y dificultad, la informacion tiene que ser muy clara no ambigua, y los errores tienen que aportar informacion importante que cambie tu forma de trabajar

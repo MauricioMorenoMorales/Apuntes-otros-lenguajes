@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Discrete mathematics.md",
+                "file": "Recursos/Historia/Roma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0eb7165b3522b54d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Matematicas/Estadistica.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +37,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Historia/Arabia.md",
+                "file": "Recursos/Filosofia/John Vervaeke Course.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -41,24 +53,6 @@
     "id": "50bd84640fd2d420",
     "type": "split",
     "children": [
-      {
-        "id": "f8404b27a5225cb4",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "4df92b968fdbc6ca",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Historia/Arabia.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
       {
         "id": "cc213368c83ad337",
         "type": "tabs",
@@ -100,7 +94,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 389.5124969482422
   },
   "right": {
     "id": "a0c39640caf4c3e8",
@@ -116,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Historia/Arabia.md",
+                "file": "Recursos/Filosofia/John Vervaeke Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -133,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Historia/Arabia.md",
+                "file": "Recursos/Filosofia/John Vervaeke Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Historia/Arabia.md"
+                "file": "Recursos/Filosofia/John Vervaeke Course.md"
               }
             }
           }
@@ -179,32 +173,32 @@
   },
   "active": "d894cc94c6ddc922",
   "lastOpenFiles": [
-    "Recursos/Matematicas/Repasos.md",
-    "Recursos/Historia/Arabia.md",
-    "Recursos/Filosofia/John Vervaeke Course.md",
-    "Recursos/Historia/Turquia.md",
-    "Recursos/Historia/Rusia.md",
-    "Recursos/Historia/Historia de los arabes.md",
-    "Recursos/Matematicas/Geometry.md",
-    "Meditaciones/Exclavitud.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Historia/Roma.md",
     "Recursos/Matematicas/Estadistica.md",
-    "Recursos/Matematicas/Teoria de numeros.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
+    "Recursos/Matematicas/Algebra 2.md",
+    "Recursos/Matematicas/Algebra 1.md",
+    "Recursos/Matematicas/Algebra Through puzzles.md",
+    "Recursos/Matematicas/Derivadas.md",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
     "Recursos/Matematicas/Current lessons repased.md",
     "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Matematicas/Trigonometria.md",
-    "Recursos/Filosofia/Teologia/Libros/Filosofia como rito de renacimiento.md",
-    "Meditaciones/Filosofia/Nacionalismos.md",
-    "Meditaciones/Filosofia/Naturaleza humana.md",
     "Recursos/Matematicas/Bases numericas.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
-    "Recursos/Filosofia/Metafisica/Idealismo/Libros/Untitled.md",
-    "Recursos/Libros a comprar.md",
-    "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Matematicas/Derivadas.md",
-    "Meditaciones/Filosofia/Las religiones no son 100% divinas, tienen ideas humanas.md",
+    "Recursos/Historia/Rusia.md",
+    "Recursos/Historia/Historia de los arabes.md",
+    "Recursos/Filosofia/La Pasión de la mente occidental.md",
+    "Recursos/Filosofia/John Vervaeke Course.md",
+    "Recursos/Filosofia/Definicion filosofia.md",
+    "Meditaciones/Filosofia/Nacionalismos.md",
+    "Meditaciones/Filosofia/Autores compatibles con el idealismo.md",
+    "Recursos/Historia/Arabia.md",
+    "Recursos/Matematicas/Repasos.md",
+    "Meditaciones/Filosofia/Naturaleza humana.md",
+    "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
+    "Meditaciones/Filosofia/Libre albedrio.md",
+    "Untitled.md",
+    "Recursos/Historia/Turquia.md",
+    "Recursos/Matematicas/Geometry.md",
+    "Meditaciones/Exclavitud.md",
     "Pasted image 20230802052018.png",
     "Recursos/Historia/Untitled",
     "Meditaciones/Filosofia",

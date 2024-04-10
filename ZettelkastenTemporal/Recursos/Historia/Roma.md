@@ -1,0 +1,241 @@
+# Republica 1
+[Mary Beard<-: Roman Triuph, John Scheid: Roman Religions, Julio Cesar: Comentarios de las guerras de las galias, Suetónio: la vida de los 12 cesares, Tito livio, Cicerón, Relato de los gestos del divino augusto, Plinio el viejo, Robots y maquinas de la antiguedad, Olores de la antiguedad, torturar en la antigüedad, el reir entre los antiguos, el emperador como gobernar en grecia y roma, la infancia en grecia y en roma]
+- Los Conceptos romanos no son iguales a los actuales por ejemplo democracia republica pretor consul etc.
+- En un principio italia estaba dominada por dos civilizaciones, los etruscos y los griegos tambien con participación de los fenicios
+- Italia estaba poblada por pueblos pre indo europeos, pueblos anteriores a la llegada de los indoeuropeos por ejemplo los vascos, por ejemplo los Ligurios, los Cicanos, los Siculos, Tienen tradiciones muy distintas a los Indoeuropeos, son pueblos matriarcales, que influenciaron en algunos cultos femeninos en roma como afrodita 
+- Los indo europeos provienen del sur de rusia y este de ucrania
+- Algunos pueblos indoeuropeos son los Vénetos, los Voyanos Zenones y los Isubrios, los Umbrianos (los mas poderosos del centro de italia), los sabinos que eran vecinos de los romanos, tambien llamados samnitas y los Latinos que vienen del Lascio el cual es el pueblo mas antiguo
+- Los Etruscos tambien llamados como los Tuski o Etruski, de donde viene la Toscana, fue el pueblo mas poderoso de la región 
+- Los Etruscos destacan en la zona por ser una civilización altamente urbanizada, fue referente romano, ellos tenian magistrados y un senado conformado por gente mayor que en momentos de crisis convocaban a un dictador, el pueblo elige a los magistrados y su cargo dura un año, tiene una sociedad patricia casi feudal, es una sociedad Eclectica, en cuanto a religion es un culto revelado, nace a partir de profetas, por ejemplo tahez, tienen libros sagrados con prescripciones rituales, era una sociedad muy ritualizada, practicaban la hepatoscopia con higados, los etruscos construyeron ciudades con lineas rectas en vez de circulares, esto influenciaria a los romanos por ejemplo Kaituna, su lengua no influenció a los romanos al no ser indo-europea, no se sabe exactamente de donde viene, tesis proponen que proviene de la misma familia que el georgiano, su lenguaje no ha sido 100% descifrado, ellos crean el alfabeto Latino, el cual deberia de llamarse Etrusco
+- Oriente fue el referente del imperio romano temprano, los griegos y fenicios
+-  Los fenicios empiezan a influenciar en los etruscos, por ejemplo en los sarcofagos se empieza a usar estilos fenicios, tambien enseñan a los etruscos a lee
+- El sur de italia era considerada un lugar completamente Helenizada, comerciaban constantemente con Roma, e influenciaron en Roma
+# Republica Romana 2
+[Georges Dumézil]
+- Es dificil de conocer los origenes de roma, su fundacion está basada mas en mitos que en hechos objetivos
+- Al menos 3 reyes romanos no eran romanos tenian nombres Etruscos
+- Eneas escapa de troya y su estirpe es la que termina desembocando en Romulo y Remo
+- El relato de unos hermanos que se pelean y uno termina matando a otro es un tema comun en culturas indoeuropeas
+- Los romanos ubicaban la casa de Romulo y arte y estructuras contenidas alli se corresponden con los de la epoca de la fundación de Roma
+- Romulo al morir se convierte en el unico romano divinizado hasta la llegada de cesar, se le llamaba kirinos, normalmente en vez de ciudadanos en discursos se les llamaban kirites (los herederos de kirinos)
+- Lo probable es que romulo fuera un lider de una banda migratoria que se instaló y fundo un pueblo el cual corresponde al dia 21 de abril el dia de la diosa Pales la diosa de la ganaderia, de alli viene el nombre del monte palatino
+- Da la coincidencia de que fueron 7 reyes 7 el numero perfecto, lo cual hace dudar de que hubiera sido cierto
+- Georges Dumézil argumenta que todas estas historias son mitologicas
+- En roma habia ciertas castas, rezaban peleaban y trabajaban, los oratores, los velatores, y los laboratores, esto coincide que en la india tambien se encuentra esta tradición, la misma historia de los 7 reyes aparece en otros pueblos indo europeos
+- Estas sociedades tripartitas se les correspondian 3 dioses, los oradores a jupiter, los guerreros a marte y los trabajadores tenian a kirinos como dios, el dios de la agricultura funda roma
+- La historia de la Republica romana es una mezcla de tradiciones indoeuropeas con la realidad y tradiciones locales y adaptaciones a la historia griega
+- Después se hace una historia oficial en la que entra la historia de la loba
+- La fiesta de la inauguracion de roma se le llamaban los Lupercales -> Lobo un rito al lobo, el principal miedo de los pastores, los niños romanos se vestian con pieles se refugiaban en los montes y regresaban convertidos en adultos
+# Republica romana 3
+- Cuando llega la primera dinastia etrusca roma era un simple pueblo, al finalizar la ultima dinastia Etrusca roma ya era una ciudad, los romanos le deben su desarrollo a los etruscos
+- Tarquino el anciano, serbio tulio, y tarquino el sobervio eran los ultimos 3 reyes romanos que eran tambien etruscos, tarquino significa que alguien viene de Tarquina una ciudad etrusca
+- Se encuentras vestigios de cultura etrusca y alfabeto durante el reinado de los reyes romanos
+- Los etruscos aprendieron a secar fango y pantanos, ayudaron a secar los alrededores del palatino, de construir la cloaca Maxima y pavimentar ciertas zonas romanas
+- Los Etruscos importan tecnicas de construccion en piedra a los romanos, los herederos de romulo no construian en piedra, roma empezó a construir en piedra hasta la llegada de los Tarquinos como la muralla de Servio Tulio
+- El templo mas antiguo de roma es el templo de San Omobono dedicado a la diosa Fortuna
+- Los Tarquinos construyen el Templo de Júpiter OM (optimus maximus) muy fuerte muy grande
+- Los Tarquinios crean el senado y varias instituciones políticas, administraciones mas sofisticadas
+- Las 3 grandes castas, los que rezaban los que trabajaban y los que peleaban, que no eran indoeuropeos y no tenian esas 3 castas reorganizan la civilizacion como los etruscos, empiezan a dividir y organizar sus pueblos en territorios, la forma en la que se organizara roma en un futuro, las tribus ya no son por sus trabajos si no por su ubicación, habrán 4 tribus urbanas y 4 tribus rusticas, para ser ciudadano romano tendrias que pertenecer a una de las tribus, fueron aumentando de tamaño, eran administraciones como barrios o alcaldias
+- Las castas anteriormente no interactuaban, los etruscos lo que generaron era mayor igualdad e inclusión de la gente, la sociedad se separaba entre donde vivias y que tan rico eres
+- Aparece el censor el que contabilizaba a las personas libres dependiendo su vivienda y su fortuna, cada 5 años todos se tenian que presentar ante el censor y asignaba las clases sociales
+- Entre mas riqueza tenia una persona, mas responsabilidades debian de tener, el honor militar dependia de la riqueza de la persona, tenia que defender la ciudad
+- Las clases tenian subdiviciones las centurias de los cuales 50 prestaban servicio militar y 50 eran parte de la reserva, los jovenes y viejos
+- Los ricos peleaban las guerras tanto por que eran los que debia de defender más su honor pero tambien ellos pagaban su propio equipamiento, el estado no les daba dinero a los soldados para sus armas, habia gente excluida del servicio militar, si una persona no tenia practicamente fortuna no participaban en el ejercito, los esclavos no participaban en el ejercito ni los libertos, los huerfanos tampoco
+- La estructura politica es la misma que la militar, la centuria no solo dice quien va a la guerra si no tambien eran unidades de voto, iban en centurias a la guerra e iban en centurias a votar
+- Habia 193 votos, la primera clase, como eran los que tenian mas honor eran quienes podian obtener acaparar más votos, practicamente solo los ricos participan en la vida política
+- El ejercito y el gobierno eran propiedad privada de una elite
+- La ascendencia era importante en roma almenos hasta el siglo II,el estatus de una persona dependia de sus riquezas y de su patriciado, su ascendencia, tenian una clientela importante
+- Existia el clientelismo, se podia comprar votos
+- Tarquino el sobervio toma el poder apoyandose en el pueblo en contra del senado, le niega la sepultura a su antecesor lo cual era un sacrilegio, negarle ese cuerpo a los dioses, le quita una propiedad a los dioses tentandolos para que lo castiguen
+- Los pecados de tarquinio, se rodea de una guardia personal, fue hostil a la aristocracia era un populista, crea relaciones personales con ciertas familias practicando el favoritismo y el pecado final la violacion de Lucrecia, en la cual el hijo del rey viola a Lucrecia, una miebro de la élite, esto genera una revuelta liderada por Lucio Junio Bruto y fue considerado el fundador de la republica, pero en la historiografia se duda que Bruto haya existido
+- Mas bien parece que los Etruscos empiezan a perder el control sobre la zona, y empezaron a hacer revueltas contra los Etruscos, y buscaron crear un sistema sin reyes en los que no puedan influir los Etruscos
+- Tito Livio: Quien narra los eventos que terminaron con el dominio de tarquinio, tarquinio manipuló a la mujer apelando a manchar su honor si no lo hacia, después asesinó a la mujer
+- Los romanos tenian una autopercepcion de que el honor era mas importante que cualquier cosa que valia la pena morir por el
+# Republica Romana 4
+- Las republicas no aparecen de la nada van evolucionando añadiendo funcionalidades poco a poco
+- Gens, gentes, son las familias de la oligarquia romana, quienes reescriben la historia para poder ir atribuyendo a su familia cierto prestigio
+- Hasta los años -200 se crean los anales registros de los magistrados que se usaban para marcar el tiempo, los años se median en epocas en las que gobernaba alguien, el año de tal persona o de otra
+- Se registra que hubo una guerra contra tarquino lo que significaba que tenia simpatizantes locales
+- Se crea la liga latina vecinos latinos que buscaban detener el ascenso de los romanos
+- Se crea el titulo de Dictador un rey temporal para poder organizar al imperio en esta situación de crisis, era asistido por un lider del ejercito, el maestro de caballeria, y juntos lucharon contra los latinos
+- Las instituciones van apareciendo conforme se van necesitando
+- Pasar de una sociedad con rey sacerdote sagrado a una republica toma siglos para que vaya empezando a formarse la republica romana
+- En los primeros años aparece el Praetor Maximus, el cual era alguien con un poder muy alto similar al rey, los romanos temian que este cargo instaurara una monarquia, la obseción de los romanos era siempre evitar el regreso de los monarcas
+- Se divide el Praetor Maximus en dos cargos, esto termina evolucionando a los puestos de Consul, el mas importante del senado, siempre habrian 2
+- Los patricios son la sangre azul, la plebe es el resto de la población
+- Los patricios monopolizaban los ritos religiosos, la plebe no podia hacer ritos por tener sangre pura
+- En un punto la plebe se aleja de la ciudad, dejando solos a los patricios sin trabajadores para el estado, y amenazan con crear su propio estado, este escenario termina creando a los tribunos de la plebe los cuales deberian de defender a la plebe
+- Se empieza a democratizar un poco mas el pueblo cada vez, creandose concilios, buscan limitar el "Imperium" de los consules, el poder y las capacidades de hacerse obedecer
+- Los Decemvires empiezan a organizar un tipo de reuniones constituyentes para poder establecer las reglas del govierno, Decem vires -> los diez hombres, crean el primer codigo civil su constitución, crean la ley de las doce tablas
+- Las 12 tablas se colgaron en el foro principal de roma, fijo el derecho privado, la propiedad y la familia son elementos centrales de la civilizacion, todos los hombres libres tienen acceso a la justicia, la pena de muerte es reglamentada solo se puede condenar a muerte a alguien por voto popular en el comicio de las centurias
+- Cuando los consules caminaban en las calles tenian unos guarda espaldas llamados los Lictores 12 en total, quienes usaban un hacha (el simbolo usado por los fascistas) el cual era de dificil uso, era el poder controlado, civilizador y ordenador, no un poder cruel si no uno protector
+- Los ricos son los Assidui y los Proletarii
+# Republica Romana 5
+- Estaba prohibido agredir a un tribuno de la plebe por muerte, se decia que sería llevado ante jupiter y queda maldito para siempre
+- Aparecen los concilios de la plebe que va a votar decisiones los cuales se les terminará llamando "plebiscito"
+- Pero a pesar de estas inovaciones el poder lo sigue controlando principalmente los ricos
+- Los tribunos tienen el poder de la Interquesio, el poder interceder contra los consules para favorecer el pueblo, vetar algunas decisiones del consul, solo el nombramiento de un Dictador puede superar a los tribunos de la plebe
+- Empiezan las invaciones Galas, pueblos también indo europeos
+- Los galos invaden italia probablemente empujados por otros pueblos o por cambios climaticos, tambien se expanden por todo el continente europeo incluso hasta anatolia en ankara, Ansira una ciudad galatia, en la biblia la carta a los Galatas refiere a los galos
+- Los galos llegan a saquear roma, en el 381 pero no logran tomarse el capitolio, duran 1 año asediando el capitolio pero se retiran
+- La segunda invacion de los galos Voyanos, toman parte de italia y la llaman bonoña, la después boloña
+- La tercera invasión, la republica nombra un dicatdor Lucio Furio Camilo, quien logra derrotar a los Galos, roma termina expandiendo su territorio por primera vez
+- En este punso los romanos empezaron a percibirse como aquellos destinados a dominar la republica Italiana, disuelve la liga latina, crea colonias por ejemplo Ostia
+- Empieza a tener mas contacto con el mundo púnico en esta época
+- Los conflictos entre plebeyos y patricios continuan intermitentemente
+- Licinio y Sextio, dos tribunos de la plebe bloquean la republica romana, vetando durante 10 años las decisiones de los Consules, se volvieron populistas, esto demostró una debilidad del sistema, ante esos escenarios de paralisis terminan dando lugar a un dictador, después los plebeyos también podian ser plebeyos, uno de los dos consules tenia que ser plebeyo
+- Se permiten 10 tribunos pero no podian ser elegidos dos años seguidos para que no abusaran de su poder cosa que pasó con Licinio y Sextio
+- El senado al principio no era importante pero empieza a ganar cada vez mas prestigio, los plebeyos como cicerón empezaban a tener mas relevancia
+- Humilde viene del latin Humilis, los débiles
+- Appio claudio crea la via Appia para poder crear las ciudades del sur
+# Republica Romana 6
+- Imperium: pueden hacerse obedecer por la fuerza
+- Ningún puesto es hereditario, tener un puesto hereditario es privatizar un cargo, ir en contra de la republica del interés publico
+- Tras las reformas de los dekendirales, las instituciones republicanas son verdaderas instituciones aristocraticas liderada por el senado, dirigida por los magistrados, acompañadas por las asambleas del pueblo, las asambleas eligen a los magistrados que votan las leyes propuestas y el sando las avala
+-  Censores: Hacen el censo, pero tambien asigna castas, son obligatoriamente antiguos consules, y son elegidos por 5 años a diferencia de otros cargos, ellos deciden como está compuesto el senado quienes entran, es mostrado en el album senatorium, es el cargo moral mas importante, Katón el censor era llamado asi por ser un moralista, ellos guardan el prestigio de la república, ellos administran el tesoro y las tierras del estado, administran las tierras publicas cuidan los edificios, castigan a quienes se comportan de mala manera
+- Senado: Conformados por los antiguos magistrados, controla a los magistrados, dirige la polîtica exterior, la parte mas importante del gobierno, cuando muere el senado la republica muere, tiene 300 miembros, elegidos por los censores quienes escogen los mejores y mas ricos ciudadanos, cada 5 años se revisa la lista de senadores, constituido por los seniores, todos deben ser antiguos magistrados, tienen experiencia política, los pretores convocan el senado con una cuestión, siempre hay un senador que habla primero suele ser un antiguo pretor llamado el princeps cenator, cuando el senado decide algo se le llama una "sentencia", los senadores votan con los pies, se ponen en cierto lugar del edificio, un voto del senado se le llama un "senatus consultum", la auctoritas es el poder moral de la república, transforman los plebiscitos en leyes, controlan los magistrados, se encargan de las relaciones internacionales
+- Magistrados, elegidos por los comicios, ejercen el gobierno, las Magistratudas son jerarquizadas, especializadas, tienen que ser electivas (escogidas por asambleas), tienen que ser colegiales (varias personas ocupan el mismo cargo), tienen que ser anuales
+	- Dictador: en casos excepcionales toma el poder durante 6 meses (elegida por consules), suprime la colegialidad de la republica su cargo dura la mitad del tiempo y obtiene el Imperium, administra temas sociales y militares, no domina las magistraturas, simplemente las dirige
+	- Maestro de caballeria [Inter-Rex]: segundo al mando dictador  siempre patricio (elegido por consules), una poscición extremadamente rara, ya que solo se crea cuando mueren ambos consules sin haber sido elegidos los siguientes, su micion es transmitir los auspicios(poder de consultar con los dioses los poderes del estado) a nuevos consules elegidos, la duracion igual que el dictador dura 6 meses 
+	- Cónsul: dirige el ejercito, tiene imperium
+	- Pretor: Administra la justicia, tiene imperium, pretor urbano imprate justicia a los ciudadanos, y pretor peregrino imparte la justicia a los extrangeros
+	- Magistrados inferiores, elegidos por los comicios tributos
+		- Edil: administra la ciudad, aprovisionan a roma, es una magistratura muy deseada, por que los grandes nombres de la historia romana buscan iniciar su Cursus Honorum aqui, ya que ellos reparten trigo hacen populismo y obtienen clientela, julio cesar pompeyo fueron ediles primero
+		- Cuestor: Administra el tesoro, el aerarium publicum
+		- Tribuna de la plebe: defienden los derechos de la plebe, obligatoriamente son plebeyos, tienen un poder llamado el poder sacrosantum, nadie puede tocarlos, quien lo toque queda condenado a la muerte, tienen el poder de vetar al consul y el senado, tienen el poder del auxilio, ir a proteger a un ciudadano, cuando alguien es tribuno de la plebe nunca más puede tomar otro cargo que no sea ese, es el principio y final de una carrera política, es el talon de aquiles de la republica
+- Asambleas Populares o comicios: Aprueban las leyes conformada por patricios y plebeyos
+	- Los comicios tributos eligen -> ediles y cuestores
+	- Los comicios centuriados eligen -> censores, pretores, consules
+	- Comicios curiados (curias en vez de centurias durante el reinado etrusco)-> confirman el poder de los Consules
+	- Asamblea social de la plebe elige -> Ediles plebeyos, tribunos plebeyos
+- Pomerium, lugar en el que no se puede tener armas, es el circulo sagrado de roma, donde los consules tienen su poder civil, cuando salen de ese circulo tienen un imperium militar, solo tienen poder militar fuera de la ciudad no dentro
+- Cursus honorum: la carrera politica perfecta
+- Aerarium publicum: el tesorio, erario publico
+- Cuando se llega a una mayoria el voto termina, con 100 votos se llega a una mayoria, la primera clase tiene 98 votos, la segunda clase vota de vez en cuando, la tercera clase rarisima vez, y la cuarta clase nunca
+- Senado: el senado es el princ
+- Las 5 clases sociales dependen de tu nivel economico 1ra seria la mas alta y 4ta o 5ta es la mas baja
+- Un esclavo puede ser comprado o vendido o condenado a muerte mas facilmente
+- Un ciudadano pobre asesinado fuera de roma es un casus beli
+- Los generales se nombran por plebiscito y se avalan por el senado
+- Plutarco era un esclavo, virgilio era muy rico, los artistas o intelectuales en muchas culturas son clases sociales, en roma no en roma lo que importa es el dinero
+# Republica romana 7 Helenizacion y guerras púnicas
+- En momentos de silencio de los historiadores se pueden leer monedas o epigrafias en piedra
+- En el siglo II antes de cristo se empiezan a incluir barcos en las monedas, en un pueblo tradicionalmente terrestre y pastoril, se empezaba a abrir al mundo
+- Tras llegar a la costa este los romanos empiezan a tener contacto con otros pueblos de la actual croacia
+- Anexionan a los Samnitas, en el centro de roma
+- Cada vez que avanza roma encuentra enemigos más y más poderosos, uno de ellos fueron los griegos, el enemigo más poderoso de la zona, llegando a tener una guerra con Pirro
+- La ciudad te Tarrentum al ver que no podía sola con roma pide ayuda a Pirro de Epiro, alguien que sentía que era el nuevo alejandro magno, y buscaba crear un imperio en el mediterraneo, lleva 25.000 hombres y lleva incluso elefantes de guerra, los romanos nunca habian visto un ejercito así de organizado ni un elefante, en la batalla de Heraclea los romanos son derrotados
+- Pirro avanza mas a dentro en Ascoli y derrota a los romanos, según estandares griegos si derrotabas dos veces a un enemigo ganabas la guerra, terminabas en una negociación, no buscaban la destruccion completa del enemigo, los romanos que eran pragmaticos no se rindieron, usando tecnicas como las rusas en ucrania los romanos empezaron una guerra de desgaste enviando tropas y tropas y haciendo ams debil a Pirro
+- Pirro muere en un asedio en macedonia una mujer de 70 años le lanza una teja de una casa y muere
+- Los romanos dominan sus primeras ciudades griegas, una gran civilización, un pueblo con poca cultura empieza a dominar a una civilizacion mas culturizada
+- Los romanos conquistan discretamente a roma culturalmente
+- Guerras Punicas I -> 264-241, II -> 218-201, III -> 148-146
+- Dion casio, uno de los mejores historiadores romanos
+- Los Punicos no eran potencia terrestre ni los romanos eran potencia maritima no tenian nisiquiera flota militar
+- Sicilia y egipto eran las mayores fuentes de alimento del mediterraneo, los romanos se empezaron a interesar por la zona
+- Hay una guerra civil en cartago tras sentirse humillada por haber sido derrotada por los romanos, los romanos aprovechan la cituacion y conquistan cerdeña
+- Los púnicos empiezan a conquistar españa fundando Cartagena con Almicar Barca
+- Aníbal Barca viola el tratado de paz y asedia varias ciudades al norte de la Península ibérica, ciudades aliadas a roma iniciando así la segunda guerra púnica, durante 17 años Aníbal luchará contra roma, durante 15 años anibal domina la mayor parte de la peninsula ibérica
+- En la batalla de Cannae el ejercito romano es completamente borrado del mapa, la mayor derrota jamas sufrida por los romanos
+- Los romanos atacaban directamente fuerte y rapido para ganar rapido, hanibal sabiendo esto puso las tropas mas debiles en el centro, para que ataquen en el centro fuertemente y en un tipo de pinza rodea al ejercito y con el ejercito mas fuerte rodea al ejercito y lo masacra
+- Pablo emilio el consul romano muere en combate, el segundo consul escapa de milagro, 8 legiones son destruidas por completo 45.000 soldados muertos en una epoca que 10.000 15.000 era el tamaño de media de los ejercitos, toman 15.000 soldados de prisioneros, destruyen practicamente todo el ejercito romano, los aliados romanos empiezan a abandonar a roma en este punto, algunas ciudades traicionan a los romanos y se alian con aníbal, solo la parte central de roma se mantiene, al punto de llegar a ser solo la ciudad de roma
+- Anníbal no pudo conquistar roma, los romanos empezaron a hacer una guerra de guerrillas, negandole una nueva batalla campal para evitar perder ante él, annibal se dirige al sur abandonando a capua, y roma empieza a avanzar al sur, en capua los ciudadanos son masacrados y los sobrevivientes son esclavizados, esa ciudad se convierte en un pueblo sin titulo de ciudad
+- Las colonias del centro de italia estaban empobrecidas y no podian aportar nada a la guerra, los romanos bajan hasta tarento, cada vez recuperando mas territorios
+- Los romanos al ver que no podian vencer a Anníbal en intalia buscaron atacar directo a Hispania y después a Cartago, nombrando e Publio Cornelio Escipión el Africano, un politico que no ha completado el Cursus Honorum
+- Escipión empieza a dañar a la republica al empezar a acumular exesivo poder tras su victoria
+- Con dos legiones ataca a cartago, obligando a Anníbal a evacuar italia, ambos entran en negociaciones, mientras negociaban entrenaba a su ejercito intensamente aprovechando el tiempo
+- Roma empieza a aumentar exponencialmente su ejercito llegando a tener 120.000 hombres, este tamaño se mantendria a lo largo de el tiempo durante la republica y el imperio
+- Empiezan a haber luchas individuales por prestigio lo cual empieza a enfermar a la república
+- Escipión el africano obtiene el titulo Imperator, un general que obtiene una victoria aplastante sobre un enemigo peligroso, y recibe su apodo popular Escipio Africanus
+- Empieza a haber politiqueria, se buscaba seducir al pueblo y recurrir al populismo
+# Republica romana 8: Roma reconquistando el Mundo
+- Dominio e Imperium son sinónimos
+- Por primera vez el centro del mediterraneo pasa del este al oeste
+- Roma era atractiva, formar parte del imperio romano era convincente pero tambien era letal si no lo aceptabas
+- La atractividad de los romanos eran Mayestas Populi Romani, la majestad del imperio romano, eran superiores y estaban destinados a dominar debido a su superioridad
+- Los romanos no eran conscientes de su imperialismo, buscaban conquistar para nunca mas sufrir lo que Anníbal les causó
+- Cartago era un pueblo de comerciantes propenso a restaurarse rápidamente, roma al ver esto y motivado por Katón el Anciano, busca destruir cartago, Katón el anciano siempre terminaba sus discursos diciendo Delenda Cartago est, los habitantes son esclavizados, el suelo de cartago es declarado Saquer, un territorio dedicado a los dioses donde no se puede construir
+- En el año 133 el rey de pergamo, uno de los reinos mas ricos del mediterraneo, tras morir le regala su reino al imperio romano, los romanos no se esperaban siquiera eso, los romanos debido a esto tienen mas facil la conquista del mediterraneo
+- Se forma la provincia de Asia, empiezan a intervenir en la Galia, roma empieza a convertirse en arbitro de todos los conflictos en el mediterraneo
+- Jugurta le declara la guerra a los romanos asesina a los enviados romanos, y lucha una guerra larga contra Cayo Mario y contra Sila, tras la derrota de yugurta roma se hace de Cilicia en anatolia
+- Pompeyo llega y conquista siria y grandes territorios, elimina un nido de piratas importante en la costa cerca de chipre
+- El rey de Cyrene, le regala su reino a los romanos entregando parte del Maghreb
+- Mitridates VI Eupator, invade la provincia de asia, masacra 150.000 italianos de la zona, y buscaba liberar el mediterraneo oriental, y se necesitan 3 guerras para matar a mitridates, y necesita generales como sila, pompeyo, y logran hacer suicidarse a Mitridates conquistando el mar negro
+- Entran en contacto con mesopotamia y persia, el principal enemigo de roma, a quienes nunca logran derrotar
+# Republica Romana 9: Las consecuencias de las conquistas
+- En las conquistas de expansión romana la riqueza acumulada es gigantesca que nisiquiera roma es capaz de manejar
+- Se empiezan a juntar demasiados esclavos, de los teutones 104.000 de cartago 150.000 y en general botines de 100.000 en general
+- El ciudadano romano en general no cosecha se la pasa en la guerra y necesita alguien que cuide las tierras
+- Los generales romanos ricos empiezan a comprar tierras y el ciudadano romano medio se queda sin tierras
+- Empieza la Crisis de los Gracos
+- En roma existian 3 afinidades politicas
+	- Liberales moderados, quienes buscaban abrir el espectro politico para que las nuevas elites se sientan comodas y defiendan la republica
+	- Los reformistas, estoicos los cuales buscaban reacomodar toda la sociedad y darle al pueblo el poder
+	- Los conservadores: quienes defienden el estado y el orden republicano
+	- Los Optimates: los que defienden la tradicion
+	- Los Populares: los que defienden al pueblo
+- La politica gira en torno a que hacer con el campo, habia 2 tipos de propiedad privada y publica, donde podias vivir temoralmente la "possessio", el usufructo de ess tierras
+- En la epoca de la expansión la elite empieza a apropiarse de las conquistas que se suponen eran bienes públicos expulsando campesinos y usando mano de obra esclava
+- Aparece Tiberio Graco, elegido tribuno de la plebe, lanza la _rogatio Sempronia_, busca limitar la posesión individual y establecer possessio a el campesinado de las tierras utilizadas
+- Si el campesino perdia la tierra y se volvia una persona sin dinero, el ejercito podia tener menos gente ya que los soldados se pagaban sus armas
+- Crear un colegio de 3 miembros para aplicar la ley
+- Cuando las tierras publicas sean recuperadas por el estado redistribuír las tierras entre los pobres
+- Las reformas son aceptadas por la mayoria, pero marcus octavius veta las leyes rompiendo la republica en ese momento en el punto mas delicado de la historia de la republica romana
+- Tiberio hace una propuesta nueva y de manera teatral, y hablandole directamente al pueblo ignorando el senado, un voto para eliminar los poderes del tribuno octavius, algo nunca antes visto
+- Se hace de enemigos magistrados, despues buscó ayuda del pueblo prometiendoles tierras al pueblo y buscaba relección algo prohibido
+- Este precedente le permitia a otras personas buscar hacer exactamente lo mismo
+- El sumo pontifice de roma provoc una revuelta Tiberio graco es linchado en roma y su cuerpo lanzado al Tiber, negandosele una sepultura como a los romanos quienes tenian que ser cremado y enterrado bajo tierra, un insulto a su cuerpo
+- Cayo Graco hermano de tiberio hereda la lucha politica reoma la ley centronia, la suaviza pero genera nuevas innovaciones, cada romano ahora debe recibir el trigo gratis, algo aún más populista, es reelegido tribuno y apoyado por las masas
+- Se vota un senado consulto e instiga a los magistrados a evitar que se le haga mal a la republica, Cayo es asesinado junto a 3000 de sus partisanos empezando las guerras civiles
+- Empiezan las Guerras Serviles, el estado central victima de su propio exito empieza a perder poder, tiene demasiados esclavos, los esclavos pasan a ser el de un 3% 5% 50% de la población, los esclavos escapan y se vuelven bandoleros
+- En sicilia el estado romano pierde la isla por revueltas de esclavos creando un Reino gobernado por antiocos en el 132, roma tiene que volver a conquistar sicilia y el sando en persona tiene que reorganizar la isla
+- Empieza la revuelta de Espartaco un gladiador de Tracia, reune todo el descontento de italia y empieza a saquear italia, los dos consules de la republica son derrotados por espartaco, espartaco se envalenta y ataca roma, nombran a un dictador el cual fue Craso el cual uso 6 legiones el mismo numero de legiones con el que derrotaron a pirro
+- Fue mas dificil acabar con las guerras serviles que conquistar el mediterraneo, tuvieron que usar todo su poder para acabarlas
+- Crucificaron a quienes se rebelaron con espartaco
+- El estoicismo al tener tantas riquezas se debilita, el vivir modestamente empieza a desaparecer
+- Aparecen las espectaculares Basílicas como la Basilica Lulia y empiezan las villas romanas
+- La vestimenta también cambia, en el 200un consul fué excluido del senado por usar una vajilla de plata, ya que era un debilitamiento moral era demasiado lujoso para los senadores que tenian que ser sobrios y estoicos, en el siglo uno ya usaban oro y gemas, antes el senador solo usaba la tunica de lana, despues se usaba lino egipcio e incluso seda y mantas purpura
+- Los senadores eran mas ricos que cualquier rey del mediterraneo
+- Surge la literatura romana
+- Tras las guerras púnicas empieza el fervor religioso, llega el culto a Mitra en la cual corta la yugular del buey y el que lleva al ritual tiene que tomar sangre del buey y bañarse en su sangre para que mitra le ayude en algun asunto
+- Empieza el escandalo de los bacanales (fiesta de baco el diós del vino un dios de la tierra, los dioses de la tierra son dioses del desorden y el caos) orgias fiestas, el senado empieza a hacer procesos contra 7000 romanos 6000 son encarcelados o ejecutados
+- Aparece el epicureismo
+- Katon el viejo habia buscado prohibir condimentar los pollos
+# Republica Romana Capitulo 10: Mario, Sila y el nuevo ejercito Romano
+- En roma el populismo es la via directa a la monarquia, es la forma en la que presionas las instituciones apoyandose en el pueblo prometiendole cosas imposibles o las cosas que quieren oir, para con esto el populista situarse por encima de las instituciones debido a la presión del pueblo finalmente convirtiendolo en un monarca
+- En la guerra civil empiezan a pelear ambiciones populares populistas en las guerras civiles finalmente destruyendo la republica, la violencia lo resolvía todo en este momento
+- En esta epoca se empieza a hacer uso político del ejercito
+- Gracias al regimen de austeridad y resistencia roma llega a sobrevivir al asedio de los cartaginéses, el resultado de esa victoria es que el ejercito cambia su estructura
+- El ejercito antes de Annibal era un ejercito nacional, censitario y no permanente, censitario significa que dependia de la clase social a mayor tu clase social tenías más deberes, los mas ricos y adinerados componen el ejercito romano, no era permanente por que no habia necesidad de mantener al ejercito movilizado
+- La mala distribución de las tierras, llevo a mala acumulacion de riqueza y el ejercito al ser censitario afectaba el tamaño del ejercito, la base del ejercito necesitó ser ampliada al ser rechazadas las reformas de los Graco, se empezaron a aceptar a los Proletarii y ofrecerles un sueldo y tambien brindarles parte del botín de los saqueos de pueblos conquistados y por la distribución de tierras fertiles en Italia
+- El ejercito se vuelve voluntario y proletario, el proletariado empieza a entrar a hacer carreras militares, empiezan a tener mas coesión entre sus compañeros y generales, los soldados se vuelven leales ante todo a su general, y en segundo lugar al estado romano volviendose ejercitos profesionales
+- Empiezan a haber ejercitos personales, el ejercito de Mario, Pompeyo, Julio Cesar etc.
+- Cayo Mario sale elegido consul de la República, no tenia ancestros prestigiosos ni fortuna pero tenia genialidad en el campo de batalla, según ciceron era un hombre inculto pero un verdadero hombre
+- Cayo Mario derrota a Jugurta de Numibia
+- Cayo Mario derrota a los teutones que trataron de invadir al norte de Italia y derrotaron dos ejercitos romanos y un consul muere, Lucio Longuino, convirtiendose en el salvador de Roma y siendo elegido 6 veces consul
+- Mario al no tener ancestros o prestigio anterior se convierte en la cabeza de los Populares y empezó a seguir los pasos de los Gracos
+- Mario tenía un ejercito a diferencia de los Gracos por lo que nadie osaba matarlo, pero generó resentimiento hacia los populares
+- Cayo mario empieza a violar las tradiciones republicanas, la primera es elegido consul sin estar presente en roma cosa ilegal con el objetivo de ayudarlo en las guerras teutonicas, para salvar la republica crean algo excepcional e ilegal
+- Cayo Mario tras derrotar a Jugurta regresa a roma celebra un triunfo(ceremonia religiosa, conmemorar un general victorioso), y al dia siguiente Cayo Mario decide entrar al senado con la Toga Picta, la primera vez en la historia que alguien comete semejante Ofensa, roma tenia un circulo sagrado, un territorio especial el llamado Pomerium, el Triunfo era una forma de recordar a los reyes, cuando un general romano tenia una victoria fuerte, al llegar de regreso a roma tenia que parar unos días en el campo de marte para limpiar la sangre que tenia en su cuerpo y en su alma haciendo unos sacrificios a los dioses, entonces podia entrar al Pomerium, nadie podia entrar armado a ese circulo sagrado, Mario no espera a limpiar su alma entra sucio a roma y celebra su triunfo, se subia a una carroza tirada por 4 bueyes blancos pasaba por arcos del triunfo y llegaba a la colina capitolina y llegaba al templo de Jupiter Optimus Maximus, tomaba a su general enemigo y lo tiraba al precipicio, durante la ceremonia se pintaba la cara de terracota y usaba la toga picta con el color de los reyes, con la toga y la cara pintada era una rencandacion de Jupiter, detras sus soldados tenian que reirse de el, y un esclavo tenia que repetirle las palabras Memento Mori
+- Cayo Mario busco que le dieran una embajada en oriente (como un retiro a la playa) y conoce a Mitrídates VI Eupator, en ese punto empieza un conflicto político, en el 88 empieza la guerra contra Mitrídates
+- "El puente" era el nombre que se le daba al Mar negro, el reino del puente era el reino de Mitridates, Mitridates invade las provincias de asia mario estando allí, asesina a 150.000 italianos en la zona, se empieza a preguntar quien debia de conbatir a Mitridates, Mario?, o algun consul de la república?, legalmente solo un consul podia pelear contra enemigos de estado, el gobernador oficial de esa epoca fué Sila, un embajador como Mario con 72 años no podia liderar tropas, mario envia tribunos militares a roma y toma el comando de las legiones en italia y los movilizó para luchar contra mitridates sin consultar al senado ni a los consules empezando asi la primera guerra civil en el 88
+- El consul Sila ve esto como una provocación y buscaba superar a Mario una forma de superarlo, y para evitar que las tropas salgan a oriente, decide marchar con un ejercito sobre roma y tomarse la ciudad violando el Pomelium, obliga al senado a desterrar a mario quien se destierra a Cartago internandose en los desiertos, Lucio parte a asia para derrotar a Mitridates, mientras no estaba en italia Mario entra a roma con tropas y el ejercito de mario masacra a los Optimates, sila es declarado enemigo público (quien asesine a sila se queda con sus bienes), los bienes de los partidarios de Sila son expropiados, mario queda elegido como consul y consigue un colega llamado Sinna (una persona muy odiada), repentinamente Mario muere dejando un caos tras de si
+- Empieza la dictadura de Cornelio Sila siendo radicalmente diferente a Mario siendo Optimate, culto generoso encantador con modales y refinamiento, fue proconsul en Silicia
+- Tras derrotar a Mitridates "el principal enemigo de roma segun ciceron", durante esa epoca hubo batallas entre sila y los aliados de mario, el regreso de sila provoca 70.000 muertos en roma.
+- Empieza el periodo de la Proscripción, expulsando a senadores, se colgaban sus nombres publicamente y quien lo viera matara a un proscripto y se quedara con sus bienes, esto genera corrupcion se culpaban inocentes no aliados de mario para estar robandose sus bienes entre si
+- El senado le otorga la dictadura a Sila para tratar de salvar la republica, pero fue una dictadura sin limite de tiempo y le da derecho de vida o muerte sobre alguien, y le permite repartir el Ager publicus para recompensar a sus aliados
+- Sila pasa al senado de 300 miembros a 600 y los llenó de aliados el senado
+- Consigue 24 lictores(guarda espaldas), muchos ven a Sila como una monarquia
+- Sila se empieza a llamar a si un jefe bendecido por los dioses, un restaurador de la moral, cosa que con Julio Cesar escala quien ahora no es elegido por los dioses si no un hijo de dios
+- Se proclama el protegído por venus, los griegos lo llamaron el Hepafroditos, el protegido de afrodita, los latinos lo llaman Sila Felix (bienaventurad)
+- En el 80 Sila abdica en su cima de poder y empieza a escribir sus memorias en el 78 muere, para los republicanos es el referente al tirano, el rey no declarado, un rey opuesto a julio cesar, el dictador Optimate vs el Dictador Popular
+# República Romana 11: Pompeyo
+- Pompeyo fue eclipsado por julio cesar pero fue un Romano excepcional, nacio en el año 105-48, heredó una clientela impresionante, siendo millonario desde un principio, escoge al campo ganador su padre se benefició de las conscripciones de Sila, su vida se divide en 5 capitulos
+	- 1 sus primero s años de exitos contra jugurta en el bando de Sila, sila siente que pompeyo en algun punto iba a buscar quitarle su prestigio, pompeyo se vuelve en un sucesor de sila, como un restaurador de la república y reequilibrador después de la guerra civil, aleja a diferentes generales rivales en su carrera de prestigio, pompeyo tambien ayuda a derrotar a espartaco convirtiendose en heroe de los romanos tras esto, el senado empieza a temer la ambición de pompeyo, pompeyo conspira en contra del senado aliandose con Craso para dominar y privatizar fuertemente la república, en el año 70 crea un acuerdo con craso en el que buscaba comprar votos y asegurarse la fidelidad de los magistrados de la republica y ambos ser nombrados Consules de la república, ningúno de los dos tenia derecho a ser consul, Craso era un Pretor lo cual requeria un tiempo antes de buscar ascender, Pompeyo nunca habia completado ningún paso del Cursus Honorus, significando que alguien solo con dinero y tropas podia ser lider del estado, pompeyo y craso buscaron borrar las leyes de Sila eliminando continuedad a partir de ese momento de las medidas de los lideres, los Tribunos de la plebe regresan reestablecen los censores, y agregan 100.000 ciudadanos a la lista de ciudadanos de Roma, pompeyo viaja al oriente acaba en 3 meses con los piratas en Cilicia(turquia) y promulga una ley llamada ley Gabinia, el cual le daba el comando supremo a una sola persona sobre los mares, ese comando supremo tenia que durar 3 años y fue asignado a pompeyo, recibiendo 20 legiones y 500 barcos, el ejercito mas grande que un imperator haya tenido hasta el momento, pompeyo empieza a negociar paz y manejar relaciones exteriores de manera privada, un derecho exclusivo de reyes, derrota en 2 años a mitridates y toma cilicia y jerusalen creando una nueva provincia en el medio oriente, alcanzando el tigris y eufrates, ganando mas gloria que consules mayores anteriores y tras derrotar a 14 gobiernos
+	- 2 La monarquia fallida 61-48: Pompeyo pudo acaparar el poder pero se apegó al marco institucional, como la eleccion de los consules y magistrados, mientras regresa a roma conoce a Cayo Julio Cesar, para evitar tentar a otros militares de roma, pompeyo desmoviliza su ejercito volviendo a la vida civil, se encontenta con celebrar el mayor triunfo en la historia de roma, 14 naciones vencidas, pompeyo con su fortuna empieza a modificar la arquitectura de la ciudad (un nuevo tipo de populismo con obras públicas), construye con sus propios medios el complejo del campo de marte, edificios de un tamaño nunca antes visto en su momento, los edificios actualmente siguen la estela de este edificio, construye el teatro de pompeyo, el primer teatro en duro (piedra) de roma coronado por una estatua de Venus victoriosa, se hace una estatua orientalizada de pompeyo Kosmokrator (dominador de la tierra), tratando de mostrarse como el nuevo alejandro magno, y empezando a llamarse a si mismo como pompeyo magno, pompeyo firma un tratado secreto con Craso y Julio cesar para repartirse el poder
+	- 3 El primer Triumvirato (Asi como lo Dekembires significa los 10 hombres, aca triumvires significa los 3 varones): Empezo a haber rivalidad entre optimates y populares, una rivalidad entre Craso y Cesar, entre Cesar y pompeyo, y entre Cicerón, Cicerón es elegido consul, alguien que nunca fue general empezó a denunciar conspiraciones de la elite que buscaba romper a la republica, por ejemplo la Conjura Da Catilina [leer libro], en la cual buscaban terminar con la republica asesinar a craso julio cesar y pompeyo, cicerón se entera los salva asesina a Catilina sin juicio, cicerón sería ejecutado por organizar la ejecución de Catilina sin un juicio formal. en el triumvirato cada uno aporta algo, Craso era la persona mas rica del mundo, Pompeyo el más prestigioso, y cesar era el popular mas apoyado por el pueblo y era el sumo Pontifice todo acto politico era organizado a través de un ritual religioso, la triple alianza empieza a irse debilitando, pero Craso muere asesinado en la batalla de carras por los persas buscando mas gloria que pompeyo, esto lleva a una rivalidad entre pompeyo y cesar
+	- 4 Empiezan a haber confrontaciones entre Populares y Optimates, pompeyo es elegido consul único dando un paso mas en la muerte de la república, recibiendo un poder Proconsular teniendo derecho a gobernar cualquier pueblo del mediterraneo, julio cesar se encontraba conquistando las galias en este momento, pompeyo obliga al senado a obligar a julio cesar a regresar como un civil inmediatamente a Roma, julio cesar sabia que lo querian arrestar y alejar del poder, tuvo que decidir si quedarse en Galia y gobernar esa zona o regresaba a someterse a pompeyo como ciudadano de roma, pero decide crucar el Rio rubicón y luchar contra pompeyo, atacar rapido y con precisión a roma, llega con una sola legión al rubicón dice el dicho "la suerte está echada", pompeyo se va a confiar contra julio cesar, al tener todas las legiones contra una de julio cesar, debido a que julio cesar tenia una sola legión tiene la rapidez y habilidad de su lado mientras que pompeyo empieza a convocar las legiones de africa de asia de grecia y empiezan a llegar tantas tropas que la logistica se vuelve pesada, y cuando pompeyo se da cuenta julio cesar ya estaba en roma, y empieza a huir de italia con sus tropas, siendo perseguido pompeyo, julio cesar empieza a reunir tropas y sin una sola batalla julio cesar logra adueñarse de la peninsula italica, napoleón copia esta idea de tener velocidad y siempre estar en movimiento y ser sopresivos, en Grecia -> Farsalia pompeyo es derrotado, se refugia en egipto y cuando llega pompeyo el rey de egipto Ptolomeo XIII que no queria tener que elegir bando Optimate o Popular ptolomeo manda a ejecutar a pompeyo y le regaló a julio cesar la cabeza de pompeyo, pero julio cesar lo tomó como una ofensa y dicen que julio cesar se puso a llorar y empezó a jurar venganza, expulsando a Ptolomeo XIII del poder y puso en el poder a cleopatra
+- En el mar egeo empieza a surgir la pirateria la cual dañaba el comercio
+- Mitridates Regresa una segunda vez masacra mas italianos y pompeyo tiene que ir a luchar contra Mitridates
+- Unos piratas Secuestran a julio cesar, y cesar termina encantando a los piratas, les leia poesia en las noches, le pide a los piratas que no lo amarren pero lo dejen deambular en una isla, amenaza a los piratas que los tenia cautivo, a los piratas se les ofrece por parte del estado romano un dinero sustancial pero julio cesar se niega por que era muy poco dinero el que le darian a los romanos por el y les hace pedir mas para llegar mas prestigioso, al final julio cesar los termina matando a ellos
+- Cicerón apoyaba a pompeyo, y hace discursos para homenajear a pompeyo, dijo que pompeyo estaba protegido personalmente por venús victris la venus vencedora, una guardiana de pompeyo

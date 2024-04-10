@@ -333,7 +333,8 @@ func nextGreaterElement(nums1 []int, nums2 []int) []int {
 	return response
 }
 
-//! verifica que un email sea valido
+//! 929. Unique Email Addresses
+
 func formatEmail(email string) string {
 	var response strings.Builder
 	isArrobaFound, isPlusFound := false, false
@@ -365,6 +366,8 @@ func numUniqueEmails(emails []string) int {
 
 	return len(setMap)
 }
+
+//! Can place flowers
 
 func canPlaceFlowers(flowerbed []int, n int) bool {
 	if len(flowerbed) == 1 && n == 1 && flowerbed[0] == 0 { return true }

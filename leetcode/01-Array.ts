@@ -142,8 +142,8 @@ function longestCommonPrevix(strings: Array<string>): string {
 
   for (let currentLetter of firstValue) {
 
-    for(let word of strings) if(word[currentIndex] !== currentLetter)
-      return response
+    for(let word of strings)
+      if(word[currentIndex] !== currentLetter) return response
 
     response += currentLetter
     currentIndex++
@@ -185,4 +185,23 @@ function generate(numRows: number): number[][] {
   return rows
 }
 
-//? optimal
+//! 49 Group Anagrams
+/*
+Input: strs = ["eat","tea","tan","ate","nat","bat"]
+Output: [["bat"],["nat","tan"],["ate","eat","tea"]]
+
+Input: strs = [""]
+Output: [[""]]
+
+Input: strs = ["a"]
+Output: [["a"]]
+*/
+function groupAnagrams(strs: Array<string>): string[][] {
+  const wordsMap = strs.reduce((map, current) => {
+    const sortedWord = current.split('').sort().join('')
+    map[sortedWord] = (map[sortedWord] || []).concat(current)
+    return map
+  }, {})
+
+  return Object.values(wordsMap)
+}

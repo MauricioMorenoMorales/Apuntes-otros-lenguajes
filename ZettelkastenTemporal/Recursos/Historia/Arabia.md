@@ -84,7 +84,7 @@
 - Calvino es similar a los wahabitas, mencionan la busqueda de regresar a un cristianismo primitivo
 - En el siglo 18 19 los peregrinajes a la meca aumentaron mucho creando intercambios culturales y aumentando la riqueza de la zona
 - En la imprenta muchas lenguas no se imprimen y esto genera que solo se usen unas pocas lenguas y muchas lenguas vernaculas murieron durante este periodo
-- Quienes dominan  la produccion de libros en arabe fueron los ingleses y los Rusos, la primera impresión de un coran aparece en Kazan y en Calcuta protectorado inglés
+- Quienes dominan  la produccion de libros en arabe fueron los ingleses y los Rusos, la primera impresión de un coran aparece en Kazan y en Calcuta protectorado inglés, para poder manejar las ideas de medio oriente
 - Aparece la prensa en 1840 el cual terminó favoreciendo ideas nacionalistas
 - Llega la literatura europea tras la invenci´øn de la imprenta
 - Gente como muhamed ali queda decepcionado de la literatura europea ya que consideraba que en oriente tenian gente como Ibn Jaldun u otros autores igual de importantes
@@ -224,7 +224,8 @@
 - Tras la abolicion del kalifato por atatürk empieza una batalla por obtener el titulo de kalifa entre varias facciones
 ## Entender el medio oriente 5
 - El eurocentrismo impone periodos europeos y sistemas politicos a distintos lugares del mundo (edad media islamica, edad media china, feudalismo chino, feudalismo arabe)
-- Las divisiones de los territorios en medio oriente hechos en francia e inglaterra se defienden por las armas se reprime y asesina a los que no estén de acuerdo
+- Las divisiones de los territorios en medio oriente hechos en francia e inglaterra se defienden por las armas se reprime y asesina a los que no estén de acuerdo, se establece ley marcial
+- Los Arabes empiezan a notar que los extrangeros se podían comportar como quisieran en la zona y eran inmunes a reprimendas
 - Alexandreta que posee a antioquia es un territorio poblado por arabes pero es concebido por los franceses para tratar de calmar su frontera norte
 - Mosul es negociado con turquia, se les da petroleo con tal de mantener la zona
 - Los franceses obtienen el monopolio del tabaco en territorios medio orientales, no tenian permiso los arabes de cultivar tabaco
@@ -233,6 +234,7 @@
 - Los turcos se empiezan a definir en terminos raciales ya no en su religion, se empieza a prohibir el fez o tarbusch que en su momento era simbolo de modernidad y despues simbolo de atraso
 - Se acepta el calendario gregoriano, que se basa en el nacimiento de cristo, el domingo es festivo en vez del viernes y sabado
 - Se adapta el alfabeto arabe
+- Los britanicos usaban escudos humanos con la gente como lo hacia hamás ahorita, destruian la casa de los rebeldes
 - Imagina que todos los monumentos de un pais queden en un alfabeto que no puedes comprender, esa sociedad empieza a perder su memoria
 - Empiezan a usar el sistema metrico
 - Se prohibe la poligamia, se agrega una edad minima para casarse, y el derecho al divorcio en las mujeres, las mujeres empiezan a participar en la politica incluso antes que los franceses
@@ -242,13 +244,17 @@
 - El shah prohibe el velo, también fue visto como una reforma humillante, por que la gente que portaba velos en la calle se les destruia en la calle, aquellas que sufrieron esto decian que se sentian desnudadas en la calle, justo esto es lo mismo que pasa actualmente en iran pero a la inversa
 - Los saudies acusaban a los iranies y paises occidentalizados de ser paises ateos
 - Los saudies son los paladines de la politizacion del Islam
+- Los saudies tienen una administracion eficiente y garantizaron un hajj efectivo a los musulmanes ganando prestigo sobre los hashimies
+- Los saud empiezan a arrestar wahabitas en los 30s traicionandolos y proclamandose rey
 - Se empiezan a crear dos corrientes, los que buscaban modernizar pero renunciaban a sus raices y quienes buscaban mantenerlos
 - Los saudies destacan en tener una eficiencia administrativa excepcional, reorganizan efectivamente el Hajj
 - Los saudies destruyeron todo templo que no tuviera que ver con rezar a dios
 - Yemen se independiza de los arabes y de los Britanicos, llega el Imam Yahya el cual logra organizar una independencia, pero aun mantiene conflictos contra los Saudies
 - Empiezan a haber debates sobre como terminar con el dominio europeo en la zona
 - Los publicistas eran los dueños de la opinion publica durante la epoca, el publisista mas importante de la epoca Rashid Rida crea el Faro
+- En  los 30s fueron una epoca de debates en las que habia cierta libertad de prensa
 - Con los publisistas, y la prensa empieza a pasar el poder del clero de los Ulemás a la gente normal y a los politicos, y el islam empieza a usarse como un arma politica para movilizar gente
+- Con los publicistas la interpretacion de la religion pasa a el pueblo, a politicos gente normal y deja de ser parte de una elite
 - Pasamos de buscar reformar el islam a unir a la gente via el islam
 - La retorica islamista es la misma retorica marxista, buscar eliminar fronteras eliminar sistemas politicos y economicos de sumisión
 - Se funda la Imprenta Salafista
@@ -266,9 +272,9 @@
 - El tema de la epoca es el holocausto, se buscaba proteger a los judios para evitar que nunca mas volviera a suceder eso
 - Se divide palestina por una de las primeras resoluciones de la ONU, la resolucion 181
 - Los arabes no aceptan la primera división de su estado palestino, el cual era bastante grande, y los judios si, empieza una guerra civil por lo general las guerras civiles son mas violentas que las guerras internacionales
-- En Deir Yassin se masacran a 250 personas
+- En Deir Yassin se masacran a 250 personas los israelitas asesinaron palestinos, pero es un tema bastante oculto
 - En 1048 David Ben Gurión proclama la creasion del estado judio de palestina el cual terminará siendo israel
-- Ben Gurión en su discurso no menciona territorios ya que con esto podria acaparar mas territorios, su nacion es reconocida por los sovieticos y estado unidenses
+- Ben Gurión en su discurso no menciona territorios ya que con esto podria acaparar mas territorios por medio de las armas, su nacion es reconocida por los sovieticos y estado unidenses
 - El wahabismo es mas radical que el salafismo
 - Los britanicos por lo general dividian los paises que crehaban o hacian paises pequeños para poder controlarlos mejor
 # Entender el medio oriente 6 (Israel)
