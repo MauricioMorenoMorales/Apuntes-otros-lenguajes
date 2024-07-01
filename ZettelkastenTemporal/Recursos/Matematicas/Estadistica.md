@@ -26,3 +26,7 @@ Si tienes 5 dias con 20% de probabilidad de llover cada uno, la forma de obtener
 - Obtiene el complemento de cada dia en este caso 80%
 - Multiplica cada una de las posibilidades en este caso 4/5 * 4/5  * 4/5  * 4/5  * 4/5
 - Al resta  -1024/3125 a el numero 1, y esa sera la posibilidad 2101/3125
+
+# Cursos Platzi
+- Estadistica descriptiva: Recopila, organiza presenta y describe un conjunto de datos con el proposito de facilitar la interpretacion generalmente con el apoyo de tablas, medidas o gráficas
+- Estadistica Inferencial: Recopila informacion de una parte pequeña de la poblacion y por induccion dtermina el comportamiento de la población

@@ -1,4 +1,4 @@
-class ListNode_ {
+class ListNode {
   val: number
   next: ListNode | null
   constructor(val?: number, next?: ListNode | null) {
@@ -259,8 +259,8 @@ Thus, the maximum twin sum of the linked list is max(7, 4) = 7.
 
 function pairSum(head: ListNode | null): number {
   let
-    slow: ListNode | null = head,
-    fast: ListNode | null = head,
+    slow:     ListNode | null = head,
+    fast:     ListNode | null = head,
     reversed: ListNode | null = null;
 
   while(fast && fast.next) {

@@ -124,7 +124,7 @@ function twoSum(nums: number[], target: number): number[] {
   }
   return [-1, -1]
 }
-
+RedFirework007!
 //! 14. Longest Common Prefix
 /*
 Input: strs = ["flower","flow","flight"]
@@ -140,7 +140,7 @@ function longestCommonPrevix(strings: Array<string>): string {
   let response: string = ''
   let currentIndex: number = 0
 
-  for (let currentLetter of firstValue) {
+  for (const currentLetter of firstValue) {
 
     for(let word of strings)
       if(word[currentIndex] !== currentLetter) return response
@@ -205,3 +205,97 @@ function groupAnagrams(strs: Array<string>): string[][] {
 
   return Object.values(wordsMap)
 }
+
+//! 929. Unique Email Addresses
+/*
+Input: emails = ["test.email+alex@leetcode.com","test.e.mail+bob.cathy@leetcode.com","testemail+david@lee.tcode.com"]
+Output: 2
+Explanation: "testemail@leetcode.com" and "testemail@lee.tcode.com" actually receive mails.
+
+Input: emails = ["a@leetcode.com","b@leetcode.com","c@leetcode.com"]
+Output: 3
+*/
+
+function numUniqueEmails(emails: string[]): number {
+  const set = new Set()
+
+  for(let email of emails) {
+    const emailParts = email.split('@')
+    const firstHalf = emailParts[0].split('.').join('').split('+')[0]
+    const secondHalf = emailParts[1]
+
+    set.add(`${firstHalf}@${secondHalf}`)
+  }
+  return set.size
+}
+
+//! 205. Isomorphic Strings
+/*
+Input: s = "egg", t = "add"
+Output: true
+
+Input: s = "foo", t = "bar"
+Output: false
+
+Input: s = "paper", t = "title"
+Output: true
+*/
+function isIsomorphic(s: string, t: string): boolean {
+  for(let i = 0; i < s.length; i++)
+    if(t.indexOf(t[i]) !== s.indexOf(s[i])) return false
+  return true
+}
+
+//! 13. Roman to Integer
+/*
+Input: s = "III"
+Output: 3
+Explanation: III = 3.
+
+Input: s = "LVIII"
+Output: 58
+Explanation: L = 50, V= 5, III = 3.
+
+Input: s = "MCMXCIV"
+Output: 1994
+Explanation: M = 1000, CM = 900, XC = 90 and IV = 4.
+*/
+
+const romanToInt = (
+  s: any,
+  romanValues = { I: 1, V: 5, X: 10, L: 50, C: 100, D: 500, M: 1000 },
+): number =>
+  s
+    .split('')
+    .map(letter => romanValues[letter])
+    .reduce(
+      (response, current, i, self) =>
+        current < self[i + 1] ? response - current : response + current,
+      0,
+    )
+
+//! 11. Container With Most Water
+/*
+Input: height = [1,8,6,2,5,4,8,3,7]
+Output: 49
+Explanation: The above vertical lines are represented by array [1,8,6,2,5,4,8,3,7]. In this case, the max area of water (blue section) the container can contain is 49.
+
+Input: height = [1,1]
+Output: 1
+*/
+
+function maxArea(vertical: number[]): number {
+  let maximum: number = 0
+  let i = 0, j = vertical.length-1
+  while (i < j) {
+    const height = Math.min(vertical[i], vertical[j])
+    const width = j-i
+    const area = height * width
+    
+    maximum = Math.max(area, maximum)
+
+    if(vertical[i] < vertical[j]) i++
+    else j--
+  }
+  return maximum
+};

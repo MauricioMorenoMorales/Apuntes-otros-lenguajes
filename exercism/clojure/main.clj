@@ -599,7 +599,7 @@
   (letfn [(guard
             [number args]
             (if (<= number 0)
-              (throw "Invalid number")
+              (throw (Exception "Invalid number"))
               args))]
     (guard number
       (loop [current-number  number
@@ -611,7 +611,7 @@
 
 (defn collatz2
   [number]
-    (if (<= number 0) (throw "Number cannot be negative")
+    (if (<= number 0) (throw (Exception  "Number cannot be negative"))
       (loop [current-number number iteration-count 0]
         (cond
           (<= current-number 1) iteration-count
@@ -790,8 +790,7 @@ sd
 (defn numerals
   [number]
   (let [=> #(if (>= number 5000) (throw "Invalid input") %)
-        number-string (-> number str reverse)
-        [units tens hundreds thousands] number-string
+        [units tens hundreds thousands] (-> number str reverse)
         thousands-map {\1 "M" \2 "MM" \3 "MMM" \4 "MMMM"}
         hundreds-map  {\1 "C" \2 "CC" \3 "CCC" \4 "CD" \5 "D" \6 "DC" \7 "DCC" \8 "DCCC" \9 "CM"}
         tens-map      {\1 "X" \2 "XX" \3 "XXX" \4 "XL" \5 "L" \6 "LX" \7 "LXX" \8 "LXXX" \9 "XC"}
@@ -885,11 +884,11 @@ sd
 
 (defn slices
   [string length]
-  (let [=> #(cond
+  (let [|> #(cond
               (or (> length (count string)) (empty? string)) []
               (zero? length)                                 [""]
-              :else                                          %)]
-    (=> (->> (partition length 1 string)
+              :else %)]
+    (|> (->> (partition length 1 string)
              (map #(apply str %))))))
 
 ;;! Metodo para crear funciones, como clojures avanzados, defmacros
@@ -965,3 +964,4 @@ sd
        (mapcat #(range % max %))
        (set)
        (reduce +)))
+

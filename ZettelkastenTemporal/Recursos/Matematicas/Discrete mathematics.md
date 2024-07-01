@@ -158,3 +158,30 @@ $$correct =[(1,1),(2,1)]$$
 $$[(1,1),(1,2),(1,3)]$$
 - Transitive $$ \forall a \forall b \forall c (((a, b) \in R \wedge (b, c)\in R) \rightarrow (a, b) \in R) $$
 $$[(2,1),(3,1),(3,2),(4,4)]$$ Es transitivo por que (3,2), (2,1) y (3,1) se encuentran dentro del set
+## Negation and expansion
+Diferentes operaciones
+$$ A \cap B \subseteq B / C $$
+$$ \forall x(x \in A \cap B \rightarrow x \in B /C) $$
+$$ \forall x [(x \in A \wedge x\in B) \rightarrow (x \in B \wedge x \notin C)] $$
+
+Negacion de la expresión siguiente
+$$ !(A \subseteq B) $$
+$$ !(\forall x (x \in A \rightarrow x \in B)) $$
+$$ \exists x !(x \in A \rightarrow x \in B)) $$
+$$ \exists x !(x \notin A \vee x \in B) $$
+$$ \exists X (x \in A \wedge x \notin B) $$
+Otro ejemplo de expansión
+$$!\forall x \in A {~ ~} P(x) $$
+$$ !\forall x (x \in A \rightarrow P(x)) $$
+$$ \exists x !(x \in A \rightarrow P(x)) $$
+$$ \exists x !(x \notin A \vee P(x)) $$
+$$ \exists x (x \in A \wedge !P(x)) $$
+$$ \exists x \in A {~ ~} !P(x) $$
+Operador solamente uno
+$$\exists ! y P(x) $$
+$$ \exists x (P(x) \wedge \neg \exists y(P(y) \wedge y \neq x)) $$
+Formas de escribir los dominios, cada numero real tiene una raiz negativa
+$$ \forall x \in \mathbb{R}^+ \exists y \in \mathbb{R}^- (y^2 = x) $$
+$$ \forall x > 0 \exists y < 0 (y^2 = x) $$
+Esto es una equivalencia
+$$ \forall x (E(x) \wedge T(x)) = \forall x E(x) \wedge \forall x T(x)$$

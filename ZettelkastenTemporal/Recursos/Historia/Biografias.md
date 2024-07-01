@@ -1,0 +1,13 @@
+# Neron
+- Neron no destacaba por sus habilidades militares
+- Los ancestros de Neron tenian un nombre milenario, eran conocidos como los antepasados con barba de bronce, aquellos que ayudaron a roma a vencer a sus primeros enemigos latinos, al lado del Lago Regillus(Actualmente inexistente)
+- Cuenta la leyenda que dos extraños se le acercan a un romano le dicen que avisara al senado que los romanos venceran en la batalla, y le acariciaron la barba al romano y su barba se vuelve peliroja
+- Los dos jinetes resulta que eran los Dioscuros Castor y Pollux
+- Con el tiempo el hombre con barba de color Rojo se le da un apodo, el hombre con la barba de color de bronce, con el tiempo sus descendientes se llamaran AhenoBarbus, los de la barba de bronce, una de las familias mas prestigiosas
+- Neron se llamaba Lucio Ahenobarbus
+- Esta historia es contada por Suetonio, fue senador y escribio una vida de los primeros emperadores
+- Neron tenia ancestros megalomanos uno de ellos usaba elefantes al desfilar algo que era visto como un exceso, este ancestro murió en la batalla de Farsalia, se suicido con veneno, un suicidio femenino en vez del suicidio masculino que es clavarse una espada en el estomago y pedir a un amigo que lo decapite, aunque despues de tomar el veneno se arrepiente vomita pero aun asi muere demostrando cobardia, algo que se le atribuia a nerón, probablemente esta historia sean mitos posteriores a la epoca de nerón
+- Domicios ahenobarbus se alia con Marco Antonio, quien lo hace consul, El hijo de Domicios se casa con la hija de Marco Antonio emparentando estas dos familias
+- El abuelo de nerón era conocido por sus excesos, era un apostador empedernido en el Circus Maximus, humillaba a gente haciendolos bailar en el circo romano, uno de los peores insultos que se le puede hacer a alguien ya que la actuacion o el baile solo los podian hacer los esclavos
+- Augusto eligió al abuelo de Nerón como el que debia de mostrar quien era el heredero
+- El padre de nerón fue Gnaeus Domitius Ahenobarbus, alguien de una crueldad importante, mató a uno de sus libertos por negarse a beber alcohol con él y emborracharse matandolo a golpes, haciendolo que fuera expulsado de la confianza de la familia de Augusto, se decia tambien que tenia mucho afan e iba en su carroza a toda velocidad, y atropeyó a un niño sin detenerse a ver que pasó, y no dudó en arrancarle un ojo a un caballero romano en el foro

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Filosofia/John Vervaeke Course.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,9 +25,31 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Matematicas/Estadistica.md",
+                "file": "Recursos/Historia/Roma.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "6843605ecf2df9d9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Recursos/Historia/Roma.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "28316ecf0e9d5908",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.5"
               }
             }
           },
@@ -37,7 +59,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Filosofia/John Vervaeke Course.md",
+                "file": "Recursos/Matematicas/Discrete mathematics.md",
                 "mode": "source",
                 "source": false
               }
@@ -94,7 +116,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 389.5124969482422
+    "width": 200
   },
   "right": {
     "id": "a0c39640caf4c3e8",
@@ -110,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Filosofia/John Vervaeke Course.md",
+                "file": "Recursos/Historia/Roma.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Filosofia/John Vervaeke Course.md",
+                "file": "Recursos/Historia/Roma.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Filosofia/John Vervaeke Course.md"
+                "file": "Recursos/Historia/Roma.md"
               }
             }
           }
@@ -171,34 +193,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d894cc94c6ddc922",
+  "active": "6843605ecf2df9d9",
   "lastOpenFiles": [
-    "Recursos/Historia/Roma.md",
-    "Recursos/Matematicas/Estadistica.md",
-    "Recursos/Matematicas/Algebra 2.md",
-    "Recursos/Matematicas/Algebra 1.md",
-    "Recursos/Matematicas/Algebra Through puzzles.md",
-    "Recursos/Matematicas/Derivadas.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
-    "Recursos/Matematicas/Current lessons repased.md",
     "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Matematicas/Bases numericas.md",
+    "Recursos/Historia/Roma.md",
+    "Recursos/Historia/Biografias.md",
+    "Untitled 1.md",
+    "Recursos/Platzi/Estadistica.md",
+    "Recursos/Matematicas/Estadistica.md",
+    "Recursos/Platzi",
+    "Recursos/Filosofia/John Vervaeke Course.md",
+    "Recursos/README.md",
+    "Recursos/Libros a comprar.md",
+    "Recursos/Filosofia/Definicion filosofia.md",
+    "Recursos/Matematicas/Derivadas.md",
+    "Recursos/Matematicas/Current lessons repased.md",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
+    "Recursos/Matematicas/Algebra Through puzzles.md",
+    "Meditaciones/Filosofia/AntiMaterialismo.md",
+    "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
+    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
+    "Meditaciones/Filosofia/Autores compatibles con el idealismo.md",
+    "Meditaciones/Filosofia/Roma se convirtio en la iglesia catolica.md",
+    "Meditaciones/Filosofia/Naturaleza humana.md",
+    "Meditaciones/Filosofia/Las religiones no son 100% divinas, tienen ideas humanas.md",
+    "Meditaciones/Filosofia/Libre albedrio.md",
     "Recursos/Historia/Rusia.md",
     "Recursos/Historia/Historia de los arabes.md",
-    "Recursos/Filosofia/La Pasión de la mente occidental.md",
-    "Recursos/Filosofia/John Vervaeke Course.md",
-    "Recursos/Filosofia/Definicion filosofia.md",
-    "Meditaciones/Filosofia/Nacionalismos.md",
-    "Meditaciones/Filosofia/Autores compatibles con el idealismo.md",
     "Recursos/Historia/Arabia.md",
-    "Recursos/Matematicas/Repasos.md",
-    "Meditaciones/Filosofia/Naturaleza humana.md",
-    "Meditaciones/Filosofia/Lista cosas que no son racionales.md",
-    "Meditaciones/Filosofia/Libre albedrio.md",
-    "Untitled.md",
     "Recursos/Historia/Turquia.md",
-    "Recursos/Matematicas/Geometry.md",
-    "Meditaciones/Exclavitud.md",
     "Pasted image 20230802052018.png",
     "Recursos/Historia/Untitled",
     "Meditaciones/Filosofia",
