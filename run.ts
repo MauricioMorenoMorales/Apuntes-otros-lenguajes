@@ -149,24 +149,53 @@ function isHappy(n: number): boolean {
   return false
 }
 
+function twoSum(list: number[], target: number): Array<number> {
+  let i = 0, j = 1
+  const sortedList = list.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value)
+  console.log(sortedList)
+  while (j < sortedList.length && i < sortedList.length) {
+    let
+      currentA = sortedList[i].value,
+      currentB = sortedList[j].value
+
+    if(currentA + currentB === target) return [sortedList[i].index, sortedList[j].index]
+    else if (currentA + currentB > target) i++
+    else {
+      i++;
+      j = i +1
+    }
+  }
+  return [-1,-1]
+}
+
+function twoSum(list: number[], target: number): Array<number> {
+  let i = 0, j = 1;
+  const sortedList = list.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value)
+  while(j < sortedList.length && i < sortedList.length) {
+    let
+      currentA = sortedList[i].value,
+      currentB = sortedList[j].value
+
+    if (currentA + currentB === target) return [sortedList[i].index, sortedList[j].index]
+  }
+}
+
+class Solution {
+  hasDuplicate(nums) {
+    return !(nums.length === new Set(nums).size)
+  }
+}
+
+let prestamoSeñorLoco = 1000,
+  prestamoEscalerasConPulpo = 500,
+  gasolina = 50,
+  pagoGasolina = 600,
+  cervezas = 50,
+  limpieza = 210,
+  luz = 447,
+  total = prestamoSeñorLoco + prestamoEscalerasConPulpo + gasolina + cervezas - limpieza - luz - pagoGasolina
+
+twoSum([3,2,3], 6)
+console.log(`testing this`)
 
 //_(addBinary("1010", "1011"))(console.log)
-
-_(19)(isHappy, console.log)
-
-"111"
-"111"
-"1000"
-
-"101"
-"101"
-"1011"
-
-"1011"
- "101"
-"0010"
-
- ' '
- "1010"
- "1011"
-"10101"

@@ -13,19 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Filosofia/John Vervaeke Course.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0eb7165b3522b54d",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Filosofia/Metafisica/Idealismo/Conferencias Bernardo Kastrup.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,9 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Historia/Edad Media.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "581951878ef54f80",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.6.7"
               }
             }
           },
@@ -47,9 +45,11 @@
             "id": "28316ecf0e9d5908",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.6.5"
+                "file": "Recursos/Historia/Roma.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +132,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Historia/Edad Media.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +149,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Historia/Edad Media.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +172,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Recursos/Historia/Roma.md"
+                "file": "Recursos/Historia/Edad Media.md"
               }
             }
           }
@@ -195,14 +195,23 @@
   },
   "active": "6843605ecf2df9d9",
   "lastOpenFiles": [
-    "Recursos/Matematicas/Discrete mathematics.md",
-    "Recursos/Historia/Roma.md",
     "Recursos/Historia/Biografias.md",
+    "Recursos/Historia/Edad Media.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Conferencias Bernardo Kastrup.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
+    "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
+    "Recursos/Filosofia/John Vervaeke Course.md",
+    "Recursos/Historia/Roma.md",
+    "Recursos/Matematicas/Discrete mathematics.md",
+    "Recursos/Historia/Rusia.md",
+    "Recursos/Historia/Turquia.md",
     "Untitled 1.md",
     "Recursos/Platzi/Estadistica.md",
     "Recursos/Matematicas/Estadistica.md",
     "Recursos/Platzi",
-    "Recursos/Filosofia/John Vervaeke Course.md",
     "Recursos/README.md",
     "Recursos/Libros a comprar.md",
     "Recursos/Filosofia/Definicion filosofia.md",
@@ -213,15 +222,6 @@
     "Meditaciones/Filosofia/AntiMaterialismo.md",
     "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
     "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
-    "Meditaciones/Filosofia/Autores compatibles con el idealismo.md",
-    "Meditaciones/Filosofia/Roma se convirtio en la iglesia catolica.md",
-    "Meditaciones/Filosofia/Naturaleza humana.md",
-    "Meditaciones/Filosofia/Las religiones no son 100% divinas, tienen ideas humanas.md",
-    "Meditaciones/Filosofia/Libre albedrio.md",
-    "Recursos/Historia/Rusia.md",
-    "Recursos/Historia/Historia de los arabes.md",
-    "Recursos/Historia/Arabia.md",
-    "Recursos/Historia/Turquia.md",
     "Pasted image 20230802052018.png",
     "Recursos/Historia/Untitled",
     "Meditaciones/Filosofia",

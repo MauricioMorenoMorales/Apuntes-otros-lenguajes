@@ -20,5 +20,8 @@
 	"homepage": "https://github.com/MauricioMorenoMorales/Apuntes-otros-lenguajes#readme",
 	"dependencies": {
 		"concurrently": "^6.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^22.3.0"
 	}
 }

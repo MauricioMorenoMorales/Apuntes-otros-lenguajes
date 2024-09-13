@@ -124,7 +124,6 @@ function twoSum(nums: number[], target: number): number[] {
   }
   return [-1, -1]
 }
-RedFirework007!
 //! 14. Longest Common Prefix
 /*
 Input: strs = ["flower","flow","flight"]
@@ -204,6 +203,13 @@ function groupAnagrams(strs: Array<string>): string[][] {
   }, {})
 
   return Object.values(wordsMap)
+}
+
+const groupAnagrams = (strs: Array<string>): string[][] {
+  const wordsMap = strs.reduce((map, current) => {
+    const sortedWord = current.split('').sort().join('')
+    map[sortedWord] = (map[sorted])
+  })
 }
 
 //! 929. Unique Email Addresses
