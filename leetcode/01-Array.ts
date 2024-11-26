@@ -30,14 +30,12 @@ Output: false
 */
 function isAnagram(string1: string, string2: string): boolean {
   if(string1.length !== string2.length) return false
-
   const
     sorted1 = string1.split('').sort(),
     sorted2 = string2.split('').sort();
 
-  for (let i = 0; i < sorted1.length; i++) {
+  for (let i = 0; i < sorted1.length; i++)
     if(sorted1[i] !== sorted2[i]) return false
-  }
 
   return true
 }
@@ -196,20 +194,15 @@ Input: strs = ["a"]
 Output: [["a"]]
 */
 function groupAnagrams(strs: Array<string>): string[][] {
-  const wordsMap = strs.reduce((map, current) => {
-    const sortedWord = current.split('').sort().join('')
-    map[sortedWord] = (map[sortedWord] || []).concat(current)
-    return map
-  }, {})
-
+  const wordsMap = strs.reduce(
+    (map: { [key: string]: string[] }, word: string) => {
+      let sortedWord = word.split('').sort().join()
+      map[sortedWord] = (map[sortedWord] || []).concat(word)
+      return map
+    },
+    {},
+  )
   return Object.values(wordsMap)
-}
-
-const groupAnagrams = (strs: Array<string>): string[][] {
-  const wordsMap = strs.reduce((map, current) => {
-    const sortedWord = current.split('').sort().join('')
-    map[sortedWord] = (map[sorted])
-  })
 }
 
 //! 929. Unique Email Addresses
@@ -305,3 +298,15 @@ function maxArea(vertical: number[]): number {
   }
   return maximum
 };
+
+/*
+!Consejos a realizar
+? Pensar solucion hashmap
+? Pensar si un sort soluciona el problema
+? Pensar el problema en distinta direccion
+
+! Algunos ejercicios si dan respuestas raras buscan hacer mutaciones a inputs
+
+Para fixear tamaño array usa: new Array(nums.length * 2)
+Es bastante optima la destructuracion [...nums, ...nums]
+*/

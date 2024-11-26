@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Filosofia/Metafisica/Idealismo/Conferencias Bernardo Kastrup.md",
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Historia/Edad Media.md",
+                "file": "Recursos/Matematicas/Calculus in a nutshell.md",
                 "mode": "source",
                 "source": false
               }
@@ -47,7 +47,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Recursos/Historia/Roma.md",
+                "file": "Recursos/Historia/Edad Media.md",
                 "mode": "source",
                 "source": false
               }
@@ -66,7 +66,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -193,18 +193,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6843605ecf2df9d9",
+  "active": "28316ecf0e9d5908",
   "lastOpenFiles": [
-    "Recursos/Historia/Biografias.md",
+    "Recursos/Historia/Roma.md",
     "Recursos/Historia/Edad Media.md",
+    "Recursos/Historia/Arabia.md",
+    "Recursos/Libros miguel anxo bastos.md",
+    "Recursos/Matematicas/Calculus in a nutshell.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Conferencias Bernardo Kastrup.md",
+    "Recursos/Historia/Libros Diana Uribe.md",
+    "Recursos/Historia/Biografias.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Bernardo kastrup interview points.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Ficcion conveniente.md",
     "Recursos/Filosofia/Metafisica/Idealismo/La ciencia explica el comportamiento no la naturaleza de las cosas.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Referencias a la conciencia universal en religiones.md",
     "Recursos/Filosofia/Metafisica/Idealismo/Suposiciones vs Datos Cientificos.md",
     "Recursos/Filosofia/John Vervaeke Course.md",
-    "Recursos/Historia/Roma.md",
     "Recursos/Matematicas/Discrete mathematics.md",
     "Recursos/Historia/Rusia.md",
     "Recursos/Historia/Turquia.md",
@@ -217,11 +221,7 @@
     "Recursos/Filosofia/Definicion filosofia.md",
     "Recursos/Matematicas/Derivadas.md",
     "Recursos/Matematicas/Current lessons repased.md",
-    "Recursos/Matematicas/Calculus in a nutshell.md",
     "Recursos/Matematicas/Algebra Through puzzles.md",
-    "Meditaciones/Filosofia/AntiMaterialismo.md",
-    "Meditaciones/Filosofia/La materia en el materialismo es una meta-abstraccion.md",
-    "Meditaciones/Filosofia/Condiciones materiales vs Condiciones Mentales.md",
     "Pasted image 20230802052018.png",
     "Recursos/Historia/Untitled",
     "Meditaciones/Filosofia",

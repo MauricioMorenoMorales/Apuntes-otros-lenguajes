@@ -75,12 +75,72 @@ const examen = [
   '>>>> Terminado <<<<',
 ]
 
+const coreografia = [
+  'Shangó lateral salto',
+  'Petición | giro CR',
+  'Guachineo D | Peine',
+  'Giro elegguá | giro cabeza elegguá',
+
+  'Giro gorila CR giro vista atras',//?
+  'Giro R | vista atras',
+  'Atrapa alma D | silencio caminando atrás',
+
+  'Gorila Rayo Shangó | Abakua mano derecha diagonal ascendente',
+  'Diagonal agarra cabeza | Hombros bajando',
+  'Caminata a derecha',
+  'Reguilette oggun CR',
+  'Base natural',
+  '>>>> Terminado <<<<',
+
+]
+
 // Los estados se aplican a el hombre
 type Position = 'Mano derecha -> Mano derecha' | 'Escuadra' | 'Base' | 'Base cerrada' | 'Ronda mano de puerco' | 'Mano derecha tras nuca mujer' | 'Mano cruzada derecha arriba' | 'Mano cruzada izquierda arriba' | 'Tras Giro' | 'Mano Izquierda Suelta' | 'Ronda Mujer' | 'Base Diagonal'
   | 'Reversa Mano del hombre en espalda de la mujer' | 'Pluma ambas manos' | 'Mano Derecha en mano espalda mujer' | 'Mano Izquierda en mano espalda mujer' | 'Pluma Mujer Hombre Perpendicular' | 'Ronda mujer Estomago' | 'Mano costado izquierdo' | 'Manita de puerco' | 'Mano derecha mano derecha'
-  | 'Doble escuadra' | 'Mano derecha mano derecha agarre boca abajo'
-interface Step {nombre: string, estadoInicial: Position[], estadoFinal: Position[], duracion: number, acento?: number, coreografico?: boolean, }
+  | 'Doble escuadra' | 'Mano derecha mano derecha agarre boca abajo' | 'Ronda mujer enfrente' | 'Paseo derecha izquierda' | 'In and out'
+  //? Bachata
+  | 'Brazo espalda perpendicular' | 'Abrazo derecha cintura izquierda arriba' | 'Mano cruzada izquierda arriba perpendicular' | 'Base paralela'
+interface Step {nombre: string, estadoInicial: Position[], estadoFinal: Position[], duracion: number, acento?: number, coreografico?: boolean, repeated?: boolean}
 type DanceSteps = Array<Step>
+
+const bachataSteps: DanceSteps = [
+  {nombre: 'Base', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Primer giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Segundo giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Tercer giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Slide', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Cuarto Giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Shufle', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4}, //! revisar
+  {nombre: 'Pluma abrazo perpendicular', estadoInicial: ['Base', 'Mano cruzada izquierda arriba'], estadoFinal: ['Brazo espalda perpendicular'], duracion: 8},
+  {nombre: 'Avance frente con sostenido', estadoInicial: ['Mano cruzada izquierda arriba'], estadoFinal: ['Brazo espalda perpendicular'], duracion: 8},
+  {nombre: 'Barril', estadoInicial: ['Brazo espalda perpendicular'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Pluma rodeada', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8}, //! revisar
+  {nombre: 'Caminata', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Lateral cadera', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Giro ambos', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  /* segundo giro ella */   {nombre: 'Segundo giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Tercer giro él */ {nombre: 'Tercer giro', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Shuffle */ {nombre: 'Shufle', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  {nombre: 'Psicopado', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Doble toque', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Paso toco', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Pluma espalda', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Peine hombre', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Tunel espalda mujer', estadoInicial: ['Abrazo derecha cintura izquierda arriba'], estadoFinal: ['Mano cruzada izquierda arriba perpendicular'], duracion: 4},
+  {nombre: 'Peine axilazo', estadoInicial: ['Mano cruzada izquierda arriba perpendicular'], estadoFinal: ['Base paralela'], duracion: 4},
+  {nombre: 'Psicopado diagonal', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  /* Shuffle */ {nombre: 'Shufle', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal frente', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal atras', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal invertido', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal atras invertido', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  /* Psicopado */ {nombre: 'Psicopado diagonal frente invertido', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4, repeated: true},
+  {nombre: 'Doble', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Toque invertido', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+  {nombre: 'Toque invertido con chacha', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 4},
+]
 
 const salsaSteps: DanceSteps = [
   {nombre: 'Base', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
@@ -96,7 +156,7 @@ const salsaSteps: DanceSteps = [
   {nombre: 'Touch and go', estadoInicial: ['Mano cruzada derecha arriba', 'Mano costado izquierdo'], estadoFinal: ['Mano cruzada derecha arriba'], duracion: 8},
   {nombre: 'Giro 160 Hombre Ronda', estadoInicial: ['Ronda Mujer'], estadoFinal: ['Base'], duracion: 4},
   {nombre: 'Pluma Izquierda Espalda', estadoInicial: ['Escuadra'], estadoFinal: ['Reversa Mano del hombre en espalda de la mujer'], duracion: 8},
-  {nombre: 'Reversa', estadoInicial: ['Reversa Mano del hombre en espalda de la mujer'], estadoFinal: ['Mano cruzada derecha arriba'], duracion: 8},
+  {nombre: 'Reversa', estadoInicial: ['Reversa Mano del hombre en espalda de la mujer', 'Mano derecha mano derecha'], estadoFinal: ['Mano cruzada derecha arriba'], duracion: 8},
   {nombre: '360', estadoInicial: ['Mano cruzada derecha arriba'], estadoFinal: ['Base'], duracion: 16},
   {nombre: 'Giro Mujer Arriba Abajo', estadoInicial: ['Base'], estadoFinal: ['Mano Derecha en mano espalda mujer', 'Mano Izquierda en mano espalda mujer'], duracion: 16},
   {nombre: 'In and out', estadoInicial: ['Mano Izquierda en mano espalda mujer'], estadoFinal: ['Mano cruzada derecha arriba'], duracion: 8},
@@ -130,6 +190,14 @@ const salsaSteps: DanceSteps = [
   {nombre: 'Giro acento costado', estadoInicial: ['Mano cruzada izquierda arriba'], estadoFinal: ['Mano derecha mano derecha'], duracion: 8, acento: 3},
   {nombre: '360 con regreso', estadoInicial: ['Mano derecha mano derecha'], estadoFinal: ['Base'], duracion: 16},
   {nombre: 'Giro incado impulsando abdomen', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8, coreografico: true},
+  // TODO 18 Sept 2024 ---- Revisar y poner nombres
+  {nombre: 'Doble giro peinados', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
+  {nombre: 'Doble giro pluma', estadoInicial: ['Base'], estadoFinal: ['Manita de puerco'], duracion: 8, coreografico: true},
+  {nombre: 'Inclino miro final cubano', estadoInicial: ['Manita de puerco'], estadoFinal: ['Mano derecha mano derecha'], duracion: 8, coreografico: true},
+  {nombre: 'Cross de 5 cubano', estadoInicial: ['Mano derecha mano derecha'], estadoFinal: ['Ronda mujer enfrente'], duracion: 8, coreografico: true},
+  {nombre: 'Ronda paseo ', estadoInicial: ['Ronda mujer enfrente'], estadoFinal: ['Paseo derecha izquierda'], duracion: 8, coreografico: true},
+  {nombre: 'Paseo', estadoInicial: ['Paseo derecha izquierda'], estadoFinal: ['In and out'], duracion: 8, coreografico: true},
+  {nombre: 'Reguilette', estadoInicial: ['Paseo derecha izquierda'], estadoFinal: ['In and out'], duracion: 8, coreografico: true},
   //! 50 vueltas de salsa para bailar
   {nombre: 'Enchufla', estadoInicial: ['Base'], estadoFinal: ['Base'], duracion: 8},
   // Ideas
@@ -138,16 +206,68 @@ const salsaSteps: DanceSteps = [
 
 //! Memorizador
 const askDanceStep = (
+  (pasos: DanceSteps, iterator: number) =>
+  (): string => `${iterator+1} - ${pasos[iterator++ % pasos.length].nombre}`
+)(bachataSteps, 0)
+
+const askDanceStepsSolo = (
   (pasos: Array<string>, iterator: number) =>
-  (): string => pasos[iterator++ % pasos.length]
-)(examen, 0)
+  (): string => `${iterator+1} - ${pasos[iterator++ % pasos.length]}`
+)(coreografia, 0)
 
 //! Generador rutinas
 const getDanceStep = (danceSteps: DanceSteps, position: Position) => danceSteps.filter(element => element.estadoInicial.includes(position))
 
 //! Ejecucion
-//readLine.on('line', () => console.log(`# ${askDanceStep()}`))
+readLine.on('line', () => console.log(`# ${askDanceStepsSolo()}`))
 
-// console.log('Presiona enter para imprimir un paso')
+console.log('Presiona enter para imprimir un paso')
 
-console.log(getDanceStep(salsaSteps, 'Mano derecha mano derecha'))
+/* 
+  arara
+*/
+
+/* Clusterizacion
+# 1 - Base
+# 2 - Primer giro - ella
+# 3 - Segundo giro - el
+# 4 - Tercer giro - ella
+# 5 - Slide
+# 6 - Cuarto Giro - ella
+# 7 - Shufle
+
+# 8 - Pluma abrazo perpendicular
+# ? - Avance con sostenido
+# 9 - Barril
+# 10 - Pluma rodeada
+# 11 - Caminata
+# 12 - Lateral cadera
+
+# 13 - Giro ambos !4
+# 14 - Segundo giro - ella # 15 - Tercer giro - el # ## - Doble giro interno - el !4
+# 16 - Shufle
+# 17 - Psicopado
+# 18 - Doble toque
+
+# 19 - Paso toco
+# 20 - Pluma espalda
+# 21 - Peine hombre
+# 22 - Tunel espalda mujer
+# 23 - Peine axilazo
+
+ -- segundo video
+# 24 - Psicopado diagonal
+# 25 - Shufle
+# 26 - Psicopado
+# 27 - Doble
+# 28 - Toque invertido
+# 29 - Toque invertido con chacha
+*/
+
+/*
+! Rutina salsa
+
+Base Cubana
+Base Cubana
+*/
+

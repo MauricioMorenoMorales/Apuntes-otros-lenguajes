@@ -81,7 +81,7 @@ Mathematically, the linear approximation of a function f(x) at a point x=a can b
 
 L(x) = f(a) + f'(a)(x - a),
 
-where L(x) represents the linear approximation of f(x), f(a) is the value of the function at x=a, f'(a) is the derivative of the function evaluated at x=a, and (x - a) represents the distance from the point of approximation.
+where L(x) represents the linear approximation of f(x), f(a) is the value of the function at x=a, f'(a) is the derivative of the function evaluated at x=a, and (x - a) represents the distance from the point of ap§proximation.
 
 ## The second derivative
 La segunda derivada nos ayuda a conocer minimos locales y maximos locales.

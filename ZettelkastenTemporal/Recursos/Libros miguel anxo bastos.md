@@ -1,0 +1,3 @@
+-  Las Consecuencias morales del crecimiento económico por el profesor Benjamin M Friedman (2006-12-15)
+- La sociologia del Imperialismo shumpeter
+- Germenes Armas y acero

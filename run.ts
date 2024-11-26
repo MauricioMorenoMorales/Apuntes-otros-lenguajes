@@ -1,201 +1,33 @@
-const _ = (value: any): any => (...functions: any[]) : any =>
-  functions.reduce((response, func) => func(response), value)
-
-class ListNode {
-  val: number
-  next: ListNode | null
-  constructor(val?: number, next?: ListNode | null) {
-    this.val = (val === undefined ? 0 : val)
-    this.next = (next === undefined ? null : next)
-  }
-}
-
-const logList = (list: ListNode | null) => {
-  const response: Array<number> = []
-  while(list) {
-    response.push(list.val)
-    list = list.next
-  }
-  console.log(response)
-}
-
-const linkedList = (values: Array<number>): ListNode | null => {
-  let response: ListNode | null = new ListNode(0, null)
-  let pointer: ListNode | null = response
-
-  for (const value of values) {
-    pointer.next = new ListNode(value, null)
-    pointer = pointer?.next
-  }
-
-  return response.next
-}
-
-type falsy = false | null | undefined
-type ListNodeNull = ListNode | null
-
-//! Helpers ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
-
-const numberValues: {[key: string]: string[]} = {
-  '1': ''.split(''),
-  '2': 'abc'.split(''),
-  '3': 'def'.split(''),
-  '4': 'ghi'.split(''),
-  '5': 'jkl'.split(''),
-  '6': 'mno'.split(''),
-  '7': 'pqrs'.split(''),
-  '8': 'tuv'.split(''),
-  '9': 'wxyz'.split('')
-}
-
-function combine1(digits: string): string[] {
-  return numberValues[digits[0]]
-}
-function combine2(digits: string): string[] {
-  let response: Array<string> = []
-  const numbers1 = numberValues[digits[0]]
-  const numbers2 = numberValues[digits[1]]
-
-  for (const letter1 of numbers1)
-    for (const letter2 of numbers2)
-      response.push(`${letter1}${letter2}`)
-
-  return response
-}
-function combine3(digits: string): string[] {
-  let response: Array<string> = []
-  const numbers1 = numberValues[digits[0]]
-  const numbers2 = numberValues[digits[1]]
-  const numbers3 = numberValues[digits[2]]
-
-  for (const letter1 of numbers1)
-    for (const letter2 of numbers2)
-      for (const letter3 of numbers3)
-        response.push(`${letter1}${letter2}${letter3}`)
-
-  return response
-}
-function combine4(digits: string): string[] {
-  let response: Array<string> = []
-  const numbers1 = numberValues[digits[0]]
-  const numbers2 = numberValues[digits[1]]
-  const numbers3 = numberValues[digits[2]]
-  const numbers4 = numberValues[digits[3]]
-
-  for (const letter1 of numbers1)
-    for (const letter2 of numbers2)
-      for (const letter3 of numbers3)
-        for (const letter4 of numbers4)
-        response.push(`${letter1}${letter2}${letter3}${letter4}`)
-
-  return response
-}
-
-function letterCombinations(digits: string): string[] {
-  switch (digits.length) {
-    case 1: return combine1(digits)
-    case 2: return combine2(digits)
-    case 3: return combine3(digits)
-    case 4: return combine4(digits)
-    default: return []
-  }
-}
-
-
-function addBinary(b1: string, b2: string): string {
-  let p1 = b1.length-1, p2 = b2.length-1
-  let response = ''
-  let remaining = true
-  while(p1 && p2) {
-    const current1 = b1[p1], current2 = b2[p2]
-    const areBothZero = current1 === '0' && current2 === '0'
-    const areBothOne = current1 === '1' && current2 === '1'
-    const areDifferent = !areBothOne && !areBothZero
-
-    if(areBothOne) {
-      response += '0'
-      remaining = true
-    } else if (areBothZero) {
-      if(remaining) {
-        response += '1'
-        remaining = false
-      }
-      response += '0'
-    } else if (areDifferent) {
-      if(remaining) {
-        response += '0'
-        remaining = true
-      } else {
-        response += '1'
-      }
+function removeElement(nums: number[], val: number): number {
+  let response = 0
+  let i = 0, j = 0
+  
+  while (i < nums.length) {
+    if (nums[i] !== val) {
+      nums[j] = nums[i]
+      j++
+      response++
     }
-    p1--;p2--;
+    i++
   }
-  console.log(response)
-
-  if(remaining) response += '1'
-  return response.split('').reverse().join('')
+  return response
 }
 
-function isHappy(n: number): boolean {
-  let currentValue = n
-  for (let i = 0; i < 10000; i++)
-    if (currentValue === 1) return true
-    else currentValue = currentValue
-      .toString()
-      .split('')
-      .map(x => Number(x) ** 2)
-      .reduce((response, current) => response + current, 0)
-  return false
-}
+console.log(generate(3))
 
-function twoSum(list: number[], target: number): Array<number> {
-  let i = 0, j = 1
-  const sortedList = list.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value)
-  console.log(sortedList)
-  while (j < sortedList.length && i < sortedList.length) {
-    let
-      currentA = sortedList[i].value,
-      currentB = sortedList[j].value
-
-    if(currentA + currentB === target) return [sortedList[i].index, sortedList[j].index]
-    else if (currentA + currentB > target) i++
-    else {
-      i++;
-      j = i +1
-    }
+function removeElement(nums: number[], val: number): number {
+  let response = 0
+  for(let i = 0, j = 0; i < nums.length; i++) if (nums[i] !== val) {
+    nums[j] = nums [i]
+    j++; response++
   }
-  return [-1,-1]
+  return response
 }
 
-function twoSum(list: number[], target: number): Array<number> {
-  let i = 0, j = 1;
-  const sortedList = list.map((value, index) => ({ value, index })).sort((a, b) => a.value - b.value)
-  while(j < sortedList.length && i < sortedList.length) {
-    let
-      currentA = sortedList[i].value,
-      currentB = sortedList[j].value
-
-    if (currentA + currentB === target) return [sortedList[i].index, sortedList[j].index]
+function removeElement(nums: number[], val: number): number {
+  let response = 0
+  for (let i = 0, j = 0; i < nums.length; i++) if (nums[i] !== val) {
+    nums[j] = nums[i]
+    j++; response++;
   }
 }
-
-class Solution {
-  hasDuplicate(nums) {
-    return !(nums.length === new Set(nums).size)
-  }
-}
-
-let prestamoSeñorLoco = 1000,
-  prestamoEscalerasConPulpo = 500,
-  gasolina = 50,
-  pagoGasolina = 600,
-  cervezas = 50,
-  limpieza = 210,
-  luz = 447,
-  total = prestamoSeñorLoco + prestamoEscalerasConPulpo + gasolina + cervezas - limpieza - luz - pagoGasolina
-
-twoSum([3,2,3], 6)
-console.log(`testing this`)
-
-//_(addBinary("1010", "1011"))(console.log)
