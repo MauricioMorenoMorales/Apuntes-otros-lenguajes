@@ -1,0 +1,360 @@
+{
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "emmet.includeLanguages": {
+    "javascript": "html"
+  },
+  "editor.suggestSelection": "first",
+  "workbench.tree.indent": 15,
+  "vim.handleKeys": {
+    "<C-w>": false,
+    "<C-c>": false,
+    "<C-v>": false
+  },
+  "vim.history": 10,
+  "editor.cursorWidth": 4,
+  "search.showLineNumbers": true,
+  "terminal.integrated.shell.linux": "/bin/zsh",
+  "workbench.editor.showTabs": "single",
+  "editor.scrollbar.vertical": "hidden",
+  "editor.scrollbar.horizontal": "hidden",
+  "languageStylus.useSeparator": false,
+  "languageStylus.useBuiltinFunctions": false,
+  "calva.highlight.matchedBracketStyle": {
+    "backgroundColor": "#f00"
+  },
+  "calva.highlight.rainbowIndentGuides": true,
+  "calva.highlight.highlightActiveIndent": true,
+  "files.associations": {
+    ".js": "javascript",
+    ".ejs": "html"
+  },
+  //! Code colors ==================================================
+  "workbench.colorCustomizations": {
+    // "editorCursor.background": "#000000",
+    "editorCursor.foreground": "#00ff0d",
+    "editorLineNumber.foreground": "#00ff009f",
+    "editorLineNumber.activeForeground": "#ff0000",
+    "editor.selectionBackground": "#00661b",
+    "editor.lineHighlightBorder": "#00ff0851",
+    // "editor.lineHighlightBorder": "#0f0",
+    "editor.lineHighlightBackground": "#00ff1513",
+    // "terminal.background": "#001e3a",
+    // "editorGroup.border": "#009900",
+    // "tab.activeBackground": "#0da71f6e",
+    // "tab.activeForeground": "#03bb03",
+    // "tab.hoverBackground": "#01610174",
+    // "tab.unfocusedActiveForeground": "#83fdc89c",
+    // "tab.unfocusedActiveBackground": "#0b100e",
+    "numberForeground": "#ff0000",
+    "editorBracketMatch.background": "#f00",
+    "editorBracketMatch.border": "#00ff00",
+    // "editorBracketHighlight.foreground1": "#000",
+    // "editorBracketHighlight.foreground2": "#000",
+    "editorBracketHighlight.foreground5": "#00a100",
+    "editorBracketHighlight.foreground4": "#bcbcbc",
+    "editorBracketHighlight.foreground6": "#ff7438",
+    "functionForeground": "#ff0000",
+    // "editor.background": "#000000",
+    // "sideBar.background": "#000",
+    // "activityBar.background": "#000",
+    // "titleBar.activeBackground": "#000",
+    // "panel.background": "#000",
+    "background": "#ff0000",
+    "background": "#000",
+    "editor.wordHighlightBackground": "#ab04ff85"
+  },
+  "editor.tokenColorCustomizations": {
+    "numbers": "#ff0000",
+    // "comments": "#6D929C",
+    // "keywords": "#9504bd",
+    "functions": "#fbff01",
+    "keywords": "#00ae00",
+    //"strings": "#9b9b9b",
+    "variables": "#84f314",
+    "textMateRules": [
+      {
+        "scope": "string.quoted.double.html",
+        "settings": {
+          "foreground": "#f79934",
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "support.class.component.js",
+        "settings": {
+          "foreground": "#f73434",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "source.go",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.object.js",
+        "settings": {
+          "foreground": "#1ee98a",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "entity.other.attribute-name.class.css",
+        "settings": {
+          "foreground": "#1ee98a",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.constant.js",
+        "settings": {
+          "foreground": "#fff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.constant.ts",
+        "settings": {
+          "foreground": "#fff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite.ts",
+        "settings": {
+          "foreground": "#4cb4ff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "variable.other.readwrite.js",
+        "settings": {
+          "foreground": "#4cb4ff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "text.html.derivative",
+        "settings": {
+          "foreground": "#aaa",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "meta.object-literal.key.js",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "string.quoted.double.html",
+        "settings": {
+          "foreground": "#4677ff",
+          "fontStyle": "bold"
+        }
+      },
+      {
+        "scope": "storage.type.function.arrow.js",
+        "settings": {
+          "foreground": "#f73d3d",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "source.elixir",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "source.haskell",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "variable.other.property.ts",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "variable.other.property.js",
+        "settings": {
+          "foreground": "#3df7e4",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "meta.symbol.clojure",
+        "settings": {
+          "foreground": "#3df765",
+          "fontStyle": ""
+        }
+      },
+      {
+        "scope": "entity.name.tag.css",
+        "settings": {
+          "foreground": "#eef73d",
+          "fontStyle": ""
+        }
+      }
+    ]
+  },
+
+  "files.autoSave": "afterDelay",
+  "vim.easymotion": true,
+  "vim.incsearch": true,
+  "vim.useSystemClipboard": true,
+  "vim.easymotionMarkerackgroundColor": "blue",
+  "vim.useCtrlKeys": true,
+  "vim.statusBarColorControl": false,
+  "vim.hlsearch": true,
+  "vim.insertModeKeyBindings": [
+    {
+      "before": ["j", "j"],
+      "after": ["<Esc>"]
+    }
+  ],
+  "vim.normalModeKeyBindingsNonRecursive": [
+    {
+      "before": ["<leader>", "d"],
+      "after": ["d", "d"]
+    },
+    {
+      "before": ["<C-n>"],
+      "commands": [":nohl"]
+    }
+  ],
+  "editor.lineNumbers": "relative",
+  "vim.leader": "<space>",
+  "vim.searchHighlightColor": "#00ff0075",
+  "php.executablePath": "C:/php-7.3.17-nts-Win32-VC15-x64/php.exe",
+  "editor.snippetSuggestions": "top",
+  "extensions.ignoreRecommendations": false,
+  "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
+  "editor.fontLigatures": true,
+  "window.title": "${dirty} 文件路径 ${activeEditorMedium} 在工作区 ${rootName} 使用 ${appName}",
+  "window.titleSeparator": " 在里 ",
+  "zenMode.hideLineNumbers": false,
+  "zenMode.hideStatusBar": false,
+  "debug.console.lineHeight": 16,
+  "editor.renderWhitespace": "boundary",
+  "editor.renderLineHighlight": "all",
+  "editor.letterSpacing": -1.3,
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off",
+  "editor.autoClosingQuotes": "always",
+  "editor.lineHeight": 0.8,
+  "editor.suggestLineHeight": 15,
+  "editor.suggestFontSize": 15,
+  "prettier.trailingComma": "all",
+  "prettier.arrowParens": "avoid",
+  "prettier.semi": false,
+  "prettier.singleQuote": true,
+  "prettier.jsxBracketSameLine": false,
+  "prettier.embeddedLanguageFormatting": "off",
+  "sync.gist": "PrimeraPc",
+  "sync.autoDownload": false,
+  "sync.autoUpload": true,
+  "files.autoSaveDelay": 20000,
+  "workbench.editorAssociations": {
+    "*.ipynb": "jupyter-notebook"
+  },
+  "vscode-pets.petSize": "medium",
+  "[python]": {
+    "editor.insertSpaces": true,
+    "editor.tabSize": 4,
+    "editor.formatOnType": false
+  },
+  "editor.wordSeparators": "/\\()\"':,.;<>~!@#$%^&*|+=[]{}`?-",
+  "vim.cursorStylePerMode.insert": "block-outline",
+  "notebook.cellToolbarLocation": {
+    "default": "right",
+    "jupyter-notebook": "left"
+  },
+  "editor.fontWeight": "400",
+  "workbench.colorTheme": "Zone Green",
+  "[typescriptreact]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "vscode-edge-devtools.mirrorEdits": true,
+  "cSpell.userWords": ["browserslist", "Desaturated", "Parens", "testid"],
+  "editor.cursorSmoothCaretAnimation": "on",
+  "editor.cursorStyle": "block-outline",
+  "window.menuBarVisibility": "toggle",
+  "settingsSync.ignoredSettings": [],
+  //! ESLINT =======================================
+  // "editor.codeActionsOnSave": {
+  // 	"source.fixAll.eslint": true
+  // },
+  "eslint.alwaysShowStatus": true,
+  "workbench.iconTheme": "material-icon-theme",
+  "code-runner.runInTerminal": true,
+  "editor.fontFamily": "'CaskaydiaCove nerd font',Menlo, Monaco, 'Courier New', monospace",
+  "workbench.preferredDarkColorTheme": "Zone Green",
+  "workbench.preferredHighContrastLightColorTheme": "Default Light+",
+  "workbench.preferredLightColorTheme": "Platzi Theme Classic",
+  "vscode-note.notespath": "/fmi/notes",
+  "vim.cursorStylePerMode.visual": "block-outline",
+  "vim.cursorStylePerMode.visualline": "block-outline",
+  "vim.cursorStylePerMode.visualblock": "block-outline",
+  "vim.cursorStylePerMode.replace": "block-outline",
+  "vim.cursorStylePerMode.normal": "block",
+  "editor.glyphMargin": true,
+  "Notes.notesLocation": "/Users/mauricio.moreno/Desktop/notes",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "errorLens.fontFamily": "Menlo",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.gutterIconSet": "defaultOutline",
+  "problems.showCurrentInStatus": true,
+  "workbench.sideBar.location": "right",
+  "workbench.editor.highlightModifiedTabs": true,
+  "window.autoDetectColorScheme": true,
+  "workbench.productIconTheme": "material-product-icons",
+  "workspaceSidebar.folder": "~/fmi/repositories",
+  "hediet.vscode-drawio.resizeImages": null,
+  "window.titleBarStyle": "custom",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "codetour.showMarkers": false,
+  "calva.paredit.defaultKeyMap": "strict",
+  "calva.prettyPrintingOptions": {
+    "printEngine": "pprint",
+    "enabled": true,
+    "width": 120,
+    "maxLength": 50
+  },
+  "codestream.serverUrl": "https://codestream-us1.service.newrelic.com",
+  "go.goroot": "/opt/homebrew/Cellar/go/1.20.4/libexec",
+  "search.defaultViewMode": "tree",
+  "githubPullRequests.pullBranch": "never",
+  "errorLens.messageEnabled": true,
+  "solargraph.useBundler": false,
+  "totalTypeScript.hideAllTips": true,
+  "indenticator.inner.showIndentGuide": true,
+  "indenticator.inner.showIndentGuide": true,
+  "window.zoomLevel": 1,
+  "editor.guides.highlightActiveIndentation": "always",
+  "salesforcedx-vscode-apex.java.home": "/Library/Java/JavaVirtualMachines/openjdk-11.jdk/Contents/Home",
+  "[markdown]": {
+    "diffEditor.ignoreTrimWhitespace": true
+  },
+  "git.confirmSync": false,
+  "[go]": {
+    "editor.defaultFormatter": "golang.go"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+}
