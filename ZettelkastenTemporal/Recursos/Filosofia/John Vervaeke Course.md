@@ -346,3 +346,5 @@
 - Cliford geretz, Buber, Fromm -> Estas existencial modes son meta-meaning relations, que significa? si tu no tienes la relacion entre agente y arena, entonces ninguna de tus acciones tienen msignificado, si meten a un futolista en un campo de tenis no hay sentido en eso, es `meta-meaning`, y es una instancia de un modo particular de un `world-view`
 - Kurt llama a este soporte mutuo no como algo estatico si no como un proceso en despliegue lo que llama `world-view attunement`
 - Si no tienes un world-view, no puedes obtener un world-vie-attunement y tu vision del mundo seria absurda y no tendria sentido serias el futbolista en el campo de tenis
+
+- Testing github
