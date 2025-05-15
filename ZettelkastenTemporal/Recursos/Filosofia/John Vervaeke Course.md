@@ -367,3 +367,5 @@
 - Con estas cosas el `having` mode esta completamente destruido, sidharta tiene una crisis existencial por que se problematiza su `existencial mode`
 - Tras regresar al palacio y trata de regresar a su antigüo mundo pero conoce a una nueva persona, conoce a un renunciador un monje que renuncia al modo del tener, ve gran paz en esta persona y el contraste, buda en un estado de estress inimaginable su forma de ver el mundo es completamente destruida y el contraste con la paz que ve es inmenso, se pregunta quien es este? le dicen que es un medicant, un vagabundo viajante, y esto representa su primera interaccion con el `being mode` y nota el contraste de manera poderosa
 - Retorna al palacio con estos 4 simbolos marcados profundamente, la enfermedad vejez muerte pero tambien la paz,
+
+> Test message
