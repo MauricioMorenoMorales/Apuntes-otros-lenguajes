@@ -356,3 +356,14 @@
 - Cliford geretz, Buber, Fromm -> Estas existencial modes son meta-meaning relations, que significa? si tu no tienes la relacion entre agente y arena, entonces ninguna de tus acciones tienen msignificado, si meten a un futolista en un campo de tenis no hay sentido en eso, es `meta-meaning`, y es una instancia de un modo particular de un `world-view`
 - Kurt llama a este soporte mutuo no como algo estatico si no como un proceso en despliegue lo que llama `world-view attunement`
 - Si no tienes un world-view, no puedes obtener un world-vie-attunement y tu vision del mundo seria absurda y no tendria sentido serias el futbolista en el campo de tenis
+
+# Ep. 8 - The Buddha
+[Alone With Others - Stephen Batchelor]
+- Aristoteles es importante por haber creado una visión del mundo que duraria por mas de 2000 años
+- El palacio representa estar en contacto con cosas el tener no el ser o llegar a convertirse en la persona que realmente debe de ser
+- Tras salir Buda conoce a una persona enferma, se pregunta que es, y le responden sus sirvientes que nada, esta enfermo es algo normal, algo relacionado a la era axial de auto conocimiento, buda se pregunta si él tambien puede enfermarse como esta persona, se estresá y se va de el lugar
+- Despues conoce a una persona vieja, pregunta si tambien estaba enferma, le dicen que no que en realidad está vieja, y que es normal y eso le pasa a las personas
+- Después encuentra una procesión funeraria y se pregunta que que le pasó, le dijeron que estaba muerta, que era algo normal que le iba a pasar a todos
+- Con estas cosas el `having` mode esta completamente destruido, sidharta tiene una crisis existencial por que se problematiza su `existencial mode`
+- Tras regresar al palacio y trata de regresar a su antigüo mundo pero conoce a una nueva persona, conoce a un renunciador un monje que renuncia al modo del tener, ve gran paz en esta persona y el contraste, buda en un estado de estress inimaginable su forma de ver el mundo es completamente destruida y el contraste con la paz que ve es inmenso, se pregunta quien es este? le dicen que es un medicant, un vagabundo viajante, y esto representa su primera interaccion con el `being mode` y nota el contraste de manera poderosa
+- Retorna al palacio con estos 4 simbolos marcados profundamente, la enfermedad vejez muerte pero tambien la paz,
