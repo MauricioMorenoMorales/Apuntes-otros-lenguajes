@@ -359,6 +359,10 @@
 
 # Ep. 8 - The Buddha
 [Alone With Others - Stephen Batchelor]
+[Meaning in Life - Susan Wolf]
+[Hypnosis & Meditation]
+[Mindfulness - Ellen J. Langer]
+[Attention is cognitive Unison]
 - Aristoteles es importante por haber creado una visión del mundo que duraria por mas de 2000 años
 - El palacio representa estar en contacto con cosas el tener no el ser o llegar a convertirse en la persona que realmente debe de ser
 - Tras salir Buda conoce a una persona enferma, se pregunta que es, y le responden sus sirvientes que nada, esta enfermo es algo normal, algo relacionado a la era axial de auto conocimiento, buda se pregunta si él tambien puede enfermarse como esta persona, se estresá y se va de el lugar
@@ -367,5 +371,48 @@
 - Con estas cosas el `having` mode esta completamente destruido, sidharta tiene una crisis existencial por que se problematiza su `existencial mode`
 - Tras regresar al palacio y trata de regresar a su antigüo mundo pero conoce a una nueva persona, conoce a un renunciador un monje que renuncia al modo del tener, ve gran paz en esta persona y el contraste, buda en un estado de estress inimaginable su forma de ver el mundo es completamente destruida y el contraste con la paz que ve es inmenso, se pregunta quien es este? le dicen que es un medicant, un vagabundo viajante, y esto representa su primera interaccion con el `being mode` y nota el contraste de manera poderosa
 - Retorna al palacio con estos 4 simbolos marcados profundamente, la enfermedad vejez muerte pero tambien la paz,
-
-> Test message
+- En este momento se `desiluciona` del mundo, un estado en el que se mueve alguien a la desesperacion tristeza, es una sensacion negativa, pierde su sensacion de pertenecer al palacio
+- El decide abandonar su vida abandona a su esposa y a su hijo
+- La historia nos dice que la vida moral se sienta sobre algo profundo, tus responsabilidades morales que son importantes pueden volverse sin significado si pierden significado, la moralidad depende de que tu vida sea significativa
+- La virtud esta relacionada con el significado, con la cultivacion de la sabiduria no solo que es moralmente correcto
+- Sidharta abandona su palacio y busca cultivar una solucion a los problemas que vio, conoce varios maestros y encuentra otro problema, a pesar de abandonar el palacio no ha abandonado el `having mode` todavia tenia la confucion, el persigue el asceticism pone su cuerpo en tremendo dolor tratando de cumplir submision practica un `self denial` una abnegacion, llega a un punto en el que se ve sus costillas, tiene una cara anemica, pero no sirve, lo que esta mal es que buscar elmininar el yo conlleva a seguir pensando en tener el yo, todavia esta en el modo tener, solo lo traspaso a tener cosas fisicas a tenerse a si mismo
+- El se sienta en la orilla de un rio y esta cansado y ve un barco con un musico pasar, le dice a su aprendiz escuchame, las cuerdas no pueden estar ni muy flojas ni muy apretadas, ambas estan mal, aqui siddharta descubre el camino del medio, el camino medio es trascender el `having mode` rechazando la auto indulgencia y el auto y la abnegacion
+- El budismo no busca maximizar si no conectar, de optimizar, el `being mode` es estar conectado de una manera adecuada
+- Tras esta realizacion, cae en el rio se ahoga y una niña lo salva, que en su culutura era algo extremadamente degradante para un hombre mas que fue un principe
+- Esto apunta al cambio tan radical que esta viviendo
+- Trata de buscar una forma de optimizar su cognicion para trascender y descubre el 'having mode' algo que lo llama 'sati', un tipo de recordar, significa recordar, recordar un modo de ser perdido, recordar estar en el being mode, encontrar una identidad que tenias antes, recordar ah esto es lo que se sentia ser yo en ese momento
+- Sati es tratar de recordar el 'being mode', de aqui viene el concepto de mindfulness, aunque no se hable de ello
+- Siddharta trata de recordar el 'being mode' no como idea intelectual si no como su propia agencia en la manera en la que el mundo se realiza en co identificacion con esa agencia
+- Cuando despiertas tambien vives un sati, de hecho es una metafora para hablar de la trascendencia, el despertar, cuando despiertas recuerdas tu mundo y tu identidad, estas recordando Re-Membere, es volver a ser miembro, eso pasa cuando despiertas
+- Sidharta crea un set de psicotecnologias que ayudan a recordar sati, buddha es un titulo llamado el despierto
+- El despertar buscado en el mindfullness ayuda a resolver la crisis de significado de alli incluso viene el nombre de el curso awakening from the meaning crisis
+- Si queremos entender que fue el despertar de siddharta debemos de saber que significaba mindfullness para él es un set de psicotecnologias que te llevan al despertar
+- La gente piensa que estar en estado mindful es estar presente en el momento en una manera no juzgativa
+- Existen dos formas de entender el mindfullnes una forma es haciendolo y explicando como se hace, y otra haciendo estudios formales o cientificos esto puede llevar a confusiones entre los dos lenguajes, el lenguaje de entrenamiento y el lenguaje de explicacion
+- El lenguaje de explicacion es uno de imitacion de envolvimiento puedes depender de la presencia local de las personas, depender de las metas de las personas que quieren obtener la habilidad, sin embargo este lenguaje no funcionaria a la hora de explicar formalmente la practica
+- Una de las mejores formas de entrenar tu memoria, es usar el metodo de locacion o el metodo Llosa, creas un palacio de la memoria guardas imagenes o pensamientos dentro de cada cuarto agrupandolos, cuando quieras recordarlo vas a el cuarto de cada quien
+- es un metodo poderoso en la antiguedad se usaba para poder memorizar discursos que duraban mas de 6 horas, es una poderosa forma de entrenamiento, pero esta mal usar las mismas analogias usadas para explicar como hacer esta practica que explicar por que funciona
+- La forma espacial de la memoria esta mal no guardamos informacion relacionada en ciertas partes del cerebro
+- Tu rapidamente sabes cuando no sabes algo, cual es el telefono de Obama, no lo se, has estado en Bangkok, no, tu mente no va uno a uno a cada lugar que hayas ido y pregunta, esto es bangkok esto es bankok, esto si es bankok, no asi no funciona, nosotros sabemos instantaneamente cuando no sabemos algo, nisiquiera buscamos el espacio asociado a este conocimiento
+- La memoria espacial es buena para entrenar a la mente pero es supremamente simplista y falsa, te lleva a malentender como funciona la mente
+- El lenguaje que usamos para hacer mindfullness no debe de interferir a la forma cientifica en la que la explicamos
+- Poner atencion al momento presente es problematico no sabemos que significa poner atencion, igual es dificil definir que es el momento presente, tambien no se puede definir completamente el aqui
+- Tenemos que redefinir mindfulnes, de tal modo que podamos definir como las personas pueden estar despiertas
+- Como decia aristoteles Nuestra memoria no solo es capturar una lista de caracteristicas, si no tambien capturar la estructura funcional de las cosas, en los estudios sobre el mindfullness se da tambiene una lista de cosas que debes de cumplir para lograr algo, tienes que estar presente no estar juzgando
+- Insight, esto es importante por que es un continuo durante el despertar, esta supuesto a reducir tu reactividad, hacerte mas balanceado
+- Tenemos que convertir la lista de caracteristicas en un esquema de caracteristicas, buscar recuperar la gestalt de forma que se pueda explicar la funcionalidad
+- Una forma de convertir una lista de caracteristicas en un esquema de caracteristicas es, hacer distinciones entre los tipos de caracteristicas
+- Being present and not jugdging are verbs, insight and reduce reactivity are a product
+- Tenemos que preguntarnos ahora como estar presente aumenta el insight, o como estar presente reduce la reactividad, el no juzgar lo crea o es el estar presente el que lo crea?
+- L lista de caracteristicas no tiene el eidos o hace este tipo de preguntas, mientras empezamos a responder estas preguntas, convertimos esta lista de caracteristicas en un esquema de caracteristicas ayudandonos a entender mejor como funciona el mindfulness y como genera estos cambios radicales en la vida
+- Como estar presente genera insight?, para empezar decir estar presente no funciona, tampoco decir concentrarse, siddharta habla de correcta concentracion, existe concentracion correcta e incorrecta, mindfulness no es acerca de concentracion si no de tener la concentracion correcta, que significa eso?
+- Aqui entra la idea de no muy apretado o flojo para las cuerdas del musico
+- Hay dos formas de concentrarse una de ellas puedes concentrarte en tu dedo, evitar que tu mente se distraiga o divague, convertir tu vision en un tunel casi casi gritando concentrate
+- Otra concentracion es centrarse en sentir en ver cada caracteristica de un dedo color textura cantidad de bellos, es llamada vigilancia suave, no es forzar tu atencion, es mas bien renovar tu interes, estar dentro de algo
+- Necesitamos un modelo de concentracion que haga esta vigilancia suave, renovar tu interes estar envuelto profundamente con algo por que esto te tendra intimamente en contacto con él
+- Que tipo de atencion queremos, la atencion fuerte, o la suave, es una optimizacion en la que afinas y no buscas muy fuerte o muy suave, participar con aquello que le pones atencion
+- La metafora del spotlight ayuda a entender la meditacion, cuando alumbra algo esto se hace mas saliente, el problema de esto es que le falta informacion
+- La atencion no es algo que haces directamente volitivamente, caminar es algo que puedes entender y hacer, si te dicen que camines caminas si te dicen que pares paras, si te dicen que practiques tu lo que buscas es optimizar aquello que haces, optimizar como tocar instrumentos como jugar tenis como jugar ajedrez
+- Tu pones atencion optimizando otros procesos, puedes poner atencion a tu oido para que se convierta en escucha, puedes poner atencion a ambos oidos y vista y coordinarlos para aprender
+- Moly llama a esto cognitive unison, cuando optimizas y coordinas varios procesos cognitivos de tal modo que buscan el mismo objetivo y trabajan bien en conjunto
+- Tenemos que entender como el mindfullness ayuda a esta coordinacion entre procesos cognitivos
