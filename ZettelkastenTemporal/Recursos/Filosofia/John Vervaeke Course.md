@@ -416,3 +416,59 @@
 - Tu pones atencion optimizando otros procesos, puedes poner atencion a tu oido para que se convierta en escucha, puedes poner atencion a ambos oidos y vista y coordinarlos para aprender
 - Moly llama a esto cognitive unison, cuando optimizas y coordinas varios procesos cognitivos de tal modo que buscan el mismo objetivo y trabajan bien en conjunto
 - Tenemos que entender como el mindfullness ayuda a esta coordinacion entre procesos cognitivos
+
+# Ep. 9 - Insight
+[Attention, Wayne Wu]
+[Structuring Mind, Sebastian Watzl]
+[The Tacit Dimension, Michael Polayni]
+[The problem of Pure Cnsciousness Mysticism and Philosophy]
+[Quantum Change]
+[The perennial philosophy, Aldous Huxley]
+- Atencion es una de las areas de investigacion actuales mas importantes en ciencias cognitivas
+- Buscamos saber como el mindfulness se relaciona con la atencion
+- Si buscamos un objeto lo ponemos en una mesa y buscamos adivinar con el tacto que objeto se trata o cual tenemos que adivinar, usamos el tacto en este ejemplo por que es un sentido mas lento que la vista, mientras tocamos uno a uno los bordes del objeto estamos focalizando nuestra atencion, el hizo esto muchas veces con muchas personas, noto que la gente a veces se focalizaba en los dedos a veces en el marcador y perdian seguimiento del vaso al que se le hacia la prueba, noto un flujo
+- Hay una copa se toca con un palo, la cosa interesante que llegaste a ser conciente de la copa a travez de un palo, el palo es transparente son como los lentes ellos son transparentes ante uno por que se ve a travez de ellos, pero pues tambien se puede redireccionar la atencion a los lentes y ahora se vuelven opacos, hay una transicion de transparencia a opacidad
+- Eres consciente a traves de tu sonda, a esto se le llama consciencia subsidiaria o implicita por que estas consciente a traves de ella por tu objeto focal
+- La atencion es un fenomeno estructurador convierte consciencia subsidiaria en consciencia focal
+- Lo interesante es que puedes volver a redireccionar la atencion y darte cuenta que fuiste consciente a traves de tus dedos
+- En este punto la metafora de la consciencia focal no existe, esta escondida en esta estructura dinamica recursiva
+- Lo importante es conocer cuantos procesos estan implicados a la hora de enfocar la atencion dentro de una situacion particular
+- Del mismo modo como metafora usamos la analogia de dentro y fuera, ir atras o ir adelante la cual tambien puede no ser correcta
+- La gente usa la metafora de poner atencion al mundo como ir hacia afuera, hay un ejemplo de leer una palabra con unsimbolo H ambiguo THE CHT, y la gente lee the cat, por que la gente lee de esta forma, por que es lo que mas hace sentido, el gestalt, llegamos a unaprimero tenemos conclusion casi zen, para poder leer las letras tenemos que leer la frase completa y con la frase completa descifrar una a una las letras, por lo tanto leer seria imposible, algo tiene que cambiar, tu modelo de atencion
+- Vas simultaniamente de las propiedades a la gestalt y de la gestalt a las propiedades, la atencion hace todo a la vez, la idea de spotlight no captura todo esto
+- El mindfulness hace uso de todo este sistema de procesamiento dinamic
+- Hay un eje entre Opacidad-Claridad Caracteristicas-Gestalt, forman un plano carteciano
+- Nada es completamente un feature una palabra puede ser un gestalt en relacion a las letras y un feature en relacion a las frases
+- En la ciencia encuentras patrones y esos patrones te sirven para entender mejor al mundo, esto pasa cuando te centras en la gestalt y claridad
+- Cuando regresas a nuestras mentes rompes el gestalt en caracteristicas y buscas mayor opacidad, rompes el gestalt en caracteristicas distintas, en secciones individuales en diferentes momentos
+- Uno es scaling Up otro es Scaling down, escalar y desdescalar
+- Meditacion significa moverse hacia el centro
+- En vipassana entrenas a las personas a poner atencion a su respuracion, a las sensaciones del abdomen cuando respiras, tratas de mantener y renovar tu interes haciendolo salientes constantemente a ti, normalmente nuestras sensaciones corporales no son percibidas, nos centramos en ponerle atencion al mundo, primero empiezas a romper el gestalt en sus caracteristicas atomicas, una pregunta importante es, por que esto ayuda a tener insight?
+- Contemplacion y meditacion sontratadas como sinonimos simplisticamente, contemplacion viene del latin y hace referencia a los templos, parte del cielo en el que se buscan simbolos de los dioses, ver arriba buscar lo divino, contemplatio palabra que era traduccion de la palabra griega theoria, theoria es buscar ver mas profundamente dentro de la realidad
+- La meditacion busca desescalar y la contemplacion busca escalar
+- Tai Chi Chuan es acerca de moverse, fluir entre movimientos de una manera dinamica y optimizada, es una parte del sistema de psicotecnoologias que te ayudan a tener insight
+- En el problema de los 9 puntos puedes salir de marcos de pensamiento, automaticamente nosotros proyectamos un cuadro invisible sobre estos puntos los cuales no pueden ser sobrepasados, tienes que romper el cuadrado y no tratarlo como un cuadrado categorico, romper su gestalt y desautomatizar tu cognicion, esto lo haces a traves de el escalar y desescalar la atencion
+- Knoblauch muestra que tu puedes mejorar tu capacidad de resolver problemas, si les enseñas a hacer chunk descomposition y constraint relaxation, relajacion de restricciones
+- Constraint relaxation significa desautomatizar tu cognicion, escalar hacia abajo romper los patrones, pero no es suficiente, tienes que romper el marco pero volver a hacer un marco nuevo cambiar su relevancia necesitas escalar, una forma de mejorar la habilidad de la gente de hacer mas insights es entrenar la habilidad de escalar, tomar fotos de las cosas descomponerlas y reconstruirlas
+- Ambas capacidades pueden hacerte malo si solo dominas uno, si escalas aprietas la cuerda, si desescalas la aflojas
+- Desescalar puede aumentar tus probabilidades de conseguir insight si rompes marcos malos, pero tambien pueden romper tu capacidad de resolver problemas causandote confusion, escalar te ayuda a crear un mejor frame pero tambien puedes caer en un marco errado, no necesitas la cuerda muy apretada ni muy floja pero tampoco a medio camino, lo que quieres es entrenar a la gente en ambas habilidades y enseñarles a moverse entre ambas dimensiones, por eso el mindfulness no puede ser equiparado solo con meditar
+- Esto lleva a platicar sobre experiencias misticas que la gente puede conseguir en la practica de mindfulness, mindfulness nos ayuda a entender flexiblemente a movernos entre estas dimensiones y aumentar nuestras posibilidades de obtner insight
+- Como estar presente te ayuda a ser mas insightful?, cuando desescalas haces tu mente menos representacional o inferrencial
+- Si solo desescalas y no haces nada mas puedes llegar a una experiencia mistica importante, un PCE, puer consciousness event, cuando desescalas llega un punto en el que no puedes desescalar mas la atencion y llegas hasta tu consciencia este es el PCE no eres consciente de nada, solamente eres consciente, no estas consciente de ti mismo, ni de tu mente, solamente eres consciencia
+- Si escalas puedes encontrar otra experiencia mistica, ver todo interconectado, el gestalt es tan amplio que me incluye a mi te sientes uno con todo, un flujo gigante resuenas en la unificacion
+- Lo que buscamos es el tercer estado, el que verdaderamente importa y es un flujo continuo entre ambas direcciones, algo llamado un estado de no dualidad escalar y desescalar, tu consciencia esta fijada en la prfundidad de tu ser pero tambien apunta hacia el infinito de la existencia, todo a la vez, este estado tambien es llamado ademas de no dual como prajna, este es el estado que lleva a una capacidad comprensiva de obtener insight, tienes al agente y a la arena optimizados de tal manera que se puede conectar a ambos
+- Esto es como puedes recordar el `being` mode, esto es bastante dificil de conseguir
+- Despues de su iluminacion buddha empieza a caminar por la calle y se ve distinto y tiene una gracia, piensa cuando ves a alguien en el estado de flujo, trae una gracia y una energia musicalidad que se ve en su cara, sus gestos y emociones, un tipo de gracia carismatica, le preguntan en la calle, eres un dios?, el responde que no, le preguntan si es un mensajero angelical o un profeta, y dice no, le preguntan si es solo un hombre, y dice no, le preguntan entonces que es lo que eres y ddice estoy despierto, de alli obtiene su titulo, el esta despierto el esta completamente en estado de sati, recuerda el having mode
+- Consigue un conjunto de insights que optimizan tu ser entero, desata una experiencia transformativa
+- Por que la gente persigue estados alterados de consciencia o busca el mindfullnes, por que hay una revolucion psicodelica
+- Por que no somos los unicos animales que buscan estos estados alterados de consciencia
+- Algunos de estos estados alterados de consciencia son misticos en contenido y traen poderosas transformaciones
+- Algunas personas tras una experiencia psicodelica replican la revolucion axial
+- Cuando sueñas tu estas dentro de un mundo que crees que es real, al despertar te das cuenta que no lo era, y el otro mundo es el real, cuando vienes de un estado alterado de consciencia mucha gente siente lo mismo la gente siente que aquello fue mas real que esto, en ese mundo se accede al mundo real, y cuando regresas es como regresar de la caverna de platon, y buscas cambiar tu estulo de vida para volver a capturar, sati, recordar el mundo real que es el que viste, vivir en un contacto mayor con ese mundo mas real
+- Esto ayuda a entender a siddharta, la mayoria de las religiones post axiales hablan de que hay estados de consciencia mayores que deberian ser fomentados o deben ser buscados alcanzarse
+- Esta en el centro del budismo cuando experimentas satori, en Vedanta es el Mokhsha, en el taoismo cuando entiendes del dao, en el islam esta el sufismo, el kabala en el judaismo, las tradiciones misticas cristianas
+- Historicamente y cientificamente este es un fenomeno importante, en estos estados la gente tiene un significado importante en sus vidas, asi como la gente que esta en estado de flujo constantemente, mucha gente ve estos momentos como los mas importantes de su vida y una parte significativa del significado de su vida esta atado a estos momentos, hay conecciones entre despertar y recuperar significado
+- Vervaeke y colegas hicieron un experimento, buscaron relacion entre si una persona que tuvo experiencias misticas tiene o siente mayor significado en su vida y hay una relacion significativa entre estos
+- Muchas veces estas experiencias son transformadoras te ayudan a entender mejor ciertas cosas a pesar de ser inexplicables
+- Existen ciertas verdades la naturaleza de la atencion del mindfullness y la mejora para entrar a estos estados de consciencia altos, que pueden eliminar el estres existencial y mejoran nuestra capacidad de insight
+- Es acaso esta habilidad el nucleo para ser un sabio?
