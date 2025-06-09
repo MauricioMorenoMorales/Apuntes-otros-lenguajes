@@ -350,6 +350,168 @@ Esto lo lleva al descubrimiento del **Camino Medio**, una vía de equilibrio ent
 - Comprender y cultivar nuestros paisajes internos de conciencia puede conducir a una vida más significativa y auténtica.  
 - Las experiencias transformadoras, aunque subjetivas, pueden ser racionalmente justificadas si consideramos su impacto en nuestra sabiduría y comprensión del mundo.  
 
+# Episodio 11 – Estados Superiores de Conciencia  
+## Referencias
+- *Elaine Scarry – On Beauty*
+- *The New Science of Transformation*
+- *Phenomenology of Perception* – Merleau-Ponty
+- *Retrieving Realism* – Hubert Dreyfus
+
+## Componentes del análisis
+1. Cómo se experimenta el mundo
+2. Cómo se experimenta el "yo"
+3. Cómo el "yo" se relaciona con el mundo
+
+---
+
+## Características de los estados superiores de conciencia
+
+- Claridad extrema del mundo, usualmente representado como "luz" o "brillo".
+  - Asociado a la gloria o la divinidad.
+  - Similar al estado de flujo (flow).
+
+- Se percibe el todo y también los detalles finos.  
+  Ejemplo en Blake:  
+  *"Ver el mundo en un grano de arena y el cielo en una flor salvaje..."*
+
+- Aumento en la capacidad de dar sentido a las cosas.
+
+- El mundo se experimenta como:
+  - Bello
+  - Vivo
+  - Lleno de energía y significado
+  - Unido (oneness)
+
+- Sentido profundo de paz interior, entendido como armonía (análoga al *anagoge* de Platón).
+
+- Goce profundo: conexión con lo bueno, más que placer superficial.
+
+- Disolución del sentido del yo y de la autoconciencia.
+  - Algunas personas recuerdan su "verdadero ser" (sati).
+
+- Sensación de energía y vitalidad extraordinarias.
+
+- Alto nivel de insight o comprensión profunda.
+
+- Sensación de participar activamente en la creación de la realidad.
+  - Relacionado con la *teoría de conformidad del conocimiento* de Aristóteles.
+
+- El conocimiento participativo se experimenta como inefable (indescriptible).
+
+---
+
+## Estrategias disruptivas para acceder a estos estados
+
+- Ejemplos:
+  - Ayuno
+  - Privación de sueño o sexo
+  - Percusión y baile
+  - Psicodélicos
+  - Combinaciones de las anteriores
+
+- 69% de las personas reportan sentir "ontonormatividad": sensación de realidad mejorada, lo cual predice mejoras en otras áreas de la vida.
+
+---
+
+## Efectos psicológicos reportados
+
+- **Descentrado del yo** (de egocéntrico a alocéntrico):
+  - De "yo hago esto" a "esto ocurre desde cierta perspectiva".
+  - Relacionado con un contacto más directo con la realidad.
+
+- **Capacidad mejorada de ver coherencia**:
+  - Se asocia a un aumento del sentido de significado en la vida.
+
+- **Confianza aumentada**:
+  - Proviene del mayor sentido y comprensión del mundo.
+
+---
+
+## Insight y fluidez cognitiva
+
+- Belinsky y Reber (2010): el insight ocurre como un *spike* (aumento repentino) de fluidez cognitiva.
+
+- La fluidez se define como la facilidad con la que se procesa la información:
+  - Cuanto más fácil de procesar, más verdadera parece.
+  - Ejemplo: textos impresos en negro vs. naranja.
+
+- En estados de flujo, hay muchos aspectos similares a experiencias místicas.
+
+---
+
+## Hipótesis de continuidad
+
+- Queremos entender científicamente experiencias como la iluminación (Siddharta Gautama) o trascendencia (Platón).
+
+- Hipótesis:
+  *Fluidez → Insight → Flujo → Experiencia mística → Transformación personal*
+
+- Todas estas etapas usan la misma maquinaria cognitiva adaptada (exaptada).
+
+- Más práctica de mindfulness = más probabilidad de alcanzar experiencias místicas.
+
+---
+
+## ¿Qué se optimiza en estos estados?
+
+- **"Optimal grip"** (Dreyfus):
+  - Ajuste dinámico entre ver suficientes detalles y una visión global del objeto.
+  - Ejemplo: dibujar un rostro → balance entre ojos, proporciones y cuerpo.
+
+- También se requiere conciencia corporal completa.
+
+- **Optimal grip cognitivo**:
+  - Ejemplo: llamamos a un perro “perro” (no “mamífero” o “cocker spaniel”).
+  - Nos situamos en un nivel medio óptimo de descripción.
+
+- En interacciones humanas (citas, conversaciones) también se busca este equilibrio:
+  - Sonreír lo justo, hablar lo justo, escuchar lo justo...
+
+---
+
+## Estados de conciencia altos como "flow global"
+
+- Se propone que un estado de conciencia elevado es un estado de flujo extendido para captar el "optimal grip" del mundo entero.
+
+- Entrenarse para ver "el mundo entero en un grano de arena".
+
+---
+
+## Rol de las estrategias disruptivas
+
+- Rompen marcos mentales rígidos, permitiendo nuevos insights.
+
+- La divagación o distracción también ayuda:
+  - Rompe esquemas de pensamiento anteriores.
+  - Permite construir otros nuevos.
+
+- Esto se relaciona con la **desautomatización**:
+  - Cuando te enfrentas a un problema, aplicas automáticamente un marco mental.
+  - La variación en la experiencia aumenta la posibilidad de identificar lo que permanece constante.
+
+---
+
+## Tipos de invariancias
+
+- **Buenas invariancias**:
+  - Revelan patrones profundos y reales.
+
+- **Malas invariancias**:
+  - Bloquean la resolución de problemas (ej. test de los 9 puntos).
+  - Se mantiene fijo un aspecto que debería cambiarse.
+
+- Kaplan y Simon hablan de la *heurística de notar invariantes*:
+  - A veces repetimos errores porque no cambiamos las variables necesarias.
+
+---
+
+## Conclusión
+
+- A veces, el problema no es solo un error aislado, sino un sistema completo de errores.
+
+- La iluminación es cuando logras romper con marcos antiguos y limitantes.
+
+
 # 🧠 Episodio 12 — Estados Superiores de Conciencia (Parte 2)
 **Notas estructuradas y traducidas de John Vervaeke - "Awakening from the Meaning Crisis"**
 
@@ -433,7 +595,6 @@ Esto lo lleva al descubrimiento del **Camino Medio**, una vía de equilibrio ent
 - Explorar la *psilocibina* y su relación con estados místicos.  
 - Leer sobre *exaptación* en biología y neurociencia cognitiva.  
 - Revisar cómo la comunidad en tradiciones contemplativas ayuda a la integración.
-
 
 
 
