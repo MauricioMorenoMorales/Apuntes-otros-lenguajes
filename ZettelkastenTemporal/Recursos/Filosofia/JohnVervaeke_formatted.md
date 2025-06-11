@@ -752,6 +752,99 @@ Este sendero trabaja sobre:
 El objetivo es un sistema autoorganizado que promueva la sabiduría, la libertad y la transformación, enfrentando activamente las dinámicas del procesamiento parasítico.
 
 ---
+# Ep. 14 – Epicúreos, Cínicos y Estoicos
+
+*(basado en "Awakening from the Meaning Crisis", John Vervaeke)*
+
+## 🏛 Contexto histórico (Pós‑Axial/Helenístico)
+
+- **Alejandro Magno**, discípulo “no filosófico” de Aristóteles, difunde la cultura griega hasta Afganistán, provocando una ruptura profunda del sentido comunitario de la *polis* — un fenómeno identificado como *domicide* (destrucción del hogar).
+- Surgió una **sociedad ansiosa**: migraciones masivas, pérdida de vínculos, sincretismo religioso e ideológico, y aumento de la ansiedad existencial.
+
+## La filosofía como medicina del alma
+
+- Surge una nueva **metáfora terapéutica**: el filósofo actúa como médico del alma, abordando el sufrimiento existencial.
+- **Epicúreos**, **cínicos** y **estoicos** adoptan este enfoque con estilos distintos.
+
+---
+
+## Epicúreos
+
+- Diagnóstico: nuestra principal enfermedad es la **ansiedad** (*not just miedo*, sino una preocupación difusa sobre posibles pérdidas).
+- Actualmente, “miedo” y “ansiedad” pueden usarse intercambiablemente, pero aquí se diferencia:  
+  - *Miedo*: frente a una amenaza concreta.  
+  - *Ansiedad*: amenaza vaga e indefinida.
+- Terapia epicúrea:
+  1. **Aceptar la mortalidad**: “donde está la muerte, yo no estoy; donde estoy, no está la muerte” — ninguna conciencia tras la muerte.
+  2. **Cultivar la amistad y la búsqueda filosófica**, fuentes de significado duradero mientras exista uno.
+- Epicuro argumentaba contra el miedo a los dioses (influencia secular), postulando que eran irrelevantes para la vida ética y feliz.
+
+**Límite**: no basta solo con aceptar la muerte; persiste la ansiedad sobre la pérdida de agencia y el significado real de la vida.
+
+---
+
+## Cínicos
+
+- Fundados en la tradición de **Antístenes** y cristalizados por **Diógenes**.
+- Diagnostican el sufrimiento en el **apego a construcciones humanas** (estatus, fama, códigos de pureza), que son frágiles y perecederos.
+- Proponen vivir de acuerdo a la **ley natural**, diferenciando entre:
+  - Códigos **morales** (fundados en razón y perdurables).
+  - Códigos de **pureza** (culturales, transitorios, basados en el disgusto).
+- Diógenes usaba acciones provocativas para revelar la **aporia** (impasse): masturbación pública, la linterna en el ágora (“busco al hombre honesto”), para cuestionar normas y evidenciar hipocresía.
+
+---
+
+## Estoicos
+
+- Nacen con **Zenón de Citio**, discípulo de un linaje que incluye a Antístenes y Diógenes.
+- Reconocen el valor del desapego cínico, pero integran la **razón platónica** y la función social del ser humano.
+- Propósito: enfocarse no solo en el objeto del apego, sino en **cómo nos apegamos** — el proceso que da forma a la identidad y agencia, conocido como **co-identificación**.
+- Práctica central: "**prosoche**" (en griego, atención plena): observación constante del diálogo interior para evitar el proceso automático/ruminativo. Es la base de muchas técnicas en la **terapia cognitivo-conductual**.
+
+---
+
+## Comparación resumen
+
+| Escuela      | Diagnóstico                      | Terapia                              | Meta                          |
+|--------------|----------------------------------|--------------------------------------|-------------------------------|
+| **Epicúreos**| Ansiedad y miedo a la muerte     | Aceptación + amistad + filosofía     | Tranquilidad emocional        |
+| **Cínicos**  | Apego a valores efímeros         | Vida ascética natural + provocación  | Independencia y autenticidad |
+| **Estoicos** | Co-identificación automática     | Prosoche + razón + co-identificación | Agencia y virtud              |
+
+---
+
+## Aportaciones adicionales del video
+
+- **Rumination (rumiación)**: diálogo mental repetitivo que se potencia con ansiedad y depresión; los **estoicos**, heredando la tradición cínica y socrática, buscan reemplazar esa rumiación por diálogo socrático interior.
+- **Diferencia culpa vs vergüenza**:
+  - **Culpa**: violación de un principio moral (razón-justificado).
+  - **Vergüenza**: ruptura de un código de pureza/cultura (disgusto).
+- Testimonios estoicos (Epicteto, Seneca) refuerzan esta distinción y el valor de la virtud por sí sola.
+
+---
+
+## Profundizaciones sugeridas
+
+---
+
+## Términos clave traducidos y explicados
+
+- **Prosoche** → atención plena al diálogo interno.
+- **Aporia** → impasse, dilema filosófico que provoca re-evaluación.
+- **Co-identificación** → proceso por el cual asumimos una identidad a través de interacción con el entorno; foco de la introspección estoica.
+
+---
+
+
+
+
+
+
+
+
+
+
+
 
 
 
