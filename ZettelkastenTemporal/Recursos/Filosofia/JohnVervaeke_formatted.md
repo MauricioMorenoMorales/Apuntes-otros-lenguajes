@@ -835,6 +835,151 @@ El objetivo es un sistema autoorganizado que promueva la sabiduría, la libertad
 
 ---
 
+# Episodio 15 – Marco Aurelio y Jesús
+
+**Bibliografía citada:**
+- Erich Fromm – *To Have or to Be*
+- Marco Aurelio – *Meditaciones*
+- Margaret Visser – *Beyond Fate*
+- Pierre Hadot – *What is Ancient Philosophy*
+- Pierre Hadot – *Philosophy as a Way of Life*
+- Julian Barnes – *A History of the World in 10½ Chapters*
+
+---
+
+## Estoicismo y Significado
+
+Los estoicos —sin proponérselo del todo— heredan de los epicúreos una idea crucial: **no se trata de cambiar el mundo ni de alcanzar la inmortalidad**, sino de **transformar el significado de nuestra mortalidad**. Esto genera un tipo de **significado existencial**, una **coidentificación** con la muerte. Pero muchas personas simplemente reaccionan ante estos procesos sin conciencia, cayendo en distorsiones cognitivas.
+
+### Prosoche y Procheiron
+
+- **Prosoche**: atención consciente. No solo se trata de “prestar atención”, sino de **observar cómo prestamos atención**, cómo interpretamos los eventos y procesos mentales. Esto anticipa muchas técnicas de las **terapias cognitivas modernas**, que enseñan a distinguir entre el evento y el significado que le atribuimos.
+
+- **Procheiron**: recordar en el sentido de *sati* (conciencia plena), es decir, practicar pequeñas acciones que internalicen habilidades, sensibilidades y sabiduría.
+
+### Evento vs Significado
+
+El significado **no está intrínsecamente ligado** al evento. Sin esta distinción, creemos erróneamente que solo podemos cambiar el significado si cambiamos el evento. Los estoicos advierten que tenemos **menos control sobre los eventos de lo que creemos**, pero **mucho más control sobre su significado** del que solemos asumir.
+
+Epicteto comienza su *Manual* señalando que la sabiduría consiste en distinguir **lo que está bajo nuestro control** y lo que no lo está.
+
+---
+
+## El "Modo Ser" y el "Modo Tener"
+
+Erich Fromm, influenciado por los estoicos, distingue entre:
+
+- **Modo Tener**: obtener cosas mediante el control (agua, comida, refugio).
+- **Modo Ser**: no se obtiene por control sino por transformación interior y de la relación entre **agente y entorno** (arena). La madurez no es solo un cambio interno: cambia el mundo que habitas.
+
+### Inmadurez e Ilusión de Control
+
+Si no distingues evento de significado, buscarás madurar mediante control externo: posesiones, manipulación de personas, matrimonio por estatus. Pero esto es ilusorio. No puedes ejercer suficiente control sobre el mundo para estabilizar el significado.
+
+---
+
+## Prácticas Estoicas
+
+### 1. Meditaciones de Marco Aurelio
+
+No eran solo reflexiones escritas: eran **ejercicios espirituales**, una forma de traer a la conciencia el proceso de coidentificación, para **transformar el yo y el mundo**, en lugar de manipularlos.
+
+> *"Es posible ser feliz incluso en un palacio."*  
+> – Marco Aurelio
+
+A diferencia de los cínicos o Buda, Marco Aurelio **no abandona el palacio**; busca encontrar sabiduría y felicidad desde su contexto de poder.
+
+### 2. Visión Objetiva (*Objective Seeing*)
+
+Ejemplo: reducir el sexo a *“frotamiento de pieles y secreción de fluidos”* no niega su valor, sino que separa evento y significado.
+
+### 3. Apego y Desapego
+
+Un ejercicio: toma una taza, hazla tu favorita y luego **destrúyela deliberadamente**. Esto fortalece la distinción evento-significado.
+
+### 4. Premeditatio Malorum
+
+Imagina cada noche que tus seres queridos morirán. Esto no es morbo, sino **reconocimiento de la fragilidad y separación emocional del control**. Puedes proteger a tus hijos, pero no mover el universo.
+
+---
+
+## Cultura, Narrativas y Comedias Románticas
+
+Nuestra cultura fusiona significado y eventos, como se ve en las comedias románticas: narrativas donde el mundo conspira para cumplir nuestros deseos. Esto genera **expectativas distorsionadas** de cómo funcionan las relaciones y el mundo.
+
+---
+
+## Terapia Cognitiva y Método Socrático
+
+Ante pensamientos como *“todo lo que hago es un fracaso”*, el terapeuta no responde con positivismo superficial. En cambio, cuestiona:  
+> “¿Todo?”  
+> “¿Qué significa éxito para ti?”  
+Esto es el **método socrático**: separar creencia, evaluación y realidad.
+
+---
+
+## Mortalidad, Inmortalidad y Plenitud
+
+Epicúreos y estoicos coinciden: la inmortalidad no garantiza sentido. Lo que buscamos no es una vida larga, sino una **vida profunda**.
+
+> *“Todos mueren, pero no todos viven.”*  
+> – Marco Aurelio
+
+Una sola experiencia profunda puede dar sentido suficiente a toda una vida.
+
+---
+
+## Oriente y Occidente: Sabiduría Convergente
+
+Aunque el budismo ha sido referencia para la transformación personal, **Occidente tiene sus propias psicotecnologías** de auto-transformación (estoicismo, platonismo, cristianismo). No hay que buscar únicamente en el Este.
+
+---
+
+## El Kairos Cristiano
+
+### Kairos
+
+Concepto de **Paul Tillich**: el momento adecuado para actuar, amar o transformarse. Un tipo de conocimiento participativo, no proposicional.
+
+- En el cristianismo, Dios **interviene kairológicamente**.
+- El **Logos** (palabra/estructura/pensamiento) de Dios crea estos momentos significativos.
+- El Logos se **encarna en Jesús**, quien representa el **último Kairos**: el punto culminante de transformación histórica y personal.
+
+### Metanoia
+
+Del griego:
+- *Meta*: más allá
+- *Noia*: mente
+
+**Metanoia** es una **transformación radical de tu perspectiva**, un despertar que reestructura tu identidad, valores y relación con el mundo.
+
+---
+
+## Amor y Transformación: Agape
+
+### Tres tipos de amor (según la tradición griega):
+
+1. **Eros** – Amor deseoso, de unión o consumación.
+2. **Philia** – Amor fraternal, basado en cooperación y reciprocidad.
+3. **Agape** – Amor incondicional, sin esperar nada a cambio. Es el amor que transforma, el tipo de amor que puedes tenerle a un hijo.
+
+Jesús **encarna el Agape**. Es el amor que **convierte a una criatura en persona**, al reconocerla y amarla incondicionalmente.
+
+> Gracias al Agape, muchos se convirtieron en quienes son.
+
+El **cristianismo universaliza este amor**, sin importar tu pasado, tu condición o tu lugar. Toda persona merece este tipo de amor transformador.
+
+---
+
+## Cierre
+
+La confluencia entre el estoicismo y el cristianismo permite una visión profunda de cómo **transformar el yo**, vivir con significado ante la muerte y cultivar una **relación radicalmente nueva con el mundo**.
+
+La clave está en:
+- Separar evento y significado.
+- Cultivar prácticas espirituales transformadoras.
+- Entender el amor como una forma de ser y de relación.
+- Vivir con profundidad, no con duración.
 
 
 
