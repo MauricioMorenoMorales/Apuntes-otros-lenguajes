@@ -14,3 +14,7 @@ Conceptos
 > Letra de cambio: Similar a un pagaré
 
 > Efecto de red: Negocios similares terminan en lugares similares, ya que obtienen beneficios de infraestructura logistica e informacion
+
+> Precio nominal: El precio nominal es el precio de un bien o servicio expresado en términos de dinero del momento, sin ajustar por inflación.
+> Precio Real: El precio nominal es el precio de un bien o servicio expresado en términos de dinero del momento, sin ajustar por inflación.
+> Teoria cuantitativa del dinero: Es una teoría económica que relaciona la cantidad de dinero en circulación con el nivel general de precios. Su versión clásica está resumida en esta fórmula: MV = PQ conde, M = cantidad de dinero en circulacion V = Velocidad del dinero, P = Nivel general de precios, Q = cantidad de bienes y servicios producidos
