@@ -752,3 +752,7 @@
 - Las artes marciales tambien tienen este tipo de juegos, por eso mucha gente ahorita se siente atraido por las artes marciales
 - La Gnosis te trae un estado alterado de consciencia, estas en estado de flujo puedes traer puedes ponerte dentro de estado de flujo, y lo que haces es ponerlo en un contexto ritual, si estas en un estado alterado de consciencia tienes flexibilidad mental para entender los cambios
 - La gnosis es tener un set de psicotecnologias dentro de un contexto ritual que te permiten sobrepasar un atasco existencial y esto tendra poder en base a un estado alterado de consciencia conseguido con cantos, o tecnicas disruptivas
+
+# Ep. 18 - Plotinus and Neoplatonism
+[Hans Jonas - The Gnostic Religion]
+- 
