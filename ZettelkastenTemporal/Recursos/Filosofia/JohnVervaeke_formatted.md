@@ -214,6 +214,70 @@ La sabiduría ya no es adaptarse al ciclo, sino saber cómo dar el "salto transf
 
 La visión científica del mundo nos está devolviendo a un "cosmos continuo", destruyendo la viabilidad de la mitología de los dos mundos de la Era Axial. El desafío actual es: ¿cómo podemos cultivar la sabiduría, la autotrascendencia y el significado en un mundo donde la cosmovisión que les dio origen ya no es sostenible? [21:00].
 
+# Capítulo 4: Sócrates y la Búsqueda de la Sabiduría
+
+
+## Conceptos Fundamentales
+
+### La Revolución Axial Griega: De Pitágoras a Sócrates
+
+La Revolución Axial en Grecia se caracterizó por una búsqueda de la autotrascendencia a través de la razón.
+
+**Pitágoras [02:13]:** Combinó prácticas chamánicas de alteración de la conciencia con la argumentación racional. Su objetivo era transformar el ser alineándose con los patrones racionales y matemáticos que descubría en el cosmos, como en la música. Su idea del "vuelo del alma" se convirtió en una metáfora de la liberación de las ilusiones del mundo físico.
+
+**Sócrates [03:36]:** Llevó esta revolución a un nuevo nivel. A diferencia de Pitágoras, Sócrates se centró por completo en la ética y el autoconocimiento, convirtiéndose en la figura más influyente para su discípulo, Platón.
+
+---
+
+## El Oráculo de Delfos y el "Conócete a Ti Mismo"
+
+La misión de Sócrates comenzó con una visita de sus amigos al Oráculo de Delfos, el lugar más sagrado de Grecia.
+
+**La Profecía [08:46]:** El oráculo declaró que "ningún ser humano era más sabio que Sócrates".
+
+**La Paradoja Socrática [10:02]:** Sócrates se enfrentó a una contradicción. Creía que los dioses no podían mentir, pero su propio autoconocimiento le decía que no era sabio. Esta paradoja lo impulsó a una búsqueda para descubrir el verdadero significado de la declaración del oráculo.
+
+**"Conócete a Ti Mismo" (Gnothi Seauton) [14:07]:** Sócrates adoptó esta inscripción de Delfos como su lema. Para él, no significaba conocer la propia biografía o ego, sino entender el "manual de usuario" de uno mismo: cómo operas, tus principios, poderes y, crucialmente, tus peligros y limitaciones. Era un llamado a la conciencia crítica sobre la propia maquinaria cognitiva.
+
+---
+
+## El Método Socrático (Elenchus) y la Lucha contra el "Bullshit"
+
+Para resolver su paradoja, Sócrates desarrolló un método de interrogación, el Elenchus, con el que examinaba las creencias de sus conciudadanos.
+
+### Dos Grupos Examinados:
+
+**Filósofos Naturales [19:03]:** Buscaban la verdad sobre la naturaleza del universo. Sócrates respetaba su búsqueda de la verdad, pero consideraba que su conocimiento carecía de relevancia existencial. Saber de qué está hecho el cosmos no te enseña a ser una buena persona ni a vivir una vida con sentido [29:36].
+
+**Sofistas [19:21]:** Eran maestros de la retórica. Enseñaban cómo persuadir y ganar argumentos, pero desconectando la persuasión de la verdad. Sócrates los acusó de promover el (charlatanería) [36:21].
+
+**La Definición de "Charlataneria":** Para Sócrates, el "charlataneria" no es mentir (lo cual requiere conocer la verdad para ocultarla), sino una indiferencia hacia la verdad. El charlatán se enfoca solo en lo que es relevante o llamativo para manipular a otros, sin importarle si es real o no [37:34]. El mayor peligro es el autoengaño, cuando uno se aplica esta charlatanería a sí mismo [41:45].
+
+### El Objetivo del Método: La Aporía [47:06]
+
+El interrogatorio socrático buscaba llevar a la persona a un estado de aporía: un punto muerto de confusión y perplejidad al darse cuenta de su propia ignorancia. Esta experiencia podía provocar ira o, idealmente, una revelación que impulsara a la persona a buscar la sabiduría, uniendo de nuevo la relevancia con la verdad.
+
+---
+
+## La Sabiduría Socrática: Saber que no se Sabe
+
+La conclusión de Sócrates fue que su sabiduría residía precisamente en ser consciente de su propia ignorancia [49:12]. Esta conciencia le permitía estar en guardia contra el autoengaño.
+
+**"Una vida sin examen no merece ser vivida" [51:06]:** Esta famosa frase resume su filosofía. Una vida en la que no se hace el esfuerzo por alinear lo que nos importa (relevancia) con lo que es real (verdad) es una vida inundada de autoengaño y charlataneria.
+
+---
+
+## Saber Amar (Ta Erotica) [51:49]
+
+Sócrates afirmaba saber "las cosas del amor". No se refería al amor romántico, sino a saber qué cosas merecen verdaderamente nuestro cuidado y devoción. Para él, la razón y el amor debían estar entrelazados: usar la razón para saber qué amar y cómo amarlo bien.
+
+---
+
+## El Legado a Platón [57:15]
+
+Sócrates demostró con su muerte que estaba dispuesto a morir por esta búsqueda de sentido. Su legado fue recogido por Platón, quien combinaría la búsqueda socrática de la virtud con el anhelo pitagórico de un orden cósmico racional, sentando las bases de la filosofía occidental.
+
+
 
 
 # 🧠 Episodio 6: *Aristotle, Kant and Evolution*
@@ -1366,6 +1430,9 @@ Las religiones y prácticas como las artes marciales usan los rituales como una 
 **Anagoge Enactivo:**  
 Los rituales proporcionan un camino (anagoge) a través de la acción (enactivo) que te da las habilidades y la perspectiva para comparar tu mundo actual con el mundo potencial al que aspiras, permitiéndote finalmente superar el estancamiento existencial. Un ejemplo terapéutico es la "técnica de la silla vacía", donde hablas con una figura ausente para procesar y transformar tu relación con ella.
 
+
+# Ep. 18 - Plotinus and Neoplatonism
+[The Gnostic New Age]
 
 
 
