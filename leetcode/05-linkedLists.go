@@ -1,8 +1,9 @@
 package main
-func main() { }
+
+func main() {}
 
 type ListNode struct {
-	Val int
+	Val  int
 	Next *ListNode
 }
 
@@ -12,7 +13,6 @@ type ListNode struct {
 	[1,2] -> [2,1]
 */
 
-
 func reverseList(head *ListNode) *ListNode {
 	var response *ListNode
 	for current := head; current != nil; current = current.Next {
@@ -21,7 +21,7 @@ func reverseList(head *ListNode) *ListNode {
 	return response
 }
 
-//? Type
+// ? Type
 func reverseList_m(head *ListNode) *ListNode {
 	var response *ListNode
 	curr := head
@@ -74,7 +74,7 @@ func mergeTwoLists(list1, list2 *ListNode) *ListNode {
 	return reverseList(response)
 }
 
-//? Speed
+// ? Speed
 func mergeTwoLists_s(list1, list2 *ListNode) *ListNode {
 	dummy := &ListNode{}
 	node := dummy
@@ -108,7 +108,9 @@ func mergeTwoLists_s(list1, list2 *ListNode) *ListNode {
 func isPalindrome_b(head *ListNode) bool {
 	head2 := reverseList(head)
 	for head2 != nil && head != nil {
-		if head.Val != head2.Val { return false }
+		if head.Val != head2.Val {
+			return false
+		}
 		head, head2 = head.Next, head2.Next
 	}
 	return true
@@ -117,7 +119,7 @@ func isPalindrome_b(head *ListNode) bool {
 func isPalindrome(head *ListNode) bool {
 	slow, fast := head, head
 	var reversed *ListNode
-	
+
 	for fast != nil && fast.Next != nil {
 		fast = fast.Next.Next
 		temporal := slow.Next
@@ -126,10 +128,14 @@ func isPalindrome(head *ListNode) bool {
 		slow = temporal
 	}
 
-	if fast != nil { slow = slow.Next }
+	if fast != nil {
+		slow = slow.Next
+	}
 
 	for slow != nil {
-		if slow.Val != reversed.Val { return false }
+		if slow.Val != reversed.Val {
+			return false
+		}
 		slow, reversed = slow.Next, reversed.Next
 	}
 
@@ -143,7 +149,9 @@ Output: [1,2,3,4,5]
 */
 
 func removeElements(head *ListNode, val int) *ListNode {
-	if head == nil { return nil }
+	if head == nil {
+		return nil
+	}
 
 	for curr := head; curr.Next != nil; {
 		if curr.Next.Val == val {
@@ -167,7 +175,9 @@ Output: [1,2,3]
 */
 
 func deleteDuplicates(head *ListNode) *ListNode {
-	if head == nil { return nil }
+	if head == nil {
+		return nil
+	}
 	for current := head; current.Next != nil; {
 		if current.Val == current.Next.Val {
 			current.Next = current.Next.Next
@@ -228,9 +238,7 @@ func reorderList(head *ListNode) {
 	orderedList := getOrder(arrayList)
 	//fmt.Println(orderedList)
 
-	for i, current := 0, head;
-	current != nil && i < len(orderedList);
-	i, current = i+1, current.Next {
+	for i, current := 0, head; current != nil && i < len(orderedList); i, current = i+1, current.Next {
 		current.Val = orderedList[i]
 	}
 }
