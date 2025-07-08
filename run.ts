@@ -1,33 +1,25 @@
-function removeElement(nums: number[], val: number): number {
-  let response = 0
-  let i = 0, j = 0
-  
-  while (i < nums.length) {
-    if (nums[i] !== val) {
-      nums[j] = nums[i]
-      j++
-      response++
+function permute(nums: number[]): number[][] {
+  const result: number[][] = [];
+  const used: boolean[] = Array(nums.length).fill(false);
+
+  function backtrack(path: number[]) {
+    if (path.length === nums.length) {
+      result.push([...path]);
+      return;
     }
-    i++
+    for (let i = 0; i < nums.length; i++) {
+      if (used[i]) continue;
+      used[i] = true;
+      path.push(nums[i]);
+      backtrack(path);
+      path.pop();
+      used[i] = false;
+    }
   }
-  return response
+
+  backtrack([]);
+  return result;
 }
 
-console.log(generate(3))
-
-function removeElement(nums: number[], val: number): number {
-  let response = 0
-  for(let i = 0, j = 0; i < nums.length; i++) if (nums[i] !== val) {
-    nums[j] = nums [i]
-    j++; response++
-  }
-  return response
-}
-
-function removeElement(nums: number[], val: number): number {
-  let response = 0
-  for (let i = 0, j = 0; i < nums.length; i++) if (nums[i] !== val) {
-    nums[j] = nums[i]
-    j++; response++;
-  }
-}
+// Ejemplo:
+console.log(permute([1, 2, 3]));
