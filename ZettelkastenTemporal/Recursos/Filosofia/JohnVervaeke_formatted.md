@@ -1819,6 +1819,8 @@ Descartes inventa una de las psicotecnologías más poderosas de la modernidad: 
 
 Con los gráficos y la geometría analítica, Descartes lleva a su culminación la idea de Galileo: las ecuaciones algebraicas pueden capturar la esencia de la realidad. Una ecuación como `f=ma` no se parece en nada a lo que representa, pero nos permite comprender y manipular el mundo con un poder casi divino.
 
+ Así que Descartes cree que la respuesta a la crisis es cambiar, transformar nuestras mentes, no en una transformación espiritual, sino en máquinas de certeza; mentes que solo funcionen matemática y lógicamente en términos de ecuaciones. La forma de obtener certeza es convertirme en una máquina que represente el mundo mediante proposiciones simbólicas abstractas y luego manipular esas proposiciones en una función puramente lógica y matemática. Así pues, lo que Descartes propone es que la forma de abordar la ansiedad de la época es que cada uno de nosotros adopte un método que nos convierta en computadoras.
+
 ### La Crisis de Sentido como Falta de Certeza
 
 Descartes entiende la crisis de su tiempo como una falta de certeza. Propone que, a través de las matemáticas (un conocimiento puramente proposicional, abstracto y simbólico), podemos romper el velo de la ilusión y encontrar un fundamento seguro para el conocimiento, reconstruyendo el sentido desde la certeza de la mente individual.
