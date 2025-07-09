@@ -1823,24 +1823,83 @@ Con los gráficos y la geometría analítica, Descartes lleva a su culminación 
 
 Descartes entiende la crisis de su tiempo como una falta de certeza. Propone que, a través de las matemáticas (un conocimiento puramente proposicional, abstracto y simbólico), podemos romper el velo de la ilusión y encontrar un fundamento seguro para el conocimiento, reconstruyendo el sentido desde la certeza de la mente individual.
 
+# Ep. 22 - Descartes vs. Hobbes: El Nacimiento de la IA y el Problema Mente-Cuerpo
 
+## Figuras y Referencias Clave
+Figuras Históricas: René Descartes, Thomas Hobbes, Martín Lutero, Blaise Pascal, Galileo.
 
+Figuras Modernas: John Searle (IA débil/fuerte), Antonio Damasio.
 
+Conceptos Clave: Inteligencia Artificial (IA), Dualismo Cartesiano, Qualia, Cogito ergo sum, Problema Mente-Cuerpo, Problema de las Otras Mentes.
 
+---
 
+## Conceptos Fundamentales
 
+### La Tensión Post-Reforma: Fe Radical vs. Certeza Racional
 
+El episodio comienza estableciendo el conflicto central de la modernidad, nacido de la "mente individual aislada":
 
+- **La Vía Luterana**: Exige una fe como aceptación radical, sin necesidad de evidencia o argumento.
+- **La Vía Cartesiana**: Exige un conocimiento basado en la certeza, derivado de la lógica y las matemáticas.
 
+Aunque parecen opuestas, ambas gramáticas surgen de la misma desconexión con el mundo y se centran en el individuo.
 
+---
 
+## El Desafío de Hobbes y la Inteligencia Artificial
 
+Dentro de este nuevo marco, Thomas Hobbes propone una idea radical: si la cognición es solo computación y la materia es real, entonces podemos construir una mente material, es decir, una Inteligencia Artificial (IA).
 
+Esta propuesta lleva la "muerte del universo" de Galileo un paso más allá: destruye el alma humana. Si no tenemos alma, ¿qué significa ser "fiel a uno mismo"? ¿Qué nos hace especiales en un cosmos sin propósito? Esto agrava la crisis de sentido y el narcisismo cultural.
 
+---
 
+## La Respuesta de Descartes a Hobbes: La Mente no es Materia
 
-# ChatGPT 
+Descartes argumenta en contra de la IA de Hobbes, no desde la fe, sino desde los principios de la propia Revolución Científica. Su argumento se basa en que el razonamiento humano posee cualidades que la materia (según la ciencia) no tiene.
 
-Te voy a pasar mis apuntes de un video de john vervaeke, quiero que formatees la informacion elmines informacion repetida, tambien tienen citas bibliograficas al inicio, quiero tambien que si puedes ver el video y ver si se me paso algo por alto, igual puedes indagar en conceptos mas profundamente si crees necesario, Tambien transcribe conceptos en ingles al espanhol del modo que se entienda mas o viendo la bibliografia o de donde viene el termino, escribemelos por favor en formato .md, en texto plano, lo voy a copiar y pasar a un documento grande que estoy haciendo
+### El Razonamiento requiere:
 
-este es el video
+- Propósito: La búsqueda de la verdad como objetivo.
+- Significado: La verdad depende del significado de las proposiciones.
+- Normatividad: Se rige por estándares de cómo deberíamos pensar (valores).
+
+### La Materia carece de:
+
+- Propósito: Es inerte, se mueve por fuerzas externas.
+- Significado: Es intrínsecamente muda; las palabras "gato" y "chat" son físicamente distintas pero apuntan a la misma idea mental. El significado no está en la materia, sino en la mente.
+- Normatividad: La ciencia describe cómo son las cosas, no cómo deberían ser. La materia no tiene valores.
+
+Además, Descartes utiliza la distinción de Galileo entre cualidades primarias (matemáticas, objetivas, en el mundo) y cualidades secundarias o qualia (color, olor, belleza; subjetivas, solo en la mente). La materia no posee qualia, por lo tanto, no puede generar conciencia.
+
+---
+
+## La Distinción Clave: IA Débil vs. IA Fuerte
+
+Este debate da origen a la distinción (popularizada por John Searle) entre:
+
+- **IA Débil**: Máquinas que hacen cosas inteligentes (tu laptop, un cajero automático). Es una herramienta poderosa que transforma la sociedad.
+- **IA Fuerte (o IAG)**: El proyecto de Hobbes de crear una máquina que sea una mente. Para tener éxito, esta IA tendría que explicar cómo el propósito, el significado y la conciencia pueden surgir de la materia, respondiendo así al desafío de Descartes.
+
+---
+
+## El Costo Existencial de la Solución de Descartes: El Problema Mente-Cuerpo
+
+Para defender la singularidad de la mente, Descartes concluye que la mente (inmaterial, con propósito y significado) y la materia (material, extendida en el espacio, sin propósito) son dos sustancias radicalmente diferentes (dualismo cartesiano).
+
+Aunque esto parece "salvar el alma", crea un problema existencial irresoluble:
+
+### El Problema Mente-Cuerpo
+
+Si la mente y la materia no comparten ninguna propiedad, ¿cómo pueden interactuar causalmente?
+
+- ¿Cómo un deseo mental (inmaterial) puede mover mi brazo (material) para beber agua?
+- ¿Cómo un golpe físico (material) puede causar un dolor (mental)?
+
+### El Problema de las Otras Mentes
+
+Si la mente y el cuerpo están desconectados, no tengo forma de saber si otras personas tienen mentes o son solo autómatas sin conciencia (zombis), ya que solo observo sus cuerpos materiales.
+
+La solución de Descartes nos deja completamente separados de nuestro propio cuerpo y aislados de las mentes de los demás, haciendo de nuestra existencia más íntima un misterio absurdo.
+
