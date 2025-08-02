@@ -1905,3 +1905,82 @@ Si la mente y el cuerpo están desconectados, no tengo forma de saber si otras p
 
 La solución de Descartes nos deja completamente separados de nuestro propio cuerpo y aislados de las mentes de los demás, haciendo de nuestra existencia más íntima un misterio absurdo.
 
+# Ep. 23 - Romanticismo: La Primera Ideología Pseudorreligiosa
+
+## Figuras y Referencias Clave
+
+**Figuras Históricas:** René Descartes, Thomas Hobbes, Blaise Pascal, Immanuel Kant, John Locke, Goethe, Beethoven, William Blake, Napoleón Bonaparte.  
+**Movimientos:** Positivismo, Romanticismo.  
+**Conceptos Clave:** La Cosa en Sí (The Thing in Itself), Ideologías Pseudorreligiosas, Marco-Filtro, Procesamiento ascendente vs. descendente.
+
+## Libros
+
+The lost knogledge of imagination
+
+---
+
+## Conceptos Fundamentales
+
+### El Legado de Descartes: La Mente Aislada y la Crisis Total
+
+El episodio comienza resumiendo el devastador legado de Descartes: nos ha dejado radicalmente desconectados.
+
+- **Desconexión Mente-Cuerpo:** Nuestra experiencia encarnada es un misterio.  
+- **Desconexión Mente-Otras Mentes:** No podemos saber si los demás tienen mente, ya que solo vemos sus cuerpos.  
+- **Desconexión Mente-Realidad:** Oscilamos entre dos caminos opuestos para encontrar lo real: las matemáticas (objetivas, pero abstractas) y el "Cogito" (la mente tocándose a sí misma, puramente subjetiva).  
+- **Desconexión con uno mismo:** El "yo" garantizado por Descartes es solo un punto de autoconciencia momentáneo, sin biografía, a la deriva en los "espacios infinitos que aterran" de Pascal.
+
+---
+
+### El Dilema Moderno: Sin Religión y Sin Alternativa Secular Viable
+
+Nos encontramos en una situación crítica:
+
+- Enfrentamos crisis (ecológica, política, de salud mental) que requieren una transformación radical de la conciencia y la cultura.
+- La fuente tradicional de dicha transformación, la religión, ya no es una opción viable para muchos, ya sea por la secularización o por el atrincheramiento en un fundamentalismo precientífico.
+- Las alternativas seculares (ideologías políticas) que han surgido para reemplazar a la religión han resultado ser traumáticas, llevando a guerras y genocidios.
+- Estamos existencialmente atascados: no podemos volver a la religión, pero avanzar hacia sus alternativas seculares nos aterra.
+
+---
+
+### La "Revolución Copernicana" de Kant: La Mente Crea la Realidad
+
+Immanuel Kant intenta resolver la fractura cartesiana preguntándose:  
+*"¿Cómo es que las matemáticas son tan buenas para describir la realidad?"*  
+Su respuesta invierte radicalmente la visión del mundo platónica.
+
+- **El Marco-Filtro:** La mente no descubre un orden matemático inherente en el mundo. Al contrario, la mente impone activamente una estructura de inteligibilidad a la información sensorial caótica que recibe. Actúa como un "marco-filtro" que organiza la experiencia para que tenga sentido para nosotros.
+- **La Cosa en Sí:** La consecuencia de esto es que nunca podremos conocer el mundo como es "en sí mismo". Estamos atrapados dentro de nuestra propia mente, y todo lo que experimentamos ya ha sido procesado por nuestros filtros mentales. La mente está en una prisión, radicalmente aislada del mundo real.
+
+---
+
+### El Ascenso del Romanticismo: Buscando la Realidad en lo Irracional
+
+El marco kantiano, aunque profundiza el aislamiento, abre una nueva y extraña posibilidad.
+
+- **La Inversión Platónica:** Si moverse hacia la razón (lógica, matemáticas) nos aleja cada vez más del contacto directo con la realidad (nos adentra más en los filtros de la mente), entonces moverse en la dirección opuesta, desde la razón hacia lo irracional, imaginativo, onírico y emocional, debe acercarnos a ese contacto perdido con "La Cosa en Sí".
+- **La Imaginación como Puente:** La imaginación se convierte en la facultad clave, el lugar donde la mente impone por primera vez su estructura a los datos brutos de la experiencia. El arte, la música y la poesía se vuelven vehículos para acceder a lo real.
+- **La Conexión con el Amor:** Los románticos recuerdan la tradición neoplatónica donde el amor es la forma por excelencia de conocimiento participativo. Así, el amor romántico se convierte en la fuerza irracional que nos puede poner en contacto con la realidad y el destino, tanto nuestro como el de otra persona.
+
+---
+
+### El Romanticismo como Ideología Pseudorreligiosa: Promesa y Fracaso
+
+El Romanticismo se convierte en la primera gran ideología pseudorreligiosa de la modernidad.
+
+**¿Qué es?**  
+Un movimiento paneuropeo (artístico, literario, musical) que utiliza la maquinaria de la religión (arte, poesía, estados alterados de conciencia) para prometer una reconexión con la realidad.
+
+**¿Por qué fracasa?**  
+Es como "comida basura espiritual". Ofrece promesas, imágenes y palabras, pero carece de prácticas sistemáticas, instituciones y tradiciones sapienciales para guiar una transformación real. Al final, "solo quedan las palabras".
+
+---
+
+### Los Peligros del Romanticismo
+
+- **En lo personal:** Carga a las relaciones románticas con un peso metafísico imposible de soportar, esperando que una pareja llene todo el vacío existencial dejado por la pérdida de la religión y la tradición, lo que inevitablemente conduce al trauma y al sufrimiento.
+- **En lo político:** Glorifica la imposición de la voluntad individual sobre el mundo, lo que explica la atracción romántica por figuras como Napoleón, quien buscaba "pintar su imagen" en el mundo a través de la fuerza.
+
+---
+
+Aunque el Romanticismo como movimiento fracasa, su gramática sobre el amor y la búsqueda de significado a través de la autoexpresión irracional persiste profundamente en nuestra cultura.
