@@ -2173,3 +2173,175 @@ Marx provee el **componente participativo** ausente en Hegel:
 **Todos coinciden en esto**: la síntesis hegeliana, por muy grandiosa que sea, **no logra capturar el núcleo del proceso de construcción de sentido**.
 
 ---
+
+# Ep. 25 - The Clash
+
+En este episodio, Vervaeke retoma a Hegel, destacando su propuesta de superar a Kant y los románticos al rechazar la idea de la “cosa en sí” y afirmar que la realidad es únicamente patrones de inteligibilidad, desarrollándose junto con el pensamiento humano. Esta dinámica evolutiva es conceptualizada por Hegel como Geist (espíritu), un sistema dialéctico en el que las ideas se enfrentan, integran y complejizan progresivamente hasta alcanzar el estado de Geist absoluto. Esta es una forma secularizada de Dios: el desarrollo de la racionalidad y la realidad como un mismo proceso.
+
+Aunque Hegel usa terminología religiosa, traduce la experiencia espiritual en estructuras conceptuales, abogando por una nueva mitología racional. Su filosofía intenta una síntesis secular del legado judeocristiano, similar a lo que hizo Tomás de Aquino con el catolicismo, pero ahora en clave protestante. En este marco, el sentido y la historia se desarrollan conjuntamente hacia una utopía racional.
+
+Sin embargo, Hegel recibió críticas fundamentales. Schopenhauer y Nietzsche señalaron que excluía la voluntad —vital para la experiencia humana— mientras que Kierkegaard acusó a Hegel de reducir todo al conocimiento proposicional, ignorando formas más profundas de saber: el participativo y el perspectival. Según Kierkegaard, Hegel falla al no abordar la transformación ética y existencial necesaria para una verdadera conexión con la realidad. Esta crítica encuentra eco en la filósofa contemporánea L.A. Paul, quien muestra que no se puede razonar hacia experiencias transformadoras —como las que cultivan sabiduría— sin vivirlas.
+
+Marx también critica a Hegel, reemplazando la dialéctica de ideas por una dialéctica materialista de clases en conflicto. Para él, la historia no avanza por la razón, sino por luchas socioeconómicas. Marx retoma la crítica de Feuerbach a la religión como proyección alienante, y propone una identificación activa con la clase oprimida, participando en la revolución como forma de transformar la historia. Así, ofrece la dimensión participativa que Hegel omitía, aunque articulada desde una ideología secular totalizante.
+
+Simultáneamente, otras ideologías pseudo-religiosas emergen. El nacionalismo sustituye a la religión tradicional, proponiendo al Estado-nación como objeto de devoción y sacrificio. En Alemania, este nacionalismo se entrelaza con el imperialismo, la frustración post-Primera Guerra Mundial, la decadencia del Romanticismo, el colapso del idealismo alemán y la herencia mística y antisemita del país. Todo esto converge en un vacío filosófico y espiritual que Hitler instrumentaliza en su visión ideológica.
+
+Hitler construye una mitología personal pseudo-gnóstica, en la que el pueblo alemán es visto como una raza maestra atrapada por una conspiración mundial, especialmente judía. Esta visión mezcla elementos del Romanticismo decadente, el gnosticismo distorsionado, la voluntad de poder nietzscheana, el antisemitismo luterano y el nacionalismo, todo articulado en Mein Kampf. El nazismo, por tanto, no debe verse solo como un sistema político, sino como una ideología pseudo-religiosa totalitaria que responde brutalmente a la crisis de sentido en la Alemania de Weimar.
+
+Finalmente, este choque ideológico culmina en la Segunda Guerra Mundial, particularmente en la batalla de Kursk (1943), donde se enfrentan las dos grandes ideologías totalitarias del siglo XX: el marxismo soviético y el nazismo. Esta batalla, la más grande de la historia, marca no solo un punto de inflexión militar, sino también simbólico: el clímax del intento moderno de sustituir la religión con ideologías políticas.
+
+Vervaeke concluye que estas ideologías, lejos de resolver la crisis de sentido, la intensifican, generando una retroalimentación negativa que desemboca en la Metacrisis: una convergencia entre crisis ecológicas, económicas, espirituales y de salud mental. Para enfrentarlas, se requiere una transformación profunda de nuestra conciencia, cognición, carácter y cultura —algo que, históricamente, solo las religiones han podido lograr mediante sistemas de psicotecnologías interdependientes. De ahí la urgencia de encontrar o crear nuevas formas que puedan desempeñar ese rol transformador sin caer nuevamente en totalitarismos ideológicos.
+
+# A Religion That Is Not a Religion At All — The Big Dilemma
+
+En los siglos XIX y XX, tratamos de crear **alternativas pseudo-religiosas** que terminaron empapando al mundo en sangre.
+
+---
+
+## El Problema Central: La Metacrisis
+
+Metacrisis
+├── Traumatised by pseudo-religious ideologies
+└── Nostalgic return to religion
+└── Fundamentalism
+└── Politicisation
+└── Terrorism
+
+
+- La **nostalgia religiosa** ha dado lugar a diversas formas de **fundamentalismo**.
+- Incluso ciertos tipos de **ateísmo militante** pueden considerarse fundamentalismos pseudo-religiosos (véase *Chris Hedges*).
+- La politización de estas tendencias ha resultado, en ocasiones, en **terrorismo**.
+- Esta vía se ve como inviable para muchos.
+
+---
+
+## El Estado Actual: Estancamiento Post-Religioso
+
+- Muchas personas están **post-religiosas**:  
+  Rechazan tanto las religiones tradicionales como las ideologías pseudo-religiosas.
+  
+- Estas personas a menudo se encuentran:
+  - **Fragmentadas**
+  - **Autodidactas**
+  - Perdidas en un mar de "respuestas" incompletas.
+
+- Las "respuestas" peligrosamente interactúan con:
+  - La **politización extremista**
+  - Las **ideologías pseudo-religiosas**
+  - **Internet y redes sociales**, que magnifican estas interacciones.
+
+---
+
+## El Dilema
+
+> **"Necesitamos una religión que no sea ninguna religión"**
+
+- No podemos abordar la **crisis del significado** como un problema **político**.
+- Las ideologías pseudo-religiosas **contribuyen** al problema al mantenernos atrapados en este **dilema insoluble**.
+- Como dice la canción de The Police:  
+  > *"There is no political solution to our troubled evolution"*
+
+---
+
+## La Solución Necesaria
+
+- Recuperar el legado de la **Época Axial** sin caer en utopías totalitarias.
+- Necesitamos una comprensión científica del **significado**, del **yo** y de la **auto-trascendencia**.
+- Necesitamos una **estructura teórica y práctica** que:
+  - Evite el dilema.
+  - Recupere el sentido perdido.
+  - Genere **psico-tecnologías** para facilitar la transformación personal y colectiva.
+
+---
+
+# Moving On From the History to the Cognitive Science
+
+- Podríamos seguir explorando esto a través de:
+  - **Literatura clásica**: *Moby Dick*, *Dostoyevski*, *Conrad*.
+  - **Cultura popular**: mitologías como la de los zombis.
+  
+Pero ahora es tiempo de avanzar hacia la **ciencia cognitiva**.
+
+---
+
+## ¿Por Qué Ciencia Cognitiva?
+
+Porque si queremos:
+- Comprender el **significado** y cómo se genera.
+- Abordar la **crisis del significado** sin caer en ideologías.
+  
+Entonces necesitamos estudiar:
+
+> 🔍 **La maquinaria cognitiva del significado.**
+
+---
+
+# What Is Cognitive Science? An Introduction
+
+---
+
+## La Fragmentación del “Yo”
+
+La ciencia estudia la mente desde **múltiples disciplinas** y **niveles de análisis**.
+
+Brain Neuroscience
+Information Processing Computer Science / AI / AGI
+Behaviour Psychology
+Language Linguistics
+Culture Anthropology
+
+
+- Cada disciplina:
+  - Usa **lenguaje diferente**
+  - Emplea **métodos diferentes**
+  - Recoge **evidencia diferente**
+
+> ⚠️ Resultado: La noción de "mente" se **fragmenta**.  
+> ⚠️ Y con ella, **nuestra identidad**.
+
+---
+
+## El Problema de la Equivocación
+
+- Cuando usamos la palabra *mente*, **¿a qué nos referimos exactamente?**
+- Si no integramos estas disciplinas, caemos en la **equivocación**: usar una misma palabra con distintos significados sin darnos cuenta.
+
+---
+
+## La Necesidad de Integración
+
+- Es muy **probable** que todos estos niveles se **interrelacionen causalmente**.
+- Necesitamos una **integración teórica** para:
+  - Capturar esas interacciones.
+  - Evitar la fragmentación.
+  - Enfrentar la **crisis del significado** de manera unificada.
+
+---
+
+## ¿Quién Puede Hacer Esta Integración?
+
+> **La Filosofía** 🧠
+
+- Ayuda a:
+  - Traducir entre lenguajes disciplinares.
+  - Articular ontologías distintas.
+  - Generar cohesión teórica.
+
+---
+
+## ¿Qué Es Ciencia Cognitiva?
+
+> **Cognitive Science = Filosofía + Integración de las disciplinas del estudio de la mente**
+
+- Permite:
+  - Comprender el significado desde múltiples perspectivas.
+  - Proponer soluciones prácticas.
+  - Responder a la fragmentación personal y cultural.
+  
+---
+
+## Próximos Pasos
+
+En el próximo episodio:
+- Exploraremos más profundamente qué es la **Ciencia Cognitiva**.
+- Y cómo puede ayudarnos a resolver la **crisis del significado** y recuperar el legado sapiencial perdido.
