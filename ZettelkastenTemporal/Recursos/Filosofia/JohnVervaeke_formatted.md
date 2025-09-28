@@ -2345,3 +2345,129 @@ Culture Anthropology
 En el próximo episodio:
 - Exploraremos más profundamente qué es la **Ciencia Cognitiva**.
 - Y cómo puede ayudarnos a resolver la **crisis del significado** y recuperar el legado sapiencial perdido.
+
+
+# Episodio 26 - Ciencia Cognitiva
+# Crisis de Significado y Ciencia Cognitiva
+
+El video explora cómo la ciencia cognitiva puede abordar la "crisis de significado" que afecta a la sociedad occidental. El presentador, John Vervaeke, argumenta que, tras el trauma de las ideologías fallidas del siglo XX como el nazismo y el estalinismo, la sociedad se encuentra en un punto muerto: no puede volver a la religión tradicional ni encontrar una alternativa secular satisfactoria.
+
+## La Raíz del Problema: Fragmentación y Equivocación
+
+Vervaeke sostiene que uno de los mayores obstáculos para superar esta crisis es la forma en que entendemos la "mente". El estudio de la mente se ha fragmentado en varias disciplinas, cada una con su propio lenguaje y enfoque:
+
+- **Neurociencia**: Se centra en el cerebro y la actividad neuronal.  
+- **Inteligencia Artificial (IA)**: Ve la mente como un procesador de información.  
+- **Psicología**: Estudia el comportamiento a través de la experimentación.  
+- **Lingüística**: Analiza el lenguaje como la clave de la mente.  
+- **Antropología**: Examina la mente en el contexto de la cultura.  
+
+Esta fragmentación conduce a la **"equivocación"**, un error lógico donde se usa la misma palabra ("mente") para referirse a cosas diferentes, lo que genera confusión y nos impide ver cómo estos diferentes niveles de la realidad mental interactúan entre sí [13:41].
+
+## La Ciencia Cognitiva como Solución Integradora
+
+La propuesta de Vervaeke es que la ciencia cognitiva, en su mejor versión, no es solo un conjunto de disciplinas, sino una **"integración sinóptica"**. Su objetivo es construir puentes entre estos diferentes campos para crear una comprensión unificada de la mente y, por extensión, del significado [15:09].
+
+Para lograrlo, la ciencia cognitiva busca **"constructos multi-aptos"**, conceptos teóricos que son:
+
+- **Elegantes**: Pueden conectar ideas de diferentes dominios, de forma análoga a una buena metáfora [23:54].  
+- **Convergentes**: Están respaldados por evidencia de múltiples líneas de investigación independientes, lo que les da fiabilidad [33:25].  
+
+Una idea verdaderamente "profunda" es aquella que equilibra elegancia y convergencia. Vervaeke advierte contra las ideas que solo tienen una de estas cualidades, como las **teorías de conspiración** (elegantes pero sin convergencia) o las **trivialidades** (convergentes pero sin elegancia) [36:11, 37:11].
+
+## El "Cultivo del Significado" y la Inteligencia
+
+En lugar de "crear" o "encontrar" significado, Vervaeke prefiere el término **"cultivo del significado"** [46:32]. Esto implica una relación recíproca con el mundo, una interacción constante. La capacidad cognitiva central para este cultivo es la inteligencia.
+
+Vervaeke define la **inteligencia** como la capacidad de ser un **"solucionador general de problemas"** [49:39]. A diferencia de las herramientas especializadas, los seres humanos pueden abordar una gama increíblemente amplia de problemas. Un problema, según la definición clásica de Newell y Simon, existe cuando hay una brecha entre un **"estado inicial"** y un **"estado objetivo"**. Resolverlo implica encontrar una secuencia de **"operaciones"** para pasar de uno a otro, respetando ciertas **"restricciones de trayectoria"** (por ejemplo, no causar más problemas en el proceso) [55:32].
+
+
+## V2
+
+## Situación actual del problema del sentido
+
+Tras el fracaso de las ideologías pseudo-religiosas como el nazismo y el marxismo estalinista, y la imposibilidad de retornar ingenuamente a la religión tradicional o de crear una alternativa secular satisfactoria, nos encontramos atrapados en un vacío de sentido. Resolver esta crisis requiere una transformación sistemática de la conciencia, la cognición, el carácter y la cultura, similar a lo que solían hacer las religiones.
+
+## Hacia una nueva aproximación: la Ciencia Cognitiva
+
+La solución no puede venir del enfrentamiento político, ya que esto no aborda adecuadamente los niveles de conocimiento participativo y perspectival que autores como Kierkegaard y Schopenhauer identificaron como esenciales para regenerar sentido. En cambio, se propone estudiar la maquinaria del sentido desde una perspectiva científica: la ciencia cognitiva.
+
+## Fragmentación del concepto de “mente”
+
+La “mente” ha perdido univocidad. Diferentes disciplinas estudian distintos aspectos:
+
+- **Neurociencia**: actividad cerebral con FMRI.
+- **IA/AGI**: procesamiento de información y algoritmos.
+- **Psicología**: comportamiento, memoria, toma de decisiones.
+- **Lingüística**: estructuras gramaticales y lenguaje.
+- **Antropología**: cultura y conocimiento participativo.
+
+Cada una tiene ontologías, métodos y formas de evidencia distintos, lo que genera **equivocación** (confusión por usar un mismo término con significados distintos) y **fragmentación**.
+
+## La necesidad de integración
+
+Para superar esta fragmentación, las disciplinas deben interactuar astutamente, no solo superficialmente. Aquí es donde entra la filosofía: su rol es clarificar términos, tender puentes conceptuales y metodológicos entre disciplinas.
+
+**La Ciencia Cognitiva** se define así como una práctica filosóficamente informada que busca integrar niveles y disciplinas para enfrentar la ignorancia y confusión sobre la mente y el sentido.
+
+## Tres formas de entender la Ciencia Cognitiva
+
+1. **Nominalismo genérico**: Simple agrupación de disciplinas relacionadas (e.g. “las ciencias cognitivas”). Insuficiente para resolver la fragmentación.
+2. **Eclecticismo interdisciplinario**: Investigadores toman ideas sueltas de otras disciplinas sin verdadera transformación mutua.
+3. **Integración sinóptica**: La mejor opción. Busca crear vocabularios puente y conceptos que revelen relaciones causales y teóricas entre disciplinas.
+
+## Metáfora y aptitud
+
+El uso de metáforas (e.g. “Sam es un cerdo”) permite ver una cosa a través de otra, manteniendo simultáneamente similitud y diferencia. Una metáfora **apta** logra el equilibrio correcto entre ambas. En Ciencia Cognitiva, buscamos **constructos multiaptos**: conceptos que conecten disciplinas sin perder sus diferencias.
+
+## Verosimilitud y producción confiable
+
+Un buen constructo no solo debe ser útil (multi-apto), sino también **confiable**, es decir, derivado de múltiples líneas de investigación independientes (**convergencia**), lo cual reduce sesgos. Esto distingue a una buena teoría científica de una teoría conspirativa, que puede ser elegantemente explicativa pero sin fundamentos confiables.
+
+### Trivialidad (alta convergencia, baja divergencia)
+- Representa ideas que son **correctas** pero **no significativas**.
+- Ejemplo: “El agua hierve a 100°C.” – Verdad empírica sin relevancia transformadora.
+- Los artículos científicos suelen rechazar investigaciones que no aportan **nuevos insights**, aunque sean correctas.
+- En términos cognitivos:
+  - No hay **reorganización significativa del conocimiento**.
+  - No se gana en **poder explicativo**, integración ni adaptación.
+
+### “Deepity” (término de Daniel Dennett)
+- Una afirmación que suena profunda, pero es ambigua entre lo **trivial** y lo **grandioso**.
+- Ejemplo: “El amor es solo una palabra de cuatro letras.”
+  - Trivialmente cierto.
+  - Implica, falsamente, una visión profunda de lo que es el amor.
+- Este deslizamiento entre niveles genera **bullshit**:
+  - El término técnico de Harry Frankfurt para el discurso que **finge significado o importancia** sin sustancia real.
+- Estas afirmaciones son **pseudo-multiaptas**:
+  - Pretenden ser relevantes en múltiples contextos, pero en realidad **no lo son**.
+  - Confunden a través de **equivocación** y falta de especificidad.
+
+## La falacia de la Motte-and-Bailey
+
+- **Identificada por el filósofo Nicholas Shackel**.
+- Técnica retórica en la que se alterna entre:
+  - Una afirmación provocadora, ambigua y difícil de defender (**el Bailey**).
+  - Una afirmación trivial, defendible y obvia (**el Motte**).
+- Mecanismo:
+  1. Se presenta una idea osada o especulativa (e.g., “la realidad es una simulación”).
+  2. Cuando se critica o refuta, el hablante se repliega a una versión inofensiva (e.g., “solo quería decir que nuestros sentidos filtran la experiencia”).
+- Resultado: Se evitan críticas sin abandonar la impresión de profundidad.
+- Muy común en ideologías, discursos místicos superficiales y pseudociencia.
+
+## Bullshit como fracaso en la integridad epistémica
+
+- Frankfurt define el bullshit como una forma de discurso **indiferente a la verdad**.
+- No es exactamente una mentira: el mentiroso aún **respeta la verdad**, al intentar ocultarla.
+- El bullshitter simplemente **no se preocupa por la verdad**.
+- En este contexto, **el bullshit epistémico** surge cuando se construyen afirmaciones que:
+  - No poseen convergencia confiable.
+  - Pretenden tener divergencia significativa.
+  - No ofrecen reorganización ni transformación.
+
+## El rol de la filosofía: combatir la trivialidad y el bullshit
+
+- La filosofía —en su rol integrador— debe ayudarnos a:
+  - Distinguir entre **lo verdadero y lo significativo**.
+  - Crear conceptos que sean tanto **confiables (alta convergencia)** como **transformadores (alta divergencia)**.
+  - Promover **multiaptitud auténtica**, evitando tanto la trivialidad como el bullshit.
