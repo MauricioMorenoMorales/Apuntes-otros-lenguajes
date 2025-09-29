@@ -21,7 +21,6 @@
       (primes-from 11 wheel)))))
 
 
-
 (defn stack-consuming-fibo
   "No es tail recursion por que esta llamando la funcion +
    despues de ejecutar la recursion"
