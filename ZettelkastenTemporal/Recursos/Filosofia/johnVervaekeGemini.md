@@ -514,7 +514,7 @@ Esta relación de bucles y restricciones es la base de los sistemas dinámicos (
 * **El Propósito (*Telos*):** El propósito de un ser auto-creador es **mejorar su propia forma** (su Organización Estructural-Funcional).
 * **El Objetivo:** Cultivar tu carácter (tu motor virtual) para actualizar tu forma más elevada: la **racional**. Ser "racional" significa usar la capacidad única humana para **cultivar la sabiduría**, superar el autoengaño y volverte tan plenamente humano como sea posible.
 
-# Análisis Detallado: Conceptos Clave del Sexto Episodio (Aristóteles y Buda)
+# Episodio 7
 
 Este episodio concluye el análisis de **Aristóteles** (su teoría del saber y la cosmovisión) e introduce la tercera gran corriente de la Era Axial, la de la **India**, a través de **Siddhartha Gautama (el Buda)** y el concepto de **"confusión modal"**.
 
